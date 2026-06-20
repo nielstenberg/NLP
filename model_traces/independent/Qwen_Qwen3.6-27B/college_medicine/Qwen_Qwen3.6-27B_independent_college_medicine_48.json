@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 361,
+  "question_uuid": "fd1cc74b-d7c5-4b01-8f4b-3a7ebff49820",
+  "question": "For very high force contractions lasting 1-2 seconds, the initial energy source is from:",
+  "options": {
+    "A": "Glycolysis.",
+    "B": "creatine phosphorylation.",
+    "C": "phosphocreatine stores.",
+    "D": "ATP stores."
+  },
+  "analysis": [
+    "Step 1: Choice A (Glycolysis) relies on the enzymatic breakdown of glucose or glycogen to generate ATP, but this pathway has a delayed onset due to multiple reaction steps and enzyme activation requirements, typically requiring more than 10 seconds to significantly contribute to muscle energetics, making it unsuitable as the initial source for a 1-2 second contraction.",
+    "Step 2: Choice B (creatine phosphorylation) describes the ATP-consuming process of synthesizing phosphocreatine from creatine, which occurs during muscle recovery or rest to rebuild energy reserves, rather than during active contraction where energy is being expended.",
+    "Step 3: Choice C (phosphocreatine stores) serves as a rapid phosphate donor to regenerate ATP from ADP via creatine kinase, effectively buffering ATP levels after the initial pre-formed ATP begins to decline; however, it does not directly drive the myosin cross-bridge cycle and therefore acts as a secondary maintenance system rather than the true initial energy source.",
+    "Step 4: Choice D (ATP stores) refers to the finite pool of pre-formed adenosine triphosphate already present in the muscle sarcoplasm at baseline, which is directly hydrolyzed by myosin ATPase to initiate actin-myosin cross-bridge formation and force production, providing immediate energy that sustains maximal contraction for approximately 1-2 seconds before depletion.",
+    "Step 5: Sequential evaluation demonstrates that glycolysis is metabolically too slow, creatine phosphorylation is an anabolic recovery mechanism, and phosphocreatine functions to replenish rather than directly supply initial energy; consequently, the pre-existing intracellular ATP pool is the physiologically accurate initial energy source for very high-force contractions lasting 1-2 seconds."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

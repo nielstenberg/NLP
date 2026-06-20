@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 571,
+  "question_uuid": "b383072e-8e38-4314-90ea-26b54918c421",
+  "question": "While you are on rounds at a local nursing facility, the nurse mentions that your patient, a 79-year-old woman, appears to be a \"poor eater.\" She was admitted to the nursing facility 3 months ago from the hospital where she was treated for congestive heart failure. Her daughter had moved away from the area, and nursing home placement was necessary because the patient could no longer function independently. Her present medications include furosemide and digoxin. Physical examination is normal except for a weight loss of 3.5 kg (7 lb) during the past 3 months. In your conversation with the patient, she says, \"No, I'm not depressed, I just don't have an appetite anymore. Nothing tastes good to me. I have a little bit of nausea most of the time.\" Which of the following is the most appropriate initial diagnostic study?",
+  "options": {
+    "A": "Chest x-ray",
+    "B": "Complete blood count",
+    "C": "Determination of serum albumin concentration",
+    "D": "Determination of serum digoxin level"
+  },
+  "analysis": [
+    "Step 1: Choice A (Chest x-ray) is primarily indicated for evaluating cardiopulmonary pathology such as pulmonary edema, pneumonia, or pleural effusion; however, the patient's presenting complaints are gastrointestinal and sensory (anorexia, dysgeusia, persistent nausea) rather than respiratory, making this imaging modality inappropriate as an initial diagnostic step for her specific symptom cluster.",
+    "Step 2: Choice B (Complete blood count) serves as a broad screening tool for anemia, infection, or hematologic malignancies that could contribute to unexplained weight loss, but it lacks specificity for addressing the prominent nausea and altered taste in a patient actively taking narrow-therapeutic-index cardiac medications, thus offering low initial diagnostic yield.",
+    "Step 3: Choice C (Determination of serum albumin concentration) reflects chronic nutritional status but has a prolonged half-life of approximately 20 days and is heavily confounded by systemic inflammation, hepatic dysfunction, and volume status; moreover, it merely quantifies existing malnutrition rather than identifying the underlying reversible etiology driving her poor oral intake.",
+    "Step 4: Choice D (Determination of serum digoxin level) directly targets digoxin toxicity, whose classic early manifestations include anorexia, nausea, and dysgeusia, particularly in elderly patients with age-related declines in renal clearance who are concurrently prescribed furosemide, a loop diuretic that promotes potassium and magnesium wasting and thereby significantly lowers the threshold for digoxin-induced adverse effects.",
+    "Step 5: Joint evaluation of all options reveals that Choices A, B, and C either assess unrelated physiological systems, provide non-targeted screening data, or measure downstream nutritional consequences, whereas Choice D directly investigates the most probable, clinically urgent, and readily treatable etiology (digoxin toxicity) that perfectly explains her symptom triad, establishing it as the most appropriate initial diagnostic study."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

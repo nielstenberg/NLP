@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 388,
+  "question_uuid": "cbffeea4-62e3-434b-8340-f91744f03098",
+  "question": "A 55-year-old man has had crushing substernal chest pain on exertion over the past 6 weeks. He had a myocardial infarction 2 months ago. He takes nitroglycerin as needed and one aspirin daily. He has smoked two packs of cigarettes daily for 30 years. Examination shows normal heart sounds and no carotid or femoral bruits. Treatment with a \u03b2-adrenergic blocking agent is most likely to improve his symptoms due to which of the following mechanisms?",
+  "options": {
+    "A": "Decreasing myocardial contractility",
+    "B": "Dilating the coronary arteries",
+    "C": "Peripheral vasodilation",
+    "D": "Preventing fibrin and platelet plugs"
+  },
+  "analysis": [
+    "Step 1: Analyze Choice A (Decreasing myocardial contractility): Beta-adrenergic blocking agents competitively antagonize cardiac beta-1 receptors, which reduces intracellular cAMP and subsequent calcium influx into cardiomyocytes. This produces a negative inotropic effect (decreased contractility) alongside a negative chronotropic effect (decreased heart rate). By lowering both parameters, beta-blockers significantly reduce myocardial oxygen demand, which is the primary mechanism for relieving exertional angina in patients with fixed coronary artery stenosis.",
+    "Step 2: Analyze Choice B (Dilating the coronary arteries): Beta-blockers lack intrinsic coronary vasodilatory activity. Unlike organic nitrates or dihydropyridine calcium channel blockers, they do not relax epicardial coronary smooth muscle. In fact, non-selective beta-blockade can theoretically lead to unopposed alpha-adrenergic mediated coronary vasoconstriction, making this mechanism pharmacologically incorrect for beta-blockers.",
+    "Step 3: Analyze Choice C (Peripheral vasodilation): Beta-blockers generally do not induce peripheral vasodilation; they may maintain or slightly increase systemic vascular resistance due to reduced cardiac output and unopposed sympathetic tone on peripheral alpha receptors. Drugs that relieve angina via peripheral vasodilation include calcium channel blockers and nitrates, not beta-adrenergic antagonists.",
+    "Step 4: Analyze Choice D (Preventing fibrin and platelet plugs): This describes the pharmacodynamic action of antiplatelet agents (such as the daily aspirin the patient is already prescribed) and anticoagulants. Beta-blockers modulate adrenergic signaling pathways and have no direct inhibitory effect on platelet activation, aggregation, or the coagulation cascade.",
+    "Step 5: Conclude the analysis by synthesizing all evaluated options: The clinical vignette describes stable exertional angina in a post-infarct patient, where beta-blockers serve as cornerstone therapy. Their ability to improve anginal symptoms and improve post-MI survival is fundamentally driven by reducing myocardial oxygen consumption. Among the provided choices, only decreasing myocardial contractility accurately reflects the established physiologic mechanism by which beta-blockers achieve this therapeutic effect, while the remaining options describe mechanisms of other drug classes or are factually incorrect. Therefore, Choice A is the definitive answer."
+  ],
+  "solution": "Choice_A",
+  "ground_truth": "A"
+}

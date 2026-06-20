@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 742,
+  "question_uuid": "eb8de68b-9f45-40d8-885e-a6b59d14d237",
+  "question": "Rational choice theory is premised on the concept that actions are chosen based on the benefit to the individual. The three main assumptions of rational theory are completeness, transitivity, and independence of variables. This is most accurately described as what kind of system?",
+  "options": {
+    "A": "Hierarchical",
+    "B": "Patriarchal",
+    "C": "Matriarchal",
+    "D": "Oligarchic"
+  },
+  "analysis": [
+    "Step 1: Analyze Choice A (Hierarchical): Rational choice theory asserts that individuals select actions to maximize personal utility. The axioms of completeness (any two options can be compared) and transitivity (if A is preferred to B, and B to C, then A is preferred to C) mathematically ensure that all available options can be consistently ranked. This requirement establishes a clear, tiered ordering of preferences based on calculated benefit, which structurally defines a hierarchical decision-making system.",
+    "Step 2: Analyze Choice B (Patriarchal): A patriarchal system refers to a social or institutional structure where authority, leadership, and resource control are predominantly vested in men. This term describes gender-based power dynamics and bears no conceptual or mathematical relationship to the preference-ordering axioms central to rational choice theory.",
+    "Step 3: Analyze Choice C (Matriarchal): A matriarchal system denotes a social framework where women hold primary positions of power and influence. Like patriarchy, this concept addresses demographic authority structures and is entirely disconnected from the cognitive and economic principles of individual utility maximization outlined in the prompt.",
+    "Step 4: Analyze Choice D (Oligarchic): An oligarchic system describes governance or control concentrated in the hands of a small, elite minority. While rational choice models can theoretically be applied to study strategic interactions among powerful groups, the specific assumptions of completeness, transitivity, and independence pertain to individual preference consistency, not collective power concentration.",
+    "Step 5: Joint evaluation and conclusion: Evaluating all candidates collectively, Choices B, C, and D describe sociopolitical power arrangements based on gender or group composition, which are irrelevant to the formal axioms of rational choice theory. Only Choice A accurately reflects the structural consequence of the stated assumptions, as completeness and transitivity inherently produce a ranked, ordered sequence of preferences, making the underlying decision framework fundamentally hierarchical."
+  ],
+  "solution": "Choice_A",
+  "ground_truth": "A"
+}

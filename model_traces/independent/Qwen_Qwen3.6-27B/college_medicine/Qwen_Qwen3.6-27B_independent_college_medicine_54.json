@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 220,
+  "question_uuid": "2975fb85-a22b-40c3-b809-1f09bf52d4ff",
+  "question": "Muscle lactate production increases when:",
+  "options": {
+    "A": "oxygen is readily available.",
+    "B": "pyruvate cannot be formed from glucose breakdown.",
+    "C": "the pH of the muscle falls.",
+    "D": "glycolysis is activated at the onset of exercise."
+  },
+  "analysis": [
+    "Step 1: Evaluate Choice A. When oxygen is readily available, pyruvate generated from glycolysis preferentially enters the mitochondria for aerobic oxidation via the citric acid cycle and oxidative phosphorylation, which efficiently produces ATP while minimizing lactate formation; therefore, abundant oxygen suppresses rather than increases lactate production.",
+    "Step 2: Evaluate Choice B. Lactate is synthesized directly from pyruvate via lactate dehydrogenase; if pyruvate cannot be formed from glucose breakdown, there is no substrate available for the enzyme to act upon, meaning lactate production would cease rather than increase.",
+    "Step 3: Evaluate Choice C. A fall in muscle pH is a downstream consequence of lactate and hydrogen ion accumulation during intense contraction, not a primary trigger; moreover, acidic intracellular conditions allosterically inhibit key glycolytic enzymes like phosphofructokinase, which would actually reduce the rate of glycolysis and subsequent lactate production.",
+    "Step 4: Evaluate Choice D. At the onset of exercise, cellular ATP demand spikes immediately while oxidative phosphorylation experiences a physiological delay due to slower increases in oxygen delivery and mitochondrial activation; consequently, glycolysis is rapidly upregulated to meet immediate energy requirements, causing pyruvate to accumulate and be shunted to lactate to regenerate NAD+ and sustain glycolytic ATP production.",
+    "Step 5: Conclude the analysis by comparing all options. Choices A, B, and C describe scenarios that either inhibit lactate synthesis or represent metabolic outcomes rather than initiating factors, whereas Choice D correctly identifies the physiological condition where rapid glycolytic activation outpaces aerobic capacity, directly driving increased lactate production."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

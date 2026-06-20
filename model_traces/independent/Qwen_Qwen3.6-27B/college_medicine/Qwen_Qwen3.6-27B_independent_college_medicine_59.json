@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 790,
+  "question_uuid": "274a470a-30ea-4aa9-a3d2-64f0c0d5e827",
+  "question": "Creatine is synthesized from:",
+  "options": {
+    "A": "amino acids in the muscles.",
+    "B": "amino acids in the liver.",
+    "C": "amino acids in the kidneys.",
+    "D": "creatinine in the kidneys."
+  },
+  "analysis": [
+    "Step 1: Choice A suggests creatine is synthesized from amino acids in the muscles. Skeletal muscle lacks the essential enzymes AGAT and GAMT required for de novo creatine biosynthesis and instead relies entirely on importing circulating creatine via specific transporters, making this choice incorrect.",
+    "Step 2: Choice B suggests creatine is synthesized from amino acids in the liver. The liver contains high levels of guanidinoacetate N-methyltransferase (GAMT), which catalyzes the final methylation step using S-adenosylmethionine (derived from methionine) to convert the precursor guanidinoacetate into creatine, establishing the liver as the primary organ for completing synthesis and secreting creatine into systemic circulation.",
+    "Step 3: Choice C suggests creatine is synthesized from amino acids in the kidneys. The kidneys express L-arginine:glycine amidinotransferase (AGAT), which initiates the pathway by condensing arginine and glycine to form guanidinoacetate, but this intermediate must be exported to the liver for the final conversion step, meaning the kidneys alone do not produce finished creatine.",
+    "Step 4: Choice D suggests creatine is synthesized from creatinine in the kidneys. Creatinine is an irreversible metabolic waste product formed through the spontaneous, non-enzymatic degradation of creatine and phosphocreatine, and physiological pathways do not exist to reverse this process, rendering this choice biochemically invalid.",
+    "Step 5: Sequential evaluation eliminates Choices A and D due to absent synthetic machinery in muscle and the irreversible nature of creatinine formation, respectively. While both the kidneys and liver participate in the two-step biosynthetic pathway utilizing arginine, glycine, and methionine, standard medical biochemistry and examination conventions designate the liver as the principal site responsible for completing creatine synthesis and its subsequent release into the bloodstream, confirming Choice B as the correct answer."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "B"
+}

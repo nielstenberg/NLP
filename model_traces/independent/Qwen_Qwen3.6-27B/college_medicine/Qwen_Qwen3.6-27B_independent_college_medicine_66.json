@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 83,
+  "question_uuid": "a69de66d-984d-4475-bf49-8c62a249e0ee",
+  "question": "A 4-year-old boy is brought to the physician because of temperatures to 39.4\u00b0C (102.9\u00b0F) for 8 days. Examination shows anterior cervical lymphadenopathy, nonexudative conjunctivitis bilaterally, a strawberry tongue, an erythematous truncal rash, and edema of the hands and feet. Which of the following is the most appropriate pharmacotherapy to prevent complications of this illness?",
+  "options": {
+    "A": "Intravenous immune globulin",
+    "B": "Intravenous penicillin",
+    "C": "Intravenous prednisone",
+    "D": "Oral isoniazid"
+  },
+  "analysis": [
+    "Step 1: The patient's presentation of fever lasting \u22655 days, anterior cervical lymphadenopathy, bilateral nonexudative conjunctivitis, strawberry tongue, polymorphous truncal rash, and extremity edema meets the classic diagnostic criteria for Kawasaki disease. The most feared complication of this systemic vasculitis is coronary artery aneurysm formation, which can lead to thrombosis, myocardial infarction, or sudden cardiac death. Administration of intravenous immune globulin (IVIG) combined with high-dose aspirin within the first 10 days of illness is the established standard of care and reduces the risk of coronary artery abnormalities from approximately 25% to less than 5%, making it the most appropriate pharmacotherapy to prevent complications.",
+    "Step 2: Intravenous penicillin is the treatment of choice for Group A Streptococcus infections like scarlet fever, which can mimic some features such as a strawberry tongue and a truncal rash. However, scarlet fever does not typically cause prolonged high-grade fevers exceeding 5 days, bilateral nonexudative conjunctivitis, or significant edema and erythema of the hands and feet. Furthermore, beta-lactam antibiotics do not alter the immune-mediated vasculitic pathway of Kawasaki disease and offer no protection against coronary artery complications.",
+    "Step 3: Intravenous prednisone is a potent corticosteroid that may be considered as adjunctive therapy in patients who demonstrate resistance to initial IVIG infusion or who possess multiple high-risk prognostic factors. Despite its anti-inflammatory properties, corticosteroids are not recommended as first-line monotherapy for routine Kawasaki disease due to a lack of consistent evidence showing superior outcomes compared to IVIG alone, along with concerns regarding potential adverse effects and rebound inflammation. IVIG remains the cornerstone of initial management.",
+    "Step 4: Oral isoniazid is an antimicrobial agent specifically indicated for the treatment of latent Mycobacterium tuberculosis infection or as part of multidrug regimens for active tuberculosis. The acute mucocutaneous, ocular, and extremity findings in this vignette are entirely inconsistent with tuberculosis, which typically presents with insidious constitutional symptoms, chronic cough, and pulmonary infiltrates. Isoniazid plays no role in modulating the cytokine storm of Kawasaki disease or preventing its cardiovascular sequelae.",
+    "Step 5: Evaluating all candidates collectively confirms that the clinical picture is pathognomonic for Kawasaki disease, a childhood medium-vessel vasculitis of unknown etiology. The primary therapeutic objective is rapid suppression of systemic inflammation to avert irreversible coronary artery damage. Among the provided options, only intravenous immune globulin directly neutralizes circulating inflammatory mediators, halts endothelial injury, and carries robust Level I evidence for preventing coronary aneurysms when administered promptly. Consequently, Choice A is the definitive correct answer."
+  ],
+  "solution": "Choice_A",
+  "ground_truth": "A"
+}

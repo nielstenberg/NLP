@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 721,
+  "question_uuid": "e34ddd83-4f4a-490e-b72a-5c7557e2b80a",
+  "question": "A 15-year-old girl is brought to the office by her mother because of abdominal pain and constipation for the past several weeks. Her mother says, \"She is getting almost all A's in school and she is on the track team.\" You ask the patient about her diet and she responds, \"I'm kind of a picky eater.\" She requests a laxative to help with her constipation. She is 158 cm (5 ft 2 in) tall and weighs 43 kg (95 lb); BMI is 18 kg/m2 . Pulse is 65/min. Specific additional history should be obtained regarding which of the following?",
+  "options": {
+    "A": "Color, caliber, and frequency of bowel movements",
+    "B": "Exposure to sexually transmitted diseases",
+    "C": "Family history of irritable bowel syndrome",
+    "D": "Menstrual history"
+  },
+  "analysis": [
+    "Step 1: Evaluate Choice A (Color, caliber, and frequency of bowel movements). While a detailed stool history is standard when evaluating constipation, this patient's presentation contains multiple red flags pointing away from primary gastrointestinal pathology. Her low BMI (18 kg/m\u00b2), self-described restrictive diet, high academic and athletic pressures, and explicit request for laxatives strongly suggest an underlying eating disorder rather than simple functional constipation. Focusing solely on stool characteristics would miss the critical psychosocial and nutritional context.",
+    "Step 2: Evaluate Choice B (Exposure to sexually transmitted diseases). Although STIs can cause pelvic or abdominal discomfort in adolescents, there are no supporting symptoms such as vaginal discharge, dysuria, fever, or disclosed sexual activity. Furthermore, STI exposure does not account for the low body weight, dietary restrictions, or laxative-seeking behavior, making this history low-yield in this specific clinical scenario.",
+    "Step 3: Evaluate Choice C (Family history of irritable bowel syndrome). Irritable bowel syndrome can cause chronic abdominal pain and altered bowel habits, but it typically presents in individuals with stable or normal growth parameters. It does not explain the patient's borderline-low BMI, intense performance orientation, or inappropriate desire for laxatives. A family history of IBS is far less clinically urgent than investigating the systemic effects of potential malnutrition.",
+    "Step 4: Evaluate Choice D (Menstrual history). In adolescent females with suspected eating disorders, menstrual history is paramount. Chronic energy deficit and excessive exercise commonly suppress the hypothalamic-pituitary-gonadal axis, resulting in oligomenorrhea or secondary amenorrhea (functional hypothalamic amenorrhea). Documenting menstrual changes provides objective evidence of the physiologic impact of caloric restriction, aids in diagnosing and staging the severity of an eating disorder, and is a standard component of the initial evaluation.",
+    "Step 5: Conclude the analysis. The clinical vignette classically describes risk factors and warning signs of an eating disorder, including perfectionism, endurance sport participation, dietary restriction, low body mass index, and laxative misuse. Among the given options, obtaining a menstrual history is the most critical next step, as it directly assesses the endocrine consequences of energy deficiency and solidifies the suspicion of an eating disorder. Therefore, Choice D is the correct answer."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 364,
+  "question_uuid": "11a5fc6d-c8bd-4c33-8384-cc91c3a0481b",
+  "question": "According to attachment theory, which of the following children is most likely to attach to a male psychologist, previously unknown to the child, in the course of a psychological study?",
+  "options": {
+    "A": "A two month old female infant raised in a safe, stable environment",
+    "B": "A five month old male infant raised in a safe, stable environment",
+    "C": "An eight month old male infant raised by a single caregiver who frequently neglect the child",
+    "D": "A thirteen month old female infant raised by two caregivers who occasionally neglect the child"
+  },
+  "analysis": [
+    "Step 1: Evaluate Choice A (two-month-old female in a safe, stable environment): At two months, infants are in the pre-attachment phase characterized by indiscriminate social responsiveness rather than selective bonding. While they interact positively with multiple people, they have not yet developed a specific attachment system, making purposeful attachment to a novel psychologist developmentally premature.",
+    "Step 2: Evaluate Choice B (five-month-old male in a safe, stable environment): By five months, infants transition into the attachment-in-the-making phase, beginning to discriminate between familiar and unfamiliar faces. Stable caregiving fosters a secure preference for primary caregivers alongside emerging stranger wariness, which inhibits rapid attachment to an unknown adult.",
+    "Step 3: Evaluate Choice C (eight-month-old male raised by a frequently neglecting single caregiver): Normatively, eight-month-olds exhibit peak stranger anxiety and strong selective attachment to primary caregivers. However, chronic neglect disrupts this trajectory, often producing insecure or disorganized attachment patterns. Such infants frequently develop indiscriminate attachment behaviors, actively seeking proximity and comfort from any available adult due to the absence of a reliable secure base, making them highly likely to bond with a novel psychologist.",
+    "Step 4: Evaluate Choice D (thirteen-month-old female raised by two caregivers with occasional neglect): At thirteen months, attachment representations are consolidated. Although occasional neglect may cause mild insecurity, the presence of two caregivers provides enough relational consistency to maintain selective attachment preferences and typical stranger caution, reducing the drive to rapidly attach to unfamiliar adults.",
+    "Step 5: Synthesize and conclude: Comparing all candidates, the infant experiencing chronic neglect (Choice C) lacks a consistent primary attachment figure, triggering a compensatory indiscriminate attachment pattern that overrides typical stranger anxiety. This maladaptive but theoretically predictable response makes the eight-month-old neglected infant significantly more likely to attach to an unknown psychologist than securely raised peers or those with only intermittent neglect."
+  ],
+  "solution": "Choice_C",
+  "ground_truth": "A"
+}

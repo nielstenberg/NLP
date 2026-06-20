@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 448,
+  "question_uuid": "c76286e0-4417-4624-a037-7a2cfca7dea3",
+  "question": "Which of the following findings on prenatal ultrasound examination would not raise suspicion of a chromosome abnormality?",
+  "options": {
+    "A": "Duodenal atresia",
+    "B": "Holoprosencephaly",
+    "C": "Hydrops fetalis",
+    "D": "Monozygotic twins"
+  },
+  "analysis": [
+    "Step 1: Duodenal atresia manifests as a double-bubble sign on prenatal ultrasound and carries a well-documented association with Trisomy 21 (Down syndrome), present in roughly 30% of affected fetuses, so it strongly raises suspicion for a chromosomal abnormality.",
+    "Step 2: Holoprosencephaly represents a failure of the embryonic forebrain to divide properly and is a hallmark feature of Trisomy 13 (Patau syndrome) as well as other aneuploidies, making it a definitive red flag for underlying chromosomal defects.",
+    "Step 3: Hydrops fetalis involves abnormal fluid accumulation in multiple fetal compartments and, when non-immune in origin, is frequently linked to chromosomal disorders such as Turner syndrome (45,X), Trisomy 21, Trisomy 18, and Trisomy 13, thereby necessitating genetic testing.",
+    "Step 4: Monozygotic twins arise from the spontaneous splitting of a single zygote after fertilization and are considered a physiological variation of human reproduction rather than a pathological marker; their identification on ultrasound does not correlate with increased rates of fetal aneuploidy and thus does not raise suspicion for chromosomal abnormalities.",
+    "Step 5: Based on the sequential evaluation, duodenal atresia, holoprosencephaly, and hydrops fetalis are all recognized sonographic markers that directly trigger concerns for aneuploidy, whereas monozygotic twinning is a benign conception pattern unrelated to chromosomal pathology, leading to the conclusion that Choice D is the correct answer."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

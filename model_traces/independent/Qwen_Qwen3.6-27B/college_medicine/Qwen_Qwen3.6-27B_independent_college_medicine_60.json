@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 733,
+  "question_uuid": "542eaf58-e010-4f62-a530-a5c40e05caba",
+  "question": "During a study of renal glomeruli, a healthy animal kidney is kept in a vascular bath preparation at a constant afferent arterial pressure of 100 mm Hg. If the efferent arteriole is constricted with a vascular clamp, which of the following Starling forces is most likely to change in the glomeruli?",
+  "options": {
+    "A": "Decreased filtration coefficient (Kf)",
+    "B": "Decreased hydrostatic pressure",
+    "C": "Decreased oncotic pressure",
+    "D": "Increased hydrostatic pressure"
+  },
+  "analysis": [
+    "Step 1: Choice A proposes a decreased filtration coefficient (Kf), but Kf is determined by the surface area and hydraulic permeability of the glomerular filtration barrier, which remain structurally and functionally intact during acute efferent arteriolar constriction; thus, Kf does not change.",
+    "Step 2: Choice B suggests a decreased hydrostatic pressure, but constricting the efferent arteriole increases downstream vascular resistance, causing blood to back up into the glomerular capillaries and thereby raising, not lowering, the intraglomerular hydrostatic pressure.",
+    "Step 3: Choice C indicates a decreased oncotic pressure, yet the increased hydrostatic pressure from efferent constriction enhances fluid filtration, which concentrates remaining plasma proteins in the capillary lumen and actually causes glomerular oncotic pressure to rise along the capillary length rather than fall.",
+    "Step 4: Choice D states an increased hydrostatic pressure, which aligns perfectly with hemodynamic principles: maintaining constant afferent pressure while mechanically narrowing the efferent outlet directly elevates the intraglomerular hydrostatic pressure (P_GC), making it the primary Starling force altered by this intervention.",
+    "Step 5: After evaluating all options sequentially, only the glomerular hydrostatic pressure experiences a direct and physiologically consistent change (an increase) due to efferent arteriolar constriction, confirming that Choice D accurately reflects the expected alteration in Starling forces."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

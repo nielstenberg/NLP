@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 80,
+  "question_uuid": "0ea415b3-e4d4-446b-8288-9a2f7fe4cfa8",
+  "question": "A 52-year-old woman comes to the emergency department because of a 1-week history of low-grade fever and increasing abdominal cramps that are exacerbated by bowel movements. She began a course of amoxicillin-clavulanate and metronidazole 2 days ago but has had no relief of her symptoms. She has had intermittent constipation for the past 12 years. She has not had nausea, vomiting, urinary symptoms, or bloody stools. She has a 3-year history of hypertension. She underwent total abdominal hysterectomy and bilateral salpingo-oophorectomy 5 years ago because of leiomyomata uteri. She is 165 cm (5 ft 5 in) tall and weighs 86 kg (190 lb); BMI is 32 kg/m2 . Her temperature is 38.1\u00b0C (100.6\u00b0F), pulse is 75/min, and blood pressure is 150/80 mm Hg. The lungs are clear to auscultation. Cardiac examination shows no abnormalities. The abdomen is soft, and there is tenderness to palpation of the left lower quadrant with guarding but no rebound. Bowel sounds are normal. The stool is brown, and test for occult blood is negative. Her hemoglobin concentration is 14.5 g/dL, leukocyte count is 15,000/mm3 , and platelet count is 280,000/mm3 ; serum studies and urinalysis show no abnormalities. Which of the following is the most appropriate next step in diagnosis?",
+  "options": {
+    "A": "Test of the stool for Clostridium difficile toxin",
+    "B": "Endoscopic retrograde cholangiopancreatography",
+    "C": "Pelvic ultrasonography",
+    "D": "CT scan of the abdomen with contrast"
+  },
+  "analysis": [
+    "Step 1: Evaluate Choice A (Test of the stool for Clostridium difficile toxin). The patient's symptom onset occurred one week before initiating antibiotics, making antibiotic-associated C. difficile infection highly improbable. Furthermore, C. difficile typically presents with frequent watery diarrhea rather than constipation or pain exacerbated by defecation, and it does not characteristically cause isolated left lower quadrant tenderness. Therefore, stool toxin testing is not the appropriate next step.",
+    "Step 2: Evaluate Choice B (Endoscopic retrograde cholangiopancreatography). ERCP is an invasive diagnostic and therapeutic procedure reserved for biliary or pancreatic ductal pathologies such as choledocholithiasis or cholangitis. These conditions classically present with right upper quadrant pain, jaundice, and abnormal liver chemistries, none of which are present in this patient. Her localized left lower quadrant symptoms make ERCP entirely inappropriate.",
+    "Step 3: Evaluate Choice C (Pelvic ultrasonography). While pelvic ultrasound is useful for evaluating gynecologic pathology, this patient underwent a total abdominal hysterectomy and bilateral salpingo-oophorectomy five years ago, eliminating the uterus and ovaries as potential sources of pain. Additionally, ultrasound provides poor visualization of the colon due to overlying bowel gas, rendering it suboptimal for diagnosing suspected colonic inflammatory processes.",
+    "Step 4: Evaluate Choice D (CT scan of the abdomen with contrast). The patient's demographic profile, chronic constipation, left lower quadrant pain, fever, leukocytosis, and lack of clinical improvement after two days of empiric antibiotics strongly point to acute diverticulitis. A contrast-enhanced CT scan is the gold-standard diagnostic modality, as it can definitively confirm the diagnosis by demonstrating colonic wall thickening and pericolic fat stranding, while simultaneously identifying complications such as abscess, microperforation, or obstruction that would dictate changes in management.",
+    "Step 5: Synthesize the sequential evaluations and determine the optimal next step. After systematically excluding C. difficile infection, biliary/pancreatic disease, and gynecologic pathology, the clinical picture remains highly consistent with acute diverticulitis complicated by treatment failure. Obtaining a CT scan of the abdomen with contrast is necessary to confirm the diagnosis, assess disease severity, and rule out complications requiring surgical or interventional radiology consultation, making it the most appropriate next step."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

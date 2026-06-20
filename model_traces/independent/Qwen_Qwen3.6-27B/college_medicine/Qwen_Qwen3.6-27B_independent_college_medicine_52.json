@@ -1,0 +1,20 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 262,
+  "question_uuid": "a9a0a346-f92e-4714-9a31-4225c8eba0ca",
+  "question": "A 15-year-old girl comes to the emergency department because, she says, \"something has been sticking out of my bottom since I had a bowel movement this morning.\" She has not had previous episodes, although for more than 1 year she has had occasional difficulty passing stools. She is not in pain but is afraid to move her bowels for fear that the problem will worsen. She tells you that she moved away from home more than a year ago and that her parents contribute nothing to her support. She has a 6-month-old child and lives with a 28-year-old female cousin. She has never been married and does not work or attend school. She has no other symptoms. In order to follow the correct procedure for treating a minor, which of the following is the most appropriate step prior to evaluating this patient's rectal problem?",
+  "options": {
+    "A": "Accept the girl's consent as sufficient",
+    "B": "Obtain a court order permitting evaluation",
+    "C": "Obtain the written consent of at least two licensed physicians",
+    "D": "Obtain written consent from at least one of her parents"
+  },
+  "analysis": [
+    "Step 1: Evaluating Choice A requires applying the legal concept of the emancipated minor. Although the patient is 15 years old, she has a 6-month-old child. In standard medical jurisprudence, bearing a child automatically confers emancipated status, granting adolescents full legal authority to provide informed consent for their own medical evaluations and treatments without parental involvement.",
+    "Step 2: Evaluating Choice B demonstrates that seeking a court order is procedurally excessive and clinically impr"
+  ],
+  "solution": "N/A",
+  "ground_truth": "A"
+}

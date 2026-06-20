@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 592,
+  "question_uuid": "12fbafb1-2f77-4c88-a45e-e4061007040d",
+  "question": "What would be the frequency of AABBCC individuals from a mating of two AaBbCc individuals?",
+  "options": {
+    "A": "1.0/64",
+    "B": "1.0/32",
+    "C": "1.0/128",
+    "D": "1.0/256"
+  },
+  "analysis": [
+    "Step 1: Evaluate Choice_A (1.0/64). The cross involves three independently assorting heterozygous loci (AaBbCc \u00d7 AaBbCc). According to Mendelian inheritance, each heterozygous pair (e.g., Aa \u00d7 Aa) produces a homozygous dominant offspring (AA) with a probability of 1/4. Applying the product rule for independent events across the three loci gives (1/4) \u00d7 (1/4) \u00d7 (1/4) = 1/64, which exactly matches Choice_A.",
+    "Step 2: Evaluate Choice_B (1.0/32). A frequency of 1/32 implies an incorrect calculation, such as mistakenly assigning a 1/2 probability to one locus or misapplying the addition rule instead of multiplication. Since each locus strictly contributes a factor of 1/4 for the homozygous dominant state, 1/32 violates fundamental probability rules for this cross.",
+    "Step 3: Evaluate Choice_C (1.0/128). A value of 1/128 suggests confusion between gamete frequencies and zygotic outcomes, or an incorrect assumption about the total combinatorial space. The total number of equally likely genotypic combinations in a trihybrid cross is 4\u00b3 = 64, making 1/128 mathematically impossible as it falls outside the valid sample space.",
+    "Step 4: Evaluate Choice_D (1.0/256). A frequency of 1/256 equals (1/4)\u2074, which would only apply to a tetrahybrid cross involving four independent heterozygous loci. Because the question specifies only three loci (A, B, and C), this choice incorrectly inflates the denominator and underestimates the true frequency.",
+    "Step 5: Jointly compare all candidates against the derived theoretical frequency. Sequential evaluation demonstrates that only Choice_A correctly implements the product rule for independent assortment across three heterozygous gene pairs, yielding the precise expected frequency of 1/64. Choices B, C, and D result from computational errors or misapplied genetic models, confirming Choice_A as the sole valid option."
+  ],
+  "solution": "Choice_A",
+  "ground_truth": "A"
+}

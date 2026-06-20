@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 51,
+  "question_uuid": "c4d351a6-19f8-42df-8638-d0be7f2b5db9",
+  "question": "The risk of abnormality in the child of a mother with untreated phenylketonuria is:",
+  "options": {
+    "A": "1%",
+    "B": "10%",
+    "C": "25%",
+    "D": "Almost 100%"
+  },
+  "analysis": [
+    "Step 1: Evaluate Choice A (1%). This percentage suggests a negligible risk, which directly contradicts established clinical data on maternal phenylketonuria. Untreated maternal PKU leads to severely elevated serum phenylalanine that readily crosses the placenta and acts as a potent teratogen, making a 1% risk medically inaccurate.",
+    "Step 2: Evaluate Choice B (10%). Similar to Choice A, this value drastically underestimates the teratogenic impact of uncontrolled maternal phenylalanine. Robust clinical studies demonstrate that without strict dietary management, the likelihood of fetal neurological and structural damage far exceeds this threshold, eliminating this option.",
+    "Step 3: Evaluate Choice C (25%). This percentage typically denotes the Mendelian recurrence risk for offspring inheriting two mutant alleles in an autosomal recessive pattern. However, the question specifically addresses abnormalities resulting from the mother's untreated metabolic environment (Maternal PKU Syndrome), not genetic transmission, rendering this choice incorrect.",
+    "Step 4: Evaluate Choice D (Almost 100%). Historical and contemporary medical literature consistently shows that when a mother with PKU remains untreated during gestation, toxic phenylalanine levels severely disrupt fetal neurogenesis and organogenesis. Consequently, the risk of major congenital anomalies and profound intellectual disability approaches nearly 100%, aligning precisely with this option.",
+    "Step 5: Synthesize the sequential analysis to determine the correct answer. Choices A, B, and C either present unrealistically low probabilities or incorrectly apply standard autosomal recessive inheritance principles to a metabolic teratogenicity scenario. Choice D accurately reflects the well-established clinical consensus that uncontrolled maternal phenylalanine causes near-universal fetal harm, confirming it as the definitive solution."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

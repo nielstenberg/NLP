@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 188,
+  "question_uuid": "4cb9365a-ab93-437a-8d05-90ce711c9ff2",
+  "question": "A 26-year-old woman is brought to the emergency department because of an 8-hour history of severe back and abdominal pain and mild but persistent vaginal bleeding. Ultrasonography of the abdomen shows a 2-cm ectopic pregnancy in the ampulla. The ampulla has ruptured into the surrounding tissue. Fluid from this rupture will most likely be found in which of the following locations?",
+  "options": {
+    "A": "Lesser peritoneal cavity",
+    "B": "Mesometrium",
+    "C": "Pouch of Douglas",
+    "D": "Uterine cavity"
+  },
+  "analysis": [
+    "Step 1: Choice A refers to the lesser peritoneal cavity (omental bursa), which is located posterior to the stomach and liver and is anatomically separated from the pelvic peritoneal cavity; thus, fluid from a ruptured pelvic structure like the fallopian tube cannot enter this isolated space.",
+    "Step 2: Choice B refers to the mesometrium, which is the superior portion of the broad ligament that anchors the uterus and houses uterine vessels and nerves; it functions as a supportive peritoneal fold rather than a potential space, so it does not collect free intraperitoneal fluid after a tubal rupture.",
+    "Step 3: Choice C refers to the Pouch of Douglas (rectouterine pouch), which represents the most dependent recess of the female peritoneal cavity; because the fallopian tube is an intraperitoneal structure that opens directly into the greater peritoneal cavity, ruptured blood and fluid will naturally settle here due to gravity.",
+    "Step 4: Choice D refers to the uterine cavity, an internal lumen lined by endometrium that communicates inferiorly with the vagina; a ruptured ectopic pregnancy releases its contents outward into the peritoneal cavity rather than tracking backward into the uterine lumen, ruling out this location.",
+    "Step 5: Synthesizing the sequential evaluations confirms that Choices A, B, and D are anatomically inconsistent with the pathophysiology of a ruptured intraperitoneal tubal pregnancy, whereas Choice C accurately describes the gravitational pooling site for free intraperitoneal fluid in females, establishing it as the correct answer."
+  ],
+  "solution": "Choice_C",
+  "ground_truth": "C"
+}

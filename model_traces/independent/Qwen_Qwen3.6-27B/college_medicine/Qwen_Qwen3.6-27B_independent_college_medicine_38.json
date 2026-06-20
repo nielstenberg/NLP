@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 514,
+  "question_uuid": "63c97f4d-9cba-46b4-af24-99bc679e7c88",
+  "question": "The low intake of carbohydrate in the diet:",
+  "options": {
+    "A": "does not influence exercise performance in events lasting less than 10 minutes.",
+    "B": "affects the resting muscle pH.",
+    "C": "may impair high intensity exercise performance.",
+    "D": "results in greater reliance on muscle glycogen during exercise."
+  },
+  "analysis": [
+    "Step 1: Evaluate Choice A. Short-duration events (under 10 minutes) utilize both the phosphocreatine system and anaerobic glycolysis. While extremely brief maximal efforts (<10 seconds) are minimally affected by carbohydrate status, events approaching 10 minutes increasingly depend on muscle glycogen breakdown. Therefore, claiming that low carbohydrate intake does not influence performance in this timeframe is inaccurate, as glycogen depletion can still compromise sustained high-intensity efforts.",
+    "Step 2: Evaluate Choice B. Resting intramuscular pH is tightly regulated by cellular buffers and ion transporters, maintaining a stable value near 7.0\u20137.1. Dietary carbohydrate manipulation does not alter baseline acid-base equilibrium at rest; significant pH drops only occur dynamically during intense exercise due to hydrogen ion accumulation from ATP turnover and lactate formation. Thus, this choice is physiologically incorrect.",
+    "Step 3: Evaluate Choice C. High-intensity exercise relies predominantly on the rapid ATP regeneration provided by anaerobic glycolysis of muscle glycogen. A low-carbohydrate diet significantly depletes muscle glycogen stores, creating a substrate deficit that limits glycolytic flux. This directly reduces peak power output, accelerates neuromuscular fatigue, and impairs performance during high-intensity activities, making this statement accurate and well-supported by exercise physiology literature.",
+    "Step 4: Evaluate Choice D. Reduced dietary carbohydrate intake leads to diminished glycogen synthesis and lower total muscle glycogen content. Consequently, the body cannot increase its reliance on muscle glycogen; instead, it shifts toward greater lipid oxidation at moderate intensities or experiences premature failure when high-intensity demands exceed the limited glycogen supply. Therefore, this choice contradicts metabolic adaptation principles.",
+    "Step 5: Conclude the analysis. Synthesizing the evaluation of all options, low carbohydrate intake specifically compromises the substrate availability required for anaerobic energy production. This directly impairs high-intensity exercise performance (Choice C), while resting pH remains stable (refuting B), glycogen reliance decreases rather than increases (refuting D), and performance in sub-10-minute events can still be negatively impacted depending on intensity (refuting A). Choice C is the only physiologically sound and evidence-based statement."
+  ],
+  "solution": "Choice_C",
+  "ground_truth": "C"
+}

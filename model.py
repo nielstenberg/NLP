@@ -89,7 +89,7 @@ Step n: [Conclude your analysis and decide which choice to make here]
 Solution: Choice_A/B/C/D
 Please follow this format without any additional introductory or concluding statements."""
 
-        max_tokens = 4000 if "Qwen3" in model_name else 1000
+        max_tokens = 5000 if "Qwen3" in model_name else 1000
         messages = [{"role": "user", "content": prompt}]
         with torch.inference_mode():
             response = llm(messages, max_new_tokens=max_tokens, num_return_sequences=1, do_sample=False, repetition_penalty=1.1)

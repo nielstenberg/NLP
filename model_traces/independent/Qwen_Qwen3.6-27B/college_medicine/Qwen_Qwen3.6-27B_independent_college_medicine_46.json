@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 697,
+  "question_uuid": "b48e223f-f6b7-4251-9b9c-56ae4a2f0890",
+  "question": "Type I muscle fibres have the following characteristics:",
+  "options": {
+    "A": "white, glycolytic, slow contracting.",
+    "B": "white, oxidative, slow contracting.",
+    "C": "red, oxidative, fast contracting.",
+    "D": "red, oxidative, slow contracting."
+  },
+  "analysis": [
+    "Step 1: Evaluating Choice A, which proposes white, glycolytic, and slow contracting characteristics, reveals inaccuracies regarding color and metabolism; Type I fibers are rich in myoglobin and mitochondria, making them red and predominantly oxidative rather than white and glycolytic.",
+    "Step 2: Assessing Choice B, which suggests white, oxidative, and slow contracting traits, shows a contradiction in color; while oxidative and slow-contracting features are correct for Type I fibers, the high myoglobin content inherently gives these fibers a red appearance, not white.",
+    "Step 3: Examining Choice C, which lists red, oxidative, and fast contracting attributes, contains an error in contraction speed; although the red color and oxidative metabolism correctly describe Type I fibers, they are characterized by slow myosin ATPase activity and slow twitch kinetics, not fast contraction.",
+    "Step 4: Reviewing Choice D, which specifies red, oxidative, and slow contracting properties, aligns perfectly with established physiological data; Type I fibers contain abundant myoglobin (red), rely on aerobic oxidative phosphorylation for sustained energy production (oxidative), and exhibit slow cross-bridge cycling rates optimized for endurance and fatigue resistance (slow contracting).",
+    "Step 5: Synthesizing the sequential evaluations demonstrates that Choices A, B, and C each contain at least one physiologically incorrect attribute for Type I muscle fibers, whereas Choice D accurately captures all three defining characteristics, confirming it as the correct answer."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

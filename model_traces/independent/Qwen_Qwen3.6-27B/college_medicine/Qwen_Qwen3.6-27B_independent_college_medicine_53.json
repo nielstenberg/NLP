@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 24,
+  "question_uuid": "8c44e3f2-66d5-48f9-aae0-d954a64a6897",
+  "question": "A sexually active 23-year-old man with multiple sex partners has dysuria and a yellow urethral exudate. Gram stain of the exudate shows numerous neutrophils, many that contain intracellular gram-negative diplococci. He has had three similar episodes of urethritis over the past 2 years. Which of the following properties of the infecting organism best explains the reinfection?",
+  "options": {
+    "A": "Antigenic variation",
+    "B": "Catalase",
+    "C": "Inhibition of B-lymphocyte function",
+    "D": "Inhibition of T-lymphocyte function"
+  },
+  "analysis": [
+    "Step 1: The clinical findings of dysuria, yellow urethral exudate, and intracellular gram-negative diplococci within neutrophils definitively identify the pathogen as Neisseria gonorrhoeae. The patient's history of three similar episodes over two years indicates a failure to develop lasting protective immunity. Antigenic variation, specifically through frequent genetic alterations of surface structures such as pili and outer membrane proteins (Opa), allows N. gonorrhoeae to evade previously generated host antibodies, directly explaining the susceptibility to reinfection.",
+    "Step 2: Catalase production enables bacteria to detoxify hydrogen peroxide released by phagocytes, aiding in survival during acute infection. Although N. gonorrhoeae is catalase-positive, this enzyme facilitates intracellular persistence and tissue damage rather than immune evasion across separate infection episodes. It does not account for the lack of durable immunity or recurrent disease.",
+    "Step 3: Inhibition of B-lymphocyte function would broadly suppress humoral immunity, but N. gonorrhoeae does not employ this mechanism. Hosts typically mount robust antibody responses to initial gonococcal infections; however, these antibodies fail to prevent subsequent infections because the bacterium alters its antigenic targets, not because B-cell function is actively inhibited.",
+    "Step 4: Inhibition of T-lymphocyte function is characteristic of certain viral pathogens like HIV or specific immunomodulatory toxins, but it is not a virulence strategy utilized by N. gonorrhoeae. Gonococcal reinfection occurs despite intact T-cell responses, further ruling out this option as the explanatory mechanism.",
+    "Step 5: Evaluating all candidates confirms that antigenic variation is the sole property that mechanistically accounts for the recurrent nature of gonoccal urethritis. By continuously modifying its surface antigens, the organism escapes antibody-mediated clearance and prevents the development of sterilizing immunity, making Choice A the correct answer."
+  ],
+  "solution": "Choice_A",
+  "ground_truth": "A"
+}

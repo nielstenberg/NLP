@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 292,
+  "question_uuid": "f02e2ead-9d18-424b-adf7-cd220102efcf",
+  "question": "A 20-year-old female presents to the emergency department with a 2-day history of nausea and vomiting. She says that today she noticed a slight amount of blood in her vomit. She is a pre-med college student and admits to being under a lot of stress as she takes final exams. She also says that she drinks a large amount of coffee daily. Vital signs are normal. Which of the following is the most appropriate initial test to order?",
+  "options": {
+    "A": "abdominal flat plate radiography",
+    "B": "amylase level",
+    "C": "complete blood count",
+    "D": "urine pregnancy test"
+  },
+  "analysis": [
+    "Step 1: Choice A (abdominal flat plate radiography) is primarily utilized to detect pneumoperitoneum, mechanical bowel obstruction, or radiopaque foreign bodies. The patient lacks signs of an acute surgical abdomen, such as severe pain, distension, or obstipation, and exposing a young female to ionizing radiation without a clear indication is contraindicated as an initial step.",
+    "Step 2: Choice B (amylase level) serves as a screening tool for acute pancreatitis, which classically manifests with intense, persistent epigastric pain radiating to the back, often triggered by gallstones or alcohol abuse. The absence of significant abdominal pain and the presence of only mild hematemesis make pancreatitis highly unlikely, rendering this test low-yield initially.",
+    "Step 3: Choice C (complete blood count) evaluates for anemia secondary to gastrointestinal bleeding or leukocytosis suggestive of infection or inflammation. While potentially useful later in the diagnostic pathway, it does not address the foundational clinical requirement of determining reproductive status, which directly dictates the safety and direction of all subsequent evaluations.",
+    "Step 4: Choice D (urine pregnancy test) represents the mandatory first-line investigation for any female of childbearing age presenting with nausea and vomiting. Although academic stress and excessive caffeine consumption may predispose her to gastritis or a Mallory-Weiss tear causing mild hematemesis, pregnancy must be definitively excluded first because it can independently produce identical symptoms and critically alters the safety profile of all subsequent imaging, laboratory studies, and pharmacotherapies.",
+    "Step 5: Synthesizing the clinical scenario and standard emergency medicine protocols confirms that ruling out pregnancy takes absolute precedence in reproductive-age females with gastrointestinal complaints. Excluding pregnancy ensures patient safety, prevents iatrogenic fetal harm from contraindicated interventions, and appropriately narrows the differential diagnosis, making it the unequivocal initial test over radiographic, enzymatic, or hematologic alternatives."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

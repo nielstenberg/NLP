@@ -1,0 +1,27 @@
+{
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 101,
+  "question_uuid": "4f253f4e-fdf0-4a3e-b111-92535447f7e9",
+  "question": "A 25-year-old woman who is 19 weeks pregnant comes to the office for a prenatal examination. Her father had classic hemophilia. A karyotype obtained from an amniotic fluid sample of the patient shows that the fetus is XY. Which of the following should you tell the patient regarding her infant?",
+  "options": {
+    "A": "The infant will neither have hemophilia nor be a carrier",
+    "B": "The infant has a 50% risk for hemophilia",
+    "C": "The infant has a 50% risk for being a carrier",
+    "D": "The infant has a 75% risk for hemophilia"
+  },
+  "analysis": [
+    "Step 1: The patient's father had classic hemophilia, meaning he likely inherited the condition due to having an X-linked recessive disorder (XLRD). This implies that the gene responsible for hemophilia is located on the X chromosome.",
+    "Step 2: Since the patient is pregnant with an XY fetus, we need to consider how the genetic information from the mother can influence the likelihood of the child inheriting the hemophilia gene. In humans, males have one X and one Y chromosome (XY), while females have two X chromosomes (XX).",
+    "Step 3: Given that the patient's father had hemophilia, it means his X chromosome carries the mutated gene responsible for the condition. Since the patient is a female, she would have inherited one X chromosome from her father (which carries the mutated gene) and one X chromosome from her mother (which does not carry the mutated gene).",
+    "Step 4: When the patient becomes pregnant, there are three possible genotypes of the sperm that could fertilize the egg: - One-third chance of inheriting the normal X chromosome from the father (which would result in a normal male offspring).\n- One-third chance of inheriting the mutated X chromosome from the father (which would result in a male offspring with hemophilia).\n- One-third chance of inheriting the normal X chromosome from the mother (which would result in a male offspring who is a carrier but not affected).\n\nHowever, since the question states the fetus is XY, we know the fetus did not inherit the mutated X chromosome from the father. Therefore, the only possibilities left are the first and third scenarios mentioned above.",
+    "Step 5: Considering these possibilities, the probability of the infant being a carrier (inheriting the normal X chromosome from the mother) is 1/3 or approximately 33%. However, the question asks about the risk of the infant having hemophilia, which is not directly related to the carrier status.",
+    "Step 6: To determine the risk of the infant having hemophilia, we must consider the fact that the patient's father had classic hemophilia, implying that he was more likely to pass on the mutated gene to his daughters rather than his sons. Given that the fetus is XY, it means the fetus did not inherit the mutated X chromosome from the father.",
+    "Step 7: In this scenario, the risk of the infant having hemophilia is actually zero because the fetus did not inherit the mutated X chromosome from the father. However, considering the context of the question, we should focus on the probability of the infant being a carrier, as the question seems to imply a misunderstanding of the inheritance pattern.",
+    "Step 8: Based on the given information and focusing on the probability of the infant being a carrier, we can conclude that the correct answer is related to the carrier status.",
+    "Step 9: However, looking at all options provided, we see that none of them correctly describe the situation based on our previous steps. But if we were to choose between the options given, we'd select the closest match."
+  ],
+  "solution": "Choice_C",
+  "ground_truth": "B"
+}

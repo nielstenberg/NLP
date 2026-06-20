@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "shared",
+  "subject": "High School Biology",
+  "question_index": 96,
+  "question_uuid": "cf68a215-bf6b-41ac-86c5-fea2059d9845",
+  "question": "Which of the following is NOT a characteristic of introns?",
+  "options": {
+    "A": "They occur only in eukaryotes.",
+    "B": "They represent noncoding regions.",
+    "C": "They are found interspersed with exons on a region of DNA that codes for a polypeptide chain.",
+    "D": "They are excised from the primary transcript before it gains a 5' cap and a 3' poly(A)tail."
+  },
+  "analysis": [
+    "Step 1: Choice A states that introns occur only in eukaryotes, which aligns with standard high school biology teaching that distinguishes eukaryotic split genes from the continuous, intron-lacking genes typical of prokaryotes, making this a recognized characteristic.",
+    "Step 2: Choice B identifies introns as noncoding regions, which is fundamentally accurate because introns are transcribed into the initial RNA transcript but do not provide the nucleotide sequence needed to specify amino acids in the mature protein.",
+    "Step 3: Choice C indicates that introns are interspersed with exons within protein-coding DNA regions, correctly describing the mosaic genomic structure where coding segments (exons) are interrupted by noncoding segments (introns).",
+    "Step 4: Choice D claims that introns are excised from the primary transcript before it gains a 5' cap and a 3' poly(A) tail, which is biologically incorrect because the 5' cap is added co-transcriptionally at the very beginning of RNA synthesis, well before splicing occurs, and is actually required for efficient spliceosome assembly and subsequent processing.",
+    "Step 5: Evaluating all options confirms that Choices A, B, and C accurately describe established biological properties of introns, whereas Choice D misrepresents the chronological order of eukaryotic mRNA maturation, identifying it as the statement that is NOT a characteristic."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

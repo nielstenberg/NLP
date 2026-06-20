@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "shared",
+  "subject": "College Biology",
+  "question_index": 171,
+  "question_uuid": "8cef4202-5ccd-4044-9d56-f2ba8d7984ba",
+  "question": "Which of these is the smallest unit upon which natural selection directly acts?",
+  "options": {
+    "A": "a species' gene frequency",
+    "B": "a population's gene frequency",
+    "C": "an individual's genome",
+    "D": "an individual's phenotype"
+  },
+  "analysis": [
+    "Step 1: Natural selection acts at the level of individuals within a population, meaning it directly affects their traits that can be passed on to offspring. Therefore, the smallest unit upon which natural selection directly acts would be the individual organism's characteristics, represented by its phenotype.",
+    "Step 2: A species consists of many populations and is too large a scale for natural selection to act directly upon. The gene frequency within a species is influenced by natural selection but not acted upon directly.",
+    "Step 3: While a population's gene frequency can be affected by natural selection, the process still operates at the level of individual organisms and their traits. Thus, the population as a whole does not experience natural selection directly.",
+    "Step 4: An individual's genome contains all the genetic information necessary for the organism to function and potentially evolve through natural selection. However, natural selection acts on the expression of genes and the resulting phenotypes, not the genome itself.",
+    "Step 5: Considering the above points, the smallest unit upon which natural selection directly acts is the individual's phenotype because it encompasses the observable traits that can be selected for or against in the environment."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

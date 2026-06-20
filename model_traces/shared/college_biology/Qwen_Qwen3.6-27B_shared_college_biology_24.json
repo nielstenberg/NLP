@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "shared",
+  "subject": "College Biology",
+  "question_index": 186,
+  "question_uuid": "4e5a279a-078c-4f32-91aa-78c457834c58",
+  "question": "Which of the following is correct about vaccination?",
+  "options": {
+    "A": "It increases the number of different receptors that recognize a particular pathogen.",
+    "B": "It increases the number of different macrophages specific to the antigen.",
+    "C": "It increases the number of epitopes that the immune system can recognize.",
+    "D": "It increases the number of lymphocytes with receptors that can recognize and bind to the antigen."
+  },
+  "analysis": [
+    "Step 1: Analyze Choice A. Vaccination works by exposing the immune system to an antigen (or parts of it), which triggers clonal expansion of B cells and T cells that possess receptors specifically matching that antigen. This process increases the quantity of lymphocytes with *specific* receptors for that particular pathogen, not the diversity or number of *different* types of receptors. The repertoire of receptor types is genetically determined before exposure; vaccination merely selects and amplifies existing specific clones. Therefore, Choice A is incorrect because it implies increasing the variety of receptors rather than the count of specific ones.",
+    "Step 2: Analyze Choice B. Macrophages are innate immune cells that act as phagocytes and antigen-presenting cells. They do not undergo somatic hypermutation or clonal expansion in response to specific antigens in the same way adaptive immune cells (lymphocytes) do. While macrophage activity might increase generally during inflammation, they do not become \"specific\" to an antigen through the generation of new, antigen-specific cell populations via vaccination. Specificity is a hallmark of adaptive immunity (B and T cells), not innate immunity like macrophages. Therefore, Choice B is incorrect.",
+    "Step 3: Analyze Choice C. Epitopes are the specific molecular structures on the surface of an antigen that are recognized by antibodies or T-cell receptors. These structures are intrinsic properties of the pathogen itself. Vaccination introduces the antigen (or its components) to the body, but it does not alter the physical structure of the pathogen or create new epitopes. The immune system learns to recognize existing epitopes more effectively, but the number of epitopes available on the pathogen remains constant regardless of vaccination status. Therefore, Choice C is incorrect.",
+    "Step 4: Analyze Choice D. The primary mechanism of vaccination is the induction of immunological memory. When a vaccine is administered, it stimulates the adaptive immune system to activate B cells and T cells whose receptors match the vaccine's antigens. These activated cells proliferate (clonal expansion), resulting in a significantly larger population of effector cells and long-lived memory cells that carry receptors capable of recognizing and binding to that specific antigen. Upon future exposure to the actual pathogen, this increased pool of specific lymphocytes allows for a faster and stronger immune response. Therefore, Choice D correctly describes the physiological outcome of vaccination.",
+    "Step 5: Conclude the analysis. Choices A, B, and C contain fundamental misconceptions regarding receptor diversity, innate vs. adaptive specificity, and the nature of epitopes. Only Choice D accurately reflects the biological principle of clonal selection and expansion, where vaccination increases the absolute number of lymphocytes equipped with receptors specific to the target antigen. Thus, Choice D is the correct answer."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

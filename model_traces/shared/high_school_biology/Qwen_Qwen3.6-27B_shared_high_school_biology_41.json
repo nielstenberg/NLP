@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "shared",
+  "subject": "High School Biology",
+  "question_index": 180,
+  "question_uuid": "a8f3f682-d325-4d0d-81ac-62dc6beb4604",
+  "question": "A rise in intracellular free calcium in the sea urchin oocyte causes the release of proteolytic enzymes which act to prevent polyspermy. The events just described entail the",
+  "options": {
+    "A": "zona reaction",
+    "B": "acrosomal reaction",
+    "C": "cortical reaction",
+    "D": "fertilization reaction"
+  },
+  "analysis": [
+    "Step 1: Choice A describes the zona reaction, which is a block to polyspermy specific to mammalian eggs that involves structural changes to the zona pellucida; since the question explicitly references a sea urchin oocyte, this choice is biologically inaccurate for the given organism.",
+    "Step 2: Choice B describes the acrosomal reaction, which occurs in the sperm cell prior to egg penetration and involves the release of digestive enzymes from the sperm's acrosome to breach the egg's outer layers, rather than an oocyte-initiated process to prevent polyspermy.",
+    "Step 3: Choice C describes the cortical reaction, a well-documented mechanism in sea urchin oocytes where sperm entry triggers a rapid increase in intracellular calcium, causing cortical granules to fuse with the plasma membrane and release proteolytic enzymes into the perivitelline space to form a fertilization envelope that physically blocks polyspermy, directly matching the question's description.",
+    "Step 4: Choice D uses the term fertilization reaction, which is not a standard or precise scientific term in developmental biology for this specific calcium-dependent enzymatic release, making it an incorrect designation for the described physiological event.",
+    "Step 5: After evaluating each option sequentially, only the cortical reaction accurately corresponds to the calcium-mediated release of proteolytic enzymes from the sea urchin oocyte to establish a block to polyspermy, confirming Choice C as the correct answer."
+  ],
+  "solution": "Choice_C",
+  "ground_truth": "C"
+}

@@ -1,0 +1,23 @@
+{
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "mode": "shared",
+  "subject": "College Medicine",
+  "question_index": 182,
+  "question_uuid": "f0061231-3901-4714-b963-ed4010628abc",
+  "question": "A 37-year-old woman is brought to the emergency department 45 minutes after she was found unconscious on her apartment floor. Her coworkers became concerned when she did not arrive for work. On arrival, she is unable to provide a history. Her pulse is 96/min, respirations are 12/min, and blood pressure is 124/58 mm Hg. Examination shows erythema, warmth, and induration of the upper back, buttocks, and posterior thighs. Her serum creatine kinase activity is 10,300 U/L. Urine toxicology screening is positive for opiates and cocaine. Urine dipstick is strongly positive for blood. Microscopic examination of the urine shows pigmented granular casts and rare erythrocytes. This patient is at increased risk for which of the following conditions over the next 24 hours?",
+  "options": {
+    "A": "Acute respiratory distress syndrome",
+    "B": "Acute tubular necrosis",
+    "C": "Cerebral edema",
+    "D": "Cerebral hemorrhage"
+  },
+  "analysis": [
+    "Step 1: First, let's analyze Choice A - Acute Respiratory Distress Syndrome (ARDS). The patient has been found unconscious with a history suggestive of trauma (erythema, warmth, and induration of the upper back, buttocks, and posterior thighs) and possible drug overdose (positive urine toxicology screening for opiates and cocaine). However, there is no direct evidence that would suggest an increased risk for ARDS in this scenario.",
+    "Step 2: Next, we'll examine Choice B - Acute Tubular Necrosis (ATN). Given the patient's presentation of rhabdomyolysis (indicated by elevated serum creatine kinase activity of 10,300 U/L and microscopic examination of the urine showing pigmented granular casts), ATN is a plausible complication. Rhabdomyolysis can lead to myoglobinuria, which may cause renal failure due to ATN.",
+    "Step 3: Now, let's consider Choice C - Cerebral Edema. While the patient is unconscious, there isn't enough information provided to directly link this condition with an increased risk over the next 24 hours.",
+    "Step 4: Lastly, we have Choice D - Cerebral Hemorrhage. Similar to Choice C, there isn't sufficient evidence to support an increased risk for cerebral hemorrhage based on the given information.",
+    "Step 5: Considering all options, the most likely complication arising from the patient's current state is Acute Tubular Necrosis (ATN) due to rhabdomyolysis caused by muscle injury from trauma and potential drug-induced muscle damage."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "B"
+}

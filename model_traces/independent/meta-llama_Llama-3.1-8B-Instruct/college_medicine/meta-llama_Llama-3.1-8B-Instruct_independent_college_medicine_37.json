@@ -1,0 +1,25 @@
+{
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 0,
+  "question_uuid": "f8c730cd-e878-4d92-b1a5-c873b75cb58d",
+  "question": "A 27-year-old woman, gravida 2, para 1, at 12 weeks' gestation comes to the physician for a prenatal visit. She feels well. Pregnancy and delivery of her first child were uncomplicated. Medications include folic acid and a multivitamin. Her temperature is 37.2\u00b0C (99\u00b0F), and blood pressure is 108/60 mm Hg. Pelvic examination shows a uterus consistent in size with a 12-week gestation. Urine dipstick shows leukocyte esterase; urinalysis shows WBCs and rare gram-negative rods. Which of the following is the most appropriate next step in management?",
+  "options": {
+    "A": "Recommend drinking 8 oz of cranberry juice daily",
+    "B": "Oral amoxicillin therapy",
+    "C": "Oral metronidazole therapy",
+    "D": "Intravenous cefazolin therapy"
+  },
+  "analysis": [
+    "Step 1: The patient presents with symptoms suggestive of a urinary tract infection (UTI) as evidenced by the presence of leukocyte esterase on urine dipstick testing, WBCs, and rare gram-negative rods on urinalysis. The most common cause of UTIs during pregnancy is Escherichia coli (E. coli), a gram-negative rod.",
+    "Step 2: Considering the patient's pregnancy status, it is essential to choose an antibiotic that is safe for both mother and fetus.",
+    "Step 3: Option A recommends drinking 8 oz of cranberry juice daily. Cranberry juice may help prevent UTIs by inhibiting bacterial adhesion to bladder mucosa but does not treat an existing infection. This option is more preventive than therapeutic.",
+    "Step 4: Option B suggests oral amoxicillin therapy. Amoxicillin is a broad-spectrum penicillin antibiotic that can be used to treat UTIs. However, its use in pregnancy is generally avoided due to potential risks of kernicterus in newborns if given near term.",
+    "Step 5: Option C proposes oral metronidazole therapy. Metronidazole is contraindicated in pregnancy due to its teratogenic effects, including neural tube defects and other congenital anomalies.",
+    "Step 6: Option D recommends intravenous cefazolin therapy. Cefazolin is a cephalosporin antibiotic that is considered safe for use in pregnancy. It is effective against E. coli and other gram-negative bacteria commonly causing UTIs.",
+    "Step 7: Given the need to promptly treat the UTI while considering the safety of the medication for the pregnant patient, Option D appears to be the best course of action."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "B"
+}

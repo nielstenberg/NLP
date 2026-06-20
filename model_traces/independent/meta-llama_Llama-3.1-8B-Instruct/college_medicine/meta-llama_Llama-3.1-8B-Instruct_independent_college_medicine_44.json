@@ -1,0 +1,23 @@
+{
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 589,
+  "question_uuid": "82805031-f9d7-4d13-8e8f-513e23af4c0a",
+  "question": "A 26-year-old woman with HIV infection comes to the office because of a 4-day history of pain and redness of her left lower leg. She says the symptoms began after she tripped over a tree branch in her yard and scraped her left leg. Current medications include antiretroviral therapy and ibuprofen as needed. Vital signs are temperature 38.3\u00b0C (100.9\u00b0F), pulse 86/min, respirations 14/min, and blood pressure 138/70 mm Hg. There is a 5\u00d78-cm area on the anterior surface of her left lower extremity that is swollen, erythematous, and tender. She previously has developed a rash after taking erythromycin, and she has had an anaphylactic response to penicillin. Which of the following antibiotic therapies is most appropriate for this patient?",
+  "options": {
+    "A": "Amoxicillin",
+    "B": "Ciprofloxacin",
+    "C": "Clarithromycin",
+    "D": "Clindamycin"
+  },
+  "analysis": [
+    "Step 1: The patient has a history of developing a rash after taking erythromycin, indicating a potential allergy to macrolides. This information should guide our selection of antibiotics.",
+    "Step 2: The patient also has an anaphylactic response to penicillin, making it contraindicated due to the risk of severe allergic reactions. We need to consider alternative classes of antibiotics.",
+    "Step 3: Considering the patient's HIV status and the presence of a skin infection, we need to select an antibiotic that is effective against Gram-negative bacteria, which are commonly involved in such infections.",
+    "Step 4: Analyzing the options: - Choice A: Amoxicillin is a penicillin-class antibiotic, which is contraindicated due to the patient's known anaphylaxis to penicillin.\n\n- Choice B: Ciprofloxacin is a fluoroquinolone antibiotic, which is effective against a wide range of bacteria, including Gram-negative organisms. It does not belong to the penicillin class and is less likely to cause cross-reactivity.\n\n- Choice C: Clarithromycin is a macrolide antibiotic, which the patient has shown sensitivity to in the past. This makes it a poor choice.\n\n- Choice D: Clindamycin is a lincosamide antibiotic, which can be used in patients allergic to penicillin but may have some cross-reactivity with other beta-lactams.",
+    "Step 5: Given the patient's history of hypersensitivity reactions to both erythromycin and penicillin, we must choose an antibiotic that is safe from these allergies. Between Choices B and D, Choice B: Ciprofloxacin appears to be the safer option due to its distinct mechanism of action and lower likelihood of cross-reactivity with other antibiotics."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "D"
+}

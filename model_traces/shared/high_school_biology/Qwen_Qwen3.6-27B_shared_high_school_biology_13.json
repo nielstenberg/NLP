@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "shared",
+  "subject": "High School Biology",
+  "question_index": 90,
+  "question_uuid": "712de382-57fb-4705-a396-8e34b5c76f76",
+  "question": "A behavioral response called a fixed action pattern shown by animals",
+  "options": {
+    "A": "occurs the second time an animal is exposed to the correct stimulus at the appropriate time in its life",
+    "B": "occurs in the absence of sensory feedback",
+    "C": "is a motor response which once released may be terminated spontaneously",
+    "D": "is triggered by a number of sensory signals in the animal's environment"
+  },
+  "analysis": [
+    "Step 1: Evaluate Choice A. Fixed action patterns are innate, genetically programmed behaviors that do not require learning or prior conditioning; therefore, they manifest upon the very first exposure to the appropriate sign stimulus, not the second time, making this choice incorrect.",
+    "Step 2: Evaluate Choice B. A hallmark of fixed action patterns is their stereotyped, ballistic nature; once initiated by a specific trigger, the behavior sequence runs to completion automatically and does not depend on continuous sensory feedback or the persistent presence of the initial stimulus, making this choice consistent with standard biological definitions.",
+    "Step 3: Evaluate Choice C. By definition, fixed action patterns are rigid motor programs that must complete their entire sequence once activated; they cannot be voluntarily or spontaneously halted midway, directly contradicting this choice.",
+    "Step 4: Evaluate Choice D. Ethological research establishes that fixed action patterns are elicited by a highly specific, singular cue known as a sign stimulus or key stimulus, rather than a broad collection or \"number of sensory signals,\" rendering this choice inaccurate.",
+    "Step 5: Synthesize the analysis. Choices A, C, and D each misrepresent core characteristics of fixed action patterns regarding timing, terminability, and trigger specificity. Choice B accurately captures the essential feature that these innate behaviors execute autonomously to completion without reliance on ongoing sensory input, confirming it as the correct answer."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "B"
+}

@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 676,
+  "question_uuid": "eb8c7980-1f6b-497c-a967-2814d044beca",
+  "question": "The presence of two or more cell lines from different zygotes in a single individual is known as:",
+  "options": {
+    "A": "mosaicism.",
+    "B": "diploidy.",
+    "C": "aneuploidy.",
+    "D": "chimaerism."
+  },
+  "analysis": [
+    "Step 1: Mosaicism refers to the presence of two or more genetically distinct cell populations within one organism that developed from a single fertilized egg (zygote). This can occur due to errors during cell division early in embryonic development. Therefore, mosaicism fits the description given in the question.",
+    "Step 2: Diploidy is the state where cells contain two sets of chromosomes, typically one set inherited from each parent. It does not describe having multiple cell lines from different zygotes.",
+    "Step 3: Aneuploidy involves an abnormal number of chromosomes in a cell compared to the normal diploid number. While it pertains to chromosomal abnormalities, it does not involve multiple cell lines from different zygotes.",
+    "Step 4: Chimaerism describes the condition where an individual contains two or more genetically distinct cell populations originating from different zygotes. This matches exactly with the definition provided in the question.",
+    "Step 5: Considering all definitions, chimaerism best fits the scenario described in the question where there are two or more cell lines from different zygotes in a single individual."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

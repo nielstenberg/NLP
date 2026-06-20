@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "shared",
+  "subject": "High School Biology",
+  "question_index": 123,
+  "question_uuid": "7764e79d-7a7b-48f8-a2fc-867ff7269a87",
+  "question": "All of the following statements about plant embryogenesis are correct EXCEPT:",
+  "options": {
+    "A": "The suspensor is derived from the basal cell.",
+    "B": "Cotyledons are derived from the apical cell.",
+    "C": "Shoot apical meristem formation occurs after seed formation.",
+    "D": "Precursors of all three plant tissue systems are formed during embryogenesis."
+  },
+  "analysis": [
+    "Step 1: Analyze Choice A. In angiosperm embryogenesis, the zygote undergoes an asymmetric division to produce a small apical cell and a large basal cell. The basal cell divides to form the suspensor, which pushes the embryo into the endosperm and facilitates nutrient transfer. Therefore, the statement that the suspensor is derived from the basal cell is correct.",
+    "Step 2: Analyze Choice B. The apical cell resulting from the zygote's first division divides to form the embryo proper. This embryo proper gives rise to the cotyledons, the hypocotyl, and the root cap. Thus, the statement that cotyledons are derived from the apical cell is correct.",
+    "Step 3: Analyze Choice C. The shoot apical meristem (SAM) is established during the early stages of embryogenesis, specifically at the globular or heart stage, well before the seed is fully formed and mature. The SAM is present in the mature embryo within the seed, allowing for immediate shoot growth upon germination. Therefore, the statement that SAM formation occurs after seed formation is incorrect.",
+    "Step 4: Analyze Choice D. During embryogenesis, the three primary tissue systems (protoderm, ground meristem, and procambium) are established. These precursors give rise to the epidermis, ground tissue, and vascular tissue, respectively. Since these tissue precursors are formed during the development of the embryo, this statement is correct.",
+    "Step 5: Conclude the analysis. The question asks for the statement that is NOT correct. Choices A, B, and D are biologically accurate descriptions of plant embryogenesis. Choice C is factually incorrect because the shoot apical meristem forms during embryogenesis, not after seed formation. Therefore, Choice C is the exception."
+  ],
+  "solution": "Choice_C",
+  "ground_truth": "C"
+}

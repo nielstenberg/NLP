@@ -1,0 +1,21 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 415,
+  "question_uuid": "92ce8096-cbdd-4428-b04f-659d559b3418",
+  "question": "The risk for miscarriage associated with amniocentesis is approximately ____.",
+  "options": {
+    "A": "1 in 10",
+    "B": "1 in 50",
+    "C": "1 in 100 to 1 in 200",
+    "D": "1 in 1000"
+  },
+  "analysis": [
+    "Step 1: Amniocentesis is a diagnostic procedure that involves withdrawing a sample of amniotic fluid from around a fetus to test for genetic abnormalities. The risk of miscarriage associated with this procedure has been studied extensively. According to various medical studies and guidelines, the risk of miscarriage after an amniocentesis ranges between 1 in 100 to 1 in 200.",
+    "Step 2: Let's analyze the given choices: - Choice_A suggests a risk of 1 in 10, which is significantly higher than what clinical data typically indicates.\n- Choice_B proposes a risk of 1 in 50, which is also not consistent with current medical literature.\n- Choice_C states a risk ranging from 1 in 100 to 1 in 200, aligning closely with the findings from numerous studies and professional guidelines.\n- Choice_D offers a very low risk of 1 in 1000, which is much lower than the typical reported rates but still possible based on some studies.",
+    "Step 3: Considering the most accurate representation of the risk according to medical research and practice, Choice_C best reflects the current understanding of the risk associated with amniocentesis."
+  ],
+  "solution": "Choice_C",
+  "ground_truth": "C"
+}

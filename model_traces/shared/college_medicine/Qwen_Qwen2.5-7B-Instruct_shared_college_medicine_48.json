@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "shared",
+  "subject": "College Medicine",
+  "question_index": 421,
+  "question_uuid": "bc766727-f676-4ee8-99c5-de5d089a0257",
+  "question": "Women's world record performances have improved rapidly in recent years mainly because:",
+  "options": {
+    "A": "women have evolved a greater muscle mass.",
+    "B": "women can now run faster than men.",
+    "C": "women have started training at an earlier age.",
+    "D": "more women are now engaged in sport."
+  },
+  "analysis": [
+    "Step 1: The claim that women have evolved a greater muscle mass (Choice_A) is not supported by scientific evidence related to athletic performance improvements over time. Evolutionary changes occur over generations and would not explain rapid improvements within just a few decades.",
+    "Step 2: The assertion that women can now run faster than men (Choice_B) contradicts reality - men still hold most world records across various distances. Therefore, this cannot be the reason for improved female world records.",
+    "Step 3: Starting training at an earlier age (Choice_C) could potentially contribute to better performance, but it does not fully account for the rapid improvement seen recently. Many athletes start training early, yet their performance doesn't improve as dramatically as observed.",
+    "Step 4: Increased participation in sports among women (Choice_D) aligns with the observation that more women are engaging in competitive athletics today compared to previous decades. This increased engagement likely leads to more resources being devoted to training, coaching, and development of female athletes, contributing to their improved performance.",
+    "Step 5: Considering all factors together, while multiple elements may play a role, the most plausible explanation for the rapid improvement in women's world records is the increased number of women participating in sports and the subsequent focus on developing elite female athletes."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

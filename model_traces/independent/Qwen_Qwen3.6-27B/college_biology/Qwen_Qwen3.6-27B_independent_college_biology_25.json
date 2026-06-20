@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "College Biology",
+  "question_index": 297,
+  "question_uuid": "b056ca9b-0a70-4f87-8fe7-ba1054c3c7f1",
+  "question": "Natural selection is based on all of the following except",
+  "options": {
+    "A": "genetic variation exists within populations.",
+    "B": "the best-adapted individuals tend to leave the most offspring.",
+    "C": "individuals who survive longer tend to leave more offspring than those who die young.",
+    "D": "individuals adapt to their environments and, thereby, evolve."
+  },
+  "analysis": [
+    "Step 1: Evaluate Choice A, which states that genetic variation exists within populations. This is a fundamental prerequisite for natural selection, as heritable phenotypic differences provide the necessary raw material upon which environmental pressures can act. Therefore, this is a valid basis for natural selection.",
+    "Step 2: Evaluate Choice B, which states that the best-adapted individuals tend to leave the most offspring. This directly captures the principle of differential reproductive success, where individuals with advantageous heritable traits achieve higher fitness and contribute disproportionately to the gene pool of the next generation. Thus, this is a core tenet of natural selection.",
+    "Step 3: Evaluate Choice C, which states that individuals who survive longer tend to leave more offspring than those who die young. This reflects the critical link between survival and reproductive opportunity; increased longevity under selective pressures allows individuals to produce more viable offspring, thereby passing on favorable alleles. Consequently, this supports the mechanism of natural selection.",
+    "Step 4: Evaluate Choice D, which claims that individuals adapt to their environments and, thereby, evolve. This statement violates a central principle of evolutionary biology: evolution and adaptation are population-level processes that occur across generations through shifts in allele frequencies, not within the lifetime of a single organism. Individuals may undergo physiological acclimation, but they do not genetically adapt or evolve. Therefore, this is incorrect and does not serve as a basis for natural selection.",
+    "Step 5: Synthesize the evaluations to identify the exception. Choices A, B, and C correctly outline the essential conditions and mechanisms of natural selection, including pre-existing genetic variation, differential reproduction tied to adaptive traits, and the survival-reproduction connection. Choice D erroneously attributes evolutionary change to individual organisms rather than populations, making it the only statement that contradicts the scientific foundation of natural selection. The correct answer is Choice D."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

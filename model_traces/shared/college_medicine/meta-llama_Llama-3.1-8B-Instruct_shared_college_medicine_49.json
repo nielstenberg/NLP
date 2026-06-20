@@ -1,0 +1,23 @@
+{
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "mode": "shared",
+  "subject": "College Medicine",
+  "question_index": 316,
+  "question_uuid": "6000225a-4918-4223-a8b4-54abb53deb97",
+  "question": "Which of the following conditions is not caused by a mutation in FGFR3?",
+  "options": {
+    "A": "Achondroplasia",
+    "B": "Crouzon syndrome",
+    "C": "Thanatophoric dysplasia",
+    "D": "Waardenburg syndrome"
+  },
+  "analysis": [
+    "Step 1: Achondroplasia is known to be caused by a mutation in FGFR3 gene. This condition leads to short-limbed dwarfism.",
+    "Step 2: Crouzon syndrome is also associated with mutations in the FGFR2 gene, not FGFR3. It causes craniosynostosis and facial abnormalities.",
+    "Step 3: Thanatophoric dysplasia is indeed linked to mutations in the FGFR3 gene, leading to severe skeletal abnormalities and often fatal outcomes.",
+    "Step 4: Waardenburg syndrome has been associated with mutations in several genes including PAX9, EDN2, and MITF but not specifically with FGFR3.",
+    "Step 5: Based on the above analysis, it's clear that while Achondroplasia, Thanatophoric dysplasia are both caused by mutations in the FGFR3 gene, Crouzon syndrome is caused by a mutation in the FGFR2 gene, and Waardenburg syndrome is not directly related to a mutation in the FGFR3 gene."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

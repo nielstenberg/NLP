@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "shared",
+  "subject": "College Biology",
+  "question_index": 24,
+  "question_uuid": "68f0e859-4cc0-4ba7-91b5-7d3b64a105aa",
+  "question": "Which of the following is a frameshift mutation?",
+  "options": {
+    "A": "CAT HAS HIS \u2192 CAT HAS HIT",
+    "B": "CAT HAS HIS \u2192 CAT HSH ISA",
+    "C": "CAT HAS HIS \u2192 CAT HIS HAT",
+    "D": "CAT HAS HIS \u2192 CAT WAS HIT"
+  },
+  "analysis": [
+    "Step 1: Choice A (CAT HAS HIS \u2192 CAT HAS HIT) depicts a point substitution mutation where a single letter is swapped without disrupting the three-letter grouping; since the reading frame remains intact, this is not a frameshift mutation.",
+    "Step 2: Choice B (CAT HAS HIS \u2192 CAT HSH ISA) illustrates an insertion or deletion event that breaks the original triplet boundaries, forcing all downstream letters to regroup into new triplets (HSH and ISA); this misalignment of the reading frame is the defining characteristic of a frameshift mutation.",
+    "Step 3: Choice C (CAT HAS HIS \u2192 CAT HIS HAT) represents a chromosomal rearrangement or inversion of entire codons/words rather than a nucleotide addition or loss, meaning the reading frame itself is not shifted.",
+    "Step 4: Choice D (CAT HAS HIS \u2192 CAT WAS HIT) involves multiple independent point substitutions that change individual letters but preserve the original three-letter segmentation, so the reading frame remains unchanged and it does not qualify as a frameshift mutation.",
+    "Step 5: After evaluating all candidates sequentially, only Choice B demonstrates the critical mechanism of a frameshift mutation, where an indel event alters the reading frame and consequently scrambles all subsequent codons."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "B"
+}

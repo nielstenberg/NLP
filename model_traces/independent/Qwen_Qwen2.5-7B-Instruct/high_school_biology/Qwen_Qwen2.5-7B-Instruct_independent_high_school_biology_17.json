@@ -1,0 +1,22 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "independent",
+  "subject": "High School Biology",
+  "question_index": 276,
+  "question_uuid": "97ff36e9-6e85-4a00-a7f5-1c99a849316d",
+  "question": "Which of the following is true of organisms belonging to the kingdom Protista?",
+  "options": {
+    "A": "They are eukaryotic.",
+    "B": "They include the cyanobacteria.",
+    "C": "They are heterotrophic.",
+    "D": "They possess cell walls composed of peptidoglycan."
+  },
+  "analysis": [
+    "Step 1: The kingdom Protista includes a diverse group of eukaryotic organisms that do not fit into other kingdoms such as animals, plants, fungi, or bacteria. Therefore, all members of Protista are eukaryotes, making Choice_A correct.",
+    "Step 2: Cyanobacteria belong to the domain Bacteria and are prokaryotes, so they cannot be part of the kingdom Protista. This makes Choice_B incorrect.",
+    "Step 3: While many protists are heterotrophs (such as amoebae), others can be autotrophs (like algae). Thus, it is not accurate to say all protists are heterotrophic, making Choice_C incorrect.",
+    "Step 4: Cell walls composed of peptidoglycan are characteristic of bacterial cells, specifically those in the domain Bacteria. Since protists are eukaryotes and do not have peptidoglycan-based cell walls, Choice_D is also incorrect."
+  ],
+  "solution": "Choice_A",
+  "ground_truth": "A"
+}

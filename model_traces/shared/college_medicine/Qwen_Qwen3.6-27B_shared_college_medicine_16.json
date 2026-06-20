@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "shared",
+  "subject": "College Medicine",
+  "question_index": 298,
+  "question_uuid": "5e758c7f-1841-4451-8c10-aa12f155db32",
+  "question": "In a Robertsonian translocation fusion occurs at the:",
+  "options": {
+    "A": "telomeres.",
+    "B": "centromeres.",
+    "C": "histones.",
+    "D": "ends of the long arms."
+  },
+  "analysis": [
+    "Step 1: Evaluate Choice A (telomeres). Telomeres are specialized nucleoprotein structures located at the extreme distal ends of chromosomes that prevent end-to-end fusion and protect genomic stability. Robertsonian translocations do not involve fusion at these terminal regions; therefore, this choice is incorrect.",
+    "Step 2: Evaluate Choice B (centromeres). A Robertsonian translocation is a chromosomal rearrangement involving two acrocentric chromosomes. The hallmark mechanism is breakage near or at the centromeres of both chromosomes, followed by the fusion of the remaining long-arm segments precisely at the centromeric region. This produces a single derivative chromosome while the short arms are typically lost, making this choice correct.",
+    "Step 3: Evaluate Choice C (histones). Histones are core packaging proteins that organize DNA into nucleosomes within chromatin. They function in epigenetic regulation and compaction but play no role in the physical breakage or ligation events of chromosomal translocations. Therefore, this choice is incorrect.",
+    "Step 4: Evaluate Choice D (ends of the long arms). While the long arms of the participating chromosomes ultimately constitute the bulk of the derivative chromosome, the actual breakpoint and subsequent ligation occur at the centromere, not at the distal termini of the long arms. The distal ends retain their native telomeric capping sequences. Therefore, this choice is incorrect.",
+    "Step 5: Conclude the analysis. Sequential evaluation confirms that telomeres, histones, and the distal ends of long arms do not serve as the fusion site in this chromosomal rearrangement. Only the centromere accurately identifies the specific locus where two acrocentric chromosomes fuse during a Robertsonian translocation. Thus, Choice B is the definitive answer."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "B"
+}

@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "shared",
+  "subject": "College Biology",
+  "question_index": 24,
+  "question_uuid": "68f0e859-4cc0-4ba7-91b5-7d3b64a105aa",
+  "question": "Which of the following is a frameshift mutation?",
+  "options": {
+    "A": "CAT HAS HIS \u2192 CAT HAS HIT",
+    "B": "CAT HAS HIS \u2192 CAT HSH ISA",
+    "C": "CAT HAS HIS \u2192 CAT HIS HAT",
+    "D": "CAT HAS HIS \u2192 CAT WAS HIT"
+  },
+  "analysis": [
+    "Step 1: A frameshift mutation occurs when there is an insertion or deletion of one or more nucleotides that results in a shift in the reading frame of the genetic code. In Choice_A, \"HAS\" is replaced with \"HAS HIS\", which does not result in a shift in the reading frame as the word \"HIS\" is already part of the original sequence. Therefore, this is not a frameshift mutation.",
+    "Step 2: In Choice_B, \"HAS\" is replaced with \"HSH ISA\". This replacement results in a shift in the reading frame because the insertion of \"SH\" changes the way the genetic code is read, making it a frameshift mutation.",
+    "Step 3: In Choice_C, \"HAS\" is replaced with \"HIS HAT\". This replacement also results in a shift in the reading frame due to the insertion of \"IS\" and \"AT\", making it a frameshift mutation.",
+    "Step 4: In Choice_D, \"HAS\" is replaced with \"WAS HIT\". This replacement does not result in a shift in the reading frame as the word \"WAS\" and \"HIT\" are separate words that do not affect the reading frame of the original sequence, making it not a frameshift mutation.",
+    "Step 5: Considering all the choices, Choices B and C both represent frameshift mutations due to the insertion of nucleotides that cause a shift in the reading frame."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "B"
+}

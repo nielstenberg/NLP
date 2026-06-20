@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 523,
+  "question_uuid": "ade8c0d2-728c-4afe-a61b-e0e6d3eb6171",
+  "question": "A 13-year-old girl is brought to the office for a health maintenance visit. She was diagnosed with Turner syndrome in infancy during a work-up for coarctation of the aorta. During today's visit, her mother reports that the girl has been talking about babies. You have been the patient's physician for the past 6 years and know she is prepubescent. It is most appropriate to counsel the patient that if she wishes to have a family she will need to do which of the following?",
+  "options": {
+    "A": "Adopt",
+    "B": "Have amniocentesis if she gets pregnant",
+    "C": "Have an operation",
+    "D": "Receive genetic counseling"
+  },
+  "analysis": [
+    "Step 1: Evaluate Choice A (Adopt). Turner syndrome is characterized by complete or partial monosomy X, which leads to accelerated oocyte apoptosis and streak ovaries. This results in hypergonadotropic hypogonadism, absent or severely delayed puberty, and profound infertility in over 90% of cases. Given this patient's documented prepubertal status at age 13, her ovaries are nonfunctional, rendering natural conception virtually impossible. Therefore, adoption is the most clinically appropriate and reliable pathway to fulfill her desire to build a family.",
+    "Step 2: Evaluate Choice B (Have amniocentesis if she gets pregnant). Spontaneous conception in classic Turner syndrome is exceedingly rare (<5%) and typically only seen in mosaic karyotypes. Moreover, Turner syndrome usually results from sporadic meiotic nondisjunction rather than inherited mutations, meaning the recurrence risk for offspring is negligible and closely tied to advanced maternal age rather than the syndrome itself. Thus, recommending amniocentesis is neither indicated nor practically useful for family planning in this context.",
+    "Step 3: Evaluate Choice C (Have an operation). No surgical procedure exists that can regenerate primordial follicles, reverse streak ovary formation, or restore ovulatory function in patients with classic Turner syndrome. Interventions such as oophoropexy or uterine surgeries do not address the underlying gonadal dysgenesis and cannot enable natural fertility.",
+    "Step 4: Evaluate Choice D (Receive genetic counseling). While genetic counseling is a standard component of multidisciplinary Turner syndrome care to discuss disease mechanisms, cardiovascular risks, and reproductive limitations, it serves an educational purpose rather than providing a concrete method for achieving parenthood. Counseling would ultimately confirm the impossibility of biological reproduction, thereby redirecting the conversation toward alternative family-building strategies.",
+    "Step 5: Conclude the analysis and select the optimal intervention. The fundamental pathophysiology of Turner syndrome involves irreversible gonadal dysgenesis that precludes natural fertility, as clearly demonstrated by this patient's lack of pubertal development by age 13. Choices B, C, and D either misalign with clinical guidelines, offer no therapeutic benefit for fertility restoration, or merely provide informational context without solving the stated goal. Adoption directly circumvents the biological barrier and provides a safe, established route to parenthood, making it the most appropriate counseling recommendation."
+  ],
+  "solution": "Choice_A",
+  "ground_truth": "A"
+}

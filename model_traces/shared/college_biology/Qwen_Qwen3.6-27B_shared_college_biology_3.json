@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "shared",
+  "subject": "College Biology",
+  "question_index": 15,
+  "question_uuid": "e5586971-02b3-432e-a123-896335d90515",
+  "question": "Darwin's mechanism of natural selection required long time spans in order to modify species. From whom did Darwin get the concept of Earth's ancient age?",
+  "options": {
+    "A": "Georges Cuvier",
+    "B": "Charles Lyell",
+    "C": "Alfred Wallace",
+    "D": "Thomas Malthus"
+  },
+  "analysis": [
+    "Step 1: Evaluate Choice A (Georges Cuvier). Cuvier was a pioneering French naturalist best known for establishing paleontology and advocating catastrophism, which held that Earth's history was punctuated by sudden, violent disasters causing mass extinctions and species replacement. His model relied on relatively short intervals between catastrophes and explicitly rejected gradual transformation, meaning he did not provide Darwin with the concept of an ancient Earth necessary for slow, cumulative modification.",
+    "Step 2: Evaluate Choice B (Charles Lyell). Lyell was a British geologist whose influential work Principles of Geology promoted uniformitarianism, the idea that Earth's surface features were shaped by the same slow, continuous natural processes observed today acting over immensely long periods. Darwin carried Lyell's book aboard the HMS Beagle and repeatedly cited it as the foundation for understanding that Earth was sufficiently old to allow gradual biological change through natural selection.",
+    "Step 3: Evaluate Choice C (Alfred Wallace). Wallace was a British naturalist and explorer who independently formulated the theory of evolution by natural selection. While his empirical findings and letters prompted Darwin to publish his own work, Wallace's contributions centered on biogeography and biological mechanisms, not on geological chronology or the antiquity of the planet.",
+    "Step 4: Evaluate Choice D (Thomas Malthus). Malthus was an English scholar of political economy whose Essay on the Principle of Population argued that human populations grow faster than food production, inevitably leading to scarcity and competition. Darwin adapted this economic principle to explain the struggle for existence among organisms, but Malthus's writings contained no geological theories or estimates regarding Earth's age.",
+    "Step 5: Synthesize the sequential analyses to determine the correct answer. The question specifically asks for the source of the concept of Earth's ancient age, which was a prerequisite for Darwin's gradualistic mechanism of natural selection. Only Charles Lyell systematically developed and disseminated the uniformitarian view of deep geological time that directly fulfilled this requirement. Cuvier supported abrupt catastrophism, Wallace co-discovered natural selection, and Malthus inspired the concept of competitive pressure. Consequently, Lyell is the historically accurate source for Darwin's understanding of planetary antiquity."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "B"
+}

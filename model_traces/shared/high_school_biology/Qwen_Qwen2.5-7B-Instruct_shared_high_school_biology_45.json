@@ -1,0 +1,22 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "shared",
+  "subject": "High School Biology",
+  "question_index": 279,
+  "question_uuid": "6c2dfcfe-f469-44e1-9efa-138da4f7128f",
+  "question": "Which of the following is a reason that geneticists use mitochondrial DNA (mtDNA) to study the relatedness of animal populations?",
+  "options": {
+    "A": "mtDNA mutates at a slower rate than nuclear DNA.",
+    "B": "mtDNA is passed from mother to child and is free from recombination that occurs between pairs of chromosomes.",
+    "C": "There are few single nucleotide polymorphisms in the hypervariable, noncoding regions.",
+    "D": "All mitochondrial proteins are coded for by mitochondrial genes."
+  },
+  "analysis": [
+    "Step 1: Choice_A suggests that mtDNA mutates at a slower rate than nuclear DNA. This is incorrect because mtDNA actually mutates at a faster rate compared to nuclear DNA due to its proximity to the mitochondria's environment and lack of protective histones. Therefore, it is not used for studying relatedness based on mutation rates.",
+    "Step 2: Choice_B states that mtDNA is passed from mother to child and is free from recombination that occurs between pairs of chromosomes. This is accurate as mtDNA is inherited solely from the mother and does not undergo recombination during meiosis like nuclear DNA does. This makes it useful for tracing maternal lineages and studying population relationships.",
+    "Step 3: Choice_C claims there are few single nucleotide polymorphisms in the hypervariable, noncoding regions. This is false because mtDNA has many single nucleotide polymorphisms in these regions, making it highly variable and useful for genetic studies.",
+    "Step 4: Choice_D asserts that all mitochondrial proteins are coded for by mitochondrial genes. While most mitochondrial proteins are encoded by mitochondrial genes, some are actually encoded by nuclear genes and transcribed in the nucleus before being imported into the mitochondria. Thus, this statement is not entirely correct."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "B"
+}

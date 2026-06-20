@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 229,
+  "question_uuid": "fe934edf-67bd-44d6-b93b-8e8f94d5590a",
+  "question": "A 65-year-old woman has a 6-month history of progressive irritability, palpitations, heat intolerance, frequent bowel movements, and a 6.8-kg (15-lb) weight loss. She has had a neck mass for more than 10 years. 131I scan shows an enlarged thyroid gland with multiple areas of increased and decreased uptake. Which of the following is the most likely diagnosis?",
+  "options": {
+    "A": "Defect in thyroxine (T4) biosynthesis",
+    "B": "Graves' disease",
+    "C": "Multinodular goiter",
+    "D": "Riedel's thyroiditis"
+  },
+  "analysis": [
+    "Step 1: The patient presents with symptoms such as irritability, palpitations, heat intolerance, frequent bowel movements, and significant weight loss, all of which are classic signs of hyperthyroidism. The presence of a neck mass suggests a thyroid disorder, making multinodular goiter and Riedel's thyroiditis less likely due to their different clinical presentations.",
+    "Step 2: A 131I scan showing an enlarged thyroid gland with both increased and decreased uptake points towards a differential diagnosis including Graves' disease and toxic multinodular goiter. However, the combination of symptoms and imaging findings leans more towards Graves' disease because it typically involves diffuse hyperfunctioning of the thyroid tissue rather than focal nodules.",
+    "Step 3: Defects in thyroxine (T4) biosynthesis would not cause the hypermetabolic state seen in this patient. This condition would result in hypothyroidism rather than the hyperthyroid symptoms described.",
+    "Step 4: Riedel's thyroiditis is characterized by extensive fibrosis and invasion into surrounding tissues, leading to a hard, fixed thyroid gland. It does not present with the hyperthyroid symptoms like those seen in this case.",
+    "Step 5: Considering the clinical presentation and laboratory findings, the most likely diagnosis is Graves' disease, given its association with hyperthyroidism and the typical pattern of thyroid function and imaging characteristics."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "C"
+}

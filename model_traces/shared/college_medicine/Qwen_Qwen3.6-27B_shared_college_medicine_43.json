@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "shared",
+  "subject": "College Medicine",
+  "question_index": 664,
+  "question_uuid": "0fa5fac6-903d-4206-8946-42fade7bf372",
+  "question": "A previously healthy 40-year-old man is brought to the emergency department because of constant substernal chest pain for 12 hours that is exacerbated by coughing and inspiration. The pain is relieved with sitting up and leaning forward. There is no family history of heart disease. His temperature is 38\u00b0C (100.4\u00b0F), pulse is 120/min, and blood pressure is 110/60 mm Hg. The lungs are clear to auscultation. Cardiac examination shows distant heart sounds. An ECG shows diffuse ST-segment elevation in all leads. An x-ray of the chest shows normal findings. The most likely cause of his condition is injury to which of the following tissues?",
+  "options": {
+    "A": "Aortic intima",
+    "B": "Esophageal sphincter",
+    "C": "Myocardium",
+    "D": "Pericardium"
+  },
+  "analysis": [
+    "Step 1: Evaluating Choice A (Aortic intima), injury to this vascular layer typically causes aortic dissection, which presents with sudden, severe, tearing chest pain radiating to the back, asymmetric pulses, and potentially a widened mediastinum on chest x-ray; it does not produce positional pain relief, pleuritic exacerbation, or diffuse ST-segment elevations, making this option incorrect.",
+    "Step 2: Evaluating Choice B (Esophageal sphincter), pathology involving this structure, such as severe GERD or esophageal rupture, results in burning retrosternal discomfort or acute post-emetic pain with possible pneumomediastinum; these conditions lack cardiac-specific findings like distant heart sounds and widespread ST elevations, effectively ruling out this choice.",
+    "Step 3: Evaluating Choice C (Myocardium), primary myocardial injury as seen in acute myocardial infarction typically causes heavy, pressure-like chest pain that is non-positional and unresponsive to leaning forward, accompanied by regional ST-segment elevations confined to specific coronary territories with reciprocal depressions; the patient's diffuse ST elevations and positional symptom modification strongly contradict an isolated myocardial etiology.",
+    "Step 4: Evaluating Choice D (Pericardium), inflammation or injury to this serous membrane (acute pericarditis) classically manifests as sharp, pleuritic chest pain that worsens with recumbency and improves when sitting up and leaning forward, alongside low-grade fever, tachycardia, muffled heart sounds indicating pericardial effusion, and diffuse ST-segment elevations across multiple leads, which precisely matches the entire clinical presentation.",
+    "Step 5: Jointly reviewing the sequential evaluations, the pathognomonic triad of positional chest pain, pleuritic aggravation, and globally distributed ST elevations, combined with systemic inflammatory signs and distant heart sounds, exclusively localizes the pathology to the pericardial sac, confirming that pericardial tissue injury/inflammation is the definitive cause."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

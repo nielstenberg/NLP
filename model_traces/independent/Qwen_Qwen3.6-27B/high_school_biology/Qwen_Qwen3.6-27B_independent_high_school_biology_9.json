@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "High School Biology",
+  "question_index": 303,
+  "question_uuid": "739ddbd6-0b1e-4b73-8ea4-d8ef448d271b",
+  "question": "Mimicry is a strategy that has evolved through natural selection to increase the fitness of organisms to their environment. Which of the following represents a form of Batesian mimicry?",
+  "options": {
+    "A": "A type of millipede that is toxic to a toad is permanently avoided by the toad following the toad's initial attempt to consume it.",
+    "B": "A moth exhibits false eyes at its tail end in order to disorient predators.",
+    "C": "A moth exhibits nearly identical coloration to that of a stinging bee.",
+    "D": "A ground-nesting gull chick displays a coloration pattern that is nearly indistinguishable from its surroundings."
+  },
+  "analysis": [
+    "Step 1: Analyze Choice A, which describes a toxic millipede that predators learn to avoid after an initial negative experience. This illustrates aposematism (warning coloration) combined with predator learning, not mimicry, because the organism itself possesses the chemical defense and does not copy the traits of another species.",
+    "Step 2: Analyze Choice B, which describes a moth displaying false eyespots to disorient predators. This is a startle display or deimatic behavior intended to momentarily surprise or misdirect an attacker, rather than imitating a harmful model, so it does not meet the criteria for Batesian mimicry.",
+    "Step 3: Analyze Choice C, which describes a harmless moth evolving coloration that closely matches a stinging bee. Batesian mimicry is defined as an evolutionary strategy where a harmless species (the mimic) evolves to resemble a harmful or unpalatable species (the model) to deceive predators into avoiding it, making this a direct match.",
+    "Step 4: Analyze Choice D, which describes a ground-nesting gull chick with coloration blending into its environment. This demonstrates cryptic coloration or camouflage, which functions by reducing detectability rather than tricking predators into mistaking the organism for a dangerous species.",
+    "Step 5: Synthesize the sequential evaluations to reach a final determination. Since Batesian mimicry specifically requires a harmless organism to imitate the warning signals of a harmful one for protective benefit, only Choice C accurately represents this evolutionary phenomenon, confirming it as the correct answer."
+  ],
+  "solution": "Choice_C",
+  "ground_truth": "C"
+}

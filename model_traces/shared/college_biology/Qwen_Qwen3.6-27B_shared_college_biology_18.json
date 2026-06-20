@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "shared",
+  "subject": "College Biology",
+  "question_index": 627,
+  "question_uuid": "3b753001-5508-4b19-be5f-3cd99ba32f7e",
+  "question": "Heterozygote advantage should be most closely linked to which of the following?",
+  "options": {
+    "A": "sexual selection",
+    "B": "stabilizing selection",
+    "C": "random selection",
+    "D": "directional selection"
+  },
+  "analysis": [
+    "Step 1: Analyze Choice A (sexual selection). Sexual selection involves traits that increase an individual's chances of mating and reproducing, often leading to the exaggeration of specific phenotypic traits (like peacock tails) rather than maintaining genetic diversity through heterozygosity. While it can maintain variation, it is not the primary mechanism associated with the concept of \"heterozygote advantage,\" which specifically refers to higher fitness of heterozygotes compared to both homozygotes.",
+    "Step 2: Analyze Choice B (stabilizing selection). Stabilizing selection favors intermediate phenotypes and acts against extreme variants. In the context of genetics, if the heterozygous genotype results in an intermediate phenotype that has higher fitness than either homozygous extreme, natural selection will favor the maintenance of both alleles in the population. This process maintains genetic polymorphism because neither allele is eliminated; instead, the balance is stabilized around the heterozygote. Therefore, heterozygote advantage is a classic example of stabilizing selection at the genotypic level.",
+    "Step 3: Analyze Choice C (random selection). Random selection implies that reproductive success is independent of genotype or phenotype, meaning there is no selective pressure favoring one genotype over another. Heterozygote advantage explicitly describes a scenario where the heterozygote has *higher* fitness, which is a non-random, selective process. Thus, random selection is incorrect.",
+    "Step 4: Analyze Choice D (directional selection). Directional selection occurs when individuals at one end of the phenotypic range have higher fitness than those in the middle or at the other end. This leads to a shift in the allele frequency toward one extreme, eventually fixing one allele and eliminating the other. Heterozygote advantage prevents fixation because the heterozygote is favored over both homozygotes, thereby maintaining both alleles in the population. This is the opposite of what directional selection does.",
+    "Step 5: Conclude the analysis. Heterozygote advantage (also known as overdominance) ensures that both alleles are maintained in the population because the heterozygote has the highest fitness. This maintenance of genetic variation and the prevention of allele fixation aligns perfectly with the definition of stabilizing selection, which preserves the status quo or intermediate states rather than driving change toward an extreme. Therefore, heterozygote advantage is most closely linked to stabilizing selection."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "B"
+}

@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "shared",
+  "subject": "College Biology",
+  "question_index": 360,
+  "question_uuid": "70e497c9-e9ae-48a0-a853-4f59f4243fad",
+  "question": "Which of the following are traits that are affected by more than one gene?",
+  "options": {
+    "A": "Heterozygous traits",
+    "B": "Pleiotropic traits",
+    "C": "Polygenic traits",
+    "D": "Blended alleles"
+  },
+  "analysis": [
+    "Step 1: Analyze Choice A (Heterozygous traits). The term \"heterozygous\" refers to an individual having two different alleles for a specific single gene locus (e.g., Aa). It describes the genotype state regarding one gene, not the number of genes involved in determining a trait. Therefore, this does not describe traits affected by multiple genes.",
+    "Step 2: Analyze Choice B (Pleiotropic traits). Pleiotropy occurs when a *single* gene influences multiple, seemingly unrelated phenotypic traits (e.g., the gene for sickle cell anemia affects red blood cell shape, oxygen transport, and susceptibility to malaria). This is the reverse of the condition described in the question; it involves one gene affecting many traits, not many genes affecting one trait.",
+    "Step 3: Analyze Choice C (Polygenic traits). Polygenic inheritance refers to a characteristic that is controlled by two or more genes. Examples include human skin color, height, and eye color, where the phenotype results from the additive effect of multiple genetic loci. This matches the definition of traits affected by more than one gene.",
+    "Step 4: Analyze Choice D (Blended alleles). \"Blended alleles\" is often associated with incomplete dominance or codominance within a single gene context, where the heterozygous phenotype appears as a mix of the two homozygous phenotypes (e.g., a red flower and a white flower producing a pink offspring). This concept relates to the interaction between alleles of a *single* gene, not the involvement of multiple distinct genes.",
+    "Step 5: Conclude the analysis. Based on the definitions above, only polygenic traits are defined by being influenced by multiple genes. Heterozygous refers to allele composition at a locus, pleiotropic refers to one gene affecting multiple traits, and blended alleles refer to interactions within a single gene's expression. Thus, Choice C is the correct answer."
+  ],
+  "solution": "Choice_C",
+  "ground_truth": "C"
+}

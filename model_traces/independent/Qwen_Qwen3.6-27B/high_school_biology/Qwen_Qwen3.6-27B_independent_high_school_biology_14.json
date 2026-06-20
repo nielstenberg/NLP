@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "High School Biology",
+  "question_index": 84,
+  "question_uuid": "15454c85-3997-4724-8f65-40e04a51cd83",
+  "question": "Mammals are homeostatic for all of the following EXCEPT",
+  "options": {
+    "A": "body temperature",
+    "B": "blood glucose concentration",
+    "C": "blood pH",
+    "D": "metabolic rate"
+  },
+  "analysis": [
+    "Step 1: Evaluate Choice A regarding body temperature. Mammals are endothermic organisms that actively maintain a relatively constant internal body temperature through physiological mechanisms such as sweating, shivering, vasodilation, and vasoconstriction. This tight regulation around a specific set point is a fundamental example of homeostasis, so mammals are indeed homeostatic for body temperature.",
+    "Step 2: Evaluate Choice B regarding blood glucose concentration. Mammals precisely regulate blood sugar levels to ensure a steady supply of energy to cells and prevent toxic accumulation. Hormones like insulin and glucagon work antagonistically to lower or raise glucose levels back to a normal range, demonstrating clear homeostatic control.",
+    "Step 3: Evaluate Choice C regarding blood pH. Enzymatic function and cellular processes require a stable acidic or basic environment. Mammals maintain blood pH within a narrow range (approximately 7.35 to 7.45) using chemical buffers, respiratory adjustments of carbon dioxide, and renal excretion of acids or bases. This confirms that blood pH is strictly homeostatically regulated.",
+    "Step 4: Evaluate Choice D regarding metabolic rate. Unlike temperature, glucose, or pH, metabolic rate does not have a fixed set point that the body strives to keep constant. Instead, metabolic rate dynamically increases or decreases in response to factors like physical activity, digestion, growth, reproduction, and environmental temperature. Because it is meant to vary adaptively rather than remain stable, it is not considered a homeostatically controlled parameter.",
+    "Step 5: Compare all evaluated choices to determine the exception. Choices A, B, and C describe vital internal conditions that mammals actively stabilize through negative feedback loops, which defines homeostasis. Choice D describes a physiological variable that intentionally fluctuates to meet changing energetic and thermal demands. Since the question asks for the factor that is NOT homeostatically maintained, Choice D is the correct answer."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

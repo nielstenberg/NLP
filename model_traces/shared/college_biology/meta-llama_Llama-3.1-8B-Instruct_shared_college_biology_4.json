@@ -1,0 +1,23 @@
+{
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "mode": "shared",
+  "subject": "College Biology",
+  "question_index": 306,
+  "question_uuid": "4c508c4b-37a4-45a2-9cb7-e4019ee5e92b",
+  "question": "Which of the following theories is based on the notion that mitochondria and chloroplasts evolved from prokaryotic cells?",
+  "options": {
+    "A": "Fluid mosaic model",
+    "B": "Endosymbiotic model",
+    "C": "Taxonomic model",
+    "D": "Respiration feedback model"
+  },
+  "analysis": [
+    "Step 1: The fluid mosaic model is a theory that describes the structure of cell membranes. It suggests that the membrane is a fluid, two-dimensional matrix of phospholipids with embedded proteins. This model does not relate to the evolution of mitochondria and chloroplasts from prokaryotic cells.",
+    "Step 2: The endosymbiotic model, on the other hand, suggests that mitochondria and chloroplasts evolved from prokaryotic cells that were engulfed by the cells of early eukaryotes. Over time, these engulfed cells became organelles, specifically mitochondria and chloroplasts, which are responsible for energy production in the cell.",
+    "Step 3: The taxonomic model is a system used to classify living organisms based on their evolutionary relationships. It does not relate to the evolution of mitochondria and chloroplasts from prokaryotic cells.",
+    "Step 4: The respiration feedback model is a concept related to the regulation of cellular respiration, not the evolution of mitochondria and chloroplasts from prokaryotic cells.",
+    "Step 5: Based on the analysis of each choice, the correct answer is the one that describes the evolution of mitochondria and chloroplasts from prokaryotic cells, which is the endosymbiotic model."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "B"
+}

@@ -1,0 +1,24 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "shared",
+  "subject": "College Biology",
+  "question_index": 693,
+  "question_uuid": "1d172239-e757-4d8c-b11f-4dce69ea1108",
+  "question": "A researcher grows a population of ferns in her laboratory. She notices, after a few generations, a new variant that has a distinct phenotype. When she tries to breed the original phenotype with the new one, no offspring are produced. When she breeds the new variants, however, offspring that look like the new variant result. What kind of speciation does this example illustrate?",
+  "options": {
+    "A": "Allopatric",
+    "B": "Sympatric",
+    "C": "Isolated",
+    "D": "Polyploidy"
+  },
+  "analysis": [
+    "Step 1: Analyze the key biological phenomenon described in the scenario. The critical observation is that crossing the original fern phenotype with the new variant results in no offspring (sterility), while breeding two individuals of the new variant produces fertile offspring resembling the new variant. This indicates immediate reproductive isolation between the original population and the new variant, despite them being in the same location (the laboratory).",
+    "Step 2: Evaluate Choice A (Allopatric Speciation). Allopatric speciation occurs when populations are geographically separated, preventing gene flow. In this experiment, all ferns are grown in the same laboratory environment, meaning there is no geographic barrier separating the original and new variants. Therefore, allopatric speciation is not the correct mechanism.",
+    "Step 3: Evaluate Choice B (Sympatric Speciation). Sympatric speciation occurs within the same geographic area without physical barriers. While the scenario fits the definition of sympatric speciation broadly (speciation without geographic isolation), we must determine if a more specific mechanism applies, as \"sympatric\" is a broad category that can include various mechanisms like polyploidy, habitat differentiation, or sexual selection.",
+    "Step 4: Evaluate Choice C (Isolated). \"Isolated\" is a descriptive term rather than a specific mode of speciation. While the new variant is reproductively isolated from the original, this choice does not explain *how* the isolation occurred or classify the type of speciation event biologically. It is too vague compared to standard evolutionary biology classifications.",
+    "Step 5: Evaluate Choice D (Polyploidy). Polyploidy is a common mechanism of sympatric speciation in plants, including ferns. It involves an error in cell division (such as nondisjunction) resulting in offspring with extra sets of chromosomes. If a fern becomes tetraploid (4n) while the parent is diploid (2n), crossing them usually results in triploid (3n) offspring, which are sterile due to uneven chromosome pairing during meiosis. However, two tetraploid individuals can cross successfully to produce fertile tetraploid offspring. This perfectly matches the scenario: sterility between original and new variants, but fertility among new variants. Ferns are particularly prone to polyploidy.",
+    "Step 6: Compare Choice B and Choice D. Both describe speciation occurring without geographic separation. However, Choice D (Polyploidy) is the specific genetic mechanism that explains the immediate post-zygotic reproductive barrier (sterility of hybrids) observed in plants. Since polyploidy is the most frequent cause of instantaneous sympatric speciation in plants and fits the specific pattern of hybrid sterility described, it is the most precise and accurate answer."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "B"
+}

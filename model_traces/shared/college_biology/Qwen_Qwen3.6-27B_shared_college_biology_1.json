@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "shared",
+  "subject": "College Biology",
+  "question_index": 51,
+  "question_uuid": "919632b4-dcf9-4fb4-8c1c-fc21a08447e0",
+  "question": "A certain autosomal recessive trait is expressed in 1% of a population. Assuming that the population is in Hardy-Weinberg equilibrium, what percent of the population are carriers but do not express the trait?",
+  "options": {
+    "A": "10%",
+    "B": "18%",
+    "C": "27%",
+    "D": "50%"
+  },
+  "analysis": [
+    "Step 1: Evaluating Choice A (10%), this option incorrectly conflates the carrier frequency with the recessive allele frequency ($q = \\sqrt{0.01} = 0.1$), failing to apply the Hardy-Weinberg heterozygous term ($2pq$) required for accurate carrier estimation.",
+    "Step 2: Evaluating Choice B (18%), applying the Hardy-Weinberg principle yields $q^2 = 0.01$, so $q = 0.1$ and $p = 0.9$; calculating the heterozygous carrier frequency as $2pq = 2(0.9)(0.1) = 0.18$ directly converts to 18%, confirming this choice is mathematically correct.",
+    "Step 3: Evaluating Choice C (27%), this percentage has no valid derivation from the provided parameters and likely stems from miscalculating genotype proportions or confusing $p^2$ with carrier status, rendering it incorrect.",
+    "Step 4: Evaluating Choice D (50%), this value would only occur if allele frequencies were equal ($p = q = 0.5$), which directly contradicts the given 1% recessive phenotype frequency, eliminating this option.",
+    "Step 5: Jointly reviewing all sequential analyses demonstrates that only Choice B satisfies the Hardy-Weinberg equilibrium calculations for heterozygous carriers, establishing it as the definitive solution."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "B"
+}

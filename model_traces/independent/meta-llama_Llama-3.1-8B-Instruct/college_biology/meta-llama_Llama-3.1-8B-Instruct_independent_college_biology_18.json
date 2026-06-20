@@ -1,0 +1,24 @@
+{
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "mode": "independent",
+  "subject": "College Biology",
+  "question_index": 624,
+  "question_uuid": "2af70a18-b993-4555-a104-ef524b1477bc",
+  "question": "Each of the following has a better chance of influencing gene frequencies in small populations than in large populations, but which one most consistently requires a small population as a precondition for its occurrence?",
+  "options": {
+    "A": "Mutation",
+    "B": "Non-random mating",
+    "C": "Genetic drift",
+    "D": "Natural selection"
+  },
+  "analysis": [
+    "Step 1: Mutation is a random process that occurs at a constant rate regardless of population size. It's not more likely to occur in small populations compared to large ones.",
+    "Step 2: Non-random mating can influence gene frequencies, but it doesn't require a small population as a precondition for its occurrence. In fact, non-random mating can be more pronounced in larger populations where there are more individuals to mate with.",
+    "Step 3: Genetic drift refers to the change in allele frequency in a population due to random sampling error during reproduction. This effect is more significant in small populations because they have fewer individuals to sample from, making genetic drift a more consistent force in shaping gene frequencies in these populations.",
+    "Step 4: Natural selection acts on the fitness differences between alleles and is influenced by factors such as environmental pressures and population demographics. While natural selection may be more effective in smaller populations where the impact of individual variations is more noticeable, it does not necessarily require a small population as a precondition for its occurrence.",
+    "Step 5: Comparing all options, we see that while mutation and natural selection do not specifically require a small population, non-random mating is also not dependent on population size. However, genetic drift is directly related to population size and becomes more influential in smaller populations.",
+    "Step 6: Considering the above points, genetic drift is the factor that most consistently requires a small population as a precondition for its occurrence, making it the correct answer."
+  ],
+  "solution": "Choice_C",
+  "ground_truth": "C"
+}

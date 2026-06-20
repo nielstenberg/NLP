@@ -1,0 +1,25 @@
+{
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "mode": "shared",
+  "subject": "High School Biology",
+  "question_index": 150,
+  "question_uuid": "e313dea2-4133-421a-90a8-a334a3bce247",
+  "question": "Mutation of homeotic cluster genes often results in which of the following developmental defects in Drosophila?",
+  "options": {
+    "A": "Absence of a group of contiguous segments",
+    "B": "Transformation of one segment into another",
+    "C": "Polarity defects in every segment along the anterior-posterior axis",
+    "D": "Tumor formation in imaginal discs"
+  },
+  "analysis": [
+    "Step 1: First, let's consider the term \"homeotic cluster genes.\" Homeotic genes are a group of genes in Drosophila that control the development and identity of body segments. They are responsible for determining the type of body part that will develop in a particular segment.",
+    "Step 2: Now, let's consider the term \"mutation of homeotic cluster genes.\" A mutation in these genes would likely disrupt their normal function, leading to developmental defects.",
+    "Step 3: Choice A: Absence of a group of contiguous segments. This choice suggests that the mutation would result in the complete loss of a group of segments. However, homeotic genes are responsible for determining the identity of individual segments, not the presence or absence of a group of segments.",
+    "Step 4: Choice B: Transformation of one segment into another. This choice suggests that the mutation would result in the transformation of one segment into another type of segment. This is consistent with the function of homeotic genes, which determine the identity of individual segments.",
+    "Step 5: Choice C: Polarity defects in every segment along the anterior-posterior axis. This choice suggests that the mutation would result in defects in the polarity of segments along the anterior-posterior axis. While homeotic genes do play a role in determining segment identity, they are not directly responsible for determining segment polarity.",
+    "Step 6: Choice D: Tumor formation in imaginal discs. This choice suggests that the mutation would result in tumor formation in imaginal discs. While mutations in Drosophila can result in tumor formation, this is not a direct consequence of mutations in homeotic cluster genes.",
+    "Step 7: Considering the function of homeotic genes and the potential effects of mutations in these genes, Choice B: Transformation of one segment into another is the most likely outcome. This is because homeotic genes determine the identity of individual segments, and mutations in these genes would likely result in the transformation of one segment into another type of segment."
+  ],
+  "solution": "N/A",
+  "ground_truth": "B"
+}

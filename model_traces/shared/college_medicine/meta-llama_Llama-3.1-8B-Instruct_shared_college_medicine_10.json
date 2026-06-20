@@ -1,0 +1,26 @@
+{
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "mode": "shared",
+  "subject": "College Medicine",
+  "question_index": 556,
+  "question_uuid": "5fb0b0b5-814c-426e-b1c7-c2388fb4064e",
+  "question": "If both parents are affected with the same autosomal recessive disorder then the probability that each of their children will be affected equals ___.",
+  "options": {
+    "A": "1 in 4",
+    "B": "1 in 2",
+    "C": "2 in 3",
+    "D": "1"
+  },
+  "analysis": [
+    "Step 1: To solve this problem, we need to understand how genetic inheritance works for an autosomal recessive disorder. An autosomal recessive disorder occurs when an individual inherits two copies of the mutated gene (one from each parent), one from each parent.",
+    "Step 2: Given that both parents are affected with the same autosomal recessive disorder, it means they must both be homozygous recessive for the mutated gene. This implies that each parent has two copies of the mutated gene, making them carriers of the disorder but not expressing it themselves due to being homozygous recessive.",
+    "Step 3: When these two parents have children, there are three possible genotypes each child can inherit regarding the mutated gene: - Homozygous dominant (not affected)\n- Heterozygous (carrier but not affected)\n- Homozygous recessive (affected)",
+    "Step 4: Since both parents are homozygous recessive, the only genotype they can pass to their offspring is also homozygous recessive, because they cannot pass a normal allele to their offspring if they do not have one themselves.",
+    "Step 5: Considering the Punnett square or basic principles of genetics, when two individuals who are both homozygous recessive for a trait reproduce, all of their offspring will inherit the homozygous recessive genotype for that trait.",
+    "Step 6: Therefore, given that both parents are affected with the same autosomal recessive disorder, the probability that each of their children will be affected equals 100%, or simply put, all of their children will be affected.",
+    "Step 7: However, since the question asks for a probability expressed as a fraction of chance, we should express this as a ratio of successful outcomes over total possible outcomes. In this case, all four possible genotypes of the offspring are equally likely, so the probability of each child being affected is 1 out of 4, or 25%.",
+    "Step 8: This matches Choice A, which states \"1 in 4\". Therefore, the correct answer is Choice A.\n\nFinal Answer: The final answer is Choice_A."
+  ],
+  "solution": "N/A",
+  "ground_truth": "D"
+}

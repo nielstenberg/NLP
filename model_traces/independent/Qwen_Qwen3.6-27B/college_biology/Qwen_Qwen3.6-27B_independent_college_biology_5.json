@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "College Biology",
+  "question_index": 447,
+  "question_uuid": "d9bcc092-f718-41fa-8cb7-350d09b5b2ee",
+  "question": "Which of the following describes a symbiotic relationship?",
+  "options": {
+    "A": "A tapeworm feeds off of its host's nutrients causing the host to lose large amounts of weight.",
+    "B": "Certain plants grow on trees in order to gain access to sunlight, not affecting the tree.",
+    "C": "Remora fish eat parasites off of sharks; the sharks stay free of parasites, and the remora fish are protected from predators.",
+    "D": "Meerkats sound alarm calls to warn other meerkats of predators."
+  },
+  "analysis": [
+    "Step 1: Choice A describes a tapeworm consuming host nutrients and causing significant weight loss, which classifies the interaction as parasitism; although some broad ecological frameworks group parasitism under symbiosis, it is defined by one-sided exploitation and harm, distinguishing it from the cooperative nature typically expected in this question format.",
+    "Step 2: Choice B describes certain plants growing on trees to access sunlight without positively or negatively affecting the tree, which classifies the interaction as commensalism; this represents a neutral-to-beneficial dynamic for one party only and lacks the reciprocal physiological dependence characteristic of classic symbiosis.",
+    "Step 3: Choice C describes remora fish removing parasites from sharks, resulting in nutritional gain for the remora and improved health for the shark; this defines mutualism, a close, long-term interspecific interaction where both species derive measurable fitness benefits, directly matching the standard college biology definition of a symbiotic relationship.",
+    "Step 4: Choice D describes meerkats sounding alarm calls to warn other meerkats of approaching predators, which constitutes intraspecific communication and social cooperation; because symbiosis strictly requires a persistent interaction between two different species, this conspecific behavior does not meet the fundamental criteria for symbiosis.",
+    "Step 5: Comparing all four options demonstrates that only Choice C illustrates a mutualistic bond between two distinct species, satisfying the rigorous biological requirements for symbiosis, while the remaining choices depict parasitism, commensalism, or intraspecific behavior that fall outside the targeted definition."
+  ],
+  "solution": "Choice_C",
+  "ground_truth": "C"
+}

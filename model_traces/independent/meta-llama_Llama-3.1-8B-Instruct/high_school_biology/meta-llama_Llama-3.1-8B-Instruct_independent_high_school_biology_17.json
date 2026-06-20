@@ -1,0 +1,25 @@
+{
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "mode": "independent",
+  "subject": "High School Biology",
+  "question_index": 144,
+  "question_uuid": "a81737a3-0c37-49f3-b3b5-a063ea901420",
+  "question": "A species of small rodent eats seeds from only one species of pine. In normal years, a pair of these rodents will have a litter of two or three. It is unusual for small rodents to have such small litter sizes. The rodents are most likely to exhibit which other characteristic?",
+  "options": {
+    "A": "Moderate sexual size dimorphism",
+    "B": "High parental investment",
+    "C": "Precocial young",
+    "D": "Frequent extrapair matings"
+  },
+  "analysis": [
+    "Step 1: We need to understand what each choice means before we can determine which one is correct.\n\n- Choice A: Moderate sexual size dimorphism refers to a difference between males and females in their physical characteristics, such as body size, but not extreme differences.\n- Choice B: High parental investment refers to the amount of time, energy, and resources that parents invest in their offspring.\n- Choice C: Precocial young refers to newborns that are relatively mature and independent at birth, requiring less care from their parents.\n- Choice D: Frequent extrapair matings refer to instances where individuals mate with partners outside of their social group or pair bond.",
+    "Step 2: Given that the small rodent has a small litter size (two or three), it suggests that they invest heavily in their offspring because they cannot afford to waste energy on many offspring.",
+    "Step 3: High parental investment typically occurs when there is a high cost of reproduction, such as having a small number of offspring due to limited resources.",
+    "Step 4: Moderate sexual size dimorphism does not necessarily relate to the given information about the small litter size.",
+    "Step 5: Precocial young would be more common in species that lay large numbers of eggs, like birds, rather than mammals.",
+    "Step 6: Frequent extrapair matings do not directly relate to the information provided about the small litter size.",
+    "Step 7: Considering all the options, the fact that the small rodent has a small litter size indicates that they must invest heavily in their offspring, making them more likely to exhibit high parental investment."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "B"
+}

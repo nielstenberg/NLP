@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "independent",
+  "subject": "College Biology",
+  "question_index": 489,
+  "question_uuid": "21ba385a-d772-4b47-8b1b-7f24c1afa5ed",
+  "question": "In a hypothetical environment, fishes called pike-cichlids are visual predators of algae-eating fish (i.e., they locate their prey by sight). If a population of algae-eaters experiences predation pressure from pike-cichlids, which of the following should least likely be observed in the algae-eater population over the course of many generations?",
+  "options": {
+    "A": "Selection for drab coloration of the algae-eaters",
+    "B": "Selection for nocturnal algae-eaters (active only at night)",
+    "C": "Selection for larger female algae-eaters, bearing broods composed of more, and larger, young",
+    "D": "Selection for algae-eaters that become sexually mature at smaller overall body sizes"
+  },
+  "analysis": [
+    "Step 1: The presence of pike-cichlids as visual predators suggests that algae-eaters may evolve traits to avoid being seen easily. Drab coloration would reduce visibility against the background, making them less detectable by pike-cichlids. Therefore, selection for drab coloration should be expected.",
+    "Step 2: Nocturnality can help algae-eaters avoid detection during daylight when pike-cichlids are most active. Thus, selection for nocturnal activity patterns is also a plausible adaptation to evade predation.",
+    "Step 3: Larger females with larger broods could potentially produce more offspring overall, but if these offspring are not protected from predation, the survival rate might decrease significantly. This could lead to a trade-off where the benefits of having larger broods do not outweigh the increased risk due to predation pressure.",
+    "Step 4: Smaller sexual maturity size could allow algae-eaters to reproduce earlier and possibly increase reproductive success before facing higher mortality rates due to predation. However, this strategy might result in smaller individuals that are easier targets for pike-cichlids.",
+    "Step 5: Considering all options, while drab coloration and nocturnality directly address the predator's ability to see and catch the prey, the other two options involve trade-offs between immediate survival and long-term reproductive success under high predation pressure.\n\nFinal Step: Among the given choices, the one that least likely results from the described selective pressures is \"Selection for larger female algae-eaters, bearing broods composed of more, and larger, young.\" This is because it involves a significant risk that does not necessarily provide an immediate benefit in terms of avoiding predation compared to the other adaptations like coloration and nocturnality."
+  ],
+  "solution": "Choice_C",
+  "ground_truth": "C"
+}

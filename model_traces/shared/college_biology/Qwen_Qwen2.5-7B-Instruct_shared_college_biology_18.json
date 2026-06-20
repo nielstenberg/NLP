@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "shared",
+  "subject": "College Biology",
+  "question_index": 627,
+  "question_uuid": "3b753001-5508-4b19-be5f-3cd99ba32f7e",
+  "question": "Heterozygote advantage should be most closely linked to which of the following?",
+  "options": {
+    "A": "sexual selection",
+    "B": "stabilizing selection",
+    "C": "random selection",
+    "D": "directional selection"
+  },
+  "analysis": [
+    "Step 1: Heterozygote advantage refers to a situation where an individual with two different alleles at a locus has a survival or reproductive advantage over individuals that are homozygous for either allele. This concept is often associated with genetic polymorphisms that provide a fitness benefit when the environment changes, leading to increased survival or reproduction of heterozygotes compared to homozygotes. Sexual selection typically involves traits that enhance mating success rather than survival or reproduction directly, making it less likely to be the primary mechanism for heterozygote advantage.",
+    "Step 2: Stabilizing selection tends to favor intermediate phenotypes and reduce variation within a population. It does not inherently promote heterozygote advantage because it works against the presence of multiple alleles by favoring the most common phenotype.",
+    "Step 3: Random selection implies that outcomes are determined by chance rather than specific selective pressures. While random events can influence the survival and reproduction of heterozygotes, this does not specifically link to the concept of heterozygote advantage as a predictable evolutionary strategy.",
+    "Step 4: Directional selection favors one extreme phenotype over another, leading to a shift in the population's average trait value. This type of selection would typically lead to fixation of one allele and thus would not support the maintenance of heterozygotes as a beneficial state.",
+    "Step 5: Considering the definitions and implications of each selection type, heterozygote advantage is most closely linked to stabilizing selection because it maintains genetic diversity and can be maintained by the ongoing need for both alleles under fluctuating environmental conditions, which is a characteristic of stabilizing selection."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "B"
+}

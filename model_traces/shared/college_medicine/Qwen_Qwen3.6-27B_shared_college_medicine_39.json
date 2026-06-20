@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "shared",
+  "subject": "College Medicine",
+  "question_index": 466,
+  "question_uuid": "d15b2979-f137-4e85-8900-e53ceb1e8c53",
+  "question": "Which of the following conditions shows anticipation in paternal transmission?",
+  "options": {
+    "A": "Huntington disease",
+    "B": "Marfan syndrome",
+    "C": "Cystic fibrosis",
+    "D": "Fragile X syndrome"
+  },
+  "analysis": [
+    "Step 1: Evaluate Choice A (Huntington disease). Huntington disease is an autosomal dominant neurodegenerative disorder caused by a CAG trinucleotide repeat expansion in the HTT gene. It is a classic example of genetic anticipation, where repeat length increases across generations, leading to earlier onset and increased severity. In Huntington disease, repeat expansion is significantly more pronounced during spermatogenesis, making paternal transmission the primary driver of marked anticipation, particularly in juvenile-onset cases.",
+    "Step 2: Evaluate Choice B (Marfan syndrome). Marfan syndrome is an autosomal dominant connective tissue disorder caused by point mutations or small indels in the FBN1 gene. Because it does not involve dynamic trinucleotide repeat expansions, it lacks the molecular mechanism required for genetic anticipation and does not show altered onset or severity based on parental sex.",
+    "Step 3: Evaluate Choice C (Cystic fibrosis). Cystic fibrosis is an autosomal recessive disorder resulting from diverse mutations in the CFTR gene. As a non-repeat expansion condition inherited in a recessive pattern, it does not exhibit genetic anticipation, and phenotypic expression remains consistent across generations regardless of whether the mutant allele is inherited from the father or mother.",
+    "Step 4: Evaluate Choice D (Fragile X syndrome). Fragile X syndrome is an X-linked intellectual disability caused by CGG repeat expansion in the FMR1 gene. While it demonstrates clear genetic anticipation, the critical expansion from a premutation (55\u2013200 repeats) to a full mutation (>200 repeats) occurs almost exclusively during oogenesis. Therefore, Fragile X syndrome is classically associated with anticipation in maternal transmission, not paternal transmission.",
+    "Step 5: Synthesize findings to determine the correct answer. Among the provided options, only Huntington disease exhibits a well-established pattern of genetic anticipation that is specifically amplified during paternal transmission. Marfan syndrome and cystic fibrosis do not demonstrate anticipation at all, and Fragile X syndrome shows anticipation predominantly via maternal transmission. Based on these mechanistic distinctions, Huntington disease is the only condition matching the question's criteria."
+  ],
+  "solution": "Choice_A",
+  "ground_truth": "A"
+}

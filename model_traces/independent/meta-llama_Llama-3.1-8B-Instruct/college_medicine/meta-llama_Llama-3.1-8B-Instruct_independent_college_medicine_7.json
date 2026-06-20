@@ -1,0 +1,25 @@
+{
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 816,
+  "question_uuid": "732319d1-bd08-4f91-988f-315d31334555",
+  "question": "A 36-year-old man comes to the office because of headaches that began 2 weeks ago. The headaches are moderately severe, are present when he awakens in the morning, and are relieved with over-the-counter analgesics. He has no prior history of headaches. He tells you he was promoted to an upper-level managerial position in his accounting firm about 8 months ago, which necessitated relocating. Physical examination now discloses no abnormalities except for blurring of the optic disc margins bilaterally. Which of the following is the most appropriate next step?",
+  "options": {
+    "A": "Begin a trial of a \u03b2-blocking medication",
+    "B": "Order CT scan of the head",
+    "C": "Order EEG",
+    "D": "Refer him for consultation with a neurologist"
+  },
+  "analysis": [
+    "Step 1: The patient presents with new-onset, moderately severe headaches that occur in the morning and are relieved with over-the-counter analgesics. This pattern suggests a possible secondary cause such as hypertension or other systemic conditions.",
+    "Step 2: Given the absence of prior headache history and the recent change in job status, it's essential to consider potential stress-related causes. However, the presence of blurring of the optic disc margins bilaterally raises concern for a more serious underlying condition.",
+    "Step 3: Option A (Begin a trial of a \u03b2-blocking medication) might be considered if the primary diagnosis were hypertension-induced headaches. However, given the acute onset and bilateral optic disc blurring, this would not be the immediate next step.",
+    "Step 4: Option B (Order CT scan of the head) could help identify structural abnormalities such as tumors, hemorrhages, or vascular malformations that may explain the optic disc blurring. Given the sudden onset of symptoms and physical findings, this would be a reasonable next step.",
+    "Step 5: Option C (Order EEG) would be more relevant if there were concerns for seizures or epilepsy, which does not seem to be directly related to the current presentation.",
+    "Step 6: Option D (Refer him for consultation with a neurologist) might be considered if further evaluation or management beyond what can be provided in the office setting is needed. However, given the specific finding of bilateral optic disc blurring, a more targeted approach like imaging would be preferred.",
+    "Step 7: Considering all options, the most appropriate next step would be to order a CT scan of the head to investigate potential structural causes of the patient's symptoms and physical findings."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "B"
+}

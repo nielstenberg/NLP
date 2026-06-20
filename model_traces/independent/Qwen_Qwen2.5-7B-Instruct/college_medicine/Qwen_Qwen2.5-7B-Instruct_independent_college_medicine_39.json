@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 209,
+  "question_uuid": "bcffb56a-dfbb-4e94-be96-2ce727f1e00f",
+  "question": "In genome-wide association studies, known SNPs explain ______ of the variation in body mass index despite the evidence of greater than 50% heritability from twin and family studies.",
+  "options": {
+    "A": "only 5%",
+    "B": "less than 1%",
+    "C": "only 13%",
+    "D": "less than 2%"
+  },
+  "analysis": [
+    "Step 1: The question asks about the proportion of variation explained by known Single Nucleotide Polymorphisms (SNPs) in Genome-Wide Association Studies (GWAS) relative to the estimated heritability of Body Mass Index (BMI). Heritability estimates from twin and family studies suggest that BMI has a heritability of over 50%. This means that genetic factors contribute significantly more than environmental ones.",
+    "Step 2: GWAS typically identify common genetic variants associated with traits like BMI but often do not capture all genetic influences due to limitations such as sample size, statistical power, and the complexity of genetic architecture. These studies focus on SNPs that have a significant effect size and can be detected across large populations.",
+    "Step 3: Known SNPs identified through GWAS account for a smaller portion of the total heritability compared to what twin and family studies estimate. This discrepancy arises because many other genetic effects might be rare or too small individually to reach significance in current GWAS analyses.",
+    "Step 4: Among the given options, Choice_A suggests that known SNPs explain only 5% of the variation, while Choices_B, C, and D indicate lower percentages. Given the substantial gap between the heritability estimates from twin/family studies and typical findings from GWAS, it is reasonable to conclude that the percentage must be quite low.",
+    "Step 5: Considering the need to choose among specific percentages provided, we evaluate the plausibility of each option. A 5% contribution aligns well with the reality that many genetic contributions remain undetected by current GWAS methods due to their sensitivity limits.\n\nFinal Step: After analyzing the options and understanding the context of GWAS limitations versus heritability estimates, the most plausible answer is that known SNPs explain only 5% of the variation in BMI."
+  ],
+  "solution": "Choice_A",
+  "ground_truth": "D"
+}

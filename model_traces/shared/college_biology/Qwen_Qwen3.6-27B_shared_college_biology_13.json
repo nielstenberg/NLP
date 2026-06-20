@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "shared",
+  "subject": "College Biology",
+  "question_index": 180,
+  "question_uuid": "9c9510e9-580a-4962-882c-3db53d715f78",
+  "question": "Of the following anatomical structures, which is homologous to the wing of a bird?",
+  "options": {
+    "A": "Dorsal fin of a shark",
+    "B": "Hindlimb of a kangaroo",
+    "C": "Wing of a butterfly",
+    "D": "Flipper of a cetacean"
+  },
+  "analysis": [
+    "Step 1: Analyzing Choice A, the dorsal fin of a shark is supported by cartilaginous rays and lacks the bony endoskeletal framework characteristic of tetrapod limbs; because sharks diverged evolutionarily before the emergence of tetrapod forelimbs, this structure shares no common ancestral limb plan with a bird wing and is therefore not homologous.",
+    "Step 2: Analyzing Choice B, the hindlimb of a kangaroo is a tetrapod appendage but belongs to the posterior limb pair, whereas a bird wing is a specialized anterior forelimb; although both derive from ancient vertebrate limb precursors, homology in comparative anatomy specifically requires structures to originate from the same ancestral appendage type, so a hindlimb is not considered homologous to a forelimb-derived wing.",
+    "Step 3: Analyzing Choice C, the wing of a butterfly is an outward extension of the arthropod exoskeleton composed primarily of chitinous membranes and veins, evolving completely independently from vertebrate musculature and bone; this represents an analogous structure shaped by convergent evolution for flight, not a homologous one.",
+    "Step 4: Analyzing Choice D, the flipper of a cetacean is a highly modified mammalian forelimb adapted for aquatic propulsion; despite its streamlined appearance and different function compared to a bird wing, it retains the fundamental pentadactyl skeletal arrangement (humerus, radius, ulna, carpals, metacarpals, and phalanges) inherited from a common tetrapod ancestor, establishing definitive structural homology.",
+    "Step 5: Evaluating all options collectively, only the flipper of a cetacean shares both a common evolutionary origin and the conserved underlying forelimb skeletal architecture with the bird wing, confirming it as the correct homologous structure among the choices provided."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

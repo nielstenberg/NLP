@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 271,
+  "question_uuid": "3293b8cf-f118-4d95-9c1d-61e127915f4a",
+  "question": "The sex of a child is dictated by the inheritance of:",
+  "options": {
+    "A": "the number of X chromosomes from the mother.",
+    "B": "a recessive allele on the X chromosome.",
+    "C": "a single Y chromosome from the mother.",
+    "D": "a single Y chromosome from the father."
+  },
+  "analysis": [
+    "Step 1: The sex of a child is determined by the combination of sex chromosomes inherited from both parents. A male has one X and one Y chromosome (XY), while a female has two X chromosomes (XX). Therefore, the correct answer must involve either an X or a Y chromosome coming from the father.",
+    "Step 2: Choice_A suggests that the number of X chromosomes from the mother dictates the sex of the child. This is incorrect because the number of X chromosomes from the mother does not determine the sex; it's the combination of the sperm\u2019s sex chromosome with the egg\u2019s sex chromosome that determines the sex.",
+    "Step 3: Choice_B proposes that a recessive allele on the X chromosome dictates the sex of the child. While alleles can influence traits through genes on the X chromosome, they do not determine the sex directly.",
+    "Step 4: Choice_C states that a single Y chromosome from the mother dictates the sex of the child. This is incorrect as mothers cannot contribute a Y chromosome; only fathers can.",
+    "Step 5: Choice_D indicates that a single Y chromosome from the father dictates the sex of the child. This is correct because if the sperm contributes a Y chromosome, the resulting zygote will be XY, leading to a male offspring. Conversely, if the sperm contributes an X chromosome, the resulting zygote will be XX, leading to a female offspring."
+  ],
+  "solution": "Choice_a",
+  "ground_truth": "D"
+}

@@ -1,0 +1,25 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 652,
+  "question_uuid": "fc751574-0a7c-423e-a5a6-4de94140d54c",
+  "question": "A 15-year-old girl is brought to the physician 3 months after she had a blood pressure of 150/95 mm Hg at a routine examination prior to participation in school sports. She is asymptomatic and has no history of serious illness. Twelve months ago, she was diagnosed with a urinary tract infection and treated with oral trimethoprim-sulfamethoxazole. She currently takes no medications. Subsequent blood pressure measurements on three separate occasions since the last visit have been: 155/94 mm Hg, 145/90 mm Hg, and 150/92 mm Hg. She is at the 50th percentile for height and 95th percentile for weight. Her blood pressure today is 150/90 mm Hg confirmed by a second measurement, pulse is 80/min, and respirations are 12/min. Examination shows no other abnormalities. Her hematocrit is 40%. Urinalysis is within normal limits. Cardiac and renal ultrasonography shows no abnormalities. Which of the following is the most appropriate next step in management?",
+  "options": {
+    "A": "Exercise and weight reduction program",
+    "B": "Measurement of urine catecholamine concentrations",
+    "C": "Measurement of urine corticosteroid concentrations",
+    "D": "Captopril therapy"
+  },
+  "analysis": [
+    "Step 1: The patient presents with persistently elevated blood pressures (BP) over several months, despite being asymptomatic and having no significant medical history beyond a past UTI. The BP readings suggest hypertension, but the etiology needs clarification. Given her age and lack of comorbidities, primary hypertension is less likely compared to secondary causes such as renal parenchymal disease or endocrine disorders.",
+    "Step 2: The urinalysis and cardiac/renal ultrasounds were unremarkable, ruling out common secondary causes like renal parenchymal disease or adrenal gland dysfunction. Therefore, we need to consider other possibilities that might explain her hypertension.",
+    "Step 3: Measurement of urine catecholamine concentrations could be useful if there's suspicion of pheochromocytoma, a rare cause of secondary hypertension. However, given the absence of symptoms like headaches, palpitations, or sweating, this seems unlikely.",
+    "Step 4: Measurement of urine corticosteroid concentrations can help identify adrenal insufficiency or Cushing\u2019s syndrome, both potential causes of secondary hypertension. However, the normal hematocrit suggests normovolemia, making adrenal insufficiency less likely unless there's evidence of chronic illness not mentioned.",
+    "Step 5: Considering the patient's age and growth parameters, it's important to evaluate whether obesity plays a role. Being at the 95th percentile for weight while only at the 50th percentile for height suggests some degree of overweightness, which can contribute significantly to pediatric hypertension.",
+    "Step 6: An exercise and weight reduction program addresses lifestyle factors that may be contributing to her hypertension. This approach is non-invasive and can potentially manage her condition effectively through behavioral changes rather than pharmacological intervention.",
+    "Step 7: Captopril therapy would be an option if hypertension persists despite lifestyle modifications, but it should be considered as a second-line treatment due to its side effects and cost.\n\nConclusion: Based on the information provided and the sequential evaluation of options, the most appropriate next step is to initiate an exercise and weight reduction program to address potential lifestyle-related factors contributing to her hypertension."
+  ],
+  "solution": "Choice_A",
+  "ground_truth": "A"
+}

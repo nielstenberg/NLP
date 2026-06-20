@@ -1,0 +1,21 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "shared",
+  "subject": "College Medicine",
+  "question_index": 736,
+  "question_uuid": "acef6cea-7c9b-4677-ac0f-960252a99ffd",
+  "question": "The proportion of genes shared by first cousins is on average ___.",
+  "options": {
+    "A": "1.0/2",
+    "B": "1.0/4",
+    "C": "1.0/8",
+    "D": "1.0/16"
+  },
+  "analysis": [
+    "Step 1: First cousins share grandparents but not parents, so they are half-siblings genetically speaking. This means that on average, they share about 1/8th of their DNA because each parent contributes one-half of their genetic material, and since only one set of grandparents is shared between them, it results in sharing approximately 1/8th of their genes.",
+    "Step 2: Let's analyze the options provided: - Choice_A: 1.0/2 suggests a 50% chance of sharing genes, which is incorrect as first cousins do not share such a high percentage of their genes.\n- Choice_B: 1.0/4 indicates a 25% chance of sharing genes, which also does not match the correct genetic relationship between first cousins.\n- Choice_C: 1.0/8 corresponds to the actual genetic probability where first cousins share roughly 12.5% (or 1/8) of their genes due to having one set of grandparents in common.\n- Choice_D: 1.0/16 implies a lower genetic overlap than what is typical for first cousins, making it an incorrect answer.",
+    "Step n: After evaluating all the options, we can conclude that the accurate representation of the proportion of genes shared by first cousins is 1.0/8."
+  ],
+  "solution": "Choice_C",
+  "ground_truth": "C"
+}

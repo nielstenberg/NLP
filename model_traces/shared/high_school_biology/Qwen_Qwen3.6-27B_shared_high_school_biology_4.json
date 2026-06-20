@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "shared",
+  "subject": "High School Biology",
+  "question_index": 150,
+  "question_uuid": "e313dea2-4133-421a-90a8-a334a3bce247",
+  "question": "Mutation of homeotic cluster genes often results in which of the following developmental defects in Drosophila?",
+  "options": {
+    "A": "Absence of a group of contiguous segments",
+    "B": "Transformation of one segment into another",
+    "C": "Polarity defects in every segment along the anterior-posterior axis",
+    "D": "Tumor formation in imaginal discs"
+  },
+  "analysis": [
+    "Step 1: Evaluate Choice A. The absence of contiguous segments is a hallmark of mutations in gap genes, which define broad regional boundaries during early embryogenesis, not homeotic genes. Therefore, Choice A is incorrect.",
+    "Step 2: Evaluate Choice B. Homeotic (Hox) cluster genes encode transcription factors that specify the unique identity of each body segment along the anterior-posterior axis. When mutated, these genes cause one segment to develop the structures normally characteristic of a different segment, such as legs replacing antennae (Antennapedia) or halteres becoming wings (Bithorax). This precisely matches Choice B, making it correct.",
+    "Step 3: Evaluate Choice C. Polarity defects within individual segments are caused by mutations in segment polarity genes (e.g., engrailed, wingless), which maintain the internal anterior-posterior organization of already-formed segments. These operate downstream of homeotic genes and represent a separate genetic class, so Choice C is incorrect.",
+    "Step 4: Evaluate Choice D. Tumor formation in imaginal discs arises from disruptions in cell proliferation control, apoptosis, or tissue boundary maintenance (often involving tumor suppressors or oncogenes), not from homeotic gene dysfunction. Homeotic genes govern differentiation and segment identity rather than uncontrolled cell division, making Choice D incorrect.",
+    "Step 5: Conclude the analysis. Systematic evaluation confirms that only Choice B aligns with the established biological function of homeotic cluster genes in Drosophila. Their mutations consistently produce homeotic transformations where one segment adopts the morphological fate of another, definitively identifying Choice B as the correct answer."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "B"
+}

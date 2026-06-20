@@ -1,0 +1,21 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "independent",
+  "subject": "College Biology",
+  "question_index": 87,
+  "question_uuid": "1d01aa5b-978c-4d2d-8584-460ac223f114",
+  "question": "You are told that in a population of guinea pigs, 4 percent are black (recessive) and 96 percent are brown. Which of the following is the frequency of the heterozygous condition?",
+  "options": {
+    "A": "16 percent",
+    "B": "32 percent",
+    "C": "40 percent",
+    "D": "48 percent"
+  },
+  "analysis": [
+    "Step 1: Let's start by understanding the given information. We know that 4% of the guinea pig population is black, which is the recessive trait denoted as 'bb'. The remaining 96% must be either homozygous dominant ('BB') or heterozygous ('Bb'). Since we're dealing with a simple monohybrid cross where B represents the dominant allele and b represents the recessive allele, we can use the Hardy-Weinberg principle.\n\nAccording to the Hardy-Weinberg equation, \\( p^2 + 2pq + q^2 = 1 \\), where: - \\( p \\) is the frequency of the dominant allele,\n- \\( q \\) is the frequency of the recessive allele,\n- \\( p^2 \\) is the frequency of the homozygous dominant genotype,\n- \\( 2pq \\) is the frequency of the heterozygous genotype,\n- \\( q^2 \\) is the frequency of the homozygous recessive genotype.\n\nGiven that 4% of the population is black (bb), \\( q^2 = 0.04 \\). Therefore, \\( q = \\sqrt{0.04} = 0.2 \\).\n\nSince \\( p + q = 1 \\), we find \\( p \\): \\[ p = 1 - q = 1 - 0.2 = 0.8 \\]\n\nNow, let\u2019s calculate the frequencies using these values: - Frequency of BB (\\( p^2 \\)): \\( 0.8^2 = 0.64 \\)\n- Frequency of Bb (\\( 2pq \\)): \\( 2 \\times 0.8 \\times 0.2 = 0.32 \\)\n\nSo, the frequency of the heterozygous condition (Bb) is 32%.",
+    "Step 2: Now, let's analyze the provided choices against our calculated value: - Choice_A: 16%\n- Choice_B: 32%\n- Choice_C: 40%\n- Choice_D: 48%\n\nOur calculation shows that the frequency of the heterozygous condition is 32%, matching Choice_B.",
+    "Step n: Based on the calculations and the analysis of the choices, the correct answer is clearly indicated by Choice_B."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "B"
+}

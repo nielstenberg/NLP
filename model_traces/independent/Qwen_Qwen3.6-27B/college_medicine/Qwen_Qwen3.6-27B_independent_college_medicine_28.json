@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 499,
+  "question_uuid": "99377f31-c5e0-4e46-be6d-d8a8a974baf7",
+  "question": "A 19-year-old Asian female college student comes to the university health center because of a 1-week history of nasal stuffiness, occasional clear rhinorrhea, and a mild sore throat. Two days ago, she began to feel hot, but she has not taken her temperature. Medical history is unremarkable and her only medication is an oral contraceptive. She has no history of allergies. She does not smoke cigarettes. BMI is 22 kg/m2 . Vital signs are temperature 38.1\u00b0C (100.6\u00b0F), pulse 88/min, respirations 16/min, and blood pressure 116/74 mm Hg. Physical examination discloses tenderness over the left maxillary sinus without purulent drainage. There is clear fluid behind the left tympanic membrane, enlarged tonsils bilaterally, and pain with tapping of the left upper incisors. Left frontal sinus does not transilluminate. Cardiopulmonary examination discloses no abnormalities. Which of the following is the most likely underlying mechanism of this patient's sinusitis?",
+  "options": {
+    "A": "Eustachian tube dysfunction",
+    "B": "Mucosal edema",
+    "C": "Nasal polyps",
+    "D": "Oral contraceptive use"
+  },
+  "analysis": [
+    "Step 1: Evaluate Choice A (Eustachian tube dysfunction): Although clear fluid behind the tympanic membrane confirms Eustachian tube dysfunction, this is a secondary complication resulting from contiguous nasopharyngeal inflammation rather than the primary pathogenic mechanism initiating the sinusitis.",
+    "Step 2: Evaluate Choice B (Mucosal edema): Acute rhinosinusitis fundamentally occurs when viral or inflammatory stimuli provoke marked mucosal edema and hypersecretion, which physically obstructs the narrow sinus ostia, impairs mucociliary clearance and ventilation, and directly explains the patient's facial tenderness, absent transillumination, and referred maxillary dental pain.",
+    "Step 3: Evaluate Choice C (Nasal polyps): Nasal polyps are chronic, progressive inflammatory growths typically linked to longstanding allergic rhinitis, aspirin-exacerbated respiratory disease, or cystic fibrosis, making them highly improbable in a young patient with an acute one-week symptom duration and no atopic history.",
+    "Step 4: Evaluate Choice D (Oral contraceptive use): Hormonal contraception has no established pathophysiological relationship with sinonasal inflammation or acute rhinosinusitis, rendering this medication completely irrelevant to the development of this patient's condition.",
+    "Step 5: Jointly evaluate all candidates to determine the correct answer: Since Eustachian tube dysfunction is a downstream sequela, nasal polyps represent a chronic unrelated pathology, and oral contraceptives are clinically irrelevant, mucosal edema stands as the direct and primary mechanistic driver of ostial obstruction and subsequent acute sinusitis in this clinical scenario."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "B"
+}

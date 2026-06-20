@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "shared",
+  "subject": "College Medicine",
+  "question_index": 769,
+  "question_uuid": "5c97dbfc-932f-455a-a320-a6de0d8647da",
+  "question": "A 44-year-old female presents to the office for evaluation of a lump on her neck that she noted 1\u00a0week ago. She denies any tenderness, fever, weight loss, or fatigue. Physical examination reveals a\u00a02-cm\u00a0freely movable mass in the lower left lobe of the thyroid. In addition to thyroid-stimulating hormone and free thyroxine levels, the most appropriate initial method to investigate this lesion is",
+  "options": {
+    "A": "a nuclear thyroid scan",
+    "B": "an iodine131\u00a0scan",
+    "C": "fine-needle aspiration",
+    "D": "ultrasonography of the thyroid gland"
+  },
+  "analysis": [
+    "Step 1: Choice A proposes a nuclear thyroid scan, which evaluates functional activity using radioisotopes; however, this test is strictly reserved for patients with a confirmed suppressed TSH to distinguish hyperfunctioning from non-functioning nodules, making it inappropriate as the initial diagnostic step when baseline labs are still pending.",
+    "Step 2: Choice B suggests an iodine-131 scan, which operates on the same physiological principle as Choice A by tracking radioactive iodine uptake; like nuclear scanning, it lacks high-resolution anatomical detail and is only indicated after abnormal TSH results, disqualifying it as a primary investigative tool.",
+    "Step 3: Choice C recommends fine-needle aspiration, which provides definitive cytological diagnosis; nonetheless, contemporary clinical guidelines mandate that FNA should never be performed empirically but must instead be guided by prior imaging to target specific suspicious regions and apply standardized size and risk-stratification criteria.",
+    "Step 4: Choice D advocates for ultrasonography of the thyroid gland, which is universally established as the first-line imaging modality for newly identified thyroid masses due to its ability to precisely measure dimensions, differentiate solid from cystic components, detect microcalcifications, assess capsular integrity, and generate a validated risk score without radiation exposure.",
+    "Step 5: Synthesizing the sequential evaluations confirms that while nuclear scans and FNA serve essential downstream purposes contingent on biochemical and sonographic findings, ultrasonography remains the mandatory initial investigative step to architecturally characterize the lesion and objectively determine whether further functional testing or tissue sampling is warranted."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 493,
+  "question_uuid": "3b2927ca-1395-437a-89e8-0f57cd29a236",
+  "question": "A 44-year-old woman with a 10-year history of arthritis comes to the office because she has had increasing pain and stiffness in her hands, wrists, and knees during the past several months. She also has had increasing fatigue for the past month, along with a weight loss of 1.8 to 2.2 kg (4 to 5 lb). She has seen numerous physicians for her arthritis in the past and has tried various medications and devices, including copper bracelets from Mexico given to her by friends. Review of her medical records confirms that the initial diagnosis of rheumatoid arthritis is correct. She says, \"I had several drop attacks during the past 3 months.\" She characterizes these attacks as episodes of weakness and loss of feeling in her legs for several minutes. During one of these episodes, she became incontinent. She currently takes aspirin approximately four times daily and ibuprofen occasionally. Physical examination shows facial plethora and swollen and painful metacarpophalangeal and knee joints, bilaterally. There is moderate ulnar deviation of the fingers. The remainder of the examination discloses no abnormalities. Which of the following is the most likely cause of her \"drop attacks?\"",
+  "options": {
+    "A": "Adrenal insufficiency",
+    "B": "Anxiety",
+    "C": "Atlanto-axial instability",
+    "D": "Cardiac arrhythmia"
+  },
+  "analysis": [
+    "Step 1: Choice A (Adrenal insufficiency) is incorrect because while it can cause fatigue and weight loss, it typically presents with hypotension, hyperpigmentation, hyponatremia, and hyperkalemia, none of which are described; furthermore, adrenal insufficiency does not cause episodic lower extremity weakness, sensory loss, or urinary incontinence, and facial plethora directly contradicts its classic mucocutaneous findings.",
+    "Step 2: Choice B (Anxiety) is incorrect because although psychological conditions can produce subjective sensations of weakness or paresthesias, they cannot generate objective neurological deficits such as true sensory loss or urinary incontinence, nor do they correlate with the patient's confirmed progressive rheumatoid arthritis and structural joint deformities.",
+    "Step 3: Choice C (Atlanto-axial instability) is correct because long-standing rheumatoid arthritis frequently causes inflammatory destruction of the transverse ligament of the atlas and pannus formation, leading to C1-on-C2 subluxation; this cervical spinal cord compression classically manifests as myelopathic symptoms, including episodic leg weakness, bilateral sensory changes, bowel/bladder dysfunction, and sudden \"drop attacks\" caused by transient cord ischemia or mechanical impingement, perfectly aligning with the patient's clinical presentation.",
+    "Step 4: Choice D (Cardiac arrhythmia) is incorrect because while arrhythmias can precipitate syncope or falls via reduced cerebral perfusion, they do not account for the concurrent focal neurological signs like bilateral leg sensory loss or incontinence, and the physical examination explicitly notes no cardiovascular abnormalities to support this etiology.",
+    "Step 5: After sequentially evaluating all candidates, only atlanto-axial instability provides a coherent pathophysiological link between the patient's decade-long rheumatoid arthritis, characteristic ulnar drift, and specific neurological episodes (transient weakness, sensory loss, and incontinence); thus, it is definitively the most likely cause of her drop attacks."
+  ],
+  "solution": "Choice_C",
+  "ground_truth": "C"
+}

@@ -1,0 +1,23 @@
+{
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "mode": "shared",
+  "subject": "College Biology",
+  "question_index": 627,
+  "question_uuid": "3b753001-5508-4b19-be5f-3cd99ba32f7e",
+  "question": "Heterozygote advantage should be most closely linked to which of the following?",
+  "options": {
+    "A": "sexual selection",
+    "B": "stabilizing selection",
+    "C": "random selection",
+    "D": "directional selection"
+  },
+  "analysis": [
+    "Step 1: Heterozygote advantage refers to the phenomenon where individuals that are heterozygous for a gene have a higher fitness or survival rate compared to those who are homozygous for the gene. This concept is closely related to the idea of sexual selection, which involves the choice of mates based on certain traits, such as color, size, or other characteristics. In the context of heterozygote advantage, sexual selection can drive the maintenance of genetic variation by favoring individuals with certain traits that are linked to the heterozygous state.",
+    "Step 2: Stabilizing selection, on the other hand, is a type of selection that acts to reduce genetic variation by favoring individuals with intermediate traits. This type of selection does not necessarily involve heterozygote advantage, as it does not specifically favor individuals with heterozygous genotypes over those with homozygous genotypes.",
+    "Step 3: Random selection is not a type of selection that acts on genetic variation, as it does not involve any bias or preference for certain traits or genotypes. Instead, it is a neutral process that does not influence the frequency of alleles in a population.",
+    "Step 4: Directional selection is a type of selection that acts to change the frequency of alleles in a population by favoring individuals with one particular trait over another. This type of selection does not necessarily involve heterozygote advantage, as it can act on both homozygous and heterozygous genotypes.",
+    "Step 5: Considering the above explanations, the concept of heterozygote advantage is most closely linked to sexual selection, as it involves the choice of mates based on certain traits that are linked to the heterozygous state. This type of selection can drive the maintenance of genetic variation by favoring individuals with certain traits that are linked to the heterozygous state."
+  ],
+  "solution": "Choice_A",
+  "ground_truth": "B"
+}

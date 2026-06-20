@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "shared",
+  "subject": "College Biology",
+  "question_index": 180,
+  "question_uuid": "9c9510e9-580a-4962-882c-3db53d715f78",
+  "question": "Of the following anatomical structures, which is homologous to the wing of a bird?",
+  "options": {
+    "A": "Dorsal fin of a shark",
+    "B": "Hindlimb of a kangaroo",
+    "C": "Wing of a butterfly",
+    "D": "Flipper of a cetacean"
+  },
+  "analysis": [
+    "Step 1: The dorsal fin of a shark is an appendage that serves primarily as a stabilizer and provides support for the shark's body while swimming. It is derived from the same ancestral structure as the pectoral fins and is not homologous to the wing of a bird because it does not share the same function or evolutionary history. Therefore, the dorsal fin of a shark can be ruled out as a homologous structure to the wing of a bird.",
+    "Step 2: The hindlimb of a kangaroo is a complex structure used for locomotion and support. While it shares some similarities with the forelimbs of other mammals due to common ancestry, it has been modified for a specific function (jumping) and is not homologous to the wing of a bird. Thus, the hindlimb of a kangaroo cannot be considered a homologous structure to the wing of a bird.",
+    "Step 3: The wing of a butterfly is a highly specialized appendage used for flight. Although it shares some structural similarities with the wings of birds due to convergent evolution, it is not homologous to the wing of a bird. The butterfly's wing evolved independently from the bird's wing and serves a different function, making it a case of analogous rather than homologous structures.",
+    "Step 4: The flipper of a cetacean is a modified forelimb used for swimming and is homologous to the forelimbs of other mammals. However, like the wings of a butterfly, it is an example of analogous evolution rather than homology, as it evolved independently from the wing of a bird.",
+    "Step 5: The wing of a bird is a highly specialized appendage that evolved from the forelimbs of their dinosaur ancestors. It is homologous to the forelimbs of other vertebrates, including those of mammals, but not to the fins of fish or the limbs of insects. Among the given choices, the flipper of a cetacean is the most closely related to the wing of a bird in terms of evolutionary history and function, making it the best candidate for being homologous to the wing of a bird."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

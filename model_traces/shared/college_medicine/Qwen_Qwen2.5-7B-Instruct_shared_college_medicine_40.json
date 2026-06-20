@@ -1,0 +1,25 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "shared",
+  "subject": "College Medicine",
+  "question_index": 718,
+  "question_uuid": "60abe587-152d-4eee-9885-7484deda911c",
+  "question": "A 37-year-old man comes to the emergency department because he has felt nauseated and light-headed for the past hour. Medical history is significant for esophageal varices secondary to alcohol-related cirrhosis and ascites treated with spironolactone. He drinks eight to ten alcoholic beverages daily. While you are obtaining additional history, the patient vomits a large volume of bright red blood and becomes difficult to arouse. Vital signs are temperature 36.0\u00b0C (96.8\u00b0F), pulse 110/min, respirations 12/min, and blood pressure 90/50 mm Hg. Following initiation of intravenous fluids, which of the following is the most appropriate immediate management?",
+  "options": {
+    "A": "Arrange for transjugular intrahepatic portal vein shunting",
+    "B": "Begin intravenous vasopressin therapy",
+    "C": "Do endotracheal intubation",
+    "D": "Do upper endoscopy"
+  },
+  "analysis": [
+    "Step 1: The patient presents with symptoms consistent with gastrointestinal bleeding, specifically hematemesis (vomiting blood). Given his medical history of esophageal varices due to alcohol-related cirrhosis, the most likely cause of the bleeding is rupture of these varices. The patient's current condition, including nausea, lightheadedness, and now vomiting bright red blood, along with hypotension, suggests active hemorrhage.",
+    "Step 2: The patient\u2019s vital signs indicate shock, with a low blood pressure of 90/50 mm Hg. Immediate stabilization is crucial before considering further diagnostic or therapeutic interventions. Intravenous fluids should be administered promptly to correct hypovolemia and stabilize the patient.",
+    "Step 3: Considering the urgency of the situation and the need for rapid intervention, endotracheal intubation might be necessary if the patient becomes unresponsive or if there is concern about airway protection during the procedure that will follow. However, given the immediate need to control the bleeding, this may not be the highest priority at this moment unless the patient is already compromised.",
+    "Step 4: Transjugular intrahepatic portosystemic shunt (TIPS) is a long-term treatment used to reduce portal hypertension but is not indicated as an initial response to acute variceal bleeding. It would be too late for TIPS in this scenario since the bleeding needs to be controlled immediately.",
+    "Step 5: Vasopressin therapy can help reduce portal pressure and decrease bleeding from esophageal varices. However, it typically takes time to prepare and administer, and its effects are not immediate enough to manage severe ongoing hemorrhage effectively.",
+    "Step 6: Upper endoscopy is the gold standard for both diagnosis and immediate treatment of variceal bleeding. It allows direct visualization of the source of bleeding and can enable procedures such as banding or sclerotherapy to stop the bleeding rapidly. Since the patient is currently unstable and showing signs of active bleeding, performing an upper endoscopy while managing the patient\u2019s hemodynamic status is critical.",
+    "Step 7: In summary, while all options have their place in the management of esophageal variceal bleeding, the most urgent and effective immediate action is to perform upper endoscopy to identify and treat the source of bleeding."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "C"
+}

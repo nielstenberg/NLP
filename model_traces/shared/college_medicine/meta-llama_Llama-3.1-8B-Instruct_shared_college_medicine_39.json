@@ -1,0 +1,23 @@
+{
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "mode": "shared",
+  "subject": "College Medicine",
+  "question_index": 466,
+  "question_uuid": "d15b2979-f137-4e85-8900-e53ceb1e8c53",
+  "question": "Which of the following conditions shows anticipation in paternal transmission?",
+  "options": {
+    "A": "Huntington disease",
+    "B": "Marfan syndrome",
+    "C": "Cystic fibrosis",
+    "D": "Fragile X syndrome"
+  },
+  "analysis": [
+    "Step 1: Huntington disease is an autosomal dominant disorder characterized by progressive motor dysfunction, cognitive decline, and psychiatric symptoms. It is caused by an expansion of a CAG repeat in the Huntingtin gene. This expansion leads to anticipation, where the age of onset decreases with each successive generation.",
+    "Step 2: Marfan syndrome is another genetic disorder that affects the body's connective tissue. It is inherited in an autosomal dominant pattern but does not exhibit anticipation due to its non-repetitive mutation mechanism.",
+    "Step 3: Cystic fibrosis is a genetic disorder affecting the respiratory, digestive, and reproductive systems. It is caused by mutations in the CFTR gene, primarily involving deletions or nonsense mutations rather than expansions of repetitive sequences.",
+    "Step 4: Fragile X syndrome is a genetic condition causing intellectual disability, behavioral and learning challenges, and various physical characteristics. It results from an expansion of CGG repeats in the FMR1 gene, leading to anticipation as the number of repeats increases, particularly in paternal transmissions.",
+    "Step 5: Considering the characteristics of each condition, only one exhibits anticipation specifically in paternal transmission due to the nature of its causative mutation."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "A"
+}

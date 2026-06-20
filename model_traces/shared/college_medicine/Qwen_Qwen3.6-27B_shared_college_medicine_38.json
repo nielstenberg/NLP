@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "shared",
+  "subject": "College Medicine",
+  "question_index": 235,
+  "question_uuid": "4540d016-686f-4ef6-91fb-e91b46dbadc7",
+  "question": "A 7-year-old male is brought to the office for evaluation of school problems. The mother says that the teacher has told her that the patient is inattentive, has difficulty following sequential instructions, and often seems to drift off to sleep during class. A polysomnogram reveals obstructive sleep apnea. The most appropriate management is",
+  "options": {
+    "A": "elevation of the head of the bed",
+    "B": "heart rate and apnea monitoring",
+    "C": "imipramine",
+    "D": "surgical evaluation"
+  },
+  "analysis": [
+    "Step 1: Evaluating Choice A, elevating the head of the bed is occasionally suggested for mild adult OSA or gastroesophageal reflux, but it does not relieve the fixed upper airway obstruction typical in pediatric patients and lacks evidence as a primary or definitive management strategy.",
+    "Step 2: Evaluating Choice B, home heart rate and apnea monitors are designed exclusively for infants at high risk of sudden infant death syndrome (SIDS) or for tracking central apneic events; they offer no therapeutic benefit for a school-aged child with already polysomnographically confirmed obstructive sleep apnea.",
+    "Step 3: Evaluating Choice C, imipramine is a tricyclic antidepressant that carries a high risk of cardiotoxicity and fatal arrhythmias in children, and it has absolutely no physiological mechanism or clinical indication for treating upper airway obstruction in OSA.",
+    "Step 4: Evaluating Choice D, surgical evaluation is the standard of care because adenotonsillar hypertrophy is the predominant etiology of pediatric OSA in children aged 2\u20138 years, and adenotonsillectomy reliably restores airway patency while resolving daytime somnolence, cognitive deficits, and behavioral complaints.",
+    "Step 5: Jointly reviewing all candidates, conservative positioning fails to address the mechanical blockage, monitoring devices are diagnostically redundant and therapeutically useless, and pharmacotherapy is contraindicated; therefore, referring the patient for surgical evaluation directly targets the underlying pathophysiology and aligns with established pediatric guidelines, making it the definitive correct choice."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

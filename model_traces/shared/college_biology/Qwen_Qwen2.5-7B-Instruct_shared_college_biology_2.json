@@ -1,0 +1,22 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "shared",
+  "subject": "College Biology",
+  "question_index": 3,
+  "question_uuid": "5d2d4205-2067-4d4f-becc-3a19e1437bc9",
+  "question": "All of the following support the endosymbiotic theory that ancestors of mitochondria and chloroplasts were once independent, free-living prokaryotes EXCEPT:",
+  "options": {
+    "A": "Mitochondria and chloroplasts divide independently of the eukaryotic host cell by a process similar to binary fission.",
+    "B": "Mitochondria and chloroplasts have ribosomes that more closely resemble those of bacteria than of eukaryotic cells.",
+    "C": "Mitochondria and chloroplasts function independently from the eukaryotic host cell.",
+    "D": "Mitochondria, chloroplasts, and bacteria have a single, circular chromosome without histones or proteins."
+  },
+  "analysis": [
+    "Step 1: The endosymbiotic theory suggests that mitochondria and chloroplasts originated as independent prokaryotic organisms that were engulfed by a eukaryotic cell and eventually became symbiotic. Mitochondria and chloroplasts do indeed divide independently through processes similar to binary fission, making Choice_A consistent with the theory.",
+    "Step 2: Choice_B aligns with the theory because the ribosomes found in mitochondria and chloroplasts are structurally and chemically similar to bacterial ribosomes, supporting their prokaryotic origin.",
+    "Step 3: Choice_C is also consistent with the endosymbiotic theory since it indicates that these organelles can function independently of the host cell, performing essential metabolic functions such as ATP production (in mitochondria) and photosynthesis (in chloroplasts).",
+    "Step 4: Choice_D states that mitochondria, chloroplasts, and bacteria all have a single, circular chromosome without histones or proteins. While this is true for bacteria and mitochondria, chloroplasts typically contain multiple linear chromosomes rather than a single circular one. This makes Choice_D inconsistent with the endosymbiotic theory and the nature of chloroplasts."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "C"
+}

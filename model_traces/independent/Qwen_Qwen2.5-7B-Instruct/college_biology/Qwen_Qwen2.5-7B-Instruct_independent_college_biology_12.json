@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "independent",
+  "subject": "College Biology",
+  "question_index": 189,
+  "question_uuid": "21e2dca6-f1ea-44fd-9f6d-732fb095db1a",
+  "question": "A man contracts the same flu strain for the second time in a single winter season. The second time he experiences fewer symptoms and recovers more quickly. Which cells are responsible for this rapid recovery?",
+  "options": {
+    "A": "Helper T cells",
+    "B": "Cytotoxic T cells",
+    "C": "Memory cells",
+    "D": "Plasma cells"
+  },
+  "analysis": [
+    "Step 1: Helper T cells play a crucial role in the immune response by helping B cells produce antibodies and coordinating the activities of other immune cells. However, they do not directly contribute to the rapid recovery seen in the scenario where the man experiences fewer symptoms and recovers faster during his second exposure to the same flu strain.",
+    "Step 2: Cytotoxic T cells can kill virus-infected cells but do not directly lead to the rapid recovery observed in the scenario. Their primary function is to eliminate cells that have been infected by viruses rather than providing immediate relief from viral symptoms.",
+    "Step 3: Memory cells are generated after an initial infection with a pathogen and remain in the body long-term. When the same pathogen re-enters the body, these memory cells can rapidly respond, leading to a quicker and less severe illness. This aligns with the scenario described, where the man experiences fewer symptoms and recovers more quickly upon his second exposure to the same flu strain.",
+    "Step 4: Plasma cells produce antibodies specific to the antigen causing the infection. While important for the immune response, their production does not directly result in the rapid recovery experienced by the individual in question.",
+    "Step 5: Considering all the roles of the different cell types discussed above, it is clear that the cells primarily responsible for the rapid recovery in the scenario are the memory cells. They provide a faster and more efficient immune response when the same pathogen is encountered again."
+  ],
+  "solution": "Choice_C",
+  "ground_truth": "C"
+}

@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "shared",
+  "subject": "College Medicine",
+  "question_index": 65,
+  "question_uuid": "d3880cbf-0dfe-4931-8fb8-45b2972342a6",
+  "question": "A 22-year-old male presents to the office with a\u00a05-day\u00a0history of diarrhea after completing his third course of antibiotics for mastoiditis. Physical examination reveals vague generalized abdominal pain on palpation. Culture on hektoen enteric agar is positive. The most likely etiologic agent causing the diarrhea is",
+  "options": {
+    "A": "Clostridium difficile",
+    "B": "Entamoeba histolytica",
+    "C": "Giardia lamblia",
+    "D": "Salmonella typhi"
+  },
+  "analysis": [
+    "Step 1: The patient's history of recent antibiotic use suggests that the cause of the diarrhea could be antibiotic-associated colitis, commonly caused by Clostridium difficile (Choice_A). Antibiotics can disrupt the normal gut flora, allowing C. difficile spores to germinate and produce toxins leading to inflammation and diarrhea.",
+    "Step 2: Entamoeba histolytica (Choice_B) typically causes amoebiasis characterized by bloody diarrhea, fever, and abdominal pain but is less common as an isolated cause of antibiotic-associated diarrhea compared to C. difficile.",
+    "Step 3: Giardia lamblia (Choice_C) usually results in giardiasis, presenting with watery, pale stools, bloating, and flatulence rather than the more severe symptoms seen in this case.",
+    "Step 4: Salmonella typhi (Choice_D) causes typhoid fever, not typically associated with antibiotic use and would present with systemic symptoms like high fever, rash, and hepatosplenomegaly rather than just diarrhea.",
+    "Step n: Considering the clinical presentation, recent antibiotic use, and the culture result on hektoen enteric agar, the most likely etiologic agent causing the diarrhea is Clostridium difficile (Choice_A)."
+  ],
+  "solution": "Choice_A",
+  "ground_truth": "D"
+}

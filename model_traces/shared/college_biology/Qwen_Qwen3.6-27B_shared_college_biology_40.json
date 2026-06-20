@@ -1,0 +1,24 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "shared",
+  "subject": "College Biology",
+  "question_index": 369,
+  "question_uuid": "4c87708e-c747-4197-925d-d1d1249ff67b",
+  "question": "A certain species of land snail exists as either a cream color or a solid brown color. Intermediate individuals are relatively rare. Which of the following terms best describes this?",
+  "options": {
+    "A": "artificial selection",
+    "B": "directional selection",
+    "C": "stabilizing selection",
+    "D": "disruptive selection"
+  },
+  "analysis": [
+    "Step 1: Analyze the phenotypic distribution described in the question. The population consists primarily of two extreme phenotypes (cream color and solid brown color), while intermediate phenotypes are rare. This indicates that individuals with average or mixed traits have lower fitness compared to those at either extreme.",
+    "Step 2: Evaluate Choice A (artificial selection). Artificial selection refers to humans intentionally breeding organisms for specific desirable traits. While it can lead to distinct varieties, the term does not describe the natural evolutionary pressure causing a bimodal distribution in a wild population; therefore, this is incorrect.",
+    "Step 3: Evaluate Choice B (directional selection). Directional selection occurs when environmental conditions favor one extreme phenotype over others, causing the population's trait distribution to shift toward that single extreme. Since the scenario favors both extremes rather than just one, this is incorrect.",
+    "Step 4: Evaluate Choice C (stabilizing selection). Stabilizing selection favors intermediate variants and acts against extreme phenotypes, reducing variation and maintaining the status quo. In this case, intermediates are rare, which is the opposite of what stabilizing selection produces; therefore, this is incorrect.",
+    "Step 5: Evaluate Choice D (disruptive selection). Disruptive selection favors individuals at both extremes of the phenotypic range over individuals with intermediate traits. This leads to a bimodal distribution where the mean value is selected against, matching the description of common cream/brown snails and rare intermediates. Therefore, this is the correct term.",
+    "Step 6: Conclude the analysis. Based on the definitions of natural selection types, the pattern where extreme phenotypes are favored and intermediate ones are selected against is defined as disruptive selection. Thus, Choice D is the correct answer."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

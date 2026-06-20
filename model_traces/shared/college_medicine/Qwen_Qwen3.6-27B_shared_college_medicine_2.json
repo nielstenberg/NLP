@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "shared",
+  "subject": "College Medicine",
+  "question_index": 194,
+  "question_uuid": "7aea5ee8-9aec-4bd1-820d-9ee6ce1e595b",
+  "question": "A scientist using mouse models to determine the response of blood hormones to large levels of glucose in the body discovers a new hormone not previously described. According to his data, this hormone is found both inside and out of cells when carrying out its function, increase the amount of nucleic acid in the cell while functioning, and are derived from a structure containing four hydroxycarbon rings. This will likely be categorized as which type of hormone?",
+  "options": {
+    "A": "Enzymatic",
+    "B": "Steroid",
+    "C": "Peptide",
+    "D": "Amino acid"
+  },
+  "analysis": [
+    "Step 1: Evaluate Choice A (Enzymatic): Hormones function primarily as intercellular chemical messengers rather than metabolic catalysts, and enzymatic proteins do not possess a characteristic four-ring hydrocarbon backbone. Furthermore, enzymes typically catalyze reactions at specific active sites rather than translocating into the nucleus to directly modulate nucleic acid synthesis, making this classification inconsistent with the observed data.",
+    "Step 2: Evaluate Choice B (Steroid): The structural descriptor \"derived from a structure containing four hydroxycarbon rings\" precisely matches the cyclopentanoperhydrophenanthrene nucleus universal to all steroid hormones. Because steroids are highly lipophilic, they readily diffuse across the phospholipid bilayer, explaining why they are detected both extracellularly and intracellularly during function. Once inside the cytoplasm or nucleus, they bind to specific nuclear receptors, forming complexes that act as transcription factors to directly upregulate gene expression and increase cellular nucleic acid content, perfectly aligning with all experimental observations.",
+    "Step 3: Evaluate Choice C (Peptide): Peptide hormones are polymers of amino acids linked by peptide bonds, lacking any fused ring structure. Their hydrophilic nature prevents passive diffusion across the cell membrane, restricting their site of action to extracellular membrane-bound receptors that utilize second-messenger cascades rather than direct intracellular nucleic acid modulation. Thus, this choice contradicts the structural and localization data.",
+    "Step 4: Evaluate Choice D (Amino acid): Amino acid-derived hormones (such as catecholamines or thyroid hormones) are modified single amino acids. While thyroid hormones can enter cells, they contain two fused rings, not four, and catecholamines act exclusively at plasma membrane receptors. Neither subclass matches the four-ring structural criterion or the described intracellular genomic mechanism, ruling out this option.",
+    "Step 5: Jointly synthesize and decide: Sequential evaluation demonstrates that only steroid hormones simultaneously satisfy the three defining experimental parameters: a core structure of four fused carbon rings, lipophilic properties enabling free passage across membranes to exist both inside and outside cells, and a mechanism of action involving nuclear receptor binding that directly stimulates transcriptional activity and nucleic acid accumulation. Therefore, the newly identified hormone must be categorized as a steroid hormone."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "B"
+}

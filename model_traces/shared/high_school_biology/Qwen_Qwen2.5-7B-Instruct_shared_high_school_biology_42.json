@@ -1,0 +1,22 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "shared",
+  "subject": "High School Biology",
+  "question_index": 324,
+  "question_uuid": "8e4bdeb3-a700-4d10-ab6e-a6df2f7a5dae",
+  "question": "Which of the following is a benefit that mycorrhizal fungi confer to many plants?",
+  "options": {
+    "A": "They protect plant roots from desiccation in extremely dry habitats.",
+    "B": "They fix nitrogen, which is particularly important for plants in nitrogen-limited habitats.",
+    "C": "They provide access to phosphorus, an essential element that is limited in many kinds of soils.",
+    "D": "They provide carbon to plants in exchange for fixed nitrogen."
+  },
+  "analysis": [
+    "Step 1: Mycorrhizal fungi form symbiotic relationships with plant roots, enhancing their ability to absorb nutrients and water from the soil. This relationship can provide protection against desiccation in dry habitats, making Choice_A plausible.",
+    "Step 2: While some bacteria can fix atmospheric nitrogen into a usable form for plants, mycorrhizal fungi do not have the capability to fix nitrogen. Therefore, Choice_B is incorrect.",
+    "Step 3: Mycorrhizal fungi are known to enhance the uptake of phosphorus by plants, making it more available to them. This is a well-documented benefit of these fungi, making Choice_C correct.",
+    "Step 4: Mycorrhizal fungi do not provide carbon to plants; instead, they receive carbon from the plants as part of the symbiotic relationship. Thus, Choice_D is incorrect."
+  ],
+  "solution": "Choice_C",
+  "ground_truth": "C"
+}

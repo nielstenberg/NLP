@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 460,
+  "question_uuid": "9f31d3cb-7728-49a9-8325-f0eef75e9572",
+  "question": "A transmembrane protein being isolated in the laboratory is found to be composed of four different amino acids in varying quantity. They are, in order of frequency, glycine, tyrosine, arginine, and isoleucine. Of these amino acids, which is most likely to be inside the transmembrane domain?",
+  "options": {
+    "A": "Glycine",
+    "B": "Tyrosine",
+    "C": "Arginine",
+    "D": "Isoleucine"
+  },
+  "analysis": [
+    "Step 1: Analyze Glycine. Glycine has a single hydrogen atom as its side chain, making it extremely small and chemically neutral rather than strongly hydrophobic. Due to its minimal nonpolar surface area, it lacks the thermodynamic driving force needed to stably anchor within the hydrophobic lipid bilayer core.",
+    "Step 2: Analyze Tyrosine. Tyrosine contains an aromatic ring attached to a polar hydroxyl group, giving it amphipathic properties. The polar hydroxyl group favors hydrogen bonding with water or phospholipid head groups, typically restricting tyrosine to the membrane-water interface rather than allowing it to penetrate the nonpolar transmembrane interior.",
+    "Step 3: Analyze Arginine. Arginine carries a positively charged guanidinium side chain at physiological pH. This strong charge results in high hydration energy and extreme hydrophilicity. Inserting a charged residue into the low-dielectric, nonpolar environment of the lipid bilayer is energetically prohibitive, effectively excluding arginine from the transmembrane domain.",
+    "Step 4: Analyze Isoleucine. Isoleucine possesses a branched aliphatic hydrocarbon side chain that is distinctly hydrophobic and nonpolar. This chemical nature enables favorable van der Waals interactions with the fatty acid chains of membrane phospholipids, making it ideally suited for stable integration within the hydrophobic transmembrane region.",
+    "Step 5: Joint evaluation and conclusion. The spatial distribution of amino acids in a transmembrane protein is determined primarily by side chain hydrophobicity, not by overall sequence abundance. Because the transmembrane domain traverses the nonpolar core of the lipid bilayer, only strongly hydrophobic residues can stably occupy this space. Among the four candidates, isoleucine demonstrates the highest hydrophobicity, whereas arginine is charged, tyrosine is amphipathic and interface-localized, and glycine is too small and neutral to drive membrane insertion. Consequently, isoleucine is the most likely to be found inside the transmembrane domain."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

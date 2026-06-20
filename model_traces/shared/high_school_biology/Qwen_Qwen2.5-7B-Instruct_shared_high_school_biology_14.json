@@ -1,0 +1,24 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "shared",
+  "subject": "High School Biology",
+  "question_index": 96,
+  "question_uuid": "cf68a215-bf6b-41ac-86c5-fea2059d9845",
+  "question": "Which of the following is NOT a characteristic of introns?",
+  "options": {
+    "A": "They occur only in eukaryotes.",
+    "B": "They represent noncoding regions.",
+    "C": "They are found interspersed with exons on a region of DNA that codes for a polypeptide chain.",
+    "D": "They are excised from the primary transcript before it gains a 5' cap and a 3' poly(A)tail."
+  },
+  "analysis": [
+    "Step 1: Introns are indeed specific to eukaryotic organisms as they do not exist in prokaryotes. This makes Choice_A correct, but we need to check other options to find the one that is NOT a characteristic of introns.",
+    "Step 2: Introns are noncoding sequences that are spliced out during mRNA processing, making Choice_B also correct as it describes what introns are.",
+    "Step 3: Introns are located within genes and are interspersed with exons, which are coding sequences. This means Choice_C accurately describes where introns are found in relation to exons and coding regions, so it is correct.",
+    "Step 4: During mRNA processing, introns must be removed from the primary transcript before the mRNA gains a 5' cap and a 3' poly(A) tail. This process is called splicing, and Choice_D correctly describes a step in mRNA processing involving introns. Therefore, Choice_D is correct.",
+    "Step 5: After analyzing all choices, it becomes clear that all descriptions provided (A, B, C, and D) are characteristics of introns except for none being incorrect. However, the question asks for the choice that is NOT a characteristic of introns. Since all choices describe valid characteristics, there seems to be an error in the premise of the question itself, but based on the given options, no single choice stands out as incorrect.",
+    "Step n: Given the analysis, the question's premise might be flawed since all choices describe valid characteristics of introns. But if forced to choose based on the provided options, the most misleading or least directly related to the core function of introns would be Choice_A, as it is a defining feature rather than a characteristic of introns themselves."
+  ],
+  "solution": "Choice_A",
+  "ground_truth": "D"
+}

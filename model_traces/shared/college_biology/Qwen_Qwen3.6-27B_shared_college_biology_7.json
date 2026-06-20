@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "shared",
+  "subject": "College Biology",
+  "question_index": 216,
+  "question_uuid": "069f5d90-e4a3-4eb3-b29a-a0d30bf5ca7c",
+  "question": "In general, animal cells differ from plant cells in that animal cells have",
+  "options": {
+    "A": "a cell wall made of cellulose",
+    "B": "lysosomes",
+    "C": "large vacuoles that store water",
+    "D": "centrioles within centrosomes"
+  },
+  "analysis": [
+    "Step 1: Analyze Choice A (a cell wall made of cellulose). Plant cells are characterized by having a rigid cell wall composed primarily of cellulose, which provides structural support and protection. Animal cells lack a cell wall entirely; they only possess a flexible plasma membrane. Therefore, stating that animal cells have a cell wall made of cellulose is factually incorrect.",
+    "Step 2: Analyze Choice B (lysosomes). Lysosomes are membrane-bound organelles containing digestive enzymes responsible for breaking down waste materials and cellular debris. While traditionally taught as being more prominent or exclusive to animal cells, recent research indicates that plant cells also contain lysosome-like structures (such as vacuoles with hydrolytic enzymes) that perform similar functions. Consequently, the presence of lysosomes is not a definitive distinguishing feature where animal cells have them and plant cells strictly do not, making this a less precise answer than other options regarding structural differences.",
+    "Step 3: Analyze Choice C (large vacuoles that store water). Large central vacuoles are a hallmark feature of mature plant cells, occupying up to 90% of the cell's volume and playing a crucial role in maintaining turgor pressure. Animal cells may contain small, temporary vacuoles used for storage or transport, but they do not possess the single, large central vacuole characteristic of plant cells. Thus, claiming animal cells have large vacuoles that store water is incorrect; this is a trait of plant cells.",
+    "Step 4: Analyze Choice D (centrioles within centrosomes). Centrioles are cylindrical structures involved in organizing microtubules during cell division (mitosis and meiosis). They are typically found in pairs within the centrosome in animal cells. Most higher plant cells lack centrioles, relying instead on other microtubule-organizing centers to form the spindle apparatus during cell division. Therefore, the presence of centrioles is a distinct structural difference where animal cells generally have them, while most plant cells do not.",
+    "Step 5: Conclude the analysis by comparing all options. Choice A describes a plant-specific structure. Choice C describes a plant-specific structure. Choice B is ambiguous because both cell types can have lysosomal activity. Choice D correctly identifies a structure (centrioles) that is present in animal cells but absent in most plant cells. Therefore, Choice D is the correct distinction."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "independent",
+  "subject": "High School Biology",
+  "question_index": 192,
+  "question_uuid": "dc9559a4-cc6c-43a3-b634-3d80e8f5b5bb",
+  "question": "Which of the following factors does NOT promote linkage disequilibrium?",
+  "options": {
+    "A": "Asexual reproduction",
+    "B": "Coadapted gene complexes",
+    "C": "Epistasis",
+    "D": "Random mating"
+  },
+  "analysis": [
+    "Step 1: Asexual reproduction involves the production of offspring from a single parent without genetic recombination. This means that the offspring will have exactly the same genetic makeup as the parent, leading to no new combinations of alleles and thus not promoting linkage disequilibrium where two non-allelic genes tend to be inherited together more often than expected if they were assorting independently.",
+    "Step 2: Coadadapted gene complexes refer to groups of genes that are often inherited together because they provide an advantage when present together. This can lead to increased linkage disequilibrium since these genes are likely to be passed down together due to their co-adaptive relationship.",
+    "Step 3: Epistasis refers to the interaction between different genes such that the effect of one gene is dependent upon the presence of one or several other genes. While epistatic interactions can influence how certain traits are expressed, they do not directly affect the frequency with which specific alleles are inherited together, so they do not inherently promote or prevent linkage disequilibrium.",
+    "Step 4: Random mating involves individuals mating randomly based on genotype frequencies rather than being influenced by relatedness or preference. In populations where random mating occurs, linkage disequilibrium tends to decrease over time as there is no preferential inheritance pattern among linked genes.",
+    "Step 5: Considering all options, random mating (Choice_D) is the factor that does NOT promote linkage disequilibrium. It leads to a reduction in linkage disequilibrium by ensuring that allele combinations occur at frequencies proportional to their genotypic frequencies within the population."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

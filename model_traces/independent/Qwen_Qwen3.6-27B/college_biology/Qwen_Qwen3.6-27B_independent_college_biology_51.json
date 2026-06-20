@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "College Biology",
+  "question_index": 348,
+  "question_uuid": "73336008-9edb-4af7-a574-baf17f60b572",
+  "question": "Recently, seasonal dead zones in low-oxygen waters have been occurring annually in the Gulf of Mexico near the mouth of the Mississippi River. The dead zones result from the rapid growth of photosynthetic phytoplankton (algal blooms) and their subsequent decay by oxygen-depleting microbes in the water column. Which of the following factors most likely triggers the algal blooms and the associated dead zones?",
+  "options": {
+    "A": "A decrease in the light level in surface waters as day length starts to shorten after the summer solstice",
+    "B": "Increased predation by marine larvae and other zooplankton during the summer months",
+    "C": "A summer influx of nutrients derived from chemical fertilizers that are high in nitrogen and phosphorus",
+    "D": "Decreased competition from other marine phytoplankton during the summer months"
+  },
+  "analysis": [
+    "Step 1: Evaluating Choice A, a decrease in light intensity after the summer solstice would suppress photosynthetic activity and slow phytoplankton metabolic rates, making it ecologically inconsistent with the initiation of rapid algal blooms.",
+    "Step 2: Evaluating Choice B, increased predation by zooplankton and marine larvae acts as a top-down control that consumes phytoplankton biomass, thereby suppressing population expansion rather than triggering it.",
+    "Step 3: Evaluating Choice C, a summer influx of nitrogen and phosphorus from agricultural chemical fertilizers supplies essential limiting nutrients that drive bottom-up trophic stimulation, directly fueling exponential phytoplankton growth and the subsequent bacterial decomposition that consumes dissolved oxygen.",
+    "Step 4: Evaluating Choice D, decreased interspecific competition may shift species dominance but cannot independently generate the massive biomass accumulation characteristic of dead zones without a concurrent surge in resource availability.",
+    "Step 5: Synthesizing the sequential analyses confirms that anthropogenic nutrient enrichment is the well-documented proximate cause of cultural eutrophication in the Mississippi River-Gulf system, establishing Choice C as the only biologically accurate trigger for the described seasonal hypoxic events."
+  ],
+  "solution": "Choice_C",
+  "ground_truth": "C"
+}

@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "independent",
+  "subject": "College Biology",
+  "question_index": 633,
+  "question_uuid": "25aebd79-08fd-4caf-a2f1-02f7cb64f03a",
+  "question": "When driving from east to west in the U.S. from a forest ecosystem to grasslands, trees gradually give way to grasses. Which of the following is the critical factor responsible for this shift?",
+  "options": {
+    "A": "Amount of sunlight",
+    "B": "Availability of oxygen",
+    "C": "Availability of water",
+    "D": "Length of growing season"
+  },
+  "analysis": [
+    "Step 1: The transition from forests to grasslands as one moves from east to west across the United States is primarily due to decreasing precipitation levels moving from moist eastern regions towards drier western areas. This makes the availability of water (Choice_C) a crucial factor influencing plant distribution.",
+    "Step 2: Sunlight (Choice_A) is important for all plants but does not explain why certain types of vegetation dominate over others based on geographic location alone. While it might affect growth rates, it doesn't cause the specific shift from trees to grasses.",
+    "Step 3: Oxygen (Choice_B) is essential for respiration in both plants and animals but its availability does not vary significantly enough between forest and grassland ecosystems to account for the observed biogeographical pattern.",
+    "Step 4: The length of the growing season can differ with latitude and altitude but generally does not change dramatically within the contiguous United States from east to west. Therefore, while it may influence some aspects of plant physiology, it cannot be the primary driver of the shift from forests to grasslands.",
+    "Step n: Considering these factors, the most significant factor affecting the shift from forests to grasslands is the availability of water, as it limits tree growth in more arid regions and allows grasses to thrive where water is less abundant."
+  ],
+  "solution": "Choice_C",
+  "ground_truth": "C"
+}

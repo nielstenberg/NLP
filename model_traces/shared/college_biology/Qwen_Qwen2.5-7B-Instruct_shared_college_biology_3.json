@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "shared",
+  "subject": "College Biology",
+  "question_index": 15,
+  "question_uuid": "e5586971-02b3-432e-a123-896335d90515",
+  "question": "Darwin's mechanism of natural selection required long time spans in order to modify species. From whom did Darwin get the concept of Earth's ancient age?",
+  "options": {
+    "A": "Georges Cuvier",
+    "B": "Charles Lyell",
+    "C": "Alfred Wallace",
+    "D": "Thomas Malthus"
+  },
+  "analysis": [
+    "Step 1: Georges Cuvier was a French naturalist who proposed the concept of extinction and developed comparative anatomy. He did not directly contribute to the concept of Earth's ancient age that influenced Darwin's thinking on natural selection.",
+    "Step 2: Charles Lyell's \"Principles of Geology\" presented the idea of uniformitarianism and the concept of an ancient Earth through gradual processes, which significantly influenced Darwin's understanding of the time needed for evolution. Lyell's work provided the scientific basis for the idea that species could change over vast periods of time.",
+    "Step 3: Alfred Wallace, along with Darwin, co-proposed the theory of natural selection independently. However, Wallace's primary contribution was his observations and theories about evolution during his travels in the Malay Archipelago, not specifically regarding the age of the Earth.",
+    "Step 4: Thomas Malthus' \"An Essay on the Principle of Population\" discussed population growth and resource limitations, which indirectly influenced Darwin's thinking on competition and survival of the fittest, but did not provide information about the age of the Earth.",
+    "Step n: Based on the analysis, Charles Lyell's work on the ancient age of the Earth through gradual processes had the most direct influence on Darwin's concept of natural selection requiring long time spans."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "B"
+}

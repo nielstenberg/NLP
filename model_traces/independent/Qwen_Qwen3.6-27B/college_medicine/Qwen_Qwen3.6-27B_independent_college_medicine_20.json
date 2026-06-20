@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 613,
+  "question_uuid": "6ec708a0-e3cf-40e1-b957-ee59215407f0",
+  "question": "In games like soccer the blood lactate concentration:",
+  "options": {
+    "A": "rarely increases above 3 mM.",
+    "B": "is usually lower at the end of the game than at the end of the first half.",
+    "C": "is usually higher at the end of the game than at the end of the first half.",
+    "D": "increases throughout the course of the game as the players become more fatigued."
+  },
+  "analysis": [
+    "Step 1: Evaluate Choice A, which claims blood lactate rarely increases above 3 mM. Soccer is an intermittent high-intensity sport requiring frequent sprinting, acceleration, and rapid directional changes that heavily recruit fast-twitch muscle fibers and anaerobic glycolysis. Consequently, blood lactate concentrations routinely surpass 3 mM, commonly ranging between 5\u20138 mM during competitive matches, making this statement physiologically inaccurate.",
+    "Step 2: Evaluate Choice B, which states that blood lactate is usually lower at the end of the game than at the end of the first half. Exercise physiology research consistently demonstrates that players expend maximal or near-maximal efforts early in the match when muscular and systemic fatigue are minimal, leading to significant lactate accumulation by halftime. During the second half, athletes typically adopt energy-conserving pacing strategies, reducing the frequency and duration of high-intensity bouts, while continuous aerobic metabolism sustains lactate clearance, resulting in lower end-of-match concentrations compared to halftime.",
+    "Step 3: Evaluate Choice C, which suggests blood lactate is usually higher at the end of the game than at the end of the first half. This contradicts established kinetic models of intermittent team sports. As cumulative fatigue progresses into the second half, neuromuscular efficiency declines and players instinctively reduce anaerobic workload to preserve performance capacity. This reduction in high-intensity effort limits further lactate production, allowing clearance pathways to outpace production, thereby refuting this option.",
+    "Step 4: Evaluate Choice D, which proposes that lactate increases continuously throughout the game as players become more fatigued. Soccer's characteristic stop-start nature includes substantial periods of walking and jogging that serve as active recovery. These lower-intensity intervals promote rapid lactate oxidation and pyruvate conversion, causing blood lactate to fluctuate dynamically rather than exhibit a monotonic upward trend, rendering this choice incorrect.",
+    "Step 5: Synthesize the sequential evaluation of all candidates. Choices A, C, and D conflict with fundamental exercise physiology principles governing lactate kinetics in intermittent endurance sports. Choice B accurately reflects empirical data showing that peak lactate accumulation occurs toward the end of the first half due to unimpaired high-intensity efforts, followed by a measurable decline by full-time due to strategic pacing reductions and sustained clearance mechanisms. Therefore, Choice B is the scientifically supported answer."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "B"
+}

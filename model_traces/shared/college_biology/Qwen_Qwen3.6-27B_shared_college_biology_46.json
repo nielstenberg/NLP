@@ -1,0 +1,22 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "shared",
+  "subject": "College Biology",
+  "question_index": 171,
+  "question_uuid": "8cef4202-5ccd-4044-9d56-f2ba8d7984ba",
+  "question": "Which of these is the smallest unit upon which natural selection directly acts?",
+  "options": {
+    "A": "a species' gene frequency",
+    "B": "a population's gene frequency",
+    "C": "an individual's genome",
+    "D": "an individual's phenotype"
+  },
+  "analysis": [
+    "Step 1: Analyze Choice A (a species' gene frequency) and Choice B (a population's gene frequency). Natural selection results in changes to allele frequencies over time, but it does not act directly on the statistical measure of frequency itself. Instead, changes in gene frequency are the *outcome* or consequence of selection acting on individuals within a population. Therefore, neither the species' nor the population's gene frequency is the direct target of selection; they are aggregate properties that change as a result of differential survival and reproduction.",
+    "Step 2: Analyze Choice C (an individual's genome). The genome represents the genetic makeup or genotype of an organism. While the genome contains the instructions for building the organism, natural selection cannot \"see\" or interact with genes directly in isolation. Selection acts based on how those genes manifest in the physical world. An individual with a beneficial genotype may still fail to survive if environmental factors prevent that trait from being expressed or utilized effectively. Thus, the genome is the underlying basis for variation, but not the direct interface through which selection operates.",
+    "Step 3: Analyze Choice D (an individual's phenotype). The phenotype includes all observable characteristics of an organism, such as morphology, development, biochemical or physiological properties, behavior, and products of behavior. Natural selection acts directly on these phenotypic traits because they determine an individual's ability to survive and reproduce in a specific environment. For example, a bird with beak shape (phenotype) suited for cracking hard seeds will have higher fitness than one with a different beak shape, regardless of the specific genetic mutations causing that shape. Since selection filters individuals based on their performance and interaction with the environment via their physical traits, the individual's phenotype is the smallest unit upon which natural selection directly acts.",
+    "Step 4: Conclude the analysis by comparing all options. Choices A and B refer to population-level statistics which are consequences, not targets. Choice C refers to the genetic code, which influences the phenotype but is not directly selected against or for until it manifests physically. Choice D refers to the phenotype, which is the actual expression of traits that interacts with the environment to determine reproductive success. Therefore, the individual's phenotype is the correct answer."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

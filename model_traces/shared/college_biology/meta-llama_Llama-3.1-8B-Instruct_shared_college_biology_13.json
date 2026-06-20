@@ -1,0 +1,23 @@
+{
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "mode": "shared",
+  "subject": "College Biology",
+  "question_index": 180,
+  "question_uuid": "9c9510e9-580a-4962-882c-3db53d715f78",
+  "question": "Of the following anatomical structures, which is homologous to the wing of a bird?",
+  "options": {
+    "A": "Dorsal fin of a shark",
+    "B": "Hindlimb of a kangaroo",
+    "C": "Wing of a butterfly",
+    "D": "Flipper of a cetacean"
+  },
+  "analysis": [
+    "Step 1: The first candidate choice is the dorsal fin of a shark. The dorsal fin is a structure that protrudes from the back of a shark, providing stability and maneuverability in the water. However, this structure is not homologous to the wing of a bird. Homologous structures are those that have a common evolutionary origin, but have since diverged in function and form. The dorsal fin of a shark and the wing of a bird are not homologous because they have different functions and are not derived from the same ancestral structure.",
+    "Step 2: The second candidate choice is the hindlimb of a kangaroo. The hindlimb of a kangaroo is a structure that is used for movement and support, but it is not homologous to the wing of a bird. The hindlimb of a kangaroo is a terrestrial structure, whereas the wing of a bird is an aerial structure. They have different functions and are not derived from the same ancestral structure.",
+    "Step 3: The third candidate choice is the wing of a butterfly. The wing of a butterfly is a structure that is used for flight, but it is not homologous to the wing of a bird. The wing of a butterfly is a lepidopteran structure, whereas the wing of a bird is an avian structure. They have different functions and are not derived from the same ancestral structure.",
+    "Step 4: The fourth candidate choice is the flipper of a cetacean. The flipper of a cetacean is a structure that is used for movement and support in the water, and it is homologous to the wing of a bird. Both the flipper of a cetacean and the wing of a bird are derived from the same ancestral structure, which was a forelimb. Over time, this forelimb evolved into different structures in different species, but it retained its basic morphology and function.",
+    "Step 5: In conclusion, the correct answer is Choice_D"
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

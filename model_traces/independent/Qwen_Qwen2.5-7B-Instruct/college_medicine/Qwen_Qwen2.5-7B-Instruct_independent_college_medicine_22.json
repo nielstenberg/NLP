@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 304,
+  "question_uuid": "d7792675-6fd2-4483-8e0f-cdbb74304ef2",
+  "question": "Exon skipping is associated with:",
+  "options": {
+    "A": "nonsense mutations.",
+    "B": "regulatory mutations.",
+    "C": "RNA processing mutations.",
+    "D": "silent mutations."
+  },
+  "analysis": [
+    "Step 1: Exon skipping refers to the process where an exon is not included in the final mRNA transcript due to alternative splicing mechanisms. This can lead to various outcomes depending on the specific exon involved and its function within the gene product. Nonsense mutations typically result in premature stop codons, leading to truncated proteins rather than affecting the inclusion or exclusion of exons during splicing. Therefore, exon skipping is not directly related to nonsense mutations.",
+    "Step 2: Regulatory mutations affect how genes are expressed but do not specifically alter the splicing process itself. They may influence transcription levels, promoter activity, or other aspects of gene regulation. Since exon skipping involves the actual splicing process, it does not fall under the category of regulatory mutations.",
+    "Step 3: RNA processing mutations can indeed be associated with exon skipping if they affect the splice sites or other elements necessary for proper splicing. Mutations that disrupt these regions can cause certain exons to be skipped, altering the final protein sequence. Thus, RNA processing mutations can lead to exon skipping.",
+    "Step 4: Silent mutations refer to changes in DNA sequences that do not result in different amino acids being incorporated into the protein because the change does not alter the reading frame (e.g., synonymous mutations). These types of mutations do not inherently involve alterations in the splicing process and thus are not directly linked to exon skipping.",
+    "Step 5: Considering all the above points, exon skipping is most closely associated with RNA processing mutations as they can directly impact the splicing process and determine whether certain exons are included in the final mRNA transcript."
+  ],
+  "solution": "Choice_C",
+  "ground_truth": "C"
+}

@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "shared",
+  "subject": "College Medicine",
+  "question_index": 457,
+  "question_uuid": "7917d93d-3a27-43b6-b9fe-98e8435083b5",
+  "question": "A 2-year-old boy is brought to the office by his mother for follow-up of a chromosome analysis done 1 month ago. The child has minor dysmorphic features, and growth and developmental delay. Chromosome analysis showed a small unbalanced chromosome translocation, with extra chromosomal material at the tip of chromosome 3. The cytogenetics laboratory requested blood samples from both parents for follow-up studies. The parents are divorced, and the mother has custody of the child. The relationship between the parents is hostile. The mother has been tested and has normal chromosomes without evidence of translocation. At today's visit, she reacts angrily when the issue of contacting the child's father for testing is raised. She states that he abandoned them and that he has no interest in his child. She refuses to cooperate in contacting the father, who could be a translocation carrier. You do not know the father, but an office worker told you that he lives in a nearby town. The mother says that he is living with a new girlfriend. Which of the following is the most appropriate next step?",
+  "options": {
+    "A": "Attempt to identify the father's physician and work with that physician to obtain chromosome studies on the father",
+    "B": "Contact the father by telephone and arrange for him to give a blood sample at a local hospital",
+    "C": "Document your attempts to work with the mother but proceed no further, since you have no physician-patient relationship with the father",
+    "D": "Help the mother deal with her anger and educate her regarding the potential benefit to her son and others if the father's chromosome studies are done"
+  },
+  "analysis": [
+    "Step 1: Analyze Choice A. Contacting the father's physician is clinically and ethically inappropriate because the father is not the treating physician's patient, making any request for genetic testing a violation of professional boundaries and confidentiality standards. Furthermore, locating an unknown provider is highly impractical and diverts clinical focus away from direct patient care.",
+    "Step 2: Analyze Choice B. Directly contacting the father by telephone bypasses the legal custodian (the mother) and violates standard medical etiquette regarding unsolicited contact with non-patients. This approach risks escalating family hostility, breaches privacy expectations, and lacks justification outside of imminent public health threats or explicit court orders.",
+    "Step 3: Analyze Choice C. Ceasing all efforts after documenting maternal refusal constitutes inadequate care for the child. Establishing whether the translocation is inherited or de novo is critical for accurate recurrence risk counseling, guiding future reproductive decisions, and potentially identifying other at-risk relatives. Abandoning this diagnostic step fails the physician's fundamental duty to advocate for the patient's comprehensive medical management.",
+    "Step 4: Analyze Choice D. Providing empathetic counseling to address the mother's anger and thoroughly educating her on the clinical significance of paternal testing is the most appropriate initial intervention. This approach respects the custodial parent's autonomy, directly addresses the emotional barrier to compliance, and aligns with the physician's obligation to secure essential genetic information for the child's long-term prognosis and family planning.",
+    "Step 5: Synthesize the analysis to determine the correct answer. Options A and B inappropriately cross professional boundaries by initiating contact with a non-patient, while Option C neglects the child's medical needs through premature abandonment of the diagnostic pathway. Option D correctly prioritizes therapeutic communication, ethical stewardship, and patient advocacy within the existing physician-parent relationship, establishing it as the standard-of-care next step."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "shared",
+  "subject": "College Medicine",
+  "question_index": 15,
+  "question_uuid": "e55b39c0-4670-401f-bf92-de154874a091",
+  "question": "A 47-year-old man is admitted to the hospital through the emergency department because of the sudden onset of palpitations, left-sided chest pain, light-headedness, and shortness of breath that began while he was watching television 2 hours ago. Medical history is remarkable for paroxysmal atrial fibrillation. The patient is 180 cm (5 ft 11 in) tall and weighs 82 kg (180 lb); BMI is 25 kg/m2 . ECG obtained in the emergency department showed atrial fibrillation with narrow QRS complex. Pulse was 146/min. Physical examination was remarkable for rapid heart rate. The patient was given oxygen via nasal cannula and intravenous metoprolol 5 mg every 5 minutes for a total of 15 mg. His pulse slowed to 90/min. Two hours after admission, he is pain free but his pulse is now 160/min. Blood pressure is 122/78 mm Hg. In order to decrease the patient's pulse, which of the following should be administered intravenously?",
+  "options": {
+    "A": "Digoxin",
+    "B": "Enalapril",
+    "C": "Lidocaine",
+    "D": "Metoprolol"
+  },
+  "analysis": [
+    "Step 1: Evaluate Choice A (Digoxin): Digoxin exerts its primary rate-controlling effect in atrial fibrillation by increasing vagal tone and directly prolonging AV nodal refractoriness, thereby slowing ventricular conduction. It is frequently used as an adjunct to beta-blockers when initial monotherapy yields transient control or when heart rate rebounds, providing synergistic AV nodal blockade without significant hemodynamic compromise in normotensive patients.",
+    "Step 2: Evaluate Choice B (Enalapril): Enalapril is an angiotensin-converting enzyme (ACE) inhibitor utilized for long-term blood pressure control, heart failure management, and renal protection. It lacks direct electrophysiological activity on the sinoatrial or atrioventricular nodes and therefore cannot produce acute heart rate reduction in atrial fibrillation.",
+    "Step 3: Evaluate Choice C (Lidocaine): Lidocaine is a Class IB antiarrhythmic that preferentially binds to inactivated fast sodium channels in depolarized or ischemic ventricular tissue. It is indicated exclusively for ventricular arrhythmias (e.g., ventricular tachycardia, ventricular fibrillation) and has negligible effect on supraventricular conduction pathways, making it completely inappropriate for rate control in atrial fibrillation.",
+    "Step 4: Evaluate Choice D (Metoprolol): The patient has already received a cumulative 15 mg of intravenous metoprolol, which temporarily lowered the heart rate before wearing off. Administering additional boluses of the same beta-blocker in close succession significantly increases the risk of profound bradycardia, hypotension, bronchospasm, and negative inotropy, while offering diminishing therapeutic returns for sustained rate control.",
+    "Step 5: Conclude the analysis: After systematically evaluating all options, enalapril lacks chronotropic effects, lidocaine targets the wrong cardiac tissue, and further metoprolol administration poses unacceptable safety risks after recent maximal dosing. Digoxin remains the only appropriate agent among the choices, as it safely augments AV nodal blockade through a complementary mechanism, effectively addressing the recurrent rapid ventricular response in atrial fibrillation."
+  ],
+  "solution": "Choice_A",
+  "ground_truth": "D"
+}

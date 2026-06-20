@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "High School Biology",
+  "question_index": 282,
+  "question_uuid": "447801b7-18c8-4e21-96e7-a9fe66a327dc",
+  "question": "Targeting of a newly synthesized protein is most likely to require two different signal peptides for which of the following destinations?",
+  "options": {
+    "A": "Plasma membrane",
+    "B": "Lysosome",
+    "C": "Cytosol",
+    "D": "Chloroplast"
+  },
+  "analysis": [
+    "Step 1: Evaluate Choice A (Plasma membrane). Proteins destined for the plasma membrane typically utilize a single N-terminal signal peptide to direct co-translational entry into the endoplasmic reticulum, after which vesicular trafficking delivers them to the cell surface without requiring a second distinct signal peptide.",
+    "Step 2: Evaluate Choice B (Lysosome). Lysosomal hydrolytic enzymes require two distinct targeting signals: an initial N-terminal signal peptide directs entry into the endoplasmic reticulum, and a second internal amino acid sequence serves as a recognition site for enzymatic modification (mannose-6-phosphate tagging) in the Golgi apparatus, which then acts as the second signal directing transport to the lysosome.",
+    "Step 3: Evaluate Choice C (Cytosol). Cytosolic proteins are synthesized on free ribosomes and generally lack any N-terminal signal peptide, as they remain in the cytoplasm to perform their functions, meaning they require zero signal peptides for cellular targeting.",
+    "Step 4: Evaluate Choice D (Chloroplast). Nuclear-encoded chloroplast proteins are synthesized in the cytosol and contain a single N-terminal transit peptide that mediates their post-translational import across the chloroplast envelope, relying on one continuous targeting sequence rather than two separate signals.",
+    "Step 5: Compare all evaluated destinations to identify which uniquely requires two different signal peptides. Only lysosomal proteins classically depend on two separate signaling mechanisms (one for ER entry and one for Golgi-mediated lysosomal sorting) to reach their final destination, making this the correct choice."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "D"
+}

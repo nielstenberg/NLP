@@ -1,0 +1,25 @@
+{
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 295,
+  "question_uuid": "78ab5f75-bb59-44dc-8f3d-b026f6009ac3",
+  "question": "A 27-year-old woman comes to the physician because of a 3-year history of chronic diarrhea and intermittent, crampy, lower abdominal pain. The pain is usually relieved with defecation and does not occur at night or interfere with sleep. She says she is frustrated by her symptoms and has stopped traveling because of her frequent, urgent need to use the bathroom. She has no history of serious illness and takes no medications. Her temperature is 37\u00b0C (98.6\u00b0F), pulse is 70/min, respirations are 14/min, and blood pressure is 120/80 mm Hg. The lower abdomen is mildly tender to palpation; there is no rebound tenderness or guarding. The remainder of the examination shows no abnormalities. Results of laboratory studies are within the reference ranges. Test of the stool for occult blood is negative. Antigliadin antibodies are not present. Which of the following is the most appropriate pharmacotherapy?",
+  "options": {
+    "A": "Nefazodone",
+    "B": "Nortriptyline",
+    "C": "Phenelzine",
+    "D": "Sertraline"
+  },
+  "analysis": [
+    "Step 1: The patient presents with chronic diarrhea and intermittent, crampy, lower abdominal pain that improves with defecation and does not occur at night. This symptomatology is suggestive of Irritable Bowel Syndrome (IBS). IBS is characterized by recurrent abdominal pain associated with defecation or changes in bowel habits.",
+    "Step 2: Considering the options provided, we should look for antidepressants as potential treatments for IBS.",
+    "Step 3: Nefazodone (A) is an antidepressant but it's primarily used for treating depression rather than IBS. It's also known to have more side effects compared to other options.",
+    "Step 4: Nortriptyline (B) is a tricyclic antidepressant that can be effective in managing IBS symptoms. However, its side effect profile is significant, including dry mouth, constipation, and urinary retention.",
+    "Step 5: Phenelzine (C) is a monoamine oxidase inhibitor (MAOI) that is typically used for treating depression. MAOIs are not commonly used for IBS due to their complex dosing requirements and potential interactions with food and other medications.",
+    "Step 6: Sertraline (D) is a selective serotonin reuptake inhibitor (SSRI) that is often used off-label for treating IBS. SSRIs like sertraline have been shown to improve IBS symptoms, particularly abdominal pain and bowel habits, with fewer side effects compared to traditional antidepressants.",
+    "Step 7: Given the symptomatology consistent with IBS and considering the options provided, the best choice would be an SSRI due to its efficacy in managing IBS symptoms while minimizing side effects."
+  ],
+  "solution": "N/A",
+  "ground_truth": "B"
+}

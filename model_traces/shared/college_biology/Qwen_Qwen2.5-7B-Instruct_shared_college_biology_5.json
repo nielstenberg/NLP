@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "shared",
+  "subject": "College Biology",
+  "question_index": 360,
+  "question_uuid": "70e497c9-e9ae-48a0-a853-4f59f4243fad",
+  "question": "Which of the following are traits that are affected by more than one gene?",
+  "options": {
+    "A": "Heterozygous traits",
+    "B": "Pleiotropic traits",
+    "C": "Polygenic traits",
+    "D": "Blended alleles"
+  },
+  "analysis": [
+    "Step 1: Heterozygous traits refer to traits controlled by a single gene with two different alleles where both alleles contribute to the phenotype. This does not involve multiple genes affecting a single trait, so Choice_A can be eliminated.",
+    "Step 2: Pleiotropic traits are influenced by a single gene but affect multiple unrelated traits. For example, the gene for albinism affects both skin and eye color, making it a pleiotropic trait. However, since the question asks for traits affected by more than one gene, Choice_B can also be eliminated.",
+    "Step 3: Polygenic traits are those influenced by multiple genes working together. Examples include human height, skin color, and seed shape in plants. These traits require contributions from several genes, making Choice_C a potential answer.",
+    "Step 4: Blended alleles typically refer to a situation where the phenotype is intermediate between the extreme phenotypes of the homozygous parents due to incomplete dominance. This does not involve multiple genes affecting a single trait, so Choice_D can be eliminated.",
+    "Step n: Based on the analysis, only Choice_C polygenic traits involve multiple genes affecting a single trait."
+  ],
+  "solution": "Choice_C",
+  "ground_truth": "C"
+}

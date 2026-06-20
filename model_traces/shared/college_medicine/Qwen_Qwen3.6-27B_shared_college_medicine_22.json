@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "shared",
+  "subject": "College Medicine",
+  "question_index": 140,
+  "question_uuid": "8a6dad7f-6b31-4708-9ba4-015dbbd464cc",
+  "question": "Walking down a street late at night, an adult male pedestrian notices a young female on the ground, not moving. The female is on the opposite side of the street. Crossing the street, the pedestrian notices that the young woman appears both much wealthier than he is and is of a different ethnicity. Seeing no one else present, the pedestrian renders aid. According to the bystander effect, which of the following would change how the pedestrian reacts?",
+  "options": {
+    "A": "The person requiring aid appearing to be of a lower socioeconomic class rather than a higher one",
+    "B": "The presence of another group of people one block up the street",
+    "C": "The person requiring aid appearing to be the same ethnicity rather than a different one",
+    "D": "The presence of one other person who is already approaching the girl"
+  },
+  "analysis": [
+    "Step 1: Choice A focuses on socioeconomic disparity, which influences helping behavior through empathy gaps or perceived social distance, but this mechanism belongs to social identity theory and general prosocial motivation, not the bystander effect.",
+    "Step 2: Choice B places potential helpers one block away, removing them from the immediate scene; the bystander effect requires co-present witnesses who simultaneously observe the emergency to trigger diffusion of responsibility and pluralistic ignorance.",
+    "Step 3: Choice C examines ethnic matching, which typically increases intervention rates due to in-group favoritism and heightened emotional connection, yet this again pertains to social categorization rather than the numerical presence of witnesses that defines the bystander effect.",
+    "Step 4: Choice D introduces a second direct observer at the scene, which is the precise condition that activates the bystander effect; the added presence dilutes personal accountability through diffusion of responsibility and encourages reliance on others' inaction, thereby significantly altering the pedestrian's initial decision to help.",
+    "Step 5: Evaluating all options sequentially confirms that only the addition of a co-present bystander directly engages the core psychological principles of the bystander effect, making Choice D the correct answer."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

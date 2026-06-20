@@ -1,0 +1,24 @@
+{
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 355,
+  "question_uuid": "e72dcc62-9969-4f8c-b0a3-7ca9e9fbc706",
+  "question": "A 25-year-old man is brought to the emergency department after being discovered semiconscious and incoherent at home. On arrival, he is stuporous. His blood pressure is 105/70 mm Hg, pulse is 80/min, and respirations are 12/min. Examination shows cool, damp skin. The pupils are pinpoint and react sluggishly to light. Which of the following is the most likely substance taken?",
+  "options": {
+    "A": "Alcohol",
+    "B": "Barbiturates",
+    "C": "Cocaine",
+    "D": "Heroin"
+  },
+  "analysis": [
+    "Step 1: We start by analyzing the symptoms presented in the question. The patient is described as semiconscious and incoherent, with low blood pressure (105/70 mmHg), a normal heart rate (80/min), and decreased respiratory rate (12/min). Additionally, his skin appears cool and damp, and his pupils are pinpoint and react sluggishly to light.",
+    "Step 2: Considering these symptoms, we can rule out certain substances based on their typical effects. For example, alcohol typically causes flushing, tachycardia, and increased respiratory rate, which does not match our patient's presentation.",
+    "Step 3: Now let's analyze the remaining options. Barbiturates can cause sedation, but they also tend to cause more pronounced respiratory depression than what is seen in this case.",
+    "Step 4: Cocaine use often presents with agitation, hypertension, tachycardia, and mydriasis (pupil dilation), none of which align with our patient's symptoms.",
+    "Step 5: Heroin, an opioid, is known to cause miosis (pinpoint pupils), bradypnea (decreased respiratory rate), hypotension, and altered mental status, all of which match our patient's presentation.",
+    "Step 6: Given the combination of symptoms, including pinpoint pupils, decreased respiratory rate, and altered mental status, heroin is the most likely substance taken."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

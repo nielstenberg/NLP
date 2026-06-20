@@ -1,0 +1,21 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "independent",
+  "subject": "College Biology",
+  "question_index": 324,
+  "question_uuid": "9bfdc11b-5d5f-4e8c-ac42-2c06aa89d519",
+  "question": "Incomplete dominance and epistasis are two terms that define genetic relationships. Which of the following statements best describes the differences or similarities between the two terms?",
+  "options": {
+    "A": "Both terms describe inheritance controlled by the interaction of multiple alleles at different loci.",
+    "B": "Both terms describe inheritance controlled by the interaction of multiple genes at different loci.",
+    "C": "Incomplete dominance describes the interaction of two genes at different loci; epistasis describes the interaction of two alleles.",
+    "D": "Incomplete dominance describes the interaction of two alleles on one gene; epistasis describes the interaction of two genes and their respective alleles."
+  },
+  "analysis": [
+    "Step 1: Incomplete dominance refers to a situation where both parents' traits are partially expressed in the offspring due to the interaction of two alleles on one gene. For example, if red (R) and white (r) flower colors are incompletely dominant over pink (Rp), a cross between a red-flowered plant (RR) and a white-flowered plant (rr) results in pink-flowered plants (RpR). This term does not involve interactions across multiple genes but rather within a single gene locus involving multiple alleles.",
+    "Step 2: Epistasis involves the interaction of two or more genes such that the expression of one gene is dependent upon the presence of specific alleles of another gene. For instance, if a certain allele of gene A affects whether an allele of gene B can be expressed, this would be an example of epistasis. The key aspect here is the interaction between different genes and their alleles, not just alleles within a single gene.",
+    "Step 3: Comparing Choices: - Choice_A suggests both terms describe inheritance controlled by the interaction of multiple alleles at different loci. However, incomplete dominance only involves alleles at a single locus, while epistasis involves interactions between different genes.\n- Choice_B states both terms describe inheritance controlled by the interaction of multiple genes at different loci. While this aligns better with the definition of epistasis, it incorrectly applies this concept to incomplete dominance as well.\n- Choice_C claims incomplete dominance describes the interaction of two genes at different loci, which is incorrect since it only involves alleles at one locus. It also incorrectly defines epistasis as describing the interaction of two alleles.\n- Choice_D correctly identifies that incomplete dominance involves the interaction of two alleles on one gene, whereas epistasis involves the interaction of two genes and their respective alleles.\n\nFinal Step: Based on the detailed analysis above, Choice_D accurately distinguishes between incomplete dominance and epistasis by correctly defining what each term encompasses regarding genetic interactions."
+  ],
+  "solution": "Choice_a",
+  "ground_truth": "D"
+}

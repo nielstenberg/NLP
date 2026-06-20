@@ -1,0 +1,22 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "independent",
+  "subject": "High School Biology",
+  "question_index": 129,
+  "question_uuid": "9c50d98f-47a4-4081-a747-b2304fe3e0f7",
+  "question": "Which of the following active pools of carbon is the largest on Earth and contributes the most to carbon cycling?",
+  "options": {
+    "A": "The atmosphere",
+    "B": "Rain-forest vegetation",
+    "C": "Recoverable fossil fuels",
+    "D": "The oceans"
+  },
+  "analysis": [
+    "Step 1: The atmosphere contains a significant amount of carbon dioxide (CO2) as part of its composition, but it is not the largest pool due to its relatively small volume compared to other reservoirs like the oceans.",
+    "Step 2: Rain-forest vegetation does play an important role in carbon cycling through photosynthesis and respiration, but the total biomass of rainforests alone cannot be considered the largest pool of carbon on Earth.",
+    "Step 3: Recoverable fossil fuels contain vast amounts of carbon that have been sequestered over millions of years from plant material. However, these are not currently part of the active carbon cycle since they are not being actively cycled through biological processes at present rates.",
+    "Step 4: The oceans hold about 50 times more carbon than the atmosphere and include dissolved CO2, organic matter, and carbonate minerals. This makes them the largest active pool of carbon on Earth and significantly contribute to global carbon cycling through various marine processes such as ocean currents, plankton activity, and gas exchange at the air-sea interface."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

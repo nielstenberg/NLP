@@ -1,0 +1,21 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "shared",
+  "subject": "High School Biology",
+  "question_index": 255,
+  "question_uuid": "0131e9a7-6028-4379-8c17-c1af7d7011f5",
+  "question": "Which of the following statements about mitochondria and chloroplasts is generally true?",
+  "options": {
+    "A": "Plants have chloroplasts but no mitochondria; animals have mitochondria but no chloroplasts.",
+    "B": "Plants have chloroplasts but no mitochondria; fungi have mitochondria but no chloroplasts.",
+    "C": "Plants and fungi have chloroplasts but no mitochondria; animals have only mitochondria.",
+    "D": "Plants have both chloroplasts and mitochondria; animals and fungi have only mitochondria."
+  },
+  "analysis": [
+    "Step 1: Mitochondria are present in all eukaryotic cells including plants, animals, and fungi, so Choices A, B, and C can be eliminated as they claim that certain organisms do not have mitochondria.",
+    "Step 2: Chloroplasts are found in plant cells and some other eukaryotes like algae, but not in animal cells. Therefore, Choice D correctly states that plants have both chloroplasts and mitochondria, while animals and fungi have only mitochondria.",
+    "Step n: Solution: Choice_D"
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

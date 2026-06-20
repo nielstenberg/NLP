@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 223,
+  "question_uuid": "6b2c46e3-ba01-4754-90d3-ba46607e4261",
+  "question": "Which of the following processes is not used to modify protein structure after translation has occurred?",
+  "options": {
+    "A": "Lipidation.",
+    "B": "Attachment of more amino acids via peptide bonds.",
+    "C": "Glycosylation.",
+    "D": "Phosphorylation."
+  },
+  "analysis": [
+    "Step 1: [Lipidation involves covalently attaching lipids to proteins, typically at specific amino acid residues such as cysteine, serine, or threonine. This process can occur post-translationally but it does not involve modification through peptide bond formation.]",
+    "Step 2: [Attachment of more amino acids via peptide bonds would imply that new polypeptide chains are being added to existing proteins, which is not possible since all amino acids in a protein are already part of its primary structure formed during translation.]",
+    "Step 3: [Glycosylation refers to the addition of carbohydrate molecules (glycans) to proteins. This process occurs post-translationally and modifies the protein's structure by adding sugar moieties.]",
+    "Step 4: [Phosphorylation involves the addition of a phosphate group to an amino acid residue, usually serine, threonine, or tyrosine. This is a common post-translational modification that changes the protein's activity or localization.]",
+    "Step 5: [Comparing all options, attachment of more amino acids via peptide bonds is not a valid post-translational modification because once a protein is synthesized, no further peptide bonds are formed to add more amino acids.]"
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "B"
+}

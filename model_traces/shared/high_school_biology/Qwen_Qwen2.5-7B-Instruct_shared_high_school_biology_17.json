@@ -1,0 +1,22 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "shared",
+  "subject": "High School Biology",
+  "question_index": 186,
+  "question_uuid": "a8f72e73-30c0-431b-83b3-27ccdf256d4d",
+  "question": "Which of the following statements is true of air as compared to water?",
+  "options": {
+    "A": "Air provides more physical support.",
+    "B": "Air has a higher O2 concentration.",
+    "C": "Air offers more resistance to motion.",
+    "D": "Air has more thermal inertia."
+  },
+  "analysis": [
+    "Step 1: Air provides less physical support compared to water because water molecules are closer together and can exert more force against objects submerged in it, providing buoyancy and support that air cannot offer due to its lower density and molecular structure.",
+    "Step 2: The oxygen concentration in air is generally around 21%, while aquatic environments can have varying concentrations depending on factors like depth and photosynthesis rates, but typically do not consistently exceed 21% at the surface, making Choice_B incorrect.",
+    "Step 3: Air offers less resistance to motion than water does because air molecules are more spread out and have less frictional force compared to water molecules, which are closer together and can more easily interact with moving objects.",
+    "Step 4: Air has less thermal inertia than water because water has a higher specific heat capacity, meaning it can absorb and retain more heat energy per unit mass before changing temperature significantly. This makes Choice_D incorrect."
+  ],
+  "solution": "Choice_C",
+  "ground_truth": "B"
+}

@@ -1,0 +1,22 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "independent",
+  "subject": "College Biology",
+  "question_index": 552,
+  "question_uuid": "53800149-49e5-4e7e-92b2-725c11d6416e",
+  "question": "Cattle breeders have improved the quality of meat over the years by which process?",
+  "options": {
+    "A": "artificial selection",
+    "B": "directional selection",
+    "C": "stabilizing selection",
+    "D": "A and B"
+  },
+  "analysis": [
+    "Step 1: Artificial selection involves the deliberate breeding of organisms with desirable traits by humans. In cattle breeding, this process has been used to improve the quality of meat by selecting animals that produce more desirable characteristics such as increased muscle mass and better marbling (intramuscular fat). This aligns well with the goal of improving meat quality.",
+    "Step 2: Directional selection is a type of natural selection where one extreme trait becomes more common in a population over time due to environmental pressures. While this can occur naturally, it is also possible for cattle breeders to apply directional selection through artificial means, choosing individuals from one end of the trait spectrum to breed together.",
+    "Step 3: Stabilizing selection tends to favor intermediate traits within a population, reducing variation around an average value. This would not directly contribute to improving the quality of meat unless it was part of a broader strategy involving both stabilizing and directional selection processes.",
+    "Step 4: Considering both artificial selection and directional selection involve intentional human intervention to enhance specific traits, they are closely related concepts often applied together in practice. Therefore, the most comprehensive answer would be that both processes can lead to improvements in meat quality."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

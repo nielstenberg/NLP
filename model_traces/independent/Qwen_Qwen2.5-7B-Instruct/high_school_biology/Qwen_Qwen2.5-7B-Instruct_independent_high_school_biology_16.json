@@ -1,0 +1,22 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "independent",
+  "subject": "High School Biology",
+  "question_index": 213,
+  "question_uuid": "b74db447-7c00-4950-b949-54f79d62513b",
+  "question": "All of the following might be found in connective tissue EXCEPT",
+  "options": {
+    "A": "thrombin",
+    "B": "glycosaminoglycans",
+    "C": "collagens",
+    "D": "fibroblasts"
+  },
+  "analysis": [
+    "Step 1: Thrombin is an enzyme involved in blood coagulation. Connective tissues do not typically contain enzymes specific to blood coagulation as their primary function is structural support and protection rather than hemostasis. Therefore, thrombin would not normally be found in connective tissue.",
+    "Step 2: Glycosaminoglycans (GAGs) are important components of the extracellular matrix found in many types of connective tissue, including cartilage, bone, and skin. They provide structural integrity and play roles in cell signaling and lubrication.",
+    "Step 3: Collagens are a major component of connective tissue, providing strength and flexibility. They are found in various forms throughout different types of connective tissue, such as tendons, ligaments, and skin.",
+    "Step 4: Fibroblasts are cells that produce collagen and other proteins essential for the formation and maintenance of connective tissue. They are present in all types of connective tissue and are responsible for the repair and regeneration of damaged tissue."
+  ],
+  "solution": "Choice_A",
+  "ground_truth": "A"
+}

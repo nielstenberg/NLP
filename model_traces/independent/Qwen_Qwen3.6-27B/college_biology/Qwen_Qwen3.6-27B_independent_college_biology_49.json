@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "College Biology",
+  "question_index": 381,
+  "question_uuid": "be247f22-cead-48b2-b2cc-41bd40a4002c",
+  "question": "Which of the following must exist in a population before natural selection can act upon that population?",
+  "options": {
+    "A": "Genetic variation among individuals",
+    "B": "Variation among individuals caused by environmental factors",
+    "C": "Sexual reproduction",
+    "D": "B and C only"
+  },
+  "analysis": [
+    "Step 1: Analyze Choice A (Genetic variation among individuals). Natural selection drives evolutionary change by differentially favoring individuals with traits that improve survival and reproduction. For these favored traits to increase in frequency over successive generations, they must be heritable. Genetic variation provides the heritable differences that allow natural selection to alter allele frequencies, making it an absolute prerequisite.",
+    "Step 2: Analyze Choice B (Variation among individuals caused by environmental factors). Phenotypic differences arising purely from environmental conditions (phenotypic plasticity) are not encoded in DNA and cannot be passed to offspring. Because natural selection relies on the inheritance of advantageous traits to produce evolutionary change, non-heritable environmental variation cannot serve as the substrate for natural selection.",
+    "Step 3: Analyze Choice C (Sexual reproduction). Although sexual reproduction generates significant genetic diversity through recombination and independent assortment, it is not a strict requirement for natural selection. Asexual organisms, such as bacteria and many protists, routinely undergo natural selection whenever mutations introduce heritable genetic variation into their populations.",
+    "Step 4: Analyze Choice D (B and C only). Since neither environmentally induced variation nor sexual reproduction is strictly necessary for natural selection to operate, and because this option explicitly excludes the essential requirement of genetic variation, this choice is fundamentally incorrect.",
+    "Step 5: Conclude the analysis by synthesizing the evaluations. Natural selection fundamentally requires heritable differences among individuals to produce adaptive evolution across generations. Only genetic variation satisfies this core condition, while environmental variation lacks heritability and sexual reproduction is merely one optional mechanism for generating diversity. Therefore, genetic variation is the indispensable precondition."
+  ],
+  "solution": "Choice_A",
+  "ground_truth": "A"
+}

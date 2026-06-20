@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "shared",
+  "subject": "College Biology",
+  "question_index": 636,
+  "question_uuid": "51d8825f-238b-42a9-bc3e-dae013c307bd",
+  "question": "Which aspects of cell structure best reveals the unity of all life?",
+  "options": {
+    "A": "All cells are surrounded by a plasma membrane.",
+    "B": "All cells have at least one nucleus.",
+    "C": "All cells carry out cellular respiration in mitochondria.",
+    "D": "The surface-to-volume ratio of all cells is the same."
+  },
+  "analysis": [
+    "Step 1: Analyze Choice A (\"All cells are surrounded by a plasma membrane\"). The Cell Theory states that all living organisms are composed of cells, and a fundamental characteristic shared by all known cells (both prokaryotic and eukaryotic) is the presence of a plasma membrane. This lipid bilayer structure separates the internal environment of the cell from the external environment, regulating the transport of materials. Since both bacteria (prokaryotes) and animals/plants/fungi (eukaryotes) possess this specific structural feature, it serves as strong evidence for the evolutionary unity of all life forms.",
+    "Step 2: Analyze Choice B (\"All cells have at least one nucleus\"). This statement is factually incorrect regarding the scope of \"all life.\" Prokaryotic cells, such as bacteria and archaea, lack a membrane-bound nucleus; their genetic material floats freely in the cytoplasm within a region called the nucleoid. Only eukaryotic cells possess a true, membrane-bound nucleus. Therefore, the presence of a nucleus does not reveal the unity of *all* life, but rather distinguishes eukaryotes from prokaryotes.",
+    "Step 3: Analyze Choice C (\"All cells carry out cellular respiration in mitochondria\"). This statement is also factually incorrect for all life forms. Mitochondria are membrane-bound organelles found only in eukaryotic cells. Prokaryotic cells do not have mitochondria; instead, they perform cellular respiration (if aerobic) using enzymes located in their plasma membrane or cytoplasm. Thus, relying on mitochondria excludes prokaryotes and fails to demonstrate universal unity.",
+    "Step 4: Analyze Choice D (\"The surface-to-volume ratio of all cells is the same\"). While it is true that cells must maintain a high surface-to-volume ratio to efficiently exchange materials with their environment, the actual numerical value of this ratio varies significantly depending on the size and shape of the cell. Cells range from tiny mycoplasma bacteria to large ostrich eggs. Because there is no single fixed ratio applicable to every cell type, this aspect does not represent a uniform structural trait revealing unity in the way a common component like the plasma membrane does.",
+    "Step 5: Conclude the analysis by comparing the validity of the options. Choices B and C are biologically false because they ignore prokaryotic life. Choice D describes a physical constraint that varies rather than a consistent structural identity. Choice A is the only statement that is universally true for all known cell types (prokaryotes and eukaryotes). The universal presence of the plasma membrane highlights a common ancestral origin and functional necessity, thereby best revealing the unity of all life."
+  ],
+  "solution": "Choice_A",
+  "ground_truth": "A"
+}

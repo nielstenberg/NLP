@@ -1,0 +1,23 @@
+{
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "mode": "shared",
+  "subject": "College Biology",
+  "question_index": 660,
+  "question_uuid": "3fd59b82-b51d-4e01-8f76-c13a3248a8f0",
+  "question": "Which of the following statements about lipids is correct?",
+  "options": {
+    "A": "Unsaturated fatty acids are linked to heart disease.",
+    "B": "Lipids make up most cell surface receptors.",
+    "C": "Phospholipids are water soluble.",
+    "D": "Steroids are lipids that consist of glycerol and fatty acids."
+  },
+  "analysis": [
+    "Step 1: Choice A states that unsaturated fatty acids are linked to heart disease. This is a true statement. Unsaturated fatty acids have one or more double bonds in their carbon chain, which makes them more fluid and less likely to be stored in the body. However, when consumed in excess, they can lead to an increase in cholesterol levels, which is a risk factor for heart disease.",
+    "Step 2: Choice B states that lipids make up most cell surface receptors. This is not entirely accurate. Cell surface receptors are primarily made up of proteins, not lipids. While some receptors may have lipid components, such as glycosylphosphatidylinositol (GPI) anchors, the majority of the receptor structure is protein-based.",
+    "Step 3: Choice C states that phospholipids are water soluble. This is a true statement. Phospholipids are a type of lipid that contains a phosphate group, which makes them water-soluble. This property allows them to form micelles and emulsions, which are essential for the absorption of fats in the small intestine.",
+    "Step 4: Choice D states that steroids are lipids that consist of glycerol and fatty acids. This is not accurate. Steroids are a type of lipid that consists of four fused carbon rings, but they do not contain glycerol or fatty acids. Instead, they are synthesized from acetyl-CoA and mevalonate, and are found in a variety of biological molecules, including hormones and vitamins.",
+    "Step 5: Based on the analysis of each choice, the correct answer is Choice A and Choice C. Both statements are true, and Choice A is a more specific and accurate statement about the relationship between unsaturated fatty acids and heart disease. Choice C is also a true statement about the water solubility of phospholipids."
+  ],
+  "solution": "Choice_A",
+  "ground_truth": "C"
+}

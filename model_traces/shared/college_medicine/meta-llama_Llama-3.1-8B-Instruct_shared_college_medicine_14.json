@@ -1,0 +1,23 @@
+{
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "mode": "shared",
+  "subject": "College Medicine",
+  "question_index": 688,
+  "question_uuid": "ca65819e-6a44-4cfa-b5e7-a6efffdeab8a",
+  "question": "Which of the following is a feature of X-linked dominant inheritance?",
+  "options": {
+    "A": "Parental consanguinity",
+    "B": "Male to male transmission",
+    "C": "Transmission only by females",
+    "D": "Transmitted by males only to females"
+  },
+  "analysis": [
+    "Step 1: - The question asks about a feature of X-linked dominant inheritance.\n- This type of inheritance involves genes located on the X chromosome that cause disease when one copy of the gene is mutated (dominant).\n- In X-linked dominant conditions, both males and females can be affected, but because males have only one X chromosome, they are more frequently and severely affected than females.",
+    "Step 2: - Considering the nature of X-linked dominant inheritance, we need to identify which of the provided options aligns with its characteristics.\n- Option A mentions parental consanguinity, which refers to the marriage between close relatives, such as siblings or parents and children. However, this does not directly relate to the mode of inheritance in X-linked dominant conditions.\n- Option B talks about male-to-male transmission, which is characteristic of autosomal dominant conditions, not X-linked dominant ones.\n- Option C suggests transmission only by females, which seems plausible given that females have two X chromosomes and could potentially pass an affected allele to their offspring.\n- Option D states transmitted by males only to females, which contradicts the fact that males can also inherit and express X-linked dominant traits due to having only one X chromosome.",
+    "Step 3: - Given the specifics of X-linked dominant inheritance, where both males and females can be affected but males are more frequently and severely affected due to their single X chromosome, we must select the option that best reflects this pattern.\n- Since males can indeed transmit these conditions to their daughters (who would inherit his sole X chromosome), it's clear that the condition can be passed from fathers to daughters, making Option D seem like a strong candidate.\n- However, considering the unique aspect of X-linked dominant inheritance where both genders can be affected but males are more often and severely impacted, we should focus on the specific trait of transmission from males to females.",
+    "Step 4: - Upon reviewing the characteristics of X-linked dominant inheritance, it becomes evident that the correct answer focuses on the ability of males to pass the condition to their female offspring.\n- Therefore, the most accurate description of a feature of X-linked dominant inheritance is related to the transmission of the condition from males to females.",
+    "Step 5: - Based on the understanding of X-linked dominant inheritance patterns, where males can pass the condition to their daughters due to their single X chromosome, the correct answer is identified."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

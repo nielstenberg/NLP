@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "shared",
+  "subject": "College Medicine",
+  "question_index": 244,
+  "question_uuid": "aa507c31-8997-45b3-b175-e6c08204a324",
+  "question": "A 52-year-old man is brought to the emergency department 30 minutes after he had an episode of chest pain radiating to his jaw while shoveling snow. His pulse is 80/min, and blood pressure is 130/70 mm Hg. The lungs are clear to auscultation. Cardiac examination shows an S4. While undergoing an ECG, the patient says that he feels the chest pain returning. The most appropriate immediate treatment is a drug with which of the following mechanisms of action?",
+  "options": {
+    "A": "Increases cAMP concentration",
+    "B": "Increases nitric oxide concentration",
+    "C": "Inhibits potassium flux",
+    "D": "Inhibits sodium flux"
+  },
+  "analysis": [
+    "Step 1: Choice A describes agents that increase intracellular cAMP concentrations, such as beta-adrenergic agonists or phosphodiesterase inhibitors, which would elevate heart rate and myocardial contractility, thereby increasing myocardial oxygen demand and potentially worsening acute ischemia, making this mechanism contraindicated for immediate symptom relief.",
+    "Step 2: Choice B correctly identifies the mechanism of nitroglycerin, which serves as a prodrug metabolized into nitric oxide within vascular smooth muscle cells; increased nitric oxide activates guanylyl cyclase to elevate cGMP, producing systemic venodilation and mild arteriodilation that rapidly reduces preload and afterload, decreases myocardial oxygen consumption, and relieves ischemic chest pain.",
+    "Step 3: Choice C refers to potassium channel inhibitors, which correspond to class III antiarrhythmic drugs used for electrical stabilization and rhythm control rather than acute ischemic symptom management, and they do not provide the rapid hemodynamic benefits needed to abort active coronary ischemia.",
+    "Step 4: Choice D describes sodium channel blockers, which are class I antiarrhythmics indicated for suppressing ventricular ectopy or reentrant tachyarrhythmias, and they lack the vasodilatory and antianginal properties required for immediate treatment of acute ischemic chest pain.",
+    "Step 5: Based on the sequential evaluation, the patient is experiencing acute coronary syndrome with recurrent ischemic pain and stable vital signs, necessitating immediate pharmacologic intervention to reduce myocardial oxygen demand and relieve discomfort; sublingual nitroglycerin is the first-line agent for this indication, and its mechanism directly corresponds to increasing nitric oxide concentration, confirming Choice B as the correct answer."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "B"
+}

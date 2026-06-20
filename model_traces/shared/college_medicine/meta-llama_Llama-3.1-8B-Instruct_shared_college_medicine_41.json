@@ -1,0 +1,25 @@
+{
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "mode": "shared",
+  "subject": "College Medicine",
+  "question_index": 376,
+  "question_uuid": "0f185607-a7da-4691-8699-0ee00eece256",
+  "question": "A 45-year-old female presents to the office for evaluation of unexplained elevations of her blood pressure. Paroxysmal episodes of headache, sweating, anxiety, nausea, and vomiting occur frequently. A CT\u00a0scan reveals a left adrenal mass. Which of the following urinary assays will be most helpful in establishing this patient's diagnosis?",
+  "options": {
+    "A": "cortisol",
+    "B": "glucose",
+    "C": "sodium",
+    "D": "vanillylmandelic acid"
+  },
+  "analysis": [
+    "Step 1: The patient presents with symptoms that are suggestive of pheochromocytoma, including paroxysmal episodes of headache, sweating, anxiety, nausea, and vomiting. These symptoms are often referred to as \"the syndrome of catecholamine excess.\" Pheochromocytomas are rare tumors of the adrenal gland that produce excessive amounts of catecholamines (e.g., epinephrine, norepinephrine). Therefore, we should look for an assay related to catecholamines.",
+    "Step 2: We can eliminate Choice B because glucose levels are not directly related to the symptoms described. While diabetes mellitus can cause hypertension, it does not explain the episodic nature of the patient's symptoms.",
+    "Step 3: Similarly, we can eliminate Choice C because sodium levels are not directly related to the symptoms described. Although some patients with primary aldosteronism may present with hypertension, the episodic nature of the patient's symptoms is more consistent with pheochromocytoma than with primary aldosteronism.",
+    "Step 4: Vanillylmandelic acid (VMA) is a metabolite of catecholamines, specifically norepinephrine and epinephrine. Elevated VMA levels in the urine are a sensitive marker for pheochromocytoma. This makes Choice D a strong candidate for the correct answer.",
+    "Step 5: Cortisol is a hormone produced by the adrenal cortex, but it is not directly related to the symptoms described. However, we can still consider Choice A because the presence of a left adrenal mass raises the possibility of a functional tumor such as an aldosterone-producing adenoma. Although less likely, this could also be considered when evaluating the patient's symptoms.",
+    "Step 6: However, given the clinical presentation of episodic hypertension, headaches, sweating, anxiety, nausea, and vomiting, the most likely diagnosis is a pheochromocytoma. In this case, the urinary assay that would be most helpful in establishing this patient's diagnosis is the one that measures a metabolite of catecholamines.",
+    "Step 7: Therefore, the best answer is Choice D, vanillylmandelic acid (VMA)."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

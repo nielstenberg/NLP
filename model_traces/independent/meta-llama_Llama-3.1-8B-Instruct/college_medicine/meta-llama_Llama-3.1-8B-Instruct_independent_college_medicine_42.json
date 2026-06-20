@@ -1,0 +1,25 @@
+{
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 804,
+  "question_uuid": "6379dc37-b51d-4a83-b117-79ff0dc77d7b",
+  "question": "Enzyme assay can be used to identify carriers of:",
+  "options": {
+    "A": "Cystic fibrosis.",
+    "B": "Fragile X syndrome.",
+    "C": "Oculocutaneous albinism.",
+    "D": "Tay-Sachs disease."
+  },
+  "analysis": [
+    "Step 1: Cystic fibrosis (CF) is an autosomal recessive disorder caused by mutations in the CFTR gene. The most common mutation leading to CF is the deletion of three nucleotides (\u0394F508), but there are many other less common mutations as well. An enzyme assay can be used to detect the presence of normal CFTR protein in individuals suspected of being carriers.",
+    "Step 2: Fragile X syndrome is caused by an expansion of CGG repeats in the FMR1 gene, leading to its silencing and subsequent deficiency of the FMRP protein. However, this condition does not involve an enzymatic defect that could be detected through an enzyme assay.",
+    "Step 3: Oculocutaneous albinism (OCA) is a group of disorders characterized by a lack of melanin production due to mutations in various genes involved in melanin synthesis. While some forms of OCA may involve enzymatic defects, such as tyrosine-related proteins, these conditions do not typically involve a straightforward enzymatic assay for carrier detection.",
+    "Step 4: Tay-Sachs disease is caused by a deficiency of the hexosaminidase A enzyme, which breaks down GM2 ganglioside in the brain. This deficiency leads to the accumulation of toxic GM2 ganglioside, causing neurodegeneration. Since Tay-Sachs disease involves a clear enzymatic defect, an enzyme assay can be used to detect carriers who have reduced levels of the enzyme.",
+    "Step 5: Considering all options, we find that both cystic fibrosis and Tay-Sachs disease can be identified using an enzyme assay. However, since the question asks for a single answer, we need to choose between these two options based on their relevance to the topic.",
+    "Step 6: Upon reviewing the options again, it appears that both choices A and D are correct answers. However, since the question requires a single choice, we will select the one that is more commonly associated with enzyme assays.",
+    "Step 7: Based on our analysis, we conclude that the best answer is either A or D, but since we must choose one, we select Choice_D: Tay-Sachs disease."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

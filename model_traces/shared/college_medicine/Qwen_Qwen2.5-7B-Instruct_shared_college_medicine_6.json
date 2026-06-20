@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "shared",
+  "subject": "College Medicine",
+  "question_index": 631,
+  "question_uuid": "82756a1d-4ee9-4b76-b69d-9246d9d41ca8",
+  "question": "With which of the following relatives is an individual most likely to share a common HLA haplotype?",
+  "options": {
+    "A": "Father",
+    "B": "Mother",
+    "C": "Sister",
+    "D": "Son"
+  },
+  "analysis": [
+    "Step 1: An individual shares one set of HLA haplotypes from their mother and another set from their father. Each parent contributes one allele from each pair of HLA genes, resulting in two haplotypes per person. Therefore, individuals are most likely to share at least one complete haplotype with either their father or mother due to the direct genetic contribution from both parents.",
+    "Step 2: Siblings have a 50% chance of sharing both HLA haplotypes because they inherit one haplotype randomly from each parent. However, siblings can also share only one haplotype if they receive the same haplotype from one parent. This means that while there's a higher probability of sharing a haplotype between siblings compared to non-relatives, it\u2019s not guaranteed as it depends on random inheritance.",
+    "Step 3: Half-siblings (from different mothers) would typically share no more than half of their HLA haplotypes since they do not share the same biological mother. Thus, the shared haplotype likelihood is lower compared to full siblings but still possible.",
+    "Step 4: Aunts, uncles, nieces, and nephews generally do not share significant portions of their HLA haplotypes unless they are related through close bloodlines like half-siblings or cousins who share a common ancestor within recent generations.",
+    "Step 5: Considering all these factors, the closest relatives with whom an individual is most likely to share a common HLA haplotype are their father or mother, given the direct genetic link and the high probability of inheriting identical haplotypes from one parent."
+  ],
+  "solution": "Choice_A",
+  "ground_truth": "C"
+}

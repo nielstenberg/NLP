@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "shared",
+  "subject": "College Medicine",
+  "question_index": 688,
+  "question_uuid": "ca65819e-6a44-4cfa-b5e7-a6efffdeab8a",
+  "question": "Which of the following is a feature of X-linked dominant inheritance?",
+  "options": {
+    "A": "Parental consanguinity",
+    "B": "Male to male transmission",
+    "C": "Transmission only by females",
+    "D": "Transmitted by males only to females"
+  },
+  "analysis": [
+    "Step 1: Evaluate Choice A (Parental consanguinity): Consanguinity increases the probability of homozygosity for rare alleles and is a classic feature of autosomal recessive inheritance, not X-linked dominant inheritance, so this choice is incorrect.",
+    "Step 2: Evaluate Choice B (Male to male transmission): In X-linked inheritance, fathers transmit their Y chromosome to sons and their X chromosome to daughters; therefore, an affected father cannot pass an X-linked trait to his son, ruling out male-to-male transmission as a feature of X-linked dominant inheritance.",
+    "Step 3: Evaluate Choice C (Transmission only by females): This statement is false because both affected males and affected females can transmit X-linked dominant traits; affected heterozygous females transmit the mutation to approximately 50% of their sons and daughters, meaning transmission is not exclusive to females.",
+    "Step 4: Evaluate Choice D (Transmitted by males only to females): An affected male possesses one X chromosome carrying the dominant mutation and one Y chromosome; he will inevitably pass his mutated X chromosome to all of his daughters (making them affected) and his normal Y chromosome to all of his sons (leaving them unaffected), making this a definitive and diagnostic feature of X-linked dominant inheritance.",
+    "Step 5: Based on the sequential evaluation, Choices A, B, and C describe patterns inconsistent with X-linked dominant genetics, while Choice D accurately captures the obligate transmission rule where affected fathers pass the trait exclusively to their daughters, confirming it as the correct answer."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

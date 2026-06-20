@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 778,
+  "question_uuid": "ec566821-9a7a-4c0c-8bbb-ae9878d3e685",
+  "question": "A 75-year-old woman comes to the office because she has band-like, burning pain in her right upper abdomen extending from the epigastrium around to the midline of the back. Physical examination discloses no abdominal tenderness to palpation. Findings on ultrasonography of the gallbladder are normal. Serum amylase concentration is within the reference range. Which of the following is the most likely diagnosis?",
+  "options": {
+    "A": "Acalculous cholecystitis",
+    "B": "Chronic relapsing pancreatitis",
+    "C": "Diverticulitis of the cecum",
+    "D": "Herpes zoster"
+  },
+  "analysis": [
+    "Step 1: Choice A (Acalculous cholecystitis) is highly unlikely because this condition typically occurs in severely ill or hospitalized patients and presents with right upper quadrant pain accompanied by fever, leukocytosis, and marked abdominal tenderness. Ultrasonography would demonstrate gallbladder wall thickening, sludge, or pericholecystic fluid, but the vignette explicitly states normal findings. Furthermore, visceral inflammation would produce palpable tenderness, which is absent here.",
+    "Step 2: Choice B (Chronic relapsing pancreatitis) can cause epigastric pain radiating to the back, but the pain is characteristically deep, boring, or gnawing rather than band-like and burning. Although serum amylase may be normal during chronic or burnt-out phases, physical examination would consistently reveal significant epigastric tenderness due to ongoing parenchymal inflammation. The neuropathic quality of the pain and lack of tenderness effectively rule out pancreatic pathology.",
+    "Step 3: Choice C (Diverticulitis of the cecum) primarily presents with right lower quadrant pain, fever, and localized tenderness over the affected bowel segment. It does not anatomically correspond to right upper quadrant or epigastric pain radiating to the midline back, nor does it explain the complete absence of abdominal tenderness. Therefore, this diagnosis is inconsistent with both the symptom location and physical examination findings.",
+    "Step 4: Choice D (Herpes zoster) perfectly aligns with the clinical presentation. Reactivation of latent varicella-zoster virus in a dorsal root ganglion produces neuropathic pain that strictly follows a dermatomal distribution, classically described as band-like, burning, or tingling. In the prodromal phase, pain frequently precedes the characteristic vesicular rash by several days. Because the pain originates from peripheral nerve irritation rather than visceral organ inflammation, abdominal examination reveals no tenderness to palpation. Normal gallbladder ultrasound and amylase levels further exclude intra-abdominal etiologies, making herpes zoster the most logical diagnosis in an elderly patient with waning cell-mediated immunity.",
+    "Step 5: Comparing all candidates, Choices A, B, and C represent intra-abdominal inflammatory processes that would inevitably cause localized tenderness and abnormal diagnostic test results, directly contradicting the vignette. Choice D accounts for every key feature: the dermatomal band-like burning pain, the absence of abdominal tenderness, normal ancillary studies, and the typical age-related immune decline predisposing to viral reactivation. Consequently, herpes zoster is the definitive diagnosis."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

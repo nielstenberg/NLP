@@ -1,0 +1,24 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "shared",
+  "subject": "College Medicine",
+  "question_index": 376,
+  "question_uuid": "0f185607-a7da-4691-8699-0ee00eece256",
+  "question": "A 45-year-old female presents to the office for evaluation of unexplained elevations of her blood pressure. Paroxysmal episodes of headache, sweating, anxiety, nausea, and vomiting occur frequently. A CT\u00a0scan reveals a left adrenal mass. Which of the following urinary assays will be most helpful in establishing this patient's diagnosis?",
+  "options": {
+    "A": "cortisol",
+    "B": "glucose",
+    "C": "sodium",
+    "D": "vanillylmandelic acid"
+  },
+  "analysis": [
+    "Step 1: The patient presents with paroxysms of symptoms such as headaches, sweating, anxiety, nausea, and vomiting along with elevated blood pressure, suggesting a possible pheochromocytoma. Pheochromocytomas are tumors that arise from chromaffin cells within the adrenal medulla and can cause episodic hypertension due to excess catecholamine production. Urinary assays for catecholamines (dopamine, epinephrine, and norepinephrine) would help confirm the diagnosis. However, these may not be readily available or specific enough. Therefore, their metabolites are often used instead.",
+    "Step 2: Among the options provided, vanillylmandelic acid (VMA) is the primary metabolite of catecholamines (epinephrine, norepinephrine, and dopamine). Elevated levels of VMA in the urine strongly suggest the presence of a pheochromocytoma.",
+    "Step 3: Cortisol levels might also be elevated in cases of pheochromocytoma but are not specifically diagnostic for it compared to other causes of hyperadrenocorticism like Cushing\u2019s syndrome.",
+    "Step 4: Glucose levels could be affected by stress-induced hyperglycemia but do not directly indicate a pheochromocytoma.",
+    "Step 5: Sodium levels might be altered in certain conditions associated with pheochromocytoma but are not specific markers for the condition.",
+    "Step n: Considering the clinical presentation and the need for a specific marker for pheochromocytoma, the most useful urinary assay among the given options is vanillylmandelic acid."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

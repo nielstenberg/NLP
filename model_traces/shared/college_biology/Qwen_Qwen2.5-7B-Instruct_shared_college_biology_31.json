@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "shared",
+  "subject": "College Biology",
+  "question_index": 390,
+  "question_uuid": "ecdeef74-4b98-4df1-a486-1eac78d97603",
+  "question": "Which of the changes below following the start codon in an mRNA would most likely have the greatest deleterious effect?",
+  "options": {
+    "A": "a deletion of a single nucleotide",
+    "B": "a deletion of a nucleotide triplet",
+    "C": "a single nucleotide substitution of the nucleotide occupying the first codon position",
+    "D": "a single nucleotide substitution of the nucleotide occupying the third codon position"
+  },
+  "analysis": [
+    "Step 1: A single nucleotide deletion (Choice_A) would result in a frameshift mutation starting from the point of deletion. This means that all codons after the deletion site would be read differently, potentially altering the entire protein sequence significantly. The impact can be severe as it disrupts the reading frame throughout the rest of the mRNA.",
+    "Step 2: A deletion of a nucleotide triplet (Choice_B) would also cause a frameshift mutation but only affects the immediate codons following the deletion. While still significant, the impact is more localized compared to a single nucleotide deletion because only three codons are affected instead of the entire sequence.",
+    "Step 3: A single nucleotide substitution in the first codon position (Choice_C) would change the amino acid encoded at the start of the protein. This could lead to a different initial amino acid being incorporated into the protein, potentially altering its structure and function if the new amino acid is not compatible with the rest of the protein's sequence.",
+    "Step 4: A single nucleotide substitution in the third codon position (Choice_D) would typically not change the amino acid sequence because the third position of a codon often codes for a degenerate base pair that does not affect the amino acid. Therefore, this type of mutation usually has minimal impact on the protein's structure and function.",
+    "Step n: Considering the potential impacts of each mutation, the most deleterious effect would likely come from a single nucleotide deletion (Choice_A) because it causes a frameshift mutation that alters the entire protein sequence. While deletions of nucleotide triplets (Choice_B) and substitutions in the first codon position (Choice_C) also have significant effects, they are more localized and less disruptive than a frameshift mutation."
+  ],
+  "solution": "Choice_A",
+  "ground_truth": "A"
+}

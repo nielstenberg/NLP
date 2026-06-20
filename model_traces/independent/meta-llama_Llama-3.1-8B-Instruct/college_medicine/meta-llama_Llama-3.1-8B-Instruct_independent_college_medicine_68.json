@@ -1,0 +1,24 @@
+{
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 748,
+  "question_uuid": "39b2ca27-8d47-4738-9bbe-fb575d903af1",
+  "question": "A 29-year-old Hispanic woman, gravida 3, para 3, comes to the office because of recurrent low back pain during the past year. Rest and analgesics usually eradicate the pain within 2 weeks. However, the pain seems to recur every 2 to 3 months. Medical history is remarkable for gestational diabetes mellitus during her pregnancies. She takes no medications except for an oral contraceptive. She walks 3 miles daily for exercise and works as a sales representative for a computer software company. She is 165 cm (5 ft 5 in) tall and weighs 100 kg (220 lb); BMI is 37 kg/m2 . Vital signs are normal, and physical examination discloses no abnormalities. Which of the following is the most appropriate next step?",
+  "options": {
+    "A": "Administer an epidural injection of methylprednisolone",
+    "B": "Order MRI of the lumbosacral spine",
+    "C": "Order x-rays of the lumbosacral spine",
+    "D": "Recommend beginning a weight loss program"
+  },
+  "analysis": [
+    "Step 1: First, let's analyze each choice individually.\n\n- Choice A involves administering an epidural injection of methylprednisolone, which is typically used for acute radicular pain due to herniated discs. This doesn't seem like the best initial approach given that the patient's symptoms have been recurring over the past year but can be managed with rest and analgesics.\n\n- Choice B suggests ordering an MRI of the lumbosacral spine. Given the patient's age, sex, and symptoms, this could be a reasonable next step to rule out underlying structural issues such as herniated discs or spinal stenosis.\n\n- Choice C proposes ordering X-rays of the lumbosacral spine. While X-rays may provide some information about bone structure, they are less sensitive than MRI for detecting soft tissue injuries or conditions such as herniated discs.\n\n- Choice D recommends starting a weight loss program. The patient has a high BMI of 37 kg/m^2, which increases her risk for developing musculoskeletal problems including low back pain.",
+    "Step 2: Considering the patient's medical history of gestational diabetes mellitus and current use of oral contraceptives, there might be an association between her obesity and potential metabolic factors contributing to her low back pain. However, recommending a weight loss program does not directly address the need to investigate the cause of her recurring low back pain.",
+    "Step 3: Given the patient's symptoms and lack of abnormalities on physical examination, it would be beneficial to further evaluate the cause of her low back pain before initiating treatment. Both Choice B (MRI) and Choice C (X-rays) could potentially identify underlying causes of her pain, but Choice B is more likely to detect soft tissue injuries or conditions such as herniated discs.",
+    "Step 4: However, considering the patient's age, sex, and symptoms, Choice B (Ordering an MRI of the lumbosacral spine) appears to be the most appropriate next step. It provides a detailed evaluation of the spine and surrounding tissues, increasing the likelihood of identifying the root cause of her recurring low back pain.",
+    "Step 5: While Choice D (Recommend beginning a weight loss program) is essential for the patient's overall health, addressing her obesity through lifestyle modifications should ideally occur concurrently with investigating the cause of her low back pain.",
+    "Step 6: Ultimately, the goal is to determine the underlying cause of the patient's low back pain and develop an effective management plan. Ordering an MRI of the lumbosacral spine (Choice B) allows for a comprehensive assessment of the spine and surrounding tissues, providing valuable information to guide further treatment decisions."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "D"
+}

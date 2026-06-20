@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "College Biology",
+  "question_index": 648,
+  "question_uuid": "1ea14894-49b6-4e61-a91e-c84e88fa68cb",
+  "question": "The normal pH of the cytosol is about 7.2. Most enzymes in the lysosome, however, are only active at a pH of 5. This suggests that",
+  "options": {
+    "A": "only acidic substances can undergo enzymatic processing in lysosomes",
+    "B": "most enzymes in the lysosome are incapable of catalyzing substrates inside the lysosome",
+    "C": "enzymes in the lysosome are released to the cytosol",
+    "D": "protons are actively pumped into the lysosome"
+  },
+  "analysis": [
+    "Step 1: Evaluating Choice A reveals it is incorrect because enzyme specificity is determined by molecular recognition and active-site geometry, not by whether the substrate is chemically acidic. The pH 5 requirement refers to the optimal ionization state of the enzyme's catalytic amino acid residues, not the acid-base properties of the macromolecules being digested.",
+    "Step 2: Evaluating Choice B shows it is incorrect because it directly contradicts the given premise. The question explicitly states that lysosomal enzymes are active at pH 5, which matches the actual internal pH of the lysosome, proving these enzymes are fully functional within their native compartment.",
+    "Step 3: Evaluating Choice C demonstrates it is incorrect because the pH difference actually functions as a cellular safety mechanism rather than indicating enzyme release. If lysosomal enzymes escaped into the neutral cytosol (pH 7.2), they would lose activity, thereby protecting the cell from autodigestion; thus, the premise does not suggest leakage.",
+    "Step 4: Evaluating Choice D confirms it is correct because maintaining an internal pH of 5 against a cytosolic pH of 7.2 requires moving hydrogen ions against a steep concentration gradient. This thermodynamically unfavorable process demands energy-dependent active transport via membrane-bound proton pumps (such as V-ATPases), directly supporting the inference that protons are actively pumped into the lysosome.",
+    "Step 5: Synthesizing the sequential evaluation shows that Choices A, B, and C contain factual inaccuracies regarding enzyme kinetics, organelle function, or cellular homeostasis. Only Choice D correctly identifies the biological mechanism necessitated by the stated pH gradient, aligning with established principles of membrane transport and lysosomal physiology."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

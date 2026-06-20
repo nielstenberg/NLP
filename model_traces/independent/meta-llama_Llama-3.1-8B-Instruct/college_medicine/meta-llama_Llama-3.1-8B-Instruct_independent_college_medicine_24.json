@@ -1,0 +1,24 @@
+{
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 256,
+  "question_uuid": "c4e997e0-46ab-4e42-b153-ef22f1c1d9ce",
+  "question": "David is a nationally ranked cellist who recently accepted a scholarship to a major college to perform in the orchestra. Over the summer, he has been given a packet of sheet music to be proficient in by fall semester. David is a perfectionist when it comes to his craft. He always compares himself to better players, and is very hard on himself when he cannot master a section of one of his pieces. Which of the following answers best describes David?",
+  "options": {
+    "A": "Low self-esteem, strong self-efficacy, internal locus of control",
+    "B": "High self-esteem, strong self-efficacy, internal locus of control",
+    "C": "Low self-esteem, strong self-efficacy, external locus of control",
+    "D": "Low self-esteem, low self-efficacy, internal locus of control"
+  },
+  "analysis": [
+    "Step 1: To determine which answer best describes David, we need to understand the concepts involved: self-esteem, self-efficacy, and locus of control.\n\n- Self-esteem refers to an individual's overall sense of worth or confidence in themselves.\n- Self-efficacy is the belief in one's ability to succeed in specific situations or accomplish certain tasks.\n- Locus of control refers to where individuals attribute their successes or failures - either internally (to themselves) or externally (to others or circumstances).",
+    "Step 2: David is described as a perfectionist who compares himself to better players and is hard on himself when he cannot master a piece. This suggests that he may have low self-esteem due to his critical nature towards himself.",
+    "Step 3: However, despite his struggles with mastering certain sections, David still strives to improve, indicating that he believes in his ability to learn and grow - suggesting strong self-efficacy.",
+    "Step 4: Given that David compares himself to other musicians and is hard on himself when he fails, it seems likely that he attributes his successes and failures to internal factors rather than external ones. This would suggest an internal locus of control.",
+    "Step 5: Considering all these points, let's analyze the options: - Choice A: Low self-esteem, strong self-efficacy, internal locus of control. This aligns with our analysis of David's characteristics.\n- Choice B: High self-esteem, strong self-efficacy, internal locus of control. This does not match our analysis since David exhibits low self-esteem.\n- Choice C: Low self-esteem, strong self-efficacy, external locus of control. This doesn't fit because David's locus of control appears to be internal.\n- Choice D: Low self-esteem, low self-efficacy, internal locus of control. This also doesn't fit because David's self-efficacy is strong.",
+    "Step 6: Based on our analysis, the most fitting description of David is someone with low self-esteem, strong self-efficacy, and an internal locus of control."
+  ],
+  "solution": "Choice_A",
+  "ground_truth": "A"
+}

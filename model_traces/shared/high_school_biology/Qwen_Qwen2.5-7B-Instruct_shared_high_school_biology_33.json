@@ -1,0 +1,22 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "shared",
+  "subject": "High School Biology",
+  "question_index": 30,
+  "question_uuid": "ed863364-4a1e-4471-b493-bd0d607497e8",
+  "question": "The crouching of very young birds in response to a predator\u2019s shape overhead is an example of",
+  "options": {
+    "A": "a conditioned response",
+    "B": "a fixed action pattern",
+    "C": "an imprinted behavior",
+    "D": "learned behavior"
+  },
+  "analysis": [
+    "Step 1: A conditioned response involves learning through association with stimuli, typically through classical conditioning. Very young birds crouching in response to a predator's shape does not involve prior learning or association; it is an innate response triggered by the presence of a threat, making Choice_A incorrect.",
+    "Step 2: A fixed action pattern (FAP) is a sequence of behaviors that are genetically programmed and unchangeable once initiated, such as the crouching response in young birds when they perceive a threat. This behavior is instinctive and does not require prior experience or learning, aligning with the definition of a FAP, making Choice_B a strong candidate.",
+    "Step 3: Imprinted behavior refers to the process where young animals learn certain behaviors from their parents or environment during a critical period early in life. The described behavior does not involve learning from parents or environmental cues but rather an innate response to a specific stimulus, so Choice_C can be ruled out.",
+    "Step 4: Learned behavior involves acquiring new behaviors through experience or practice. Since the crouching response is not something the bird learns over time but is an innate reaction to a perceived threat, Choice_D is also incorrect."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "B"
+}

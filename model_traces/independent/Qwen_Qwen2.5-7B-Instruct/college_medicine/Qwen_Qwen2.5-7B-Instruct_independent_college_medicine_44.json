@@ -1,0 +1,24 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 48,
+  "question_uuid": "c82b7550-16d2-4d89-91bb-308eb5b64a03",
+  "question": "A male neonate, who was born at 36 weeks' gestation 2 hours ago in the labor and delivery unit of the hospital, now shows signs of respiratory difficulty. The mother, an 18-year-old primigravid woman, smoked one pack of cigarettes daily throughout her pregnancy. She received prenatal care during most of the pregnancy. One episode of chlamydial cervicitis was detected during the last trimester and treated with azithromycin. The neonate was born via cesarean delivery due to fetal heart rate decelerations. The amniotic fluid was stained with light particulate meconium. Apgar scores were 9 and 9 at 1 and 5 minutes, respectively. The patient is 50 cm (20 in; 50th percentile) long and weighs 3005 g (6 lb 10 oz; 50th percentile); head circumference is 35 cm (14 in; 50th percentile). The infant's vital signs now are temperature 36.6\u00b0C (97.8\u00b0F), pulse 150/min, and respirations 70/min. Pulse oximetry on room air shows an oxygen saturation of 95%. Physical examination discloses mild subcostal and intercostal retractions. Chest x-ray shows prominent pulmonary vascular markings and fluid in the intralobar fissures. Which of the following is the most likely diagnosis?",
+  "options": {
+    "A": "Group B streptococcal sepsis",
+    "B": "Meconium aspiration syndrome",
+    "C": "Respiratory distress syndrome",
+    "D": "Transient tachypnea of newborn"
+  },
+  "analysis": [
+    "Step 1: The neonate presents with respiratory difficulties shortly after birth, which could be indicative of various conditions such as meconium aspiration syndrome, respiratory distress syndrome, transient tachypnea of the newborn, or group B streptococcal sepsis. However, the absence of fever, leukocytosis, and systemic signs suggests that sepsis is less likely.",
+    "Step 2: The mother\u2019s history of smoking and the presence of meconium-stained amniotic fluid suggest meconium aspiration syndrome (MAS). MAS can cause respiratory distress due to the inhalation of meconium into the lungs, leading to obstruction and inflammation. The physical findings like subcostal and intercostal retractions support this diagnosis.",
+    "Step 3: The chest X-ray showing prominent pulmonary vascular markings and fluid in the intralobar fissures further supports the diagnosis of MAS. These findings indicate increased pulmonary blood flow and possible alveolar flooding from aspirated meconium.",
+    "Step 4: Although the neonate has normal Apgar scores at both 1 and 5 minutes, this does not rule out MAS because some infants may have normal Apgar scores despite having significant respiratory issues due to meconium aspiration.",
+    "Step 5: The neonate\u2019s weight and length being at the 50th percentile also do not exclude MAS since it affects all types of neonates regardless of their size.",
+    "Step 6: Considering the clinical presentation, including respiratory distress, meconium-stained amniotic fluid, and the chest X-ray findings, the most likely diagnosis is meconium aspiration syndrome."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "D"
+}

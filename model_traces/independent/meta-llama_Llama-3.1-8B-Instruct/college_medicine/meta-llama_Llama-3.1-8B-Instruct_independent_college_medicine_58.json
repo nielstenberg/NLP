@@ -1,0 +1,23 @@
+{
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 86,
+  "question_uuid": "f2ea67ba-5b20-4f2c-9a99-6a3621b03baa",
+  "question": "A 16-year-old male is brought to the emergency department with sudden-onset swelling of the right knee. He denies any trauma. Past medical history reveals cystic fibrosis. Examination of the knee reveals fluctuance on palpation of the joint but no increased warmth; mild restriction in range of motion due to the swelling is also noted. Numerous bruises are noted in various stages of resolution. Further history reveals easy bruising and bleeding from the gums over the past month. The most likely explanation for these findings is",
+  "options": {
+    "A": "acquired factor VIII deficiency",
+    "B": "diffuse intravascular coagulation secondary to infection",
+    "C": "hypocomplementemia",
+    "D": "malabsorption of vitamins A, D, E, and K"
+  },
+  "analysis": [
+    "Step 1: Acquired Factor VIII Deficiency (Hemophilia A) - This condition is characterized by an inability to form blood clots due to a lack of factor VIII. It typically presents with easy bruising, prolonged bleeding after minor injuries, and hemarthroses (bleeding into joints). Given that the patient has numerous bruises in various stages of resolution and easy bruising and bleeding from the gums, this could be a plausible explanation.",
+    "Step 2: Diffuse Intravascular Coagulation (DIC) Secondary to Infection - DIC is a complex disorder involving both clotting and bleeding pathways. It can occur as a complication of severe infections, such as sepsis. However, the patient's presentation does not strongly suggest DIC, as there is no mention of fever, shock, or other signs of systemic infection.",
+    "Step 3: Hypocomplementemia - Hypocomplementemia refers to low levels of complement system proteins, which play a role in the immune response. While it can lead to recurrent infections, it doesn't directly explain the patient's symptoms of easy bruising and bleeding.",
+    "Step 4: Malabsorption of Vitamins A, D, E, and K - Malabsorption of fat-soluble vitamins can lead to deficiencies in vitamin K-dependent clotting factors (II, VII, IX, X), which would result in bleeding tendencies. However, the patient's presentation suggests a more specific issue with factor VIII rather than a general problem with vitamin absorption.",
+    "Step 5: Considering all options, the most likely explanation for the patient's symptoms is Acquired Factor VIII Deficiency (Hemophilia A). This condition aligns well with the patient's history of easy bruising, bleeding from the gums, and joint swelling due to hemarthrosis."
+  ],
+  "solution": "Choice_A",
+  "ground_truth": "D"
+}

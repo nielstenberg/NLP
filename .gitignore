@@ -1,0 +1,25 @@
+# Python env
+trace_generation/
+.venv/
+
+# HuggingFace cache
+hf_cache/
+.cache/
+**/huggingface/
+
+# datasets
+*.arrow
+*.parquet
+datasets/
+
+# python
+__pycache__/
+*.pyc
+
+# large model files
+*.bin
+*.safetensors
+*.pt
+
+# logs
+*.log

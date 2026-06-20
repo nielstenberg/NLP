@@ -1,0 +1,23 @@
+{
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 706,
+  "question_uuid": "cc7957b8-0d1f-4469-87af-3cea0256739e",
+  "question": "Intergenerational transmission to offspring can occur as a result of parental exposures to ______.",
+  "options": {
+    "A": "war",
+    "B": "natural disasters",
+    "C": "hunger",
+    "D": "all of these"
+  },
+  "analysis": [
+    "Step 1: We start by analyzing each individual choice separately. Let's consider 'war' (A) first. War exposure can lead to intergenerational transmission through epigenetic changes caused by stress, trauma, and environmental factors. This concept is supported by studies showing that children born during wartime periods have higher rates of certain health issues.",
+    "Step 2: Next, we examine 'natural disasters' (B). Similar to war exposure, natural disasters like hurricanes, earthquakes, and floods can cause significant stress and trauma, leading to epigenetic changes that may be transmitted to offspring. Research has shown that individuals exposed to traumatic events, including natural disasters, are more likely to experience anxiety, depression, and other mental health issues, which can affect their children.",
+    "Step 3: Now, let's look at 'hunger' (C). Hunger and food insecurity can also contribute to intergenerational transmission through epigenetic mechanisms. Studies have found that individuals who experienced famine or severe food scarcity during critical developmental periods are more likely to pass on these effects to their children, affecting their growth, development, and overall health.",
+    "Step 4: Considering all three options individually, it appears that each one can lead to intergenerational transmission through different pathways. However, when combining these factors, the impact becomes even more pronounced. For instance, individuals exposed to war often experience hunger and displacement, while those affected by natural disasters might face food insecurity and trauma.",
+    "Step 5: Given the interconnectedness of these factors, it seems reasonable to conclude that all of these options (A, B, C) can contribute to intergenerational transmission to offspring. The cumulative effect of multiple stressors, traumas, and environmental challenges can exacerbate the risk of passing on adverse outcomes to future generations."
+  ],
+  "solution": "N/A",
+  "ground_truth": "D"
+}

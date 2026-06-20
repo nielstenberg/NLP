@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "shared",
+  "subject": "High School Biology",
+  "question_index": 165,
+  "question_uuid": "088bc86e-175d-4edb-8394-2671e8d5d1aa",
+  "question": "The process in which pioneer species colonize a bare substrate such as rock, sand, or glacial till is known as",
+  "options": {
+    "A": "weathering",
+    "B": "stabilizing succession",
+    "C": "secondary succession",
+    "D": "primary succession"
+  },
+  "analysis": [
+    "Step 1: Evaluate Choice A (weathering), which refers to the physical or chemical breakdown of rocks into smaller particles; while it plays a role in eventual soil development, it is an abiotic geological process and not the biological colonization by living pioneer species described in the question.",
+    "Step 2: Evaluate Choice B (stabilizing succession), which is not a standard ecological term; although mature ecosystems eventually reach a relatively stable climax community, the initial colonization phase is never scientifically classified under this label.",
+    "Step 3: Evaluate Choice C (secondary succession), which occurs in environments where an existing biological community has been disrupted or removed but the original soil layer remains intact, allowing for much faster regrowth than colonization on completely barren ground.",
+    "Step 4: Evaluate Choice D (primary succession), which specifically defines the ecological process where hardy pioneer organisms, such as lichens and mosses, first colonize lifeless, soil-free substrates like exposed bedrock, volcanic ash, sand dunes, or retreating glacial till.",
+    "Step 5: Compare all evaluated options against the question's explicit mention of pioneer species establishing on a bare substrate without pre-existing soil, confirming that only primary succession accurately matches this foundational ecological concept."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

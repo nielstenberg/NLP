@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "shared",
+  "subject": "College Medicine",
+  "question_index": 649,
+  "question_uuid": "88b62b89-2d82-4b99-98d9-42c7246f541d",
+  "question": "An investigator is studying the incidence of the common cold among medical students at various time points during the school year. Results show an increased incidence of upper respiratory tract infections among these students during finals week. It is hypothesized that the stress of studying for examinations adversely affects the immune system, making the students more susceptible to infection. Which of the following laboratory findings in these students during examination week is most likely to support this hypothesis?",
+  "options": {
+    "A": "Decreased AM serum cortisol concentration",
+    "B": "Decreased macrophage activity",
+    "C": "Increased basophil count",
+    "D": "Increased lymphocyte count"
+  },
+  "analysis": [
+    "Step 1: Evaluation of Choice A reveals that psychological and physical stress activates the hypothalamic-pituitary-adrenal (HPA) axis, resulting in increased, not decreased, morning serum cortisol levels. A decreased cortisol concentration contradicts the expected neuroendocrine stress response and therefore cannot support the hypothesis.",
+    "Step 2: Evaluation of Choice B demonstrates that stress-induced cortisol elevation exerts potent immunosuppressive effects, specifically by downregulating macrophage functions such as phagocytosis, antigen processing, and pro-inflammatory cytokine secretion. Decreased macrophage activity directly compromises innate host defense against respiratory viruses, providing strong mechanistic support for the hypothesis.",
+    "Step 3: Evaluation of Choice C notes that basophils primarily mediate allergic inflammation and antiparasitic immunity. Glucocorticoids do not increase basophil counts; they typically induce their apoptosis or tissue sequestration. This finding is unrelated to viral upper respiratory tract infections and offers no support for the hypothesis.",
+    "Step 4: Evaluation of Choice D indicates that glucocorticoid excess characteristically causes lymphopenia rather than lymphocytosis, due to programmed cell death and redistribution of lymphocytes out of the bloodstream. An increased lymphocyte count would suggest enhanced adaptive immunity, directly contradicting the premise of stress-induced susceptibility.",
+    "Step 5: Synthesizing the sequential analyses confirms that only decreased macrophage activity aligns with the established pathophysiology of stress-mediated immunosuppression. Because examination-related stress elevates cortisol, which subsequently impairs critical innate immune functions, this laboratory finding most accurately validates the investigator's hypothesis."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "B"
+}

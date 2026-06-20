@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 113,
+  "question_uuid": "f1250726-9c90-48e6-8753-dc26949c3b59",
+  "question": "A 77-year-old man is brought to the physician because of a 12-hour history of word-finding difficulty and weakness and sensory loss of the right arm and leg. He has no history of similar symptoms. He has type 2 diabetes mellitus, hypertension, and atrial fibrillation. Current medications include metformin, lisinopril, and aspirin. He is alert. His pulse is 80/min and irregular, respirations are 16/min, and blood pressure is 170/90 mm Hg. He follows commands but has nonfluent aphasia. There is moderate weakness and decreased sensation of the right upper and lower extremities. Deep tendon reflexes are 2+ bilaterally. Babinski sign is present on the right. His serum glucose concentration is 162 mg/dL. Which of the following is the most appropriate next step in diagnosis?",
+  "options": {
+    "A": "Carotid duplex ultrasonography",
+    "B": "CT scan of the head",
+    "C": "EEG",
+    "D": "Lumbar puncture"
+  },
+  "analysis": [
+    "Step 1: Evaluate Choice A (Carotid duplex ultrasonography). While carotid artery disease can contribute to ischemic strokes, carotid ultrasound assesses only extracranial vessels and cannot visualize intracranial pathology. It does not differentiate between ischemic and hemorrhagic stroke, making it inappropriate as the immediate diagnostic step in an acute neurological emergency.",
+    "Step 2: Evaluate Choice B (CT scan of the head). The patient presents with acute-onset focal neurological deficits localizing to the left middle cerebral artery territory (nonfluent aphasia, right-sided motor and sensory loss, right Babinski sign). Given his atrial fibrillation, cardioembolic ischemic stroke is the leading suspicion. Guidelines universally recommend an emergent non-contrast CT scan of the head as the first diagnostic test to rapidly distinguish ischemic from hemorrhagic stroke, exclude mimics or mass lesions, and safely guide subsequent therapeutic decisions.",
+    "Step 3: Evaluate Choice C (EEG). Electroencephalography is utilized to diagnose seizure disorders, encephalopathies, or nonconvulsive status epilepticus. This patient is alert, follows commands, and demonstrates no clinical signs of seizure activity or altered consciousness, making EEG unnecessary and diagnostically unyielding for his presentation.",
+    "Step 4: Evaluate Choice D (Lumbar puncture). Lumbar puncture is indicated for suspected CNS infections, inflammatory demyelinating diseases, or subarachnoid hemorrhage when CT is negative. This patient lacks fever, nuchal rigidity, or severe headache, and his focal cortical signs clearly indicate a vascular etiology. Moreover, performing an LP in the setting of a potential large territorial infarct carries a significant risk of cerebral herniation due to possible mass effect, rendering it contraindicated as an initial test.",
+    "Step 5: Jointly synthesize the evaluations to determine the correct action. In acute focal neurological deficit, time-sensitive neuroimaging is mandatory to establish the stroke subtype and direct management. Only a non-contrast CT scan of the head fulfills this critical role by immediately ruling out hemorrhage and confirming ischemia, while the other options either address secondary workups, target unrelated pathologies, or pose safety risks. Thus, CT scan of the head is definitively the most appropriate next step."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "B"
+}

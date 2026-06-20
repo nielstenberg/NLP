@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "independent",
+  "subject": "High School Biology",
+  "question_index": 231,
+  "question_uuid": "9eb9f42a-620f-4866-9194-996baa024d46",
+  "question": "Among primates, a high degree of sexual dimorphism in a species usually indicates intense competition between",
+  "options": {
+    "A": "males in order to obtain individual food resources",
+    "B": "males in order to obtain mates",
+    "C": "females in order to obtain individual food resources",
+    "D": "females in order to obtain mates"
+  },
+  "analysis": [
+    "Step 1: Sexual dimorphism refers to differences in size or appearance between males and females of the same species. In many primate species with significant sexual dimorphism, these differences often correlate with male-male competition over access to females rather than direct resource acquisition. This suggests that Choice_B (males in order to obtain mates) aligns better with typical patterns observed in nature.",
+    "Step 2: Choice_A focuses on competition for food resources, but sexual dimorphism does not typically indicate differences primarily related to obtaining food since such traits would likely be similar across genders if food were the primary competitive factor.",
+    "Step 3: Choice_C mentions female food resources, which doesn't fit because sexual dimorphism isn\u2019t about females competing for food; it\u2019s more about how males compete for access to females.",
+    "Step 4: Choice_D involves female mating competition, but again, sexual dimorphism is generally associated with male characteristics used to attract or compete for females, not female-to-female competition.",
+    "Step n: Considering all options, the most accurate explanation for sexual dimorphism among primates is that it often reflects intense competition between males for access to females, as males develop features like larger canines or body size that help them win contests against other males for mating opportunities."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "B"
+}

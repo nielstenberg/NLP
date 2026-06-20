@@ -1,0 +1,24 @@
+{
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 137,
+  "question_uuid": "b5733e18-6342-4418-9c9e-6414d932da96",
+  "question": "A 3-year-old white girl is brought to the office by her parents for a follow-up visit 48 hours after receiving a 5-TU PPD skin test. The test was done as part of a routine screening for enrollment in a homeless shelter. Physical examination shows 10 mm of induration at the puncture site; the examination is otherwise normal. The parents tell you they are shocked by this finding since both of their skin tests were nonreactive. They say they were born in this country and tell you that their daughter has always been in good health. She has not had much medical care in the past 2 years but she has been healthy. Until moving into this shelter they had been \"squatters\" in vacant buildings. Which of the following is the most appropriate step at this time?",
+  "options": {
+    "A": "Call her previous physician to obtain more history",
+    "B": "Order a chest x-ray",
+    "C": "Order a test for HIV antibody",
+    "D": "Repeat the PPD skin test"
+  },
+  "analysis": [
+    "Step 1: Analyzing Choice A: Calling the previous physician to obtain more history may provide valuable information about the child's past medical conditions, including potential exposure to tuberculosis (TB). However, it might not be feasible or possible due to lack of documentation or communication barriers.",
+    "Step 2: Analyzing Choice B: Ordering a chest X-ray would be an essential diagnostic tool if TB infection is suspected. Given the positive PPD skin test result, a chest X-ray could help identify any potential pulmonary complications such as TB disease. This is a crucial step in managing TB infection.",
+    "Step 3: Analyzing Choice C: Testing for HIV antibody is not directly related to the management of TB infection. While HIV-positive individuals are more susceptible to developing active TB disease from latent TB infection, this choice does not address the immediate concern of the positive PPD skin test result.",
+    "Step 4: Analyzing Choice D: Repeating the PPD skin test is unnecessary given the current result. If the initial test was performed correctly, a repeat test will likely yield the same result, and further testing would not provide new information.",
+    "Step 5: Considering all options, the most critical step is to investigate the cause of the positive PPD skin test result. Since the child's parents have no known risk factors for TB and the child has been generally healthy, ordering a chest X-ray (Choice B) is the most appropriate next step to rule out TB disease.",
+    "Step 6: Given the positive PPD skin test result and the need to investigate further, Choice B is the best course of action. It allows for the assessment of potential pulmonary complications associated with TB infection while also considering other causes of the reaction."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "B"
+}

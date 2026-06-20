@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "shared",
+  "subject": "College Biology",
+  "question_index": 312,
+  "question_uuid": "b6fb05bc-8422-4aa2-a4ba-de27604c9a20",
+  "question": "Compared to DNA viral replication, RNA viral replication is more susceptible to mutation because",
+  "options": {
+    "A": "RNA replication takes place in the cytoplasm, whereas DNA replication takes place in the nucleus.",
+    "B": "RNA viruses replicate much faster than DNA viruses.",
+    "C": "RNA viruses use uracil instead of thymine.",
+    "D": "RNA replication lacks the proofreading functions characteristic of DNA replication."
+  },
+  "analysis": [
+    "Step 1: Analyze Choice A, which suggests that the location of replication (cytoplasm vs. nucleus) determines susceptibility to mutation. While it is true that many RNA viruses replicate in the cytoplasm and DNA viruses often replicate in the nucleus, the physical location itself does not inherently cause higher mutation rates. The fidelity of replication depends on the enzymatic machinery used, not the cellular compartment where the process occurs. Therefore, this choice is incorrect as the primary reason.",
+    "Step 2: Analyze Choice B, which claims that RNA viruses replicate much faster than DNA viruses, leading to more mutations. Although some RNA viruses do have rapid replication cycles, speed alone is not the fundamental biological mechanism causing high mutation rates. Even if an RNA virus replicated slowly, its error rate per nucleotide added would remain high due to the nature of its polymerase. Thus, replication speed is a contributing factor to the total number of errors in a population but not the intrinsic cause of susceptibility to mutation at the molecular level. This choice is incorrect.",
+    "Step 3: Analyze Choice C, which states that RNA viruses use uracil instead of thymine. The substitution of uracil for thymine is a chemical difference between RNA and DNA bases, but it does not directly influence the accuracy of the polymerase enzyme during strand synthesis. Both thymine and uracil pair with adenine; the lack of a methyl group in uracil compared to thymine is related to stability and repair mechanisms in host genomes, but it is not the direct cause of the high error rate observed in RNA viral replication. This choice is incorrect.",
+    "Step 4: Analyze Choice D, which posits that RNA replication lacks the proofreading functions characteristic of DNA replication. DNA-dependent DNA polymerases typically possess a 3'->5' exonuclease activity that allows them to detect and correct mismatched nucleotides immediately after incorporation (proofreading). In contrast, most RNA-dependent RNA polymerases (RdRp) and reverse transcriptases lack this proofreading capability. Consequently, errors made during RNA synthesis are rarely corrected, resulting in significantly higher mutation rates (often $10^3$ to $10^5$ times higher) compared to DNA replication. This is the scientifically accepted primary reason for the higher mutability of RNA viruses.",
+    "Step 5: Conclude the analysis by comparing all options. Choices A, B, and C describe differences in location, speed, or base composition, none of which are the fundamental mechanistic cause of high mutation rates. Choice D correctly identifies the absence of proofreading activity in RNA polymerases as the key factor leading to low fidelity and high susceptibility to mutation. Therefore, Choice D is the correct answer."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

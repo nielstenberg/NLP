@@ -1,0 +1,24 @@
+{
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "mode": "shared",
+  "subject": "High School Biology",
+  "question_index": 210,
+  "question_uuid": "5f8726c2-2372-4377-a60d-51ca1b0bacc0",
+  "question": "Which of the following is a biological attribute that would most likely allow a species to become cosmopolitan in distribution?",
+  "options": {
+    "A": "Extreme habitat specialization",
+    "B": "K-selected reproductive rate",
+    "C": "Limited dispersal abilities",
+    "D": "Capacity for long-distance dispersal"
+  },
+  "analysis": [
+    "Step 1: To determine which biological attribute would allow a species to become cosmopolitan in distribution, we need to understand what cosmopolitan distribution means. Cosmopolitan distribution refers to the ability of a species to be found on every continent or in almost every part of the world. This means the species must be able to adapt to various environments and disperse over long distances.",
+    "Step 2: Let's analyze Choice_A: Extreme habitat specialization. A species with extreme habitat specialization is highly adapted to a specific environment and is unlikely to thrive in other environments. This would limit its distribution to a specific area, making it less likely to become cosmopolitan.",
+    "Step 3: Now, let's analyze Choice_B: K-selected reproductive rate. K-selected species have a reproductive strategy that involves producing a small number of offspring and investing a lot of energy in each one. This strategy is often associated with species that are well-established in their environment and have a stable population size. While this strategy may be beneficial for a species in a specific environment, it does not necessarily facilitate long-distance dispersal or adaptation to new environments.",
+    "Step 4: Next, let's analyze Choice_C: Limited dispersal abilities. A species with limited dispersal abilities is unlikely to be able to travel long distances and colonize new areas. This would limit its distribution and make it less likely to become cosmopolitan.",
+    "Step 5: Finally, let's analyze Choice_D: Capacity for long-distance dispersal. A species with the capacity for long-distance dispersal is able to travel over long distances and colonize new areas. This would allow it to adapt to new environments and become established in a wide range of habitats, making it more likely to become cosmopolitan in distribution.",
+    "Step 6: Considering the above analysis, the biological attribute that would most likely allow a species to become cosmopolitan in distribution is the capacity for long-distance dispersal. This is because it enables the species to adapt to new environments and become established in a wide range of habitats."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "shared",
+  "subject": "College Medicine",
+  "question_index": 322,
+  "question_uuid": "dc55f844-23b9-4eea-93e4-5b8a5477215d",
+  "question": "The electron transport chain, which is embedded in the mitochondrial membrane, exists primarily to generate new molecules of ATP for use by the cell. This is accomplished by a positive gradient of H+ ions that are formed outside the membrane which then pass back through a specialized channel known as ATP synthase. The energy created from this phosphorylates an ATP to an ATP, known as oxidative phosphorylation. The mechanism by which H+ returns to the inside of the mitochondria is known as what?",
+  "options": {
+    "A": "Passive transport",
+    "B": "Passive diffusion",
+    "C": "Active transport",
+    "D": "Endocytosis"
+  },
+  "analysis": [
+    "Step 1: The electron transport chain (ETC) generates a proton gradient across the inner mitochondrial membrane by pumping protons out into the intermembrane space. When these protons flow back into the matrix through ATP synthase, it leads to the production of ATP via oxidative phosphorylation. This process does not require the input of energy since the movement of protons down their concentration gradient provides the necessary energy. Therefore, passive transport best describes the return of protons to the matrix because no active energy expenditure is involved.",
+    "Step 2: Passive diffusion refers specifically to the spontaneous movement of particles from an area of high concentration to low concentration due to random molecular motion. While similar to how protons move through ATP synthase, passive diffusion typically involves small uncharged molecules like gases or lipids diffusing through lipid bilayers. Protons moving through ATP synthase do so under electrochemical gradients rather than simple diffusion, making this choice less accurate.",
+    "Step 3: Active transport requires energy input usually in the form of ATP to move substances against their concentration gradient. Since protons naturally move down their concentration gradient towards the lower concentration within the matrix, this process does not fit the definition of active transport.",
+    "Step 4: Endocytosis is a cellular process where cells take in external materials by engulfing them with their plasma membrane. It is unrelated to the movement of protons within the mitochondria during ATP synthesis.",
+    "Step 5: Considering all options, passive transport most accurately describes the mechanism by which protons return to the matrix through ATP synthase after being pumped out by the ETC. The movement is driven by the natural tendency of protons to flow down their concentration gradient, aligning perfectly with the concept of passive transport."
+  ],
+  "solution": "Choice_A",
+  "ground_truth": "A"
+}

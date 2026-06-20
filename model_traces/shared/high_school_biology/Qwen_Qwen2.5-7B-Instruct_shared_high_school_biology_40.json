@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "shared",
+  "subject": "High School Biology",
+  "question_index": 327,
+  "question_uuid": "d32c9a4b-bf62-4ea6-88a6-70459bb638d8",
+  "question": "Monoclonal antisera are distinguished from polyclonal antisera in which of the following ways?",
+  "options": {
+    "A": "Each type of antibody in a monoclonal antiserum reacts against a single region of a single antigen; each type of antibody in a polyclonal antiserum reacts against multiple regions of different antigens.",
+    "B": "A monoclonal antibody reacts against multiple regions of a single antigen; a polyclonal antibody reacts against a single region of related antigens.",
+    "C": "A monoclonal antiserum contains antibodies secreted from the descendants of a single B lymphocyte; a polyclonal antiserum contains antibodies secreted from the descendants of different B lymphocytes.",
+    "D": "A monoclonal antiserum contains antibodies secreted from the descendants of a single B lymphocyte; a polyclonal antiserum contains antibodies secreted from the descendants of both B and T lymphocytes."
+  },
+  "analysis": [
+    "Step 1: Choice_A describes that each type of antibody in a monoclonal antiserum reacts against a single region of a single antigen, while each type of antibody in a polyclonal antiserum reacts against multiple regions of different antigens. This description is incorrect because monoclonal antibodies are specific to one antigen, not multiple regions of a single antigen, and polyclonal antibodies can recognize multiple epitopes on an antigen.",
+    "Step 2: Choice_B states that a monoclonal antibody reacts against multiple regions of a single antigen, and a polyclonal antibody reacts against a single region of related antigens. This description is also incorrect because monoclonal antibodies are specific to one epitope on an antigen, not multiple regions, and polyclonal antibodies can recognize multiple epitopes on different antigens.",
+    "Step 3: Choice_C explains that a monoclonal antiserum contains antibodies secreted from the descendants of a single B lymphocyte, while a polyclonal antiserum contains antibodies secreted from the descendants of different B lymphocytes. This description is correct as it accurately distinguishes between monoclonal and polyclonal antisera based on their origin from a single or multiple B cells, respectively.",
+    "Step 4: Choice_D incorrectly states that a polyclonal antiserum contains antibodies secreted from the descendants of both B and T lymphocytes, which is not accurate since polyclonal antisera are derived from B cells only.",
+    "Step n: Based on the analysis, Choice_C correctly describes the distinction between monoclonal and polyclonal antisera."
+  ],
+  "solution": "N/A",
+  "ground_truth": "C"
+}

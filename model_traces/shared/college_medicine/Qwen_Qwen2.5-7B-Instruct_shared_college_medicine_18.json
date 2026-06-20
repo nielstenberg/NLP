@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "shared",
+  "subject": "College Medicine",
+  "question_index": 68,
+  "question_uuid": "3211d90f-9e8e-47ad-85a6-98f1d155cf86",
+  "question": "Which of the following disorders is not suitable for population carrier screening?",
+  "options": {
+    "A": "Cystic fibrosis",
+    "B": "Oculocutaneous albinism",
+    "C": "Sickle cell disease",
+    "D": "Tay-Sachs disease"
+  },
+  "analysis": [
+    "Step 1: Cystic fibrosis is a genetic disorder caused by mutations in the CFTR gene that leads to abnormal function of the cystic fibrosis transmembrane conductance regulator protein. Population carrier screening for cystic fibrosis can be effective as it affects many populations worldwide and has high prevalence rates among certain ethnic groups such as Ashkenazi Jews and Caucasians of European descent. Therefore, it is suitable for population carrier screening.",
+    "Step 2: Oculocutaneous albinism (OCA) refers to a group of inherited conditions characterized by reduced pigmentation in the skin, hair, and eyes due to defects in melanin production. There are several types of OCA, each with different genetic causes. While some forms may have significant health implications, others might only affect appearance. However, given its relatively low incidence compared to other options listed and variable expressivity across different types, it is less commonly included in routine population-based carrier screening programs.",
+    "Step 3: Sickle cell disease results from a mutation in the beta-globin gene leading to abnormal hemoglobin structure causing red blood cells to become rigid and sickle-shaped under certain conditions. This condition predominantly affects individuals of African descent but also occurs in people of other ancestry. Due to its high prevalence in specific populations and severe clinical manifestations, it is often included in newborn screening panels and considered appropriate for population carrier screening.",
+    "Step 4: Tay-Sachs disease is an autosomal recessive neurodegenerative disorder caused by a deficiency of the enzyme hexosaminidase A. It primarily affects infants and young children, leading to progressive neurological deterioration and early death. The disease is most common among Ashkenazi Jewish, French-Canadian, and certain Mediterranean populations. Given its rarity outside these specific populations and the severity of the condition, it is typically not included in general population carrier screening programs.",
+    "Step n: Considering the above analyses, oculocutaneous albinism stands out as the least likely candidate for widespread population carrier screening due to its lower prevalence and varying degrees of impact depending on the type. In contrast, cystic fibrosis, sickle cell disease, and Tay-Sachs disease all meet criteria for inclusion based on their higher prevalence and more severe consequences if left untreated."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "B"
+}

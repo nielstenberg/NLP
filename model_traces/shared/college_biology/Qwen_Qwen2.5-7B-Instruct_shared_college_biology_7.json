@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "shared",
+  "subject": "College Biology",
+  "question_index": 216,
+  "question_uuid": "069f5d90-e4a3-4eb3-b29a-a0d30bf5ca7c",
+  "question": "In general, animal cells differ from plant cells in that animal cells have",
+  "options": {
+    "A": "a cell wall made of cellulose",
+    "B": "lysosomes",
+    "C": "large vacuoles that store water",
+    "D": "centrioles within centrosomes"
+  },
+  "analysis": [
+    "Step 1: Animal cells do not have a cell wall made of cellulose, which is a characteristic feature of plant cells. This immediately eliminates Choice_A as a correct answer.",
+    "Step 2: Lysosomes are organelles found in both animal and plant cells, responsible for breaking down waste materials and cellular debris. Therefore, Choice_B cannot be the distinguishing factor between animal and plant cells.",
+    "Step 3: Plant cells contain large vacuoles that store water and other substances, whereas animal cells typically have smaller vacuoles or none at all. This makes Choice_C a potential candidate for the distinguishing feature between the two types of cells.",
+    "Step 4: Centrioles are present in animal cells but not in plant cells, and they are located within centrosomes. This makes Choice_D another potential candidate for the distinguishing feature between the two types of cells.",
+    "Step 5: While both centrioles and vacuoles are present in one type of cell but not the other, the presence of centrioles is more specific to animal cells compared to vacuoles being more common in plant cells. Therefore, Choice_D is the most accurate distinction between animal and plant cells."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

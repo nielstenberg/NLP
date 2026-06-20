@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "shared",
+  "subject": "High School Biology",
+  "question_index": 30,
+  "question_uuid": "ed863364-4a1e-4471-b493-bd0d607497e8",
+  "question": "The crouching of very young birds in response to a predator\u2019s shape overhead is an example of",
+  "options": {
+    "A": "a conditioned response",
+    "B": "a fixed action pattern",
+    "C": "an imprinted behavior",
+    "D": "learned behavior"
+  },
+  "analysis": [
+    "Step 1: Analyze Choice A (a conditioned response). A conditioned response is a learned behavior that develops through association, such as Pavlov's dogs salivating at the sound of a bell. The crouching behavior of very young birds is innate and present from birth, not acquired through prior experience or training, so it is not a conditioned response.",
+    "Step 2: Analyze Choice B (a fixed action pattern). A fixed action pattern (FAP) is an instinctive behavioral sequence that is highly stereotyped and species-specific, triggered by a specific external sensory stimulus known as a sign stimulus or releaser. In this scenario, the \"predator\u2019s shape overhead\" acts as the sign stimulus, triggering the innate \"crouching\" response in the young birds. This fits the definition of a fixed action pattern perfectly.",
+    "Step 3: Analyze Choice C (an imprinted behavior). Imprinting is a rapid learning process that occurs during a critical period early in life, typically involving social bonding (e.g., a duckling following its mother). While imprinting is innate in its timing, the behavior itself is directed toward a specific object or individual encountered during that window. Crouching in response to a predator is a defensive reflex, not a social bonding mechanism, so it is not imprinting.",
+    "Step 4: Analyze Choice D (learned behavior). Learned behaviors are acquired through experience, observation, or practice. Since very young birds exhibit this crouching behavior immediately upon hatching without having previously encountered a predator or been taught to do so, it is innate rather than learned. Therefore, it is not a learned behavior.",
+    "Step 5: Conclude the analysis. Comparing all options, the behavior is innate, triggered by a specific stimulus (predator shape), and performed in a stereotyped manner. This aligns strictly with the definition of a fixed action pattern. Choices A, C, and D all involve some form of learning or specific developmental bonding that does not apply to this innate defensive reflex."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "B"
+}

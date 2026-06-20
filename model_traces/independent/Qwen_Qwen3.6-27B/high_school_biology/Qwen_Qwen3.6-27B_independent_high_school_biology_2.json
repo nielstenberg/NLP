@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "High School Biology",
+  "question_index": 288,
+  "question_uuid": "caece878-d550-4579-b28f-dbc5acbbdd09",
+  "question": "Which of the following statements concerning a sarcomere of a striated muscle (such as skeletal muscle) is correct?",
+  "options": {
+    "A": "During contraction H zones become elongated.",
+    "B": "In the relaxed position tropomyosin impedes myosin's access to the binding site of actin.",
+    "C": "Each myosin helical tail contains an actinbinding site and an ATP-hydrolyzing site.",
+    "D": "The proteins troponin and tropomyosin constitute the thick and thin filaments, respectively."
+  },
+  "analysis": [
+    "Step 1: Evaluate Choice A regarding the behavior of the H zone during contraction. The H zone is the central region of the sarcomere's A band that contains only thick filaments with no overlapping thin filaments. During muscle contraction, thin filaments slide inward toward the M line due to cross-bridge cycling, which increases filament overlap and causes the H zone to narrow or disappear entirely, not elongate. Therefore, Choice A is incorrect.",
+    "Step 2: Evaluate Choice B regarding the role of tropomyosin in the relaxed state. In a relaxed striated muscle, cytosolic calcium concentrations are low, allowing troponin to hold tropomyosin in a specific conformation that physically covers the myosin-binding sites on actin subunits. This steric hindrance prevents myosin heads from attaching to actin, effectively inhibiting contraction until calcium influx triggers a conformational shift. Thus, Choice B accurately describes the regulatory mechanism of muscle relaxation.",
+    "Step 3: Evaluate Choice C regarding the structural organization of myosin. Skeletal muscle myosin (myosin II) is a hexameric protein consisting of two heavy chains forming a long helical tail and two globular head domains. The actin-binding site and the ATP-hydrolyzing (ATPase) catalytic site are exclusively located on the myosin head regions, not on the helical tail, which functions primarily as a structural dimerization scaffold for thick filament assembly. Therefore, Choice C is incorrect.",
+    "Step 4: Evaluate Choice D regarding the protein composition of sarcomeric filaments. Thick filaments are composed predominantly of myosin molecules, while thin filaments are primarily composed of F-actin polymers associated with the regulatory complex of troponin and tropomyosin. Neither troponin nor tropomyosin constitutes the thick filament, and they serve as regulators rather than the primary structural component of the thin filament. Therefore, Choice D is incorrect.",
+    "Step 5: Synthesize the findings from the sequential evaluations. Choices A, C, and D contain fundamental inaccuracies regarding sarcomere dynamics and molecular anatomy, whereas Choice B correctly identifies the physiological function of tropomyosin in blocking actin-myosin interaction during muscle relaxation. Consequently, Choice B is the only scientifically accurate statement."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "B"
+}

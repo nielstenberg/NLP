@@ -1,0 +1,22 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 757,
+  "question_uuid": "cd0969b2-b168-4fee-97f1-58fa59d0ef84",
+  "question": "Glycogen breakdown in exercising muscle is activated by:",
+  "options": {
+    "A": "insulin.",
+    "B": "cortisol.",
+    "C": "increased pH.",
+    "D": "none of the above."
+  },
+  "analysis": [
+    "Step 1: Evaluate Choice A (insulin): Insulin functions as an anabolic hormone that stimulates glucose uptake and glycogen synthesis in skeletal muscle while actively suppressing glycogenolysis via protein phosphatase-mediated dephosphorylation of glycogen phosphorylase; therefore, it inhibits rather than activates glycogen breakdown during exercise.",
+    "Step 2: Evaluate Choice B (cortisol): Cortisol is a glucocorticoid involved in prolonged stress responses and metabolic homeostasis, primarily upregulating hepatic gluconeogenesis and peripheral protein catabolism, but it does not possess the rapid signaling kinetics necessary to directly activate muscle glycogen phosphorylase during acute contraction.",
+    "Step 3: Evaluate Choice C (increased pH): Vigorous muscle exercise increases anaerobic glycolysis and ATP hydrolysis, leading to proton release and a significant drop in intracellular pH (metabolic acidosis), not an increase; furthermore, alkaline shifts do not serve as physiological triggers for glycogenolytic pathway activation.",
+    "Step 4: Joint evaluation and conclusion: Because insulin suppresses glycogenolysis, cortisol lacks acute muscle-specific glycogenolytic activity, and exercise induces acidosis rather than alkalosis, none of the listed factors act as direct activators of muscle glycogen breakdown; the established physiological activators are catecholamines (epinephrine), cytosolic calcium ions released from the sarcoplasmic reticulum, and elevated AMP levels, confirming that the correct answer is none of the above."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

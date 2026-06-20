@@ -1,0 +1,25 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "independent",
+  "subject": "High School Biology",
+  "question_index": 270,
+  "question_uuid": "96f4e69f-8765-4466-824a-484e420b2f65",
+  "question": "A stem-boring beetle has laid its eggs in the center of a 5-year-old wood twig, and the eggs have matured into larvae. In proper order (inside to outside), what tissues and tissue regions would the larvae encounter as they eat their way toward the outside of the twig? (For simplicity, assume that the epidermis has already fallen off completely.)",
+  "options": {
+    "A": "Pith; primary xylem; secondary xylem; vascular cambium; primary phloem; secondary phloem; cortex",
+    "B": "Pith; secondary xylem; primary xylem; vascular cambium; secondary phloem; primary phloem; cortex",
+    "C": "Pith; secondary xylem; primary xylem; vascular cambium; primary phloem; secondary phloem; cortex",
+    "D": "Pith; primary xylem; secondary xylem; vascular cambium; secondary phloem; primary phloem; cortex"
+  },
+  "analysis": [
+    "Step 1: The pith is located at the very center of the twig and is composed of parenchyma cells that were part of the apical meristem before the formation of the xylem and phloem. As the larvae move from the center towards the outside, they will first encounter the pith.",
+    "Step 2: Surrounding the pith are the primary xylem and secondary xylem. Primary xylem forms early in the development of the twig and consists mainly of tracheids and some vessels. Secondary xylem develops later and includes more vessel elements and tracheids, forming rings around the primary xylem.",
+    "Step 3: Between the xylem and the phloem lies the vascular cambium, a layer of meristematic tissue responsible for secondary growth, increasing the girth of the twig over time.",
+    "Step 4: Moving outward from the vascular cambium, the primary phloem is next encountered. This is the initial phloem formed during the development of the twig.",
+    "Step 5: Finally, surrounding the primary phloem is the secondary phloem, which is produced by the activity of the vascular cambium after it becomes active.",
+    "Step 6: The cortex is the outermost region of the twig, consisting of parenchyma cells that provide support and storage functions.",
+    "Step n: Analyzing the choices, we can see that Choices B and C differ only in the placement of primary and secondary phloem relative to each other. However, based on the typical structure of woody plants, the primary phloem should be closer to the vascular cambium than the secondary phloem. Therefore, Choice B correctly orders these structures."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "D"
+}

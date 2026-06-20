@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "shared",
+  "subject": "High School Biology",
+  "question_index": 168,
+  "question_uuid": "664372af-419b-449f-a6b1-1acb0ecd835b",
+  "question": "Which of the following adaptations would limit pollination by bees and promote hummingbird pollination?",
+  "options": {
+    "A": "Patterns of ultraviolet color on the petals",
+    "B": "Modified petals to provide a landing space",
+    "C": "Pendant (hanging) red-colored flowers",
+    "D": "Nectar with high sugar concentration produced in limited amounts"
+  },
+  "analysis": [
+    "Step 1: Patterns of ultraviolet color on the petals (Choice_A) are typically invisible to humans but visible to bees, which have a broader range of color sensitivity. This adaptation would likely enhance bee pollination rather than limit it.",
+    "Step 2: Modified petals to provide a landing space (Choice_B) would make it easier for bees to land and access nectar, thus promoting bee pollination.",
+    "Step 3: Pendant (hanging) red-colored flowers (Choice_C) are more attractive to hummingbirds, which have a long beak and are capable of hovering to access nectar. This adaptation would limit bee pollination and promote hummingbird pollination.",
+    "Step 4: Nectar with high sugar concentration produced in limited amounts (Choice_D) would attract both bees and hummingbirds, as both are attracted to high sugar concentrations. However, the limited amount of nectar might not be sufficient to attract a large number of bees, potentially limiting bee pollination.",
+    "Step 5: Comparing the effects of each choice, the most effective adaptation for limiting bee pollination and promoting hummingbird pollination is the pendant (hanging) red-colored flowers (Choice_C)."
+  ],
+  "solution": "Choice_C",
+  "ground_truth": "C"
+}

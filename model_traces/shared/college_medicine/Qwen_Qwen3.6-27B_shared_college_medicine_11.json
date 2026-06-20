@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "shared",
+  "subject": "College Medicine",
+  "question_index": 173,
+  "question_uuid": "823d0529-10b2-4d90-b640-bf66f5333797",
+  "question": "The energy released from the breakdown of the high-energy phosphates, ATP and phosphocreatine, can sustain maximal exertion exercise for about:",
+  "options": {
+    "A": "1-2 seconds.",
+    "B": "5-10 seconds.",
+    "C": "30-40 seconds.",
+    "D": "50-60 seconds."
+  },
+  "analysis": [
+    "Step 1: Choice A (1-2 seconds) only accounts for the depletion of pre-existing intracellular ATP stores and fails to include the energy yield from phosphocreatine breakdown, making it insufficient for the combined system specified in the question.",
+    "Step 2: Choice B (5-10 seconds) accurately reflects the physiological capacity of the ATP-phosphocreatine (phosphagen) system; initial ATP lasts approximately 1-2 seconds, and phosphocreatine rapidly donates a phosphate group to regenerate ATP, collectively sustaining maximal power output for roughly 5-10 seconds before significant depletion occurs.",
+    "Step 3: Choice C (30-40 seconds) falls within the operational window of anaerobic glycolysis, which becomes the predominant energy pathway after phosphocreatine stores are exhausted, thus exceeding the functional limit of high-energy phosphate breakdown.",
+    "Step 4: Choice D (50-60 seconds) represents prolonged high-intensity exercise that requires sustained contributions from both glycolytic and oxidative phosphorylation pathways, far surpassing the rapid depletion kinetics of the ATP-PCr system.",
+    "Step 5: Evaluating all candidates sequentially confirms that only Choice B aligns with established exercise physiology and clinical biochemistry standards regarding the duration the ATP and phosphocreatine system can fuel maximal exertion."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "B"
+}

@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "shared",
+  "subject": "College Biology",
+  "question_index": 246,
+  "question_uuid": "0e4a4947-ada5-4eba-8f20-6b49a27990a1",
+  "question": "This process leads to the net production of two pyruvate, two ATP, and two NADH.",
+  "options": {
+    "A": "Glycolysis",
+    "B": "Chemiosmosis",
+    "C": "Fermentation",
+    "D": "Calvin cycle"
+  },
+  "analysis": [
+    "Step 1: Analyze Choice A (Glycolysis). Glycolysis is the metabolic pathway that converts glucose into pyruvate. The free energy released in this process is used to form the high-energy molecules ATP and NADH. Specifically, one molecule of glucose yields a net gain of two ATP molecules and two NADH molecules, while producing two molecules of pyruvate as end products. This matches the description in the question perfectly.",
+    "Step 2: Analyze Choice B (Chemiosmosis). Chemiosmosis is the movement of ions across a semipermeable membrane down their electrochemical gradient. In cellular respiration, it is the mechanism by which ATP synthase generates ATP using the proton motive force established by the electron transport chain. It does not produce pyruvate or NADH; rather, it consumes the proton gradient to synthesize ATP from ADP and phosphate. Therefore, this choice is incorrect.",
+    "Step 3: Analyze Choice C (Fermentation). Fermentation occurs after glycolysis when oxygen is absent. Its primary purpose is to regenerate NAD+ from NADH so that glycolysis can continue. While fermentation starts with pyruvate, it typically converts pyruvate into lactate or ethanol and CO2, and it oxidizes NADH back to NAD+. It does not result in the *net production* of NADH; instead, it consumes the NADH produced during glycolysis. Thus, this choice is incorrect.",
+    "Step 4: Analyze Choice D (Calvin cycle). The Calvin cycle is part of photosynthesis occurring in the chloroplasts of plants. It uses ATP and NADPH (not NADH) to convert carbon dioxide into glucose (or G3P). It consumes energy carriers rather than producing them, and its output is sugar precursors, not pyruvate. Therefore, this choice is incorrect.",
+    "Step 5: Conclude the analysis. Based on the previous steps, only Glycolysis results in the specific net outputs described: two pyruvate molecules, two ATP molecules, and two NADH molecules per glucose molecule. Choices B, C, and D describe processes with different inputs, outputs, or functions that do not match the criteria given in the question."
+  ],
+  "solution": "Choice_A",
+  "ground_truth": "A"
+}

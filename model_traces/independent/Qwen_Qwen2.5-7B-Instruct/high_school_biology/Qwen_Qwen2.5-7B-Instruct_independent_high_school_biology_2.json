@@ -1,0 +1,22 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "independent",
+  "subject": "High School Biology",
+  "question_index": 57,
+  "question_uuid": "c5827dcc-18b2-43dd-8a70-31b4d7933bc4",
+  "question": "Cleavage symmetry arising from early cell divisions that occur at an oblique angle to the polar axis is known as",
+  "options": {
+    "A": "meroblastic cleavage",
+    "B": "radial cleavage",
+    "C": "spiral cleavage",
+    "D": "superficial cleavage"
+  },
+  "analysis": [
+    "Step 1: Meroblastic cleavage involves partial cleavage where only part of the egg becomes divided into blastomeres, leaving the yolk undivided. This does not involve divisions occurring at an oblique angle to the polar axis, so it can be eliminated.",
+    "Step 2: Radial cleavage occurs when cells divide along radii from the animal pole towards the vegetal pole, forming a hollow ball of cells called a blastula. This division pattern is typically aligned with the polar axis, making it different from the oblique angle described in the question.",
+    "Step 3: Spiral cleavage involves cell divisions that occur at an oblique angle to the polar axis, leading to a pattern where the cleavage planes form a helical or spiral shape within the embryo. This matches the description given in the question.",
+    "Step 4: Superficial cleavage refers to cell divisions that take place entirely within the surface layer of the embryo, resulting in a flat arrangement of cells rather than a three-dimensional structure. It does not match the description provided."
+  ],
+  "solution": "Choice_C",
+  "ground_truth": "C"
+}

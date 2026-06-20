@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "shared",
+  "subject": "College Medicine",
+  "question_index": 376,
+  "question_uuid": "0f185607-a7da-4691-8699-0ee00eece256",
+  "question": "A 45-year-old female presents to the office for evaluation of unexplained elevations of her blood pressure. Paroxysmal episodes of headache, sweating, anxiety, nausea, and vomiting occur frequently. A CT\u00a0scan reveals a left adrenal mass. Which of the following urinary assays will be most helpful in establishing this patient's diagnosis?",
+  "options": {
+    "A": "cortisol",
+    "B": "glucose",
+    "C": "sodium",
+    "D": "vanillylmandelic acid"
+  },
+  "analysis": [
+    "Step 1: Choice A (cortisol) is evaluated first; urinary free cortisol is the standard screening test for Cushing syndrome, which typically manifests with progressive features such as central obesity, facial rounding, purple striae, and proximal muscle weakness, none of which match this patient's acute paroxysmal symptoms, making it an incorrect selection.",
+    "Step 2: Choice B (glucose) is assessed next; urinary glucose testing is primarily utilized for detecting and monitoring diabetes mellitus, and although catecholamine surges can transiently elevate blood sugar, glycosuria lacks the diagnostic specificity needed to identify the underlying adrenal pathology.",
+    "Step 3: Choice C (sodium) is reviewed third; urinary sodium excretion helps assess volume status and is relevant for diagnosing primary hyperaldosteronism (Conn syndrome), which causes sustained hypertension and hypokalemia but does not account for the episodic headaches, diaphoresis, and anxiety characteristic of this case.",
+    "Step 4: Choice D (vanillylmandelic acid) is examined fourth; the classic triad of paroxysmal headache, sweating, and anxiety/tachycardia alongside an adrenal mass strongly indicates a pheochromocytoma, a catecholamine-secreting tumor whose breakdown products include vanillylmandelic acid (VMA) and metanephrines, making urinary VMA a highly sensitive and specific confirmatory test.",
+    "Step 5: Concluding the sequential analysis, the patient's clinical picture is pathognomonic for pheochromocytoma, and among the listed options, only vanillylmandelic acid directly reflects catecholamine metabolism and serves as a validated diagnostic marker for this condition, establishing it as the correct choice."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

@@ -1,0 +1,26 @@
+{
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 616,
+  "question_uuid": "3cb141ea-1cd9-49d6-a768-fcc786fae8ba",
+  "question": "A 32-year-old man is brought to the emergency department 30 minutes after being struck by a car while driving his motorcycle. He reports severe pelvic pain. On examination, there is bruising of the perineum and pain is elicited with motion of his pelvis. Blood is noted at the urethral meatus. There is no other penile trauma. A plain x-ray shows a fracture of the superior pubic ramus and retrograde urethrography is done to evaluate for a urethral disruption. Which of the following portions of the urethra would be at greatest risk for injury in this patient?",
+  "options": {
+    "A": "Intramural (pre-prostatic)",
+    "B": "Membranous",
+    "C": "Prostatic",
+    "D": "Spongy"
+  },
+  "analysis": [
+    "Step 1: To determine which portion of the urethra would be at greatest risk for injury, we need to consider the anatomy of the male urethra and its relationship to surrounding structures.",
+    "Step 2: The male urethra can be divided into four parts: the pre-prostatic (intramural), prostatic, membranous, and spongy (penile) segments. Each part has different characteristics that affect its susceptibility to injury.",
+    "Step 3: The pre-prostatic segment is short and located within the prostate gland itself. It is not particularly susceptible to injury due to its location.",
+    "Step 4: The prostatic segment is longer than the pre-prostatic segment but still relatively protected from external forces because it is surrounded by the prostate gland.",
+    "Step 5: The membranous segment is the most susceptible to injury due to its location between the pubic bone and the urogenital diaphragm. This area is more exposed to external forces and is often injured in cases of pelvic trauma.",
+    "Step 6: The spongy segment is the longest part of the urethra and is relatively well-protected due to its location within the corpus cavernosum penis.",
+    "Step 7: Considering the mechanism of injury described in the question (a motorcycle accident causing a pelvic fracture), the membranous segment of the urethra would be at greatest risk for injury due to its location and exposure to external forces.",
+    "Step 8: Therefore, the correct answer is the one corresponding to the membranous segment of the urethra."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "B"
+}

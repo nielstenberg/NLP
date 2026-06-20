@@ -1,0 +1,22 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "shared",
+  "subject": "College Biology",
+  "question_index": 222,
+  "question_uuid": "72bbe0a4-2c58-4556-ad4f-a7d879ddec8f",
+  "question": "Which of the following statements about meiosis is correct?",
+  "options": {
+    "A": "The daughter cells are genetically identical to the parent cells.",
+    "B": "Homologues pair during prophase II.",
+    "C": "DNA replication occurs before meiosis I and meiosis II.",
+    "D": "The number of chromosomes is reduced."
+  },
+  "analysis": [
+    "Step 1: Meiosis is a type of cell division that results in the production of gametes (sex cells) with half the number of chromosomes as the parent cell. This process involves two rounds of division, meiosis I and meiosis II. During meiosis I, homologous chromosomes pair up and exchange genetic material through a process called crossing over. Therefore, Choice_A is incorrect because the daughter cells are not genetically identical to the parent cells due to the genetic recombination that occurs during meiosis I.",
+    "Step 2: In Choice_B, homologues pair during prophase I, not prophase II. Prophase II is the first stage of meiosis II, where the sister chromatids separate from each other. Thus, Choice_B is incorrect.",
+    "Step 3: Choice_C states that DNA replication occurs before meiosis I and meiosis II. However, DNA replication only happens once, prior to meiosis I. There is no DNA replication between meiosis I and meiosis II. Hence, Choice_C is incorrect.",
+    "Step 4: Choice_D correctly states that the number of chromosomes is reduced in the daughter cells compared to the parent cell. This reduction is achieved through the separation of homologous chromosomes during meiosis I and the separation of sister chromatids during meiosis II. Therefore, Choice_D is correct."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "shared",
+  "subject": "High School Biology",
+  "question_index": 3,
+  "question_uuid": "9d7ea6f0-b2bd-47e7-b087-1851990c1d4a",
+  "question": "The soils of which of the following biomes has the highest rate of leaching and cycling of nutrients?",
+  "options": {
+    "A": "Tropical rain forest",
+    "B": "Tundra",
+    "C": "Taiga",
+    "D": "Desert"
+  },
+  "analysis": [
+    "Step 1: Analyze Choice A (Tropical rain forest). Tropical rainforests are characterized by high temperatures and heavy rainfall year-round. High temperatures accelerate the decomposition of organic matter by bacteria and fungi, releasing nutrients rapidly. The heavy rainfall causes these dissolved nutrients to be washed out of the soil profile (leaching) before plants can absorb them, or they are quickly taken up by the dense vegetation. Consequently, the soil itself is often nutrient-poor, but the rate of nutrient cycling and leaching is extremely high.",
+    "Step 2: Analyze Choice B (Tundra). The tundra biome is characterized by extremely cold temperatures and a short growing season. The cold slows down decomposition significantly, causing organic matter to accumulate as peat rather than being broken down into nutrients. Leaching is minimal because the ground is often frozen (permafrost), preventing water from percolating through the soil. Therefore, nutrient cycling and leaching rates are very low.",
+    "Step 3: Analyze Choice C (Taiga). The taiga (boreal forest) has cold winters and mild summers. Decomposition is slower than in tropical forests due to the cooler temperatures, leading to the accumulation of organic litter (like needle cast). While there is some leaching, it is not as intense as in tropical rainforests because the lower temperatures slow down the chemical processes and the amount of precipitation is generally less than in the tropics.",
+    "Step 4: Analyze Choice D (Desert). Deserts are characterized by very low precipitation. Leaching requires water to dissolve and transport nutrients out of the soil. Since deserts lack significant rainfall, leaching is minimal. Nutrient cycling is also slow due to the lack of water and limited plant biomass.",
+    "Step 5: Compare the biomes. Among the four options, the tropical rain forest has the combination of high heat (accelerating decomposition) and high rainfall (causing leaching). This results in the fastest turnover of nutrients and the highest rate of leaching compared to the cold, slow-cycling tundra and taiga, and the dry, low-leaching desert."
+  ],
+  "solution": "Choice_A",
+  "ground_truth": "A"
+}

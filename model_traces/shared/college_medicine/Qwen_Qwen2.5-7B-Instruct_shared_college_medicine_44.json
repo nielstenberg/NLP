@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "shared",
+  "subject": "College Medicine",
+  "question_index": 769,
+  "question_uuid": "5c97dbfc-932f-455a-a320-a6de0d8647da",
+  "question": "A 44-year-old female presents to the office for evaluation of a lump on her neck that she noted 1\u00a0week ago. She denies any tenderness, fever, weight loss, or fatigue. Physical examination reveals a\u00a02-cm\u00a0freely movable mass in the lower left lobe of the thyroid. In addition to thyroid-stimulating hormone and free thyroxine levels, the most appropriate initial method to investigate this lesion is",
+  "options": {
+    "A": "a nuclear thyroid scan",
+    "B": "an iodine131\u00a0scan",
+    "C": "fine-needle aspiration",
+    "D": "ultrasonography of the thyroid gland"
+  },
+  "analysis": [
+    "Step 1: The patient's presentation includes a newly discovered, painless, mobile thyroid nodule. While a nuclear thyroid scan (Choice_A) can provide information about the function and distribution of thyroid tissue, it does not directly assess the nature of the nodule itself. Therefore, while potentially useful, it is not the most immediate investigation.",
+    "Step 2: An iodine131 scan (Choice_B) is typically used for assessing hyperfunctioning thyroid nodules or for post-treatment assessment after radioactive iodine therapy. Since there is no indication of hyperthyroidism or prior treatment with radioactive iodine, this test would be inappropriate as the initial investigation.",
+    "Step 3: Fine-needle aspiration (Choice_C) is the gold standard for evaluating thyroid nodules. It allows direct sampling of cells from the nodule for histopathological examination, which can determine if the nodule is benign or malignant. Given the patient\u2019s history and physical exam findings, this is the most appropriate initial diagnostic procedure.",
+    "Step 4: Ultrasonography of the thyroid gland (Choice_D) provides detailed imaging of the thyroid structure and can help characterize the nodule based on its size, shape, margins, and presence of microcalcifications. However, it cannot definitively diagnose malignancy; thus, it should be followed by further testing such as fine-needle aspiration when suspicious features are identified.",
+    "Step n: Considering all options, fine-needle aspiration (Choice_C) is the most appropriate initial method to investigate the thyroid nodule due to its ability to provide definitive diagnosis through cellular analysis."
+  ],
+  "solution": "Choice_C",
+  "ground_truth": "D"
+}

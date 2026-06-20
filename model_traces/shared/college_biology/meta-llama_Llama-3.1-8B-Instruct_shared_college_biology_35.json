@@ -1,0 +1,23 @@
+{
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "mode": "shared",
+  "subject": "College Biology",
+  "question_index": 231,
+  "question_uuid": "cc8a1144-a1d7-4001-a1d2-362ff3a3e6f5",
+  "question": "Which of the following is an example of a cline?",
+  "options": {
+    "A": "The hybrid tomato plant is stronger and produces better fruit than the pure genotype.",
+    "B": "There are two distinct varieties in one population of snail that inhabits an island in the Pacific Ocean.",
+    "C": "Males of some species have long antlers to fight other males for females.",
+    "D": "In one species of rabbit, the ones that evolved in the cold, snowy north are white, while the ones that evolved in the south are brown."
+  },
+  "analysis": [
+    "Step 1: Choice_A discusses the hybrid tomato plant, which is stronger and produces better fruit than the pure genotype. This is an example of heterosis, a phenomenon where the offspring of two different varieties of a species exhibit greater fitness and vigor than either parent. However, this does not describe a cline, which is a gradual change in a trait across a geographic area.",
+    "Step 2: Choice_B presents two distinct varieties in one population of snails that inhabit an island in the Pacific Ocean. This scenario describes a situation where two distinct populations or species coexist in the same area, but it does not illustrate a cline, which involves a gradual transition from one trait to another.",
+    "Step 3: Choice_C mentions males of some species having long antlers to fight other males for females. This is an example of sexual selection, where males compete for mates, but it does not describe a cline, which involves a gradual change in a trait across a geographic area.",
+    "Step 4: Choice_D describes rabbits that evolved in the cold, snowy north being white, while those that evolved in the south are brown. This scenario illustrates a cline, where a gradual change in a trait (in this case, fur color) occurs across a geographic area, with the trait changing from one extreme to another.",
+    "Step 5: Based on the analysis, the correct answer is Choice_D"
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

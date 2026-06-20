@@ -1,0 +1,22 @@
+{
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 116,
+  "question_uuid": "f4f2748d-0fac-40c8-8468-69366f82cb57",
+  "question": "A 34-year-old woman comes to the office because of a 3- to 4-week history of swelling of her legs and a 9-kg (20-lb) weight gain. Medical history is significant for sickle cell trait and mild anemia. She has been taking 800 mg of ibuprofen three times daily for Achilles tendinitis diagnosed 1 month ago. She has smoked five cigarettes daily for the past 15 years, and she drinks one to five beers on weekends. She experimented with cocaine briefly 16 years ago, but she has never used intravenous drugs. She has been in a monogamous sexual relationship for the past 12 years. Today, vital signs are temperature 37.2\u00b0C (99.0\u00b0F), pulse 88/min, respirations 16/min, and blood pressure 145/95 mm Hg. Physical examination discloses periorbital edema but no jugular venous distention. Lungs are clear to auscultation. Cardiac examination discloses an S1 and S2 without murmurs or gallops. Abdominal examination discloses bulging flanks and shifting dullness to percussion. Examination of the lower extremities shows pitting edema from the mid thigh to the ankles bilaterally. Results of which of the following studies are most likely to be abnormal in this patient?",
+  "options": {
+    "A": "HIV antibody study",
+    "B": "Serum B-type natriuretic peptide concentration",
+    "C": "Toxicology screening of the urine",
+    "D": "Urine protein concentration"
+  },
+  "analysis": [
+    "Step 1: The patient presents with symptoms of swelling in her legs and a significant weight gain over the past few weeks. These symptoms could suggest several potential diagnoses such as heart failure, liver disease, kidney disease, or even pregnancy. However, given her medical history of sickle cell trait and mild anemia, along with her current use of ibuprofen for Achilles tendinitis, we should consider the possibility of nephrotic syndrome.",
+    "Step 2: Nephrotic syndrome is characterized by heavy proteinuria (>3.5 g/24 hours), hypoalbuminemia, hyperlipidemia, and edema. The patient's physical examination reveals pitting edema from the mid-thigh to the ankles bilaterally, which is consistent with nephrotic syndrome. Additionally, the abdominal examination discloses bulging flanks and shifting dullness to percussion, suggesting ascites, which is also seen in patients with nephrotic syndrome.",
+    "Step 3: Considering the patient's presentation, let's evaluate each choice: A. HIV antibody study: While HIV can cause various systemic symptoms, it does not directly explain the patient's nephrotic range proteinuria.\n\nB. Serum B-type natriuretic peptide concentration: This test is more specific for diagnosing heart failure rather than nephrotic syndrome.\n\nC. Toxicology screening of the urine: This test may reveal substances that could potentially contribute to renal damage, but it is less directly related to the patient's primary complaint of nephrotic range proteinuria.\n\nD. Urine protein concentration: Given the patient's presentation of nephrotic range proteinuria, this would be the most relevant test to order.",
+    "Step 4: Based on the patient's symptoms and physical examination findings suggestive of nephrotic syndrome, the most appropriate next step would be to order a urine protein concentration test to confirm the diagnosis."
+  ],
+  "solution": "N/A",
+  "ground_truth": "D"
+}

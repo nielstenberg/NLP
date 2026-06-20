@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "College Biology",
+  "question_index": 498,
+  "question_uuid": "cbd5abac-4884-42d8-a963-fca4ff5f4794",
+  "question": "All of the following play an important role in regulating respiration in humans EXCEPT",
+  "options": {
+    "A": "an increase in the amount of CO2 in the blood",
+    "B": "a decrease in the amount of O2 in the blood",
+    "C": "a decrease in the plasma pH level",
+    "D": "strenuous exercise"
+  },
+  "analysis": [
+    "Step 1: Evaluate Choice A, which states that an increase in blood CO2 plays a role in regulating respiration. This is physiologically accurate, as elevated arterial CO2 is the most potent stimulus for increasing ventilation, primarily detected by central chemoreceptors in the medulla oblongata that monitor cerebrospinal fluid pH changes driven by CO2 diffusion.",
+    "Step 2: Evaluate Choice B, which proposes that a decrease in blood O2 regulates respiration. This is also correct, as significant drops in arterial oxygen tension activate peripheral chemoreceptors located in the carotid and aortic bodies, triggering increased breathing rates to restore oxygen homeostasis during hypoxic conditions.",
+    "Step 3: Evaluate Choice C, which suggests that a decrease in plasma pH level regulates respiration. This is valid because acidosis (lower pH) directly stimulates peripheral chemoreceptors; since CO2 hydration produces hydrogen ions, pH serves as a direct and critical chemical signal for adjusting respiratory drive to maintain acid-base balance.",
+    "Step 4: Evaluate Choice D, which lists strenuous exercise as a regulator. While intense physical activity undeniably increases breathing frequency and tidal volume, exercise itself is a metabolic demand or behavioral state rather than a direct physiological regulatory variable; it merely induces the chemical shifts (higher CO2, lower O2, lower pH) that the actual chemoreceptor systems detect and respond to.",
+    "Step 5: Synthesize the evaluation of all candidates to identify the exception. Choices A, B, and C represent specific internal chemical parameters directly monitored by the autonomic nervous system's chemoreceptor networks to fine-tune respiratory control. Choice D describes an external physiological stressor that indirectly drives ventilation through those chemical mediators, meaning it does not function as a direct regulatory signal in the homeostatic feedback loop. Therefore, Choice D is the correct answer."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "B"
+}

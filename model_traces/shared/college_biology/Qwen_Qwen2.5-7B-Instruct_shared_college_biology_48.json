@@ -1,0 +1,22 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "shared",
+  "subject": "College Biology",
+  "question_index": 246,
+  "question_uuid": "0e4a4947-ada5-4eba-8f20-6b49a27990a1",
+  "question": "This process leads to the net production of two pyruvate, two ATP, and two NADH.",
+  "options": {
+    "A": "Glycolysis",
+    "B": "Chemiosmosis",
+    "C": "Fermentation",
+    "D": "Calvin cycle"
+  },
+  "analysis": [
+    "Step 1: Glycolysis is the process where one glucose molecule is broken down into two pyruvate molecules, generating a net yield of two ATP and two NADH. This matches the description given in the question exactly. Therefore, Glycolysis is a strong candidate.",
+    "Step 2: Chemiosmosis is a process that involves the generation of ATP through the movement of ions across a membrane via a protein channel, typically associated with the electron transport chain and oxidative phosphorylation. It does not directly produce pyruvate, and its primary function is to generate ATP from the proton gradient rather than from the breakdown of glucose. Thus, it does not match the description provided.",
+    "Step 3: Fermentation is a process that occurs when oxygen is absent and converts pyruvate into other substances like lactic acid or ethanol, but it does not produce pyruvate itself. The net production of pyruvate is not characteristic of fermentation. Hence, it does not fit the description.",
+    "Step 4: The Calvin cycle is a series of biochemical reactions used by plants and other organisms to convert carbon dioxide into organic compounds. It does not involve the breakdown of glucose into pyruvate or the production of ATP and NADH. Therefore, it does not match the description provided."
+  ],
+  "solution": "Choice_A",
+  "ground_truth": "A"
+}

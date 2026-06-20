@@ -1,0 +1,24 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "independent",
+  "subject": "College Biology",
+  "question_index": 357,
+  "question_uuid": "129c7108-4800-4bc7-87c6-8ab0ae9d7b25",
+  "question": "To ensure that hatchling sea turtles orient to the sea rather than inland, which of the following is the most environmentally sound practice around sea turtle nest sites?",
+  "options": {
+    "A": "Digging troughs in the sand from the nests to the sea",
+    "B": "Minimizing artificial lighting in the area",
+    "C": "Scattering preferred turtle foods between the nests and the sea",
+    "D": "Building low fences on the sand dunes"
+  },
+  "analysis": [
+    "Step 1: The first reasoning involves understanding how hatchling sea turtles navigate to the ocean. Sea turtles use a combination of cues including light polarization patterns and magnetic fields to find their way to the sea. Artificial lights can confuse them, leading them towards inland areas instead of the ocean.",
+    "Step 2: Considering Choice_A, digging troughs from the nests to the sea might seem like it could guide the hatchlings directly to the water. However, this method could potentially expose the hatchlings to predators along the path and does not address the issue of artificial lighting affecting their orientation.",
+    "Step 3: For Choice_B, minimizing artificial lighting in the area is crucial because it reduces the confusion caused by artificial sources of light pulling hatchlings away from the sea. This approach aligns with the natural navigation methods used by sea turtles and is environmentally friendly as it does not alter the habitat significantly.",
+    "Step 4: Looking at Choice_C, scattering preferred turtle foods between the nests and the sea would likely attract more animals to the area but does not help the hatchlings orient themselves correctly toward the sea. It also poses risks if too many animals gather near the nests, increasing predation risk.",
+    "Step 5: Examining Choice_D, building low fences on the sand dunes could potentially protect the nests from some predators and keep the hatchlings safe until they reach the sea. However, these fences may still block the natural light cues needed for orientation and could be seen as an environmental disruption.",
+    "Step n: After analyzing all options, the most environmentally sound practice is Choice_B: Minimizing artificial lighting in the area. This approach supports the natural behavior of sea turtles and ensures they are guided correctly towards the ocean without causing unnecessary harm or altering the environment excessively."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "B"
+}

@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "College Biology",
+  "question_index": 135,
+  "question_uuid": "9860527f-9570-449c-b589-561b9c6aa9ed",
+  "question": "Fossil evidence indicates that horses have gradually increased in size over geologic time. Which of the following terms best describes this?",
+  "options": {
+    "A": "artificial selection",
+    "B": "directional selection",
+    "C": "stabilizing selection",
+    "D": "disruptive selection"
+  },
+  "analysis": [
+    "Step 1: Artificial selection refers to intentional human breeding practices designed to enhance specific traits in domesticated organisms, which does not apply to the natural, long-term evolutionary changes of wild horses documented in the fossil record.",
+    "Step 2: Directional selection occurs when environmental conditions consistently favor individuals at one extreme of a phenotypic range, causing the population's mean trait value to shift progressively in that direction over successive generations, which directly explains the gradual increase in horse body size.",
+    "Step 3: Stabilizing selection favors intermediate phenotypes and selects against extreme variants, thereby preserving the current average trait value and minimizing variation, which contradicts the described continuous upward trend in size.",
+    "Step 4: Disruptive selection favors individuals at both extremes of a trait distribution while selecting against intermediates, typically producing a bimodal population structure rather than a steady, unidirectional shift across geological epochs.",
+    "Step 5: Comparing all four evolutionary mechanisms demonstrates that only directional selection accounts for a consistent, one-sided shift in a quantitative trait over extended geological timescales, confirming it as the accurate term for the documented evolutionary pattern in equids."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "B"
+}

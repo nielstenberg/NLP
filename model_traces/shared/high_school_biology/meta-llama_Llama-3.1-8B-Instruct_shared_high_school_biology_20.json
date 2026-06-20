@@ -1,0 +1,23 @@
+{
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "mode": "shared",
+  "subject": "High School Biology",
+  "question_index": 156,
+  "question_uuid": "e00c2bd0-0a50-42f6-8c80-822c04c27a16",
+  "question": "Which of the following statements about fungi is NOT true?",
+  "options": {
+    "A": "They all are eukaryotic.",
+    "B": "They all have rigid cell walls.",
+    "C": "Most are filamentous.",
+    "D": "Some are photosynthetic."
+  },
+  "analysis": [
+    "Step 1: Let's start by analyzing Choice_A: They all are eukaryotic. \nFungi are indeed eukaryotic organisms, meaning their cells have a true nucleus and other membrane-bound organelles. This statement is true.",
+    "Step 2: Next, we'll examine Choice_B: They all have rigid cell walls. \nFungi do have cell walls, but they are not always rigid. For example, some fungi like yeast have flexible cell walls. However, most fungi do have rigid cell walls, but this is not a universal characteristic. This statement is not entirely true.",
+    "Step 3: Now, let's consider Choice_C: Most are filamentous. \nMany fungi, such as molds and mushrooms, are indeed filamentous, meaning they grow in long, branching filaments. This statement is true.",
+    "Step 4: Finally, we'll look at Choice_D: Some are photosynthetic. \nThis statement is false. Fungi are heterotrophic organisms, meaning they cannot produce their own food through photosynthesis. They obtain their nutrients by decomposing organic matter or by forming symbiotic relationships with other organisms.",
+    "Step 5: Based on our analysis, we can conclude that the statement that is NOT true about fungi is Choice_D: Some are photosynthetic."
+  ],
+  "solution": "N/A",
+  "ground_truth": "D"
+}

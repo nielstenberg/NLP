@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "College Biology",
+  "question_index": 333,
+  "question_uuid": "f51116e4-77d8-44ec-abda-0494e3d88c94",
+  "question": "Members of which of the following groups are most likely to be surrounded by a protein coat?",
+  "options": {
+    "A": "Viruses",
+    "B": "Bacteria",
+    "C": "Eukaryotes",
+    "D": "Archaea"
+  },
+  "analysis": [
+    "Step 1: Analyzing Choice A (Viruses): Viruses are acellular infectious particles composed of genetic material (DNA or RNA) enclosed within a protective protein shell known as a capsid. This capsid functions as a protein coat that directly surrounds and shields the viral genome, representing the defining structural characteristic of all viruses.",
+    "Step 2: Analyzing Choice B (Bacteria): Bacteria are prokaryotic cells bounded by a phospholipid plasma membrane and typically reinforced by a rigid cell wall made of peptidoglycan. Although some bacterial species possess external layers like polysaccharide capsules or proteinaceous S-layers, their fundamental boundary is a lipid membrane and/or carbohydrate-based wall, not a protein coat.",
+    "Step 3: Analyzing Choice C (Eukaryotes): Eukaryotic organisms consist of complex cells delimited by a phospholipid plasma membrane. Many eukaryotes, such as plants and fungi, also possess cell walls composed of carbohydrates like cellulose or chitin. These structures are chemically distinct from protein coats, and animal eukaryotes lack cell walls entirely, relying solely on lipid membranes.",
+    "Step 4: Analyzing Choice D (Archaea): Archaea are prokaryotic microorganisms with cellular architecture similar to bacteria, featuring a plasma membrane and varied cell wall compositions including pseudopeptidoglycan, polysaccharides, or surface glycoproteins. Like bacteria, they are true cells whose boundaries are primarily lipid and carbohydrate-based rather than being encased in a continuous protein coat.",
+    "Step 5: Evaluating all options collectively demonstrates that cellular life forms (bacteria, eukaryotes, and archaea) are fundamentally defined by lipid membranes and/or carbohydrate-rich cell walls. In stark contrast, viruses lack cellular membranes and cytoplasm, relying exclusively on a specialized protein capsid to enclose their genetic material. Consequently, viruses are the only group among the choices universally and inherently surrounded by a protein coat."
+  ],
+  "solution": "Choice_A",
+  "ground_truth": "A"
+}

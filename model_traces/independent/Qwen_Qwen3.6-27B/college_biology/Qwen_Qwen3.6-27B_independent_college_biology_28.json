@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "College Biology",
+  "question_index": 378,
+  "question_uuid": "ac2554b8-3b8d-4279-a667-7a61717561e1",
+  "question": "Which of the following statements about post-transcriptional modification are incorrect?",
+  "options": {
+    "A": "A poly-A tail is added to the 3\u2032 end of the mRNA.",
+    "B": "A guanine cap is added to the 5\u2032 end of the mRNA.",
+    "C": "Introns are removed from the mRNA.",
+    "D": "Posttranscriptional modification occurs in the cytoplasm."
+  },
+  "analysis": [
+    "Step 1: Evaluation of Choice A indicates that the addition of a poly-A tail to the 3\u2032 end of pre-mRNA is a well-documented post-transcriptional modification in eukaryotes, functioning to enhance mRNA stability, promote nuclear export, and improve translational efficiency; therefore, this statement is correct.",
+    "Step 2: Evaluation of Choice B indicates that the addition of a modified guanine nucleotide (the 5\u2032 cap) to the 5\u2032 end of the nascent transcript is a fundamental post-transcriptional modification that prevents exonuclease degradation and assists in ribosome recruitment; therefore, this statement is correct.",
+    "Step 3: Evaluation of Choice C indicates that the excision of non-coding introns and ligation of coding exons (RNA splicing) is a core post-transcriptional modification required to generate functional mature mRNA; therefore, this statement is correct.",
+    "Step 4: Evaluation of Choice D claims that posttranscriptional modification occurs in the cytoplasm, but in eukaryotic gene expression, transcription and all associated mRNA processing events (5\u2032 capping, 3\u2032 polyadenylation, and splicing) are completed within the nucleus prior to mRNA export through nuclear pore complexes; therefore, this statement is incorrect.",
+    "Step 5: Integrating the sequential analyses demonstrates that Choices A, B, and C accurately reflect standard eukaryotic mRNA processing pathways, whereas Choice D misassigns the subcellular compartment of these events, establishing it as the only false statement among the options."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

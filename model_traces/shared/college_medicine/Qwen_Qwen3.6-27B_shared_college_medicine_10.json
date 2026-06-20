@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "shared",
+  "subject": "College Medicine",
+  "question_index": 556,
+  "question_uuid": "5fb0b0b5-814c-426e-b1c7-c2388fb4064e",
+  "question": "If both parents are affected with the same autosomal recessive disorder then the probability that each of their children will be affected equals ___.",
+  "options": {
+    "A": "1 in 4",
+    "B": "1 in 2",
+    "C": "2 in 3",
+    "D": "1"
+  },
+  "analysis": [
+    "Step 1: Evaluate Choice A (1 in 4). This probability applies to a cross between two unaffected heterozygous carriers (Aa \u00d7 Aa), where only 25% of offspring are expected to be homozygous recessive and thus affected. Since the question explicitly states both parents are already affected, this choice is genetically inconsistent with the premise.",
+    "Step 2: Evaluate Choice B (1 in 2). This ratio occurs when one parent is a heterozygous carrier (Aa) and the other is affected (aa), yielding a 50% chance of an affected child. Because the scenario specifies that both parents are affected, this choice incorrectly assumes one parent carries a normal allele.",
+    "Step 3: Evaluate Choice C (2 in 3). This fraction typically arises in conditional probability calculations, such as determining recurrence risks among unaffected siblings in autosomal dominant conditions or specific pedigree analyses. It does not apply to a direct autosomal recessive inheritance pattern with two affected parents, making it incorrect.",
+    "Step 4: Evaluate Choice D (1). In autosomal recessive inheritance, an affected individual must be homozygous for the pathogenic allele (genotype aa). Affected parents can only transmit the mutant allele to their offspring. A mating between two affected parents (aa \u00d7 aa) produces exclusively aa offspring, meaning every child will manifest the disorder with a probability of 1 (100%).",
+    "Step 5: Jointly assess all candidate choices against established Mendelian principles. Choices A, B, and C describe probabilities tied to different parental genotypes or conditional filtering that directly contradict the stated condition of two affected parents. Only Choice D correctly captures the deterministic outcome of an aa \u00d7 aa cross, establishing that all offspring will inevitably inherit the disorder."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

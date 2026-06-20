@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "shared",
+  "subject": "High School Biology",
+  "question_index": 201,
+  "question_uuid": "5c9182fd-c54f-400b-bb27-7bd5e8ed3484",
+  "question": "Which of the following most accurately describes a retrotransposon?",
+  "options": {
+    "A": "A DNA sequence that can move from one site in the genome to another without replicating",
+    "B": "A DNA sequence that can be deleted from the genome without consequence",
+    "C": "A DNA sequence that replicates via an RNA intermediate",
+    "D": "A DNA sequence that replicates via a protein intermediate"
+  },
+  "analysis": [
+    "Step 1: A retrotransposon is a type of transposable element that moves within the genome through a copy-and-paste mechanism involving an RNA intermediate. This means it must replicate via an RNA intermediate before being inserted into a new location in the genome. Therefore, Choice_C aligns with the definition of a retrotransposon.",
+    "Step 2: Choice_A describes a transposon that moves directly from one site to another without replication, which does not involve an RNA intermediate. This is characteristic of a different type of transposable element known as a cut-and-paste transposon, not a retrotransposon.",
+    "Step 3: Choice_B suggests that a retrotransposon can be deleted from the genome without consequence, which is not accurate. The presence of retrotransposons often has significant implications for gene regulation and genome stability.",
+    "Step 4: Choice_D mentions a protein intermediate, which is incorrect because retrotransposons do not use proteins as intermediates in their movement and replication.",
+    "Step n: Considering all the above points, Choice_C is the most accurate description of a retrotransposon."
+  ],
+  "solution": "N/A",
+  "ground_truth": "C"
+}

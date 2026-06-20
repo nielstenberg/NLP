@@ -1,0 +1,22 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "independent",
+  "subject": "College Biology",
+  "question_index": 414,
+  "question_uuid": "bb36e9c5-0208-4a34-a371-a0f87019be7b",
+  "question": "Sexual dimorphism is most often a result of",
+  "options": {
+    "A": "pansexual selection.",
+    "B": "stabilizing selection.",
+    "C": "intrasexual selection.",
+    "D": "intersexual selection."
+  },
+  "analysis": [
+    "Step 1: Pansexual selection does not exist as a recognized term in evolutionary biology. It likely refers to the idea that all individuals can potentially mate with one another, but this concept does not explain sexual dimorphism directly. Therefore, we can eliminate Choice_A.",
+    "Step 2: Stabilizing selection tends to maintain the status quo within a population by favoring intermediate traits over extreme ones. This type of selection would lead to less variation between sexes rather than creating distinct differences, so it cannot be responsible for sexual dimorphism. Thus, we can eliminate Choice_B.",
+    "Step 3: Intrasexual selection involves competition among members of the same sex for access to mates. While this can influence physical characteristics related to fighting ability or other survival advantages, it typically results in similar traits across both sexes rather than distinct male and female forms. Hence, Choice_C is unlikely to be the correct answer.",
+    "Step 4: Intersexual selection occurs when one sex selects mates based on certain traits, leading to those traits becoming more common in the opposite sex. For example, males might develop elaborate displays or ornaments to attract females, while females may evolve preferences for such traits. This process can lead to significant differences between the sexes, resulting in sexual dimorphism. Therefore, Choice_D aligns well with the definition of sexual dimorphism."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

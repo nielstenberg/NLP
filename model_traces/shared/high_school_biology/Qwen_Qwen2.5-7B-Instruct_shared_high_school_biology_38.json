@@ -1,0 +1,22 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "shared",
+  "subject": "High School Biology",
+  "question_index": 18,
+  "question_uuid": "9033fe73-baaa-4d72-9513-334a21437dc6",
+  "question": "Antibiotics that affect bacterial cells interfere with all of the following EXCEPT",
+  "options": {
+    "A": "peptidoglycan synthesis",
+    "B": "protein synthesis",
+    "C": "DNA synthesis",
+    "D": "reverse transcriptase"
+  },
+  "analysis": [
+    "Step 1: Antibiotics that target bacterial cells often interfere with their cell wall synthesis, and peptidoglycan is a key component of the bacterial cell wall. Therefore, antibiotics can inhibit peptidoglycan synthesis, making Choice_A a potential correct answer.",
+    "Step 2: Bacterial proteins are synthesized using ribosomes and mRNA. Certain antibiotics can inhibit the function of these components, leading to the inhibition of protein synthesis. Thus, Choice_B is also a plausible correct answer.",
+    "Step 3: Some antibiotics can disrupt the bacterial cell's ability to replicate its DNA, which is essential for survival and reproduction. This makes Choice_C another possible correct answer.",
+    "Step 4: Reverse transcriptase is an enzyme used primarily by retroviruses like HIV to convert RNA into DNA. Since bacteria do not have reverse transcriptase, antibiotics cannot affect this process. Therefore, Choice_D is the exception and the correct answer to the question."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

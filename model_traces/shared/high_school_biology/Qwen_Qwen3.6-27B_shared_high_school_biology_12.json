@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "shared",
+  "subject": "High School Biology",
+  "question_index": 210,
+  "question_uuid": "5f8726c2-2372-4377-a60d-51ca1b0bacc0",
+  "question": "Which of the following is a biological attribute that would most likely allow a species to become cosmopolitan in distribution?",
+  "options": {
+    "A": "Extreme habitat specialization",
+    "B": "K-selected reproductive rate",
+    "C": "Limited dispersal abilities",
+    "D": "Capacity for long-distance dispersal"
+  },
+  "analysis": [
+    "Step 1: Evaluating Choice A, extreme habitat specialization requires a species to survive only under very narrow environmental conditions, which inherently restricts its geographic range and makes widespread or cosmopolitan distribution highly improbable.",
+    "Step 2: Evaluating Choice B, a K-selected reproductive rate emphasizes producing fewer offspring with high parental investment and competitive efficiency in stable environments, a strategy that typically slows colonization speed and hinders rapid global expansion.",
+    "Step 3: Evaluating Choice C, limited dispersal abilities physically prevent individuals from moving far from their origin or crossing geographic barriers, directly contradicting the requirement for a species to spread across multiple regions or continents.",
+    "Step 4: Evaluating Choice D, a capacity for long-distance dispersal provides the functional adaptations (such as lightweight seeds, aerial mobility, or tolerance for transport vectors) necessary to overcome geographic isolation, colonize diverse habitats, and establish viable populations across vastly different global regions.",
+    "Step 5: Comparing all four attributes demonstrates that specialization"
+  ],
+  "solution": "N/A",
+  "ground_truth": "D"
+}

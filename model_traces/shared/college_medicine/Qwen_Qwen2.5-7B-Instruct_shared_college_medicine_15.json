@@ -1,0 +1,22 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "shared",
+  "subject": "College Medicine",
+  "question_index": 532,
+  "question_uuid": "0ff5d58c-6a39-4b90-b2fe-949d4decce12",
+  "question": "Male breast cancer is associated with mutations in ___.",
+  "options": {
+    "A": "BRCA1",
+    "B": "BRCA2",
+    "C": "NF1",
+    "D": "RET"
+  },
+  "analysis": [
+    "Step 1: Male breast cancer can be associated with mutations in BRCA1 and BRCA2 genes, as these genes are involved in repairing damaged DNA and maintaining the stability of the genome. Mutations in either gene can lead to an increased risk of developing various cancers, including male breast cancer.",
+    "Step 2: The neurofibromatosis type 1 (NF1) gene is responsible for causing neurofibromatosis, a genetic disorder that affects the nervous system. While it is important for understanding certain genetic conditions, it does not have a direct association with male breast cancer.",
+    "Step 3: The RET proto-oncogene is primarily linked to the development of medullary thyroid carcinoma and other forms of cancer such as gastrointestinal stromal tumors and pheochromocytoma. It is not directly related to male breast cancer.",
+    "Step 4: Both BRCA1 and BRCA2 mutations are known to increase the risk of male breast cancer. However, BRCA2 mutations are more commonly associated with male breast cancer than BRCA1 mutations. This is because BRCA2 mutations are found in approximately 5-10% of male breast cancer cases, while BRCA1 mutations are less frequently observed."
+  ],
+  "solution": "Choice_A",
+  "ground_truth": "B"
+}

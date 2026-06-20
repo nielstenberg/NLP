@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "shared",
+  "subject": "High School Biology",
+  "question_index": 240,
+  "question_uuid": "8990f438-e01f-4e5e-b4ce-1a040113683c",
+  "question": "Hardy-Weinberg equilibrium generally assumes all of the following EXCEPT",
+  "options": {
+    "A": "a large population",
+    "B": "genetic drift",
+    "C": "random mating",
+    "D": "absence of selection"
+  },
+  "analysis": [
+    "Step 1: Evaluate Choice A (a large population). The Hardy-Weinberg principle requires a sufficiently large population size to minimize random sampling errors that could alter allele frequencies, making this a foundational assumption of the model.",
+    "Step 2: Evaluate Choice B (genetic drift). Genetic drift refers to random fluctuations in allele frequencies caused by chance events, which significantly impacts small populations. The Hardy-Weinberg equilibrium explicitly assumes the absence of genetic drift, as drift would cause allele frequencies to change unpredictably and break the equilibrium.",
+    "Step 3: Evaluate Choice C (random mating). The model assumes that individuals mate randomly with respect to the trait in question, meaning no preference exists for specific genotypes. This ensures genotype frequencies can be mathematically predicted from allele frequencies, making it a standard assumption.",
+    "Step 4: Evaluate Choice D (absence of selection). Natural selection favors certain alleles over others based on fitness differences, leading to directional changes in allele frequencies across generations. The Hardy-Weinberg principle strictly assumes no natural selection acts on the locus, so this is also a core assumption.",
+    "Step 5: Jointly compare all evaluated choices against the question's \"EXCEPT\" requirement. Choices A, C, and D are all established conditions necessary to maintain Hardy-Weinberg equilibrium. Choice B describes an evolutionary force that actively disrupts equilibrium and is explicitly excluded by the model's framework. Therefore, genetic drift is the only option that is not assumed."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "B"
+}

@@ -1,0 +1,21 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 149,
+  "question_uuid": "fae919c0-342a-4087-9e14-bf70517952c5",
+  "question": "A 59-year-old man is brought to the emergency department because of a 4-day history of nausea, vomiting, and diarrhea. He also has been confused and agitated during this period. He has a history of mild hypertension. His current medication is a diuretic. His temperature is 37\u00b0C (98.6\u00b0F), pulse is 108/min, respirations are 26/min, and blood pressure is 70/47 mm Hg. Physical examination shows delayed capillary refill of the lips and nail beds and cool extremities. His oxyhemoglobin saturation in a central vein is 60% (N=70\u201375). These findings are most consistent with which of the following types of shock?",
+  "options": {
+    "A": "Cardiogenic",
+    "B": "Distributive",
+    "C": "Hypovolemic",
+    "D": "Obstructive"
+  },
+  "analysis": [
+    "Step 1: The patient presents with symptoms such as nausea, vomiting, diarrhea, confusion, agitation, hypotension (BP 70/47 mm Hg), tachycardia (108/min), tachypnea (26/min), delayed capillary refill, cool extremities, and severe hypoxemia (Oxyhemoglobin saturation 60%). These clinical features suggest a state of shock.",
+    "Step 2: Considering the options provided: - **Cardiogenic Shock**: This type of shock results from impaired cardiac output due to heart failure or myocardial dysfunction. However, there is no indication of cardiopulmonary disease or signs of heart failure in the patient\u2019s presentation.\n\n- **Distributive Shock**: This occurs when there is vasodilation leading to decreased vascular resistance and subsequent hypotension. Conditions like sepsis, anaphylaxis, or neurogenic shock could cause this. The patient's symptoms do not strongly indicate these conditions.\n\n- **Hypovolemic Shock**: This involves inadequate circulating volume leading to reduced perfusion. Symptoms include tachycardia, tachypnea, hypotension, and poor peripheral perfusion. The patient\u2019s hypotension and signs of poor perfusion align well with hypovolemic shock.\n\n- **Obstructive Shock**: This typically results from obstruction to venous return, often seen in cases of massive pulmonary embolism or tension pneumothorax. There is no evidence suggesting such an obstruction in this case.",
+    "Step 3: The key indicators supporting hypovolemic shock are the significant hypotension, low oxyhemoglobin saturation, and signs of poor tissue perfusion like delayed capillary refill and cool extremities. Additionally, the patient\u2019s history of mild hypertension and use of a diuretic suggests that fluid loss might be contributing to his condition."
+  ],
+  "solution": "Choice_C",
+  "ground_truth": "C"
+}

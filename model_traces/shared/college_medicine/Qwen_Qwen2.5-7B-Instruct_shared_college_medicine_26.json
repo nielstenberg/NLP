@@ -1,0 +1,24 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "shared",
+  "subject": "College Medicine",
+  "question_index": 89,
+  "question_uuid": "0d00c558-671a-472c-bdcc-3d9e84758eaf",
+  "question": "A 20-year-old man has had frequent upper respiratory tract infections over the past 4 years. He has daily purulent sputum and has noted decreased exercise tolerance over the past 2 years. He and his wife have been unable to conceive because of his low sperm count. Scattered expiratory wheezing and rhonchi are heard throughout both lung fields. An x-ray of the chest shows hyperinflation. Spirometry shows a decreased FEV1:FVC ratio. Which of the following is most likely to confirm the diagnosis?",
+  "options": {
+    "A": "Arterial blood gas analysis",
+    "B": "Examination of sputum for eosinophils",
+    "C": "Sweat chloride test",
+    "D": "Sputum cytology"
+  },
+  "analysis": [
+    "Step 1: The patient's history suggests chronic obstructive pulmonary disease (COPD) with features such as recurrent respiratory tract infections, daily purulent sputum, decreased exercise tolerance, and hyperinflation seen on chest X-ray. However, COPD typically presents later in life and is more common in smokers; thus, it seems less likely given the young age and non-smoker status. Therefore, other conditions need to be considered.",
+    "Step 2: Cystic fibrosis (CF) is characterized by chronic lung infection, persistent cough with copious amounts of purulent sputum, and reduced exercise capacity due to airway obstruction. CF also commonly leads to infertility due to congenital absence of the vas deferens and can present with hyperinflation on chest X-rays similar to COPD. The spirometry findings of a decreased FEV1:FVC ratio align well with CF.",
+    "Step 3: The sweat chloride test is the gold standard diagnostic test for cystic fibrosis, confirming the presence of abnormally high levels of chloride ions in the sweat. This would directly confirm the diagnosis if positive.",
+    "Step 4: Eosinophils in sputum may indicate allergic bronchopulmonary aspergillosis but are not specific enough to confirm CF definitively.",
+    "Step 5: Sputum cytology might show abnormalities suggestive of CF but lacks specificity compared to the sweat chloride test.",
+    "Step 6: Arterial blood gas analysis could provide information about hypoxemia and hypercapnia but does not specifically diagnose CF.\n\nFinal step: Considering all these factors, the sweat chloride test is the most definitive way to confirm the diagnosis of cystic fibrosis in this patient. It provides direct evidence of the genetic defect responsible for the condition."
+  ],
+  "solution": "Choice_C",
+  "ground_truth": "C"
+}

@@ -1,0 +1,23 @@
+{
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "mode": "shared",
+  "subject": "College Biology",
+  "question_index": 546,
+  "question_uuid": "8059ce46-ea4a-4647-9e14-909861e6f22b",
+  "question": "Which of the following observations helped Darwin shape his concept of descent with modification?",
+  "options": {
+    "A": "Species diversity declines farther from the equator.",
+    "B": "Fewer species live on islands than on the nearest continents.",
+    "C": "Birds can be found on islands located farther from the mainland than the birds' maximum nonstop flight distance.",
+    "D": "South American temperate plants are more similar to the tropical plants of South America than to the temperate plants of Europe."
+  },
+  "analysis": [
+    "Step 1: Choice_A: Species diversity declines farther from the equator.\nThis observation does not directly support Darwin's concept of descent with modification. It suggests that species diversity is influenced by environmental factors such as temperature and precipitation, which is a different concept from the idea of species evolving from a common ancestor.",
+    "Step 2: Choice_B: Fewer species live on islands than on the nearest continents.\nThis observation could be interpreted as supporting the idea of descent with modification, as it suggests that species on islands may have evolved from species on the nearest continents. However, it does not directly address the concept of common ancestry.",
+    "Step 3: Choice_C: Birds can be found on islands located farther from the mainland than the birds' maximum nonstop flight distance.\nThis observation directly supports Darwin's concept of descent with modification. It suggests that birds have colonized islands that are beyond their normal migration range, implying that they must have evolved from a common ancestor that was able to reach these islands.",
+    "Step 4: Choice_D: South American temperate plants are more similar to the tropical plants of South America than to the temperate plants of Europe.\nThis observation does not directly support Darwin's concept of descent with modification. It suggests that there may be some genetic similarity between temperate and tropical plants in South America, but it does not provide evidence for common ancestry.",
+    "Step 5: Considering all the options, Choice_C is the most direct support for Darwin's concept of descent with modification. It suggests that birds have colonized islands that are beyond their normal migration range, implying that they must have evolved from a common ancestor that was able to reach these islands."
+  ],
+  "solution": "Choice_C",
+  "ground_truth": "D"
+}

@@ -1,0 +1,22 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "shared",
+  "subject": "High School Biology",
+  "question_index": 99,
+  "question_uuid": "8afbdbba-79fc-4ad8-8115-0e500d4c23dc",
+  "question": "The first groups of animals to develop lung tissue adequate to support their respiratory requirements without the use of supplementary gas exchange organs were the",
+  "options": {
+    "A": "amphibians",
+    "B": "reptiles",
+    "C": "mammals",
+    "D": "trematoda"
+  },
+  "analysis": [
+    "Step 1: Amphibians are the first group of vertebrates that developed lungs as an adaptation to life on land, but they still rely heavily on supplementary gas exchange through their moist skin and gills. This makes them not the best fit for the question's criteria.",
+    "Step 2: Reptiles evolved from amphibians and have more efficient lungs compared to amphibians, allowing them to survive longer periods on land without water. However, they do not possess the complex respiratory systems seen in mammals.",
+    "Step 3: Mammals have highly developed lungs with alveoli that allow for efficient gas exchange, making them the most advanced group in terms of respiratory capacity among the options provided. They can support their entire body's needs solely through their lungs.",
+    "Step 4: Trematoda is a class of parasitic flatworms, not a group of animals capable of developing lungs for respiration. Therefore, it cannot be the correct answer."
+  ],
+  "solution": "Choice_C",
+  "ground_truth": "B"
+}

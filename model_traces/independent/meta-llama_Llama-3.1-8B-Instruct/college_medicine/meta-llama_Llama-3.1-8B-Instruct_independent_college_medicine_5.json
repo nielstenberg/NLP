@@ -1,0 +1,24 @@
+{
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 179,
+  "question_uuid": "b551e7be-0f2c-4e61-8c3c-aeaa506bc780",
+  "question": "A 53-year-old man comes to the physician because of a 6-month history of intermittent blood in his stool. He has had no pain with defecation. Physical examination shows a 1-cm, visible anal mass located below the dentate line. A biopsy of the mass is scheduled. If the mass if found to be malignant, it is most appropriate to evaluate which of the following lymph nodes for possible metastasis?",
+  "options": {
+    "A": "Internal iliac",
+    "B": "Popliteal",
+    "C": "Sacral",
+    "D": "Superficial inguinal"
+  },
+  "analysis": [
+    "Step 1: The patient presents with an anal mass located below the dentate line. The location of the mass is crucial in determining the potential spread of cancer. Below the dentate line, the lymphatic drainage primarily goes to the internal iliac lymph nodes.",
+    "Step 2: Internal iliac lymph nodes are responsible for draining the rectum, sigmoid colon, and other pelvic structures. Given that the anal mass is located below the dentate line, it's likely that the primary lymphatic drainage would involve these nodes.",
+    "Step 3: Popliteal lymph nodes are involved in the lower limb lymphatic drainage, particularly from the knee down. This area does not have direct involvement with the anal region, making it less likely as a primary site for metastasis.",
+    "Step 4: Sacral lymph nodes can receive some drainage from the rectum but are more commonly associated with the sacrum itself rather than being a primary site for anal cancer metastasis.",
+    "Step 5: Superficial inguinal lymph nodes are involved in the lymphatic drainage of the external genitalia, perineum, and lower limbs. Although they may receive some indirect drainage from the anal region, their primary role is not directly related to the anal canal.",
+    "Step 6: Considering the anatomical location of the anal mass below the dentate line, the primary lymphatic drainage would most likely go to the internal iliac lymph nodes. Therefore, evaluating these nodes for possible metastasis would be the most appropriate course of action."
+  ],
+  "solution": "Choice_A",
+  "ground_truth": "D"
+}

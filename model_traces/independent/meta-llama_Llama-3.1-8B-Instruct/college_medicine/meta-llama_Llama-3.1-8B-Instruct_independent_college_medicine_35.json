@@ -1,0 +1,25 @@
+{
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 793,
+  "question_uuid": "023fb3c1-1bca-4dff-89c5-e9e9eeb252c8",
+  "question": "A 13-month-old child is brought to the emergency department because of urticaria, swelling of the lips, and difficulty breathing immediately after eating an egg. A potential risk for hypersensitivity reaction is posed by vaccination against which of the following illnesses?",
+  "options": {
+    "A": "Hepatitis",
+    "B": "Influenza",
+    "C": "Pertussis",
+    "D": "Poliomyelitis"
+  },
+  "analysis": [
+    "Step 1: The child's symptoms are consistent with anaphylaxis, a severe allergic reaction that can be life-threatening. The fact that these symptoms occurred immediately after eating an egg suggests an allergy to egg proteins.",
+    "Step 2: Considering the options provided, we need to identify which vaccine contains egg proteins as a potential allergen.",
+    "Step 3: Hepatitis vaccines (Choice_A) do not contain egg proteins as an ingredient. They are typically produced using recombinant DNA technology, making them safe for individuals with egg allergies.",
+    "Step 4: Influenza vaccines (Choice_B), however, have historically been grown in chicken eggs. This process involves injecting the influenza virus into chicken eggs, where it replicates, and then harvesting the virus from the eggs to produce the vaccine. As a result, some people may be exposed to small amounts of egg protein through the vaccine.",
+    "Step 5: Pertussis vaccines (Choice_C) also do not contain egg proteins. They are produced using bacterial cultures, eliminating the risk of egg allergy exposure.",
+    "Step 6: Polio vaccines (Choice_D) come in two forms: oral poliovirus vaccine (OPV) and inactivated poliovirus vaccine (IPV). OPV is grown in monkey cells, while IPV is produced using a combination of human diploid cell culture and other methods. However, IPV does not contain egg proteins.",
+    "Step 7: Based on the information above, the only vaccine among the options that poses a potential risk for hypersensitivity reactions due to egg allergy is the Influenza vaccine."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "B"
+}

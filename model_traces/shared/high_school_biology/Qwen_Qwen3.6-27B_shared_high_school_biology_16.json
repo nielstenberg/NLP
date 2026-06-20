@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "shared",
+  "subject": "High School Biology",
+  "question_index": 174,
+  "question_uuid": "a3ee9605-1a08-494c-a3ff-ace35445e357",
+  "question": "Cancer cells grown in culture are similar to normal cells grown in culture in that they",
+  "options": {
+    "A": "divide an indefinite number of times",
+    "B": "do not display contact inhibition",
+    "C": "require a surface for attachment in order to grow",
+    "D": "proliferate to the same cell density"
+  },
+  "analysis": [
+    "Step 1: Analyze Choice A. Normal somatic cells in culture have a limited lifespan and undergo a phenomenon known as the Hayflick limit, meaning they can only divide a finite number of times before entering senescence. In contrast, cancer cells are immortalized and can divide an indefinite number of times. Therefore, this statement describes a difference, not a similarity.",
+    "Step 2: Analyze Choice B. Normal cells typically exhibit contact inhibition, meaning they stop dividing when they touch neighboring cells and form a single monolayer. Cancer cells generally lack contact inhibition and continue to divide even when they are in contact with other cells, often piling up on top of one another. Thus, this is a key difference between the two cell types.",
+    "Step 3: Analyze Choice C. Most normal animal cells are anchorage-dependent, meaning they require attachment to a solid surface (such as the plastic of a culture dish) to grow and divide. Similarly, the majority of cancer cells derived from solid tumors are also anchorage-dependent and require a surface for attachment to proliferate. While some cancer cells can adapt to grow in suspension, the fundamental requirement for attachment is a shared characteristic with normal cells in standard culture conditions.",
+    "Step 4: Analyze Choice D. Normal cells stop growing once they reach a specific cell density due to contact inhibition and nutrient depletion, forming a confluent monolayer. Cancer cells, lacking contact inhibition, continue to proliferate beyond this density, often forming multilayers or aggregates. Therefore, they do not proliferate to the same cell density limit.",
+    "Step 5: Conclude the analysis. Choices A, B, and D describe characteristics that distinguish cancer cells from normal cells (immortality, lack of contact inhibition, and higher density proliferation). Choice C describes a shared characteristic, as both normal cells and most cancer cells require a surface for attachment to grow. Therefore, Choice C is the correct answer."
+  ],
+  "solution": "Choice_C",
+  "ground_truth": "C"
+}

@@ -1,0 +1,22 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "College Biology",
+  "question_index": 585,
+  "question_uuid": "b09e4b6f-9296-44e9-bb55-54cfe562c652",
+  "question": "Two individuals, one with type B blood and one with type AB blood, have a child. The probability that the child has type O blood is",
+  "options": {
+    "A": "0%",
+    "B": "25%",
+    "C": "50%",
+    "D": "100%"
+  },
+  "analysis": [
+    "Step 1: Evaluate Choice A (0%) by examining the parental genotypes required for ABO blood inheritance. The parent with type AB blood has the fixed genotype IAIB, meaning they carry only the A and B alleles and completely lack the recessive O (i) allele. For a child to express type O blood, they must inherit an i allele from both parents to achieve the homozygous recessive genotype ii. Since the AB parent cannot contribute an i allele under any circumstance, the formation of an ii genotype is genetically impossible, confirming that the probability is indeed 0%.",
+    "Step 2: Evaluate Choice B (25%) by considering standard Mendelian ratios. A 25% probability of a recessive phenotype typically occurs in a cross between two heterozygous carriers (e.g., IBi \u00d7 IBi). However, the AB parent\u2019s genotype is strictly IAIB, lacking the necessary i allele to participate in such a ratio. Because one parent cannot provide the recessive allele, the mathematical condition for a 25% outcome is unmet, ruling out this choice.",
+    "Step 3: Evaluate Choice C (50%) by assessing scenarios that yield half-recessive offspring. A 50% chance arises in test crosses where one parent is heterozygous and the other is homozygous recessive (e.g., IBi \u00d7 ii). In the given problem, neither parent is homozygous recessive, and crucially, the AB parent still lacks the i allele entirely. Without the ability to transmit an i allele from both sides, a 50% probability is biologically invalid, eliminating this option.",
+    "Step 4: Evaluate Choice D (100%) by determining the requirements for guaranteed expression of a trait. A 100% probability of type O blood would demand that both parents exclusively possess and transmit the i allele (ii \u00d7 ii). Given that one parent is type AB (IAIB) and the other is type B (either IBIB or IBi), neither meets the homozygous recessive requirement. Furthermore, the"
+  ],
+  "solution": "N/A",
+  "ground_truth": "A"
+}

@@ -1,0 +1,22 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "shared",
+  "subject": "High School Biology",
+  "question_index": 156,
+  "question_uuid": "e00c2bd0-0a50-42f6-8c80-822c04c27a16",
+  "question": "Which of the following statements about fungi is NOT true?",
+  "options": {
+    "A": "They all are eukaryotic.",
+    "B": "They all have rigid cell walls.",
+    "C": "Most are filamentous.",
+    "D": "Some are photosynthetic."
+  },
+  "analysis": [
+    "Step 1: Fungi are indeed eukaryotic organisms, meaning they possess a true nucleus and other membrane-bound organelles. This makes Choice_A true.",
+    "Step 2: However, not all fungi have rigid cell walls. While most fungi do have cell walls composed primarily of chitin, some fungi lack cell walls altogether. Therefore, Choice_B is false.",
+    "Step 3: The majority of fungi are indeed filamentous, growing as branching filaments called hyphae. This makes Choice_C true.",
+    "Step 4: Some fungi are capable of photosynthesis, such as the genus Chlorophyta (green algae), but many others are heterotrophic. Thus, Choice_D is also true."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "D"
+}

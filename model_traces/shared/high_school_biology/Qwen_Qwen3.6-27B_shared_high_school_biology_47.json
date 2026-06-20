@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "shared",
+  "subject": "High School Biology",
+  "question_index": 195,
+  "question_uuid": "ffd129e4-8311-4b8d-90a8-4b1f3edbc112",
+  "question": "Natural enemies have been implicated as a strong selective force for all of the following EXCEPT",
+  "options": {
+    "A": "aposematic coloration",
+    "B": "chemical defenses",
+    "C": "masting (synchronous fruiting)",
+    "D": "lekking behavior"
+  },
+  "analysis": [
+    "Step 1: Aposematic coloration refers to conspicuous warning signals, such as bright colors or patterns, that advertise an organism's toxicity or unpalatability to potential predators, making it a direct evolutionary adaptation driven by predation pressure from natural enemies.",
+    "Step 2: Chemical defenses involve the synthesis of toxic, irritating, or foul-tasting compounds to deter consumption by herbivores or predators, representing another well-established trait shaped by the selective pressure exerted by natural enemies.",
+    "Step 3: Masting, or synchronous fruiting, is a reproductive strategy where plant populations produce exceptionally large seed crops in certain years to satiate seed-eating animals, thereby ensuring some seeds escape predation; this phenomenon is fundamentally driven by coevolutionary arms races with natural enemies like rodents and insects.",
+    "Step 4: Lekking behavior is a mating system in which males gather in dense groups to perform competitive courtship displays aimed at attracting females, a trait that evolves primarily through sexual selection and intrasexual competition rather than as a defense mechanism against predators or parasites.",
+    "Step 5: Evaluating all four options reveals that aposematic coloration, chemical defenses, and masting are all classic ecological adaptations specifically selected for to reduce mortality caused by natural enemies, whereas lekking behavior is driven by reproductive advantages and mate choice; thus, lekking behavior is the only trait not primarily shaped by natural enemy pressure."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

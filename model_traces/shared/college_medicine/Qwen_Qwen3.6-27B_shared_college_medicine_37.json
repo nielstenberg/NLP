@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "shared",
+  "subject": "College Medicine",
+  "question_index": 39,
+  "question_uuid": "5e3ef14b-b944-4922-b1d7-6487642d4036",
+  "question": "The net production of ATP via substrate-level phosphorylation in glycolysis is:",
+  "options": {
+    "A": "2 from glucose and 3 from glycogen.",
+    "B": "2 from glucose and 4 from glycogen.",
+    "C": "3 from glucose and 4 from glycogen.",
+    "D": "3 from glucose and 2 from glycogen."
+  },
+  "analysis": [
+    "Step 1: Analyzing Choice A reveals that glycolysis starting from free glucose requires an initial investment of 2 ATP molecules in the preparatory phase (hexokinase and phosphofructokinase-1) while generating 4 ATP in the payoff phase via substrate-level phosphorylation, resulting in a net yield of 2 ATP; when starting from glycogen, glycogen phosphorylase directly produces glucose-1-phosphate, bypassing the hexokinase step and saving 1 ATP, which results in a net yield of 3 ATP, aligning precisely with standard biochemical principles.",
+    "Step 2: Analyzing Choice B shows that while the net yield of 2 ATP from glucose is correct, the claim of 4 ATP from glycogen is incorrect because glycogen-derived substrates still consume 1 ATP at the phosphofructokinase-1 step during the preparatory phase, making the actual net yield 3 ATP rather than 4.",
+    "Step 3: Analyzing Choice C demonstrates inaccuracies in both values, as glucose cannot yield a net of 3 ATP due to the mandatory 2 ATP investment in the early glycolytic steps, and glycogen cannot yield 4 ATP because it still incurs a 1 ATP cost at the phosphofructokinase-1 step, rendering this option biochemically invalid.",
+    "Step 4: Analyzing Choice D indicates a reversal of the correct metabolic accounting, incorrectly assigning 3 ATP to glucose and 2 ATP to glycogen, which contradicts the well-established fact that entering glycolysis from glycogen conserves one ATP compared to entering from free glucose.",
+    "Step 5: Jointly evaluating all candidates confirms that only Choice A correctly quantifies the net ATP production via substrate-level phosphorylation by accurately reflecting the differential ATP investment requirements, definitively establishing it as the correct answer."
+  ],
+  "solution": "Choice_A",
+  "ground_truth": "A"
+}

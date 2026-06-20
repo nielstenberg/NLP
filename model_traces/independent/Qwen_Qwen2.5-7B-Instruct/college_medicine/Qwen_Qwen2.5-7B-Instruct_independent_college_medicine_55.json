@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 328,
+  "question_uuid": "f02d7853-8868-43c5-816e-9bad041949bb",
+  "question": "Marked microsatellite instability is a feature of:",
+  "options": {
+    "A": "familial adenomatous polyposis.",
+    "B": "hereditary non-polyposis colon cancer (HNPCC).",
+    "C": "multiple endocrine adenomatosis type 2.",
+    "D": "neurofibromatosis 1."
+  },
+  "analysis": [
+    "Step 1: Familial adenomatous polyposis (FAP) is characterized by numerous polyps in the colon and rectum and is caused by mutations in the APC gene. Microsatellite stability is not typically associated with FAP; therefore, Choice_A can be excluded.",
+    "Step 2: Hereditary non-polyposis colon cancer (HNPCC), also known as Lynch syndrome, is characterized by microsatellite instability due to defects in mismatch repair genes such as MLH1, MSH2, MSH6, PMS2, and EPCAM. This makes Choice_B a strong candidate.",
+    "Step 3: Multiple endocrine adenomatosis type 2 (MEN2) involves tumors in the parathyroid glands, adrenal medulla, and thyroid gland and is linked to mutations in the RET proto-oncogene. There is no direct association with microsatellite instability, so Choice_C can be excluded.",
+    "Step 4: Neurofibromatosis 1 (NF1) is characterized by caf\u00e9-au-lait spots, neurofibromas, and other features but does not involve microsatellite instability. Therefore, Choice_D can be excluded.",
+    "Step n: Based on the above analysis, the correct answer is Choice_B because HNPCC is directly related to microsatellite instability due to its involvement with mismatch repair genes."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "B"
+}

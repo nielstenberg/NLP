@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 565,
+  "question_uuid": "b2b15442-1226-4e96-9b75-4c32c195558a",
+  "question": "A 32-year-old man who is a jackhammer operator comes to the physician because of pain and swelling of his right arm for 3 days. The symptoms are moderately exacerbated by exertion. Examination of the right upper extremity shows erythema and moderate edema. Capillary refill time is less than 3 seconds. Which of the following is the most likely diagnosis?",
+  "options": {
+    "A": "Axillary-subclavian venous thrombosis",
+    "B": "Deep venous valvular insufficiency",
+    "C": "Superficial thrombophlebitis of the basilic vein",
+    "D": "Superior vena cava syndrome"
+  },
+  "analysis": [
+    "Step 1: Evaluate Choice A (Axillary-subclavian venous thrombosis): The patient's occupation as a jackhammer operator involves repetitive, forceful upper extremity movements and vibration, which can cause mechanical compression and endothelial microtrauma at the thoracic outlet. This creates a classic setup for primary effort thrombosis (Paget-Schroetter syndrome), presenting with acute unilateral arm swelling, pain, and erythema that worsens with exertion. The normal capillary refill time (<3 seconds) confirms intact arterial inflow, isolating the pathology to the venous system.",
+    "Step 2: Evaluate Choice B (Deep venous valvular insufficiency): Valvular incompetence develops gradually over months to years due to progressive valve degeneration or post-thrombotic remodeling, leading to chronic venous hypertension, skin changes, and varicosities. It does not present acutely over 3 days with marked exertional exacerbation, making it inconsistent with this clinical picture.",
+    "Step 3: Evaluate Choice C (Superficial thrombophlebitis of the basilic vein): Superficial thrombophlebitis typically manifests as localized tenderness, erythema, and a palpable indurated cord along a superficial vein. While it causes focal inflammation, it rarely produces moderate diffuse arm edema, which is a hallmark of deep venous obstruction rather than superficial vessel involvement.",
+    "Step 4: Evaluate Choice D (Superior vena cava syndrome): SVC syndrome results from extrinsic compression or intraluminal obstruction of the superior vena cava, most commonly by mediastinal malignancies or indwelling catheters. It classically causes bilateral facial and upper extremity edema, prominent chest wall collateral veins, and respiratory symptoms. The strictly unilateral presentation and absence of systemic or malignant features effectively exclude this diagnosis.",
+    "Step 5: Jointly synthesize the clinical data to determine the most likely diagnosis: The combination of acute unilateral upper extremity swelling and pain, clear exacerbation by repetitive occupational exertion, preserved arterial perfusion (normal capillary refill), and absence of bilateral or chronic stigmata strongly points to an acute deep venous thrombosis in the axillary-subclavian segment. This aligns precisely with the pathophysiology and presentation of effort-induced axillary-subclavian venous thrombosis."
+  ],
+  "solution": "Choice_A",
+  "ground_truth": "A"
+}

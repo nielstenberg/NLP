@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "shared",
+  "subject": "High School Biology",
+  "question_index": 195,
+  "question_uuid": "ffd129e4-8311-4b8d-90a8-4b1f3edbc112",
+  "question": "Natural enemies have been implicated as a strong selective force for all of the following EXCEPT",
+  "options": {
+    "A": "aposematic coloration",
+    "B": "chemical defenses",
+    "C": "masting (synchronous fruiting)",
+    "D": "lekking behavior"
+  },
+  "analysis": [
+    "Step 1: Aposematic coloration is a form of warning signal used by prey animals to deter predators. Predators learn to avoid these brightly colored or patterned organisms because they are often toxic or harmful. This is a direct result of natural selection where individuals with such traits are more likely to survive and reproduce, passing on their genes for aposematic coloration.",
+    "Step 2: Chemical defenses refer to the production of toxic or distasteful compounds by organisms to protect themselves from predators. These chemicals can cause physical harm or illness when ingested, making them unpalatable or dangerous to potential predators. Over time, natural selection favors individuals that can produce these chemicals effectively, leading to the evolution of chemical defenses.",
+    "Step 3: Masting, or synchronous fruiting, is a phenomenon where plants produce an abundance of fruits at the same time. This strategy is thought to be a response to predation pressure; by producing a large number of fruits simultaneously, the plant increases the likelihood that some will escape being eaten before they can germinate. This is a form of indirect defense against natural enemies, as it reduces the overall impact of predation on the population.",
+    "Step 4: Lekking behavior involves males gathering in specific areas to perform displays to attract females. While this behavior is primarily related to mating, it does not directly involve a defense mechanism against natural enemies. Instead, it is a reproductive strategy that may increase the chances of successful reproduction through competition among males.",
+    "Step 5: Considering the above explanations, we can see that aposematic coloration, chemical defenses, and masting are all directly related to defending against natural enemies. In contrast, lekking behavior is a reproductive strategy that does not serve as a direct defense mechanism against predators or other natural enemies."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

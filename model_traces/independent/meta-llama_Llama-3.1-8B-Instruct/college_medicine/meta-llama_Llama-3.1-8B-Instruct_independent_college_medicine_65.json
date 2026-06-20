@@ -1,0 +1,25 @@
+{
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 203,
+  "question_uuid": "cb22c3c5-8567-4d7e-9f6f-9fd3190ee28d",
+  "question": "A 19-year-old woman comes to the emergency department because, she says, \"I'm burning up.\" Medical history is significant for intravenous drug use. Physical examination discloses a systolic heart murmur over the precordium. An expected physical finding will be which of the following?",
+  "options": {
+    "A": "Decreased intensity of S1",
+    "B": "Increased intensity of the murmur with deep inspiration",
+    "C": "Increased intensity of the murmur with forced expiration",
+    "D": "Positive Kussmaul sign (rise in jugular venous pulse with inspiration)"
+  },
+  "analysis": [
+    "Step 1: The patient has a history of intravenous drug use, which increases her risk for endocarditis, an infection of the inner lining of the heart. This condition can lead to valvular damage and subsequent murmurs.",
+    "Step 2: A systolic heart murmur suggests that the murmur occurs during systole, when the heart contracts. This could indicate a problem with one of the valves that opens during systole, such as the mitral valve.",
+    "Step 3: Decreased intensity of S1 (Choice_A) would not necessarily be related to the presence of a systolic murmur. The first heart sound (S1) is associated with the closure of the atrioventricular valves, specifically the mitral and tricuspid valves. A decrease in S1 intensity might suggest a problem with these valves, but it's not directly related to the systolic murmur.",
+    "Step 4: Increased intensity of the murmur with deep inspiration (Choice_B) is more commonly seen in conditions like mitral stenosis, where the murmur becomes louder due to increased flow through the narrowed valve during inspiration. However, this scenario doesn't fit well with the given information about a systolic murmur.",
+    "Step 5: Increased intensity of the murmur with forced expiration (Choice_C) is often seen in conditions like mitral regurgitation, where the murmur becomes louder due to increased pressure gradient across the valve during expiration. This scenario fits better with the given information about a systolic murmur.",
+    "Step 6: Positive Kussmaul sign (Choice_D) refers to an increase in jugular venous pulse with inspiration, typically seen in constrictive pericarditis or cardiac tamponade. While this sign can be associated with certain cardiac conditions, it's not directly related to the presence of a systolic murmur.",
+    "Step 7: Considering all the options, the most likely association with a systolic murmur due to potential valvular damage from endocarditis is an increased intensity of the murmur with forced expiration (Choice_C). This is because mitral regurgitation, a possible consequence of endocarditis, tends to become louder during expiration."
+  ],
+  "solution": "Choice_C",
+  "ground_truth": "B"
+}

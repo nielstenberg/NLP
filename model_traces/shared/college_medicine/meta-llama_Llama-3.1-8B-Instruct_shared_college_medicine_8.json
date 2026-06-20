@@ -1,0 +1,24 @@
+{
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "mode": "shared",
+  "subject": "College Medicine",
+  "question_index": 454,
+  "question_uuid": "33e8f455-4565-4ced-9639-3e74acc66dca",
+  "question": "A 16-year-old girl is brought to the office by her mother because she is concerned that she may have contracted meningitis from her soccer teammate, who was diagnosed with meningococcal meningitis and admitted to the hospital yesterday. The patient's soccer team traveled to a neighboring state to participate in a tournament 1 week ago and she shared a hotel room with the girl who was hospitalized. The patient feels well but is concerned she may have \"caught the same bug.\" Medical history is remarkable for asthma. Medications include inhaled albuterol. Vital signs are temperature 37.2\u00b0C (98.9\u00b0F), pulse 64/min, respirations 16/min, and blood pressure 107/58 mm Hg. Physical examination shows no abnormalities. Which of the following is the most appropriate intervention for this patient at this time?",
+  "options": {
+    "A": "Administer the meningococcal vaccine",
+    "B": "Prescribe doxycycline",
+    "C": "Prescribe penicillin",
+    "D": "Prescribe rifampin"
+  },
+  "analysis": [
+    "Step 1: - The patient has been exposed to someone with meningococcal meningitis, making her susceptible to infection.\n- However, she does not currently show symptoms of illness.\n- Vaccination against meningococcus is recommended for individuals between 11 and 55 years old if they are at increased risk of disease due to their occupation, travel, or other factors.\n- This patient is 16 years old and does not meet criteria for routine vaccination.",
+    "Step 2: - Doxycycline is an antibiotic used to treat various bacterial infections, including Lyme disease and certain sexually transmitted diseases.\n- It is not typically used to prevent meningococcal disease.\n- Rifampin is an antibiotic that can be used prophylactically to prevent meningococcal disease when given within 24 hours of exposure.\n- Penicillin is not effective against Neisseria meningitidis, the causative agent of meningococcal disease.",
+    "Step 3: - Given the patient's recent exposure to someone with meningococcal meningitis, the use of antibiotics as prophylaxis is considered.\n- Since the patient is already taking inhaled albuterol for asthma, adding another medication could increase the risk of side effects.\n- Therefore, choosing an antibiotic that is safe for patients with asthma is crucial.",
+    "Step 4: - Considering the options provided, administering the meningococcal vaccine would not be the best choice since it is not indicated for this patient based on age alone.\n- Doxycycline is not typically used for preventing meningococcal disease.\n- Penicillin is ineffective against Neisseria meningitidis.\n- Rifampin is the correct answer because it is commonly used to prevent meningococcal disease when administered promptly after exposure.",
+    "Step 5: - Although rifampin is the correct choice, it should be noted that its effectiveness depends on prompt administration after exposure.\n- In this scenario, the patient was exposed one week prior, which might affect the efficacy of rifampin.\n- Despite this consideration, rifampin remains the most appropriate intervention among the provided options.",
+    "Step 6: - Based on the analysis above, the most appropriate intervention for this patient at this time is to prescribe rifampin."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

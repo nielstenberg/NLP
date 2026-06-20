@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "College Biology",
+  "question_index": 519,
+  "question_uuid": "88ac9c41-6bf2-41c4-bdbd-55b157280ab2",
+  "question": "Which of the following statements is an inference of natural selection?",
+  "options": {
+    "A": "Subsequent generations of a population should have greater proportions of individuals that possess traits better suited for success.",
+    "B": "An individual organism undergoes evolution over the course of its lifetime.",
+    "C": "Habitats do not generally have unlimited resources.",
+    "D": "Natural populations tend to reproduce to their full biological potential."
+  },
+  "analysis": [
+    "Step 1: Evaluate Choice A. This statement accurately captures the core inference of natural selection, which logically follows from differential survival and reproduction: individuals with advantageous traits leave more offspring, causing subsequent generations to contain a greater proportion of those well-suited traits.",
+    "Step 2: Evaluate Choice B. This statement is scientifically incorrect because evolution is defined as a change in heritable characteristics of populations over successive generations, not a physiological or genetic transformation that occurs within a single organism's lifetime.",
+    "Step 3: Evaluate Choice C. This statement reflects one of Darwin's original empirical observations regarding environmental carrying capacity and limited resources, which establishes the condition of competition, rather than serving as a deductive inference of the selection mechanism itself.",
+    "Step 4: Evaluate Choice D. This statement represents another of Darwin's foundational observations concerning the exponential reproductive potential of organisms and overproduction, which acts as a prerequisite premise for natural selection rather than an inference drawn from it.",
+    "Step 5: Synthesize the findings. Choices C and D are observational premises that set the stage for natural selection, while Choice B contradicts basic evolutionary principles. Only Choice A correctly states the direct logical inference of natural selection regarding adaptive change across generations, confirming it as the correct answer."
+  ],
+  "solution": "Choice_A",
+  "ground_truth": "A"
+}

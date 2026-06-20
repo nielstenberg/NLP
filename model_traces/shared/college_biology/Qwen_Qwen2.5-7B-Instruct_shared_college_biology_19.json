@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "shared",
+  "subject": "College Biology",
+  "question_index": 492,
+  "question_uuid": "81474ffc-d8f3-409b-bb60-21d711013894",
+  "question": "Which of the following pairs of scientists pioneered the ecological discipline known as island biogeography?",
+  "options": {
+    "A": "Robert MacArthur and E. O. Wilson",
+    "B": "James Watson and Francis Crick",
+    "C": "Matthias Schleiden and Theodor Schwann",
+    "D": "Alfred Hershey and Martha Chase"
+  },
+  "analysis": [
+    "Step 1: Robert MacArthur and E. O. Wilson are known for their work in ecology, particularly in the field of island biogeography. Their collaboration led to the development of the theory that predicts the number of species that can be supported by an island based on its size and distance from other land masses. This theory is foundational to the study of island biogeography.",
+    "Step 2: James Watson and Francis Crick are famous for their discovery of the double helix structure of DNA, which is crucial in genetics and molecular biology, but not related to the field of island biogeography.",
+    "Step 3: Matthias Schleiden and Theodor Schwann are known for their contributions to cell theory, stating that all plants and animals are composed of cells and that cells arise only from pre-existing cells. Their work laid the foundation for modern cell biology, but it does not pertain to island biogeography.",
+    "Step 4: Alfred Hershey and Martha Chase conducted experiments that helped confirm the role of DNA as the genetic material, which is significant in microbiology and genetics, but not directly related to island biogeography.",
+    "Step n: Based on the analysis above, the correct answer is Choice_A, as Robert MacArthur and E. O. Wilson pioneered the ecological discipline known as island biogeography."
+  ],
+  "solution": "Choice_A",
+  "ground_truth": "A"
+}

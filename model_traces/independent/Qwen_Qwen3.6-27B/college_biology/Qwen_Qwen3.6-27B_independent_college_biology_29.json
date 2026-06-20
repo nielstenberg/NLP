@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "College Biology",
+  "question_index": 654,
+  "question_uuid": "06b89a88-322e-4f9a-95cd-49f71517a010",
+  "question": "In a certain pond, there are long-finned fish and short-finned fish. A horrific summer thunderstorm leads to the death of a disproportionate number of long-finned fish to the point where the relative frequency of the two forms has drastically shifted. This is an example of",
+  "options": {
+    "A": "gene flow.",
+    "B": "natural selection.",
+    "C": "genetic drift.",
+    "D": "stabilizing selection."
+  },
+  "analysis": [
+    "Step 1: Choice A proposes gene flow, which involves the transfer of alleles between distinct populations through migration or interbreeding. Since the scenario describes a mortality event confined to a single pond with no mention of fish immigrating or emigrating, gene flow cannot account for the observed change in trait frequencies.",
+    "Step 2: Choice B suggests natural selection, which requires differential survival and reproduction based on heritable traits that confer a consistent adaptive advantage in a given environment. Although long-finned fish died at higher rates, the trigger was a sudden, unpredictable thunderstorm rather than a steady ecological pressure favoring short fins for functional benefits, ruling out natural selection.",
+    "Step 3: Choice C identifies genetic drift, defined as random changes in allele frequencies due to chance events, particularly following a sharp reduction in population size known as a bottleneck effect. A catastrophic storm randomly eliminating a large portion of the population alters the surviving gene pool by statistical chance alone, directly matching the description of a drastic frequency shift caused by a sudden demographic shock.",
+    "Step 4: Choice D offers stabilizing selection, a form of natural selection that preserves intermediate phenotypes and selects against extreme variants. The scenario explicitly describes a drastic shift toward one extreme phenotype (short-finned fish) rather than the preservation of average traits, so stabilizing selection is incorrect.",
+    "Step 5: Evaluating all candidates collectively, only genetic drift accurately explains how a sudden, non-adaptive catastrophic event can randomly alter allele frequencies and cause a dramatic shift in phenotypic ratios within a closed population. Therefore, the correct answer is genetic drift."
+  ],
+  "solution": "Choice_C",
+  "ground_truth": "C"
+}

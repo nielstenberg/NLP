@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 217,
+  "question_uuid": "b110bfa8-2406-4e53-ab81-baab93e86aa9",
+  "question": "The blood glucose concentration during 80-90 minutes of intermittent high intensity exercise:",
+  "options": {
+    "A": "frequently rises by 1 - 3 mM.",
+    "B": "remains relatively unchanged.",
+    "C": "frequently falls by 1 - 3 mM.",
+    "D": "falls to hypoglycaemic levels."
+  },
+  "analysis": [
+    "Step 1: During intense exercise, the body's demand for energy increases significantly, leading to an increased utilization of stored glycogen and glucose from the bloodstream. This process typically causes a decrease in blood glucose levels rather than an increase. Therefore, Choice_A can be eliminated as it suggests that blood glucose concentration frequently rises during such exercises.",
+    "Step 2: Intermittent high-intensity exercise involves periods of intense activity followed by recovery periods where the body can replenish its resources. However, if the exercise continues for more than one hour (as specified in the question), the body may start to use fat stores more extensively due to depleted glycogen stores. This shift towards using fats for energy can lead to a temporary rise in blood glucose levels as the liver releases glucose into the bloodstream to maintain blood sugar levels. Thus, Choice_B might seem plausible initially but needs further examination.",
+    "Step 3: Considering the duration mentioned (80-90 minutes) and the nature of high-intensity intermittent exercise, the body will likely continue to deplete muscle glycogen stores and rely heavily on anaerobic metabolism during these short bursts of intense activity. This would result in a continued drop in blood glucose levels throughout the exercise period, making Choice_C a strong contender.",
+    "Step 4: Hypoglycemia occurs when blood glucose levels fall below normal ranges (<70 mg/dL). While prolonged intense exercise can lower blood glucose levels significantly, it does not typically cause hypoglycemia unless there are pre-existing conditions like diabetes or certain medications that affect glucose regulation. Given the context of healthy individuals engaging in moderate-to-high intensity exercise, the risk of falling to hypoglycaemic levels within the timeframe provided is low, thus eliminating Choice_D.",
+    "Step 5: Jointly analyzing all options, Choice_C aligns best with the physiological response expected during 80-90 minutes of intermittent high-intensity exercise, where the body continues to utilize glycogen stores and potentially experiences a sustained decline in blood glucose levels."
+  ],
+  "solution": "Choice_C",
+  "ground_truth": "A"
+}

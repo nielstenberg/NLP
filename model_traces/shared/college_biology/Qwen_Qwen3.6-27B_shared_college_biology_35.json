@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "shared",
+  "subject": "College Biology",
+  "question_index": 231,
+  "question_uuid": "cc8a1144-a1d7-4001-a1d2-362ff3a3e6f5",
+  "question": "Which of the following is an example of a cline?",
+  "options": {
+    "A": "The hybrid tomato plant is stronger and produces better fruit than the pure genotype.",
+    "B": "There are two distinct varieties in one population of snail that inhabits an island in the Pacific Ocean.",
+    "C": "Males of some species have long antlers to fight other males for females.",
+    "D": "In one species of rabbit, the ones that evolved in the cold, snowy north are white, while the ones that evolved in the south are brown."
+  },
+  "analysis": [
+    "Step 1: Choice A describes hybrid vigor (heterosis), which occurs when crossbred offspring exhibit enhanced fitness or productivity compared to parental lines; this phenomenon relates to genetic recombination and dominance effects, not a spatial or environmental gradient, so it does not represent a cline.",
+    "Step 2: Choice B describes discrete polymorphism, where two or more distinct phenotypes coexist within a single interbreeding population without intermediate forms; a cline requires a continuous, gradual transition of traits across a geographic range, making this choice incorrect.",
+    "Step 3: Choice C illustrates sexual selection, where specific traits (like antler size) evolve due to competitive advantages in mating; while this explains trait evolution through reproductive success, it does not describe a geographically correlated phenotypic gradient, so it is not a cline.",
+    "Step 4: Choice D describes a gradual shift in coat color across a geographic continuum (white in colder northern regions transitioning to brown in warmer southern regions) within a single species; this spatial correlation between phenotype and environmental conditions precisely matches the biological definition of a cline.",
+    "Step 5: After evaluating all options, only Choice D demonstrates the defining characteristic of a cline\u2014a continuous, geographically structured variation in a heritable trait driven by environmental gradients\u2014making it the correct answer."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

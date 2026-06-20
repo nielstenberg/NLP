@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "College Biology",
+  "question_index": 501,
+  "question_uuid": "540c8b72-fed0-4bf8-999c-d4a04486e966",
+  "question": "Which of the following is most likely to increase the rate of diffusion of an uncharged solute across the plasma membrane of a cell?",
+  "options": {
+    "A": "Decreasing the number of different solutes in the solution that bathes the cells",
+    "B": "Increasing the concentration gradient of the solute across the membrane",
+    "C": "Increasing the ratio of phospholipids to proteins in the membrane",
+    "D": "Decreasing the membrane potential across the membrane"
+  },
+  "analysis": [
+    "Step 1: Evaluating Choice A, decreasing the number of different solutes in the bathing solution does not directly influence the passive diffusion rate of a specific uncharged solute, as simple diffusion through the lipid bilayer depends on the solute's own physicochemical properties and concentration difference rather than the presence of other unrelated molecules.",
+    "Step 2: Evaluating Choice B, increasing the concentration gradient of the solute across the membrane directly amplifies the thermodynamic driving force for net movement, as established by Fick's laws of diffusion, which state that the rate of passive diffusion is directly proportional to the concentration difference across the barrier.",
+    "Step 3: Evaluating Choice C, increasing the ratio of phospholipids to proteins would generally reduce the density of transmembrane channels and carrier proteins that often assist in solute transport, potentially hindering rather than enhancing the overall permeability and diffusion rate across the membrane.",
+    "Step 4: Evaluating Choice D, decreasing the membrane potential would only meaningfully affect the diffusion of charged species by modifying the electrical component of their electrochemical gradient, but since the question explicitly specifies an uncharged solute, alterations in membrane voltage have virtually no impact on its diffusion rate.",
+    "Step 5: Synthesizing the analysis of all candidates, only increasing the concentration gradient provides a direct, physically fundamental mechanism to accelerate the passive diffusion of an uncharged solute, confirming it as the correct answer."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "B"
+}

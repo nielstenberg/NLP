@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "shared",
+  "subject": "College Biology",
+  "question_index": 39,
+  "question_uuid": "ced533c5-5745-40e1-a87a-ffae39b2d987",
+  "question": "Catastrophism, meaning the regular occurrence of geological or meteorological disturbances (catastrophes), was Cuvier's attempt to explain the existence of",
+  "options": {
+    "A": "evolution.",
+    "B": "the fossil record.",
+    "C": "uniformitarianism.",
+    "D": "the origin of new species."
+  },
+  "analysis": [
+    "Step 1: Analyze Choice A (evolution). Georges Cuvier was a staunch opponent of evolutionary theory during his lifetime. He believed that species were fixed and immutable, arguing against the idea that one species could transform into another over time. Therefore, catastrophism was not an attempt to explain evolution; rather, it was used to argue against it while acknowledging changes seen in the rock layers.",
+    "Step 2: Analyze Choice B (the fossil record). The fossil record clearly showed that different types of organisms existed in different geological strata, with older layers containing fossils of extinct species distinct from those found in younger layers. This evidence contradicted the prevailing view of static creation. Cuvier proposed catastrophism\u2014the idea that sudden, violent events like floods or earthquakes wiped out local populations\u2014followed by migration of new species from other areas\u2014to explain why the fossil record showed succession of different life forms without invoking gradual evolution.",
+    "Step 3: Analyze Choice C (uniformitarianism). Uniformitarianism is the principle associated with James Hutton and Charles Lyell, stating that geological features are formed by slow-acting processes still operating today (\"the present is the key to the past\"). Catastrophism is actually the opposing viewpoint to uniformitarianism. Cuvier did not propose catastrophism to explain uniformitarianism; he proposed it as an alternative explanation to account for geological and biological changes that uniformitarianism struggled to explain at the time regarding extinction.",
+    "Step 4: Analyze Choice D (the origin of new species). While catastrophism involved the arrival of new species after a catastrophe, Cuvier explicitly denied that these new species originated through transformation from previous ones. He argued they migrated from elsewhere. Since Cuvier rejected transmutation (the origin of new species via evolution), catastrophism was not an attempt to explain how new species originate biologically, but rather how the *record* of different species appears in the earth's crust. Thus, this choice is less accurate than explaining the fossil record itself.",
+    "Step 5: Conclude the analysis. Cuvier developed catastrophism specifically to reconcile the observable evidence of extinction and changing faunal sequences in the fossil record with his belief in the fixity of species. It allowed him to accept that species went extinct and were replaced by others without accepting Lamarckian or Darwinian evolution. Therefore, the primary purpose of his theory was to explain the patterns observed in the fossil record."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "B"
+}

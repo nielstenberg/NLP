@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "shared",
+  "subject": "College Biology",
+  "question_index": 306,
+  "question_uuid": "4c508c4b-37a4-45a2-9cb7-e4019ee5e92b",
+  "question": "Which of the following theories is based on the notion that mitochondria and chloroplasts evolved from prokaryotic cells?",
+  "options": {
+    "A": "Fluid mosaic model",
+    "B": "Endosymbiotic model",
+    "C": "Taxonomic model",
+    "D": "Respiration feedback model"
+  },
+  "analysis": [
+    "Step 1: The fluid mosaic model describes the structure of cell membranes as a flexible arrangement of phospholipid bilayers with proteins embedded within them. This theory does not involve the evolution of organelles from prokaryotic cells, making it unrelated to the origin of mitochondria and chloroplasts.",
+    "Step 2: The endosymbiotic model proposes that mitochondria and chloroplasts originated from ancient prokaryotic cells that were engulfed by a eukaryotic cell and eventually became symbiotic, evolving into organelles within the host cell. This theory directly addresses the evolutionary relationship between these organelles and their prokaryotic ancestors.",
+    "Step 3: The taxonomic model focuses on classifying organisms based on shared characteristics and evolutionary relationships. While it can provide context for understanding the origins of mitochondria and chloroplasts, it does not specifically address their evolutionary history from prokaryotic cells.",
+    "Step 4: The respiration feedback model is concerned with the regulation of cellular respiration processes and does not relate to the origin or evolution of mitochondria and chloroplasts.",
+    "Step n: Based on the analysis, the endosymbiotic model (Choice_B) is the theory that explains the evolution of mitochondria and chloroplasts from prokaryotic cells through a symbiotic relationship with a eukaryotic host."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "B"
+}

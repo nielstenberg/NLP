@@ -1,0 +1,23 @@
+{
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "mode": "independent",
+  "subject": "College Biology",
+  "question_index": 396,
+  "question_uuid": "e7ab44e2-95cf-4b57-815f-4cfc1603b692",
+  "question": "Crossing-over during meiosis permits scientists to determine",
+  "options": {
+    "A": "the chance for variation in zygotes",
+    "B": "the rate of mutations",
+    "C": "the distance between genes on a chromosome",
+    "D": "which traits are dominant or recessive"
+  },
+  "analysis": [
+    "Step 1: Crossing-over during meiosis involves the exchange of genetic material between homologous chromosomes. This process results in increased genetic diversity among offspring. To understand how crossing-over allows us to determine something, we need to consider what it affects.",
+    "Step 2: Crossing-over does not directly affect the mutation rate (Choice B). Mutations occur due to errors during DNA replication or exposure to mutagens, not as a result of crossing-over. So, Choice B can be eliminated.",
+    "Step 3: While crossing-over does contribute to genetic variation, it doesn't specifically allow us to determine the dominance or recessiveness of traits (Choice D). The expression of traits depends on multiple factors, including genotype and environmental conditions, but not solely on crossing-over. Therefore, Choice D can also be eliminated.",
+    "Step 4: Considering that crossing-over increases genetic diversity, let's examine its effect on gene mapping. During crossing-over, parts of one chromosome break off and reattach to another chromosome. By analyzing the frequency and position of these breaks, scientists can infer the distance between genes on a chromosome. This knowledge helps in understanding the organization of genetic information within an organism.",
+    "Step 5: Given the above analysis, we see that crossing-over primarily aids in determining the distance between genes on a chromosome. This makes Choice C the correct answer."
+  ],
+  "solution": "Choice_C",
+  "ground_truth": "C"
+}

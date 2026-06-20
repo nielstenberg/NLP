@@ -1,0 +1,24 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "shared",
+  "subject": "College Medicine",
+  "question_index": 484,
+  "question_uuid": "ff2d2fcd-ce77-410a-9ea4-76c916ca6fce",
+  "question": "A 30-year-old woman comes to the physician because of a 2-day history of abdominal pain. She has a history of recurrent upper respiratory tract infections, sinusitis, and pancreatitis. She has thick nasal secretions. She says that her sweat is salty and crystallizes on her skin. Her vital signs are within normal limits. Physical examination shows epigastric tenderness. Genetic testing for the 36 most common mutations shows a detectable mutation (G551D) in one allele of the CFTR gene. Which of the following best explains this patient's clinical phenotype?",
+  "options": {
+    "A": "Only one G551D allele is needed in CFTR",
+    "B": "The patient is a CFTR obligate carrier",
+    "C": "The patient's CFTR mutation is unrelated to her clinical phenotype",
+    "D": "The second CFTR mutation was not detected by the testing obtained"
+  },
+  "analysis": [
+    "Step 1: The patient presents with symptoms consistent with cystic fibrosis (CF), including recurrent respiratory infections, sinusitis, and pancreatitis. The presence of a G551D mutation in one allele of the CFTR gene suggests a diagnosis of cystic fibrosis. However, only one functional CFTR allele is typically required for the disease manifestation due to the nature of the condition being caused by defective chloride ion transport across cell membranes. Therefore, having just one G551D mutation can lead to the observed clinical phenotype.",
+    "Step 2: The patient\u2019s symptoms align well with those expected in cystic fibrosis, such as thick nasal secretions indicative of mucus hypersecretion and the characteristic salty sweat due to increased sodium chloride excretion. These features support the diagnosis of cystic fibrosis.",
+    "Step 3: The genetic test result showing a detectable mutation (G551D) in one allele indicates that the patient is heterozygous for the mutation. In cystic fibrosis, heterozygosity often results in the disease phenotype due to the severity of the single mutation affecting the function of the remaining wild-type allele.",
+    "Step 4: Being an obligate carrier would imply that the patient must have two copies of the same mutation, which is not the case here since only one G551D mutation was found. Thus, the patient cannot be classified as an obligate carrier based on the given information.",
+    "Step 5: The second CFTR mutation was not detected by the initial genetic testing does not explain the current clinical presentation since the patient already exhibits symptoms despite having only one identified mutation.",
+    "Step 6: Considering all the above points, the best explanation for the patient's clinical phenotype is that only one G551D allele is needed in CFTR to manifest the disease, making Choices A and B plausible but Choice C incorrect."
+  ],
+  "solution": "Choice_A",
+  "ground_truth": "D"
+}

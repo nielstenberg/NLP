@@ -1,0 +1,22 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "independent",
+  "subject": "High School Biology",
+  "question_index": 0,
+  "question_uuid": "b9bd9e9f-a949-45b4-82af-4847cc66b92b",
+  "question": "In plants, proton pumps are involved in the process of loading sugars into the phloem for transport. Which of the following is true about this process?",
+  "options": {
+    "A": "It is passive.",
+    "B": "It depends on DNA.",
+    "C": "It requires ATP.",
+    "D": "It translocates starch."
+  },
+  "analysis": [
+    "Step 1: Proton pumps typically require energy input to move protons across cell membranes against their concentration gradient. This energy comes from the hydrolysis of ATP, not from being passive. Therefore, Choice_A can be eliminated as it contradicts the need for active transport mechanisms involving proton pumps.",
+    "Step 2: The process described involves loading sugars into the phloem for transport, which implies an active process that needs energy. While DNA provides the genetic blueprint for the proteins involved, it does not directly participate in the transport mechanism itself. Thus, Choice_B can be ruled out as it incorrectly suggests DNA's direct role in the transport process.",
+    "Step 3: For the movement of sugars into the phloem, the plant cells must create a concentration gradient where protons accumulate in the cytoplasm relative to the phloem. This accumulation is achieved through the action of proton pumps, which use ATP to pump protons into the cytoplasm. Once inside, these protons can flow down their concentration gradient into the phloem, driving the uptake of sugars along with them. Hence, Choice_C correctly identifies the requirement for ATP.",
+    "Step 4: Starch is a storage form of glucose and its translocation would involve different processes such as amylase activity and not the phloem loading mechanism described. Therefore, Choice_D is unrelated to the specific question at hand and can be excluded."
+  ],
+  "solution": "Choice_C",
+  "ground_truth": "C"
+}

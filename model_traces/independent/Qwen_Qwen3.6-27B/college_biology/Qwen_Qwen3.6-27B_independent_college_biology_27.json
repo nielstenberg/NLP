@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "College Biology",
+  "question_index": 96,
+  "question_uuid": "6942e507-e0b1-4cf3-aecb-2e5771115ac0",
+  "question": "In most ecosystems, net primary productivity is important because it represents the",
+  "options": {
+    "A": "energy available to producers",
+    "B": "total solar energy converted to chemical energy by producers",
+    "C": "biomass of all producers",
+    "D": "energy available to heterotrophs"
+  },
+  "analysis": [
+    "Step 1: Analyze Choice A. Net primary productivity (NPP) does not represent the energy available to producers, as autotrophs must first allocate a significant portion of captured energy toward cellular respiration to sustain their own metabolic functions, growth, and repair. The initial energy capture by producers is defined as gross primary productivity (GPP), making this choice incorrect.",
+    "Step 2: Analyze Choice B. The total solar energy converted into chemical energy by producers via photosynthesis corresponds to gross primary productivity (GPP), not net primary productivity. Because NPP explicitly accounts for respiratory energy losses by subtracting them from GPP, this choice mislabels the ecological metric and is therefore incorrect.",
+    "Step 3: Analyze Choice C. Although NPP is frequently expressed in units of biomass per unit area per unit time, it measures the rate of new organic matter production rather than the total standing biomass of all producers. Standing crop biomass represents an accumulated stock, whereas productivity measures a dynamic flow, rendering this choice conceptually inaccurate.",
+    "Step 4: Analyze Choice D. Net primary productivity is mathematically defined as GPP minus the energy consumed by producers during respiration. This residual energy remains stored in plant tissues and constitutes the actual caloric resource accessible to herbivores and subsequent trophic levels. Consequently, NPP directly represents the energy available to heterotrophs, making this choice scientifically accurate.",
+    "Step 5: Jointly evaluate all candidates. Choices A, B, and C either conflate NPP with producer metabolic demands, incorrectly define it as GPP, or mistake a productivity rate for static standing biomass. Only Choice D correctly captures the core ecological function of NPP, which serves as the foundational energy input that fuels all consumer populations in an ecosystem. Based on this sequential elimination and conceptual verification, Choice D is the definitive answer."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

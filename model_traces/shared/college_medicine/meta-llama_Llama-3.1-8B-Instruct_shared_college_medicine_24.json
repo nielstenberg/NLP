@@ -1,0 +1,23 @@
+{
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "mode": "shared",
+  "subject": "College Medicine",
+  "question_index": 65,
+  "question_uuid": "d3880cbf-0dfe-4931-8fb8-45b2972342a6",
+  "question": "A 22-year-old male presents to the office with a\u00a05-day\u00a0history of diarrhea after completing his third course of antibiotics for mastoiditis. Physical examination reveals vague generalized abdominal pain on palpation. Culture on hektoen enteric agar is positive. The most likely etiologic agent causing the diarrhea is",
+  "options": {
+    "A": "Clostridium difficile",
+    "B": "Entamoeba histolytica",
+    "C": "Giardia lamblia",
+    "D": "Salmonella typhi"
+  },
+  "analysis": [
+    "Step 1: Clostridium difficile (A) is known to cause antibiotic-associated diarrhea, especially after multiple courses of antibiotics as described in the scenario. This bacterium can overgrow in the gut when normal flora is suppressed by antibiotics.",
+    "Step 2: Entamoeba histolytica (B) causes amoebic dysentery, typically presenting with bloody stools rather than just diarrhea. It's less commonly associated with antibiotic use.",
+    "Step 3: Giardia lamblia (C) is an intestinal parasite that can cause giardiasis but isn't specifically linked to antibiotic use.",
+    "Step 4: Salmonella typhi (D) is the causative agent of typhoid fever, not directly related to antibiotic use leading to diarrhea.",
+    "Step 5: Considering all options, the most likely cause of the patient's diarrhea given the history of recent antibiotic use is Clostridium difficile infection."
+  ],
+  "solution": "Choice_A",
+  "ground_truth": "D"
+}

@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "shared",
+  "subject": "College Medicine",
+  "question_index": 751,
+  "question_uuid": "607ecc8c-32a6-4dd3-8f25-8236d2113fc3",
+  "question": "A 35-year-old male presents to the office for the result of an HIV test, and he is informed that the result is positive. The patient resists disclosure to his wife because he has not told her about his extramarital sexual partners. The physician informs the patient that his wife's right to know is paramount because she could also be HIV positive. Which of the following relationships best describes the rationale for the physician's recommendation that the patient inform his wife of his condition rather than withhold this information?",
+  "options": {
+    "A": "autonomy overrides beneficence",
+    "B": "autonomy overrides justice",
+    "C": "beneficence overrides autonomy",
+    "D": "nonmaleficence overrides autonomy"
+  },
+  "analysis": [
+    "Step 1: Evaluate Choice A, which posits that autonomy overrides beneficence; this would validate the patient's desire to keep his diagnosis confidential, directly contradicting the physician's explicit instruction to disclose the information, thus eliminating it as the correct rationale.",
+    "Step 2: Evaluate Choice B, which suggests autonomy overrides justice; justice addresses fairness and equitable treatment across populations, not the direct interpersonal conflict between a patient's privacy and a specific third party's physical safety, making it irrelevant to the physician's stated reasoning.",
+    "Step 3: Evaluate Choice C, which states that beneficence overrides autonomy; this accurately reflects the physician's position, as the duty to actively promote the wife's health and enable her to seek preventive care or early treatment outweighs the patient's autonomous right to withhold his diagnostic results.",
+    "Step 4: Evaluate Choice D, which claims nonmaleficence overrides autonomy; while preventing harm is ethically adjacent, standard medical ethics curricula and licensing examinations consistently frame third-party protection in infectious disease disclosures as a case where beneficence (the proactive duty to safeguard others' welfare) supersedes patient confidentiality.",
+    "Step 5: Synthesize the sequential evaluations to determine that Choice C precisely captures the ethical hierarchy applied in this clinical encounter, where the moral imperative to protect an identifiable third party from serious, life-altering harm legitimately takes precedence over the patient's right to informational self-determination."
+  ],
+  "solution": "Choice_C",
+  "ground_truth": "D"
+}

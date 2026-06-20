@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 247,
+  "question_uuid": "6e4411a2-4f3f-44a1-9af3-8d8fc9e018ac",
+  "question": "A healthy 4-year-old girl is brought for a well-child examination. A grade 2/6 systolic ejection murmur is heard along the upper left sternal border. S2 is widely split and does not vary with respiration. A soft mid-diastolic murmur is heard along the lower left sternal border. Examination shows no other abnormalities. Which of the following is the most likely diagnosis?",
+  "options": {
+    "A": "Aortic stenosis",
+    "B": "Atrial septal defect",
+    "C": "Coarctation of the aorta",
+    "D": "Mitral valve prolapse"
+  },
+  "analysis": [
+    "Step 1: The presence of a grade 2/6 systolic ejection murmur along the upper left sternal border suggests a right-sided heart problem such as pulmonary hypertension or a ventricular outflow tract obstruction like aortic stenosis. However, the wide splitting of the second heart sound (S2) that does not vary with respiration points towards an atrial septal defect where there is increased pressure in the right side of the heart leading to a delay in the closure of the pulmonic component of S2.",
+    "Step 2: The soft mid-diastolic murmur heard at the lower left sternal border could be associated with mitral regurgitation due to an atrial septal defect allowing blood to flow from the right to the left side of the heart, increasing left atrial pressure and causing diastolic dysfunction. This would explain the presence of both systolic and diastolic murmurs.",
+    "Step 3: Aortic stenosis typically presents with a harsh, high-pitched systolic murmur at the left sternal border but usually has a fixed splitting of S2 because it affects the aortic valve directly. Since the S2 is described as widely split and non-variable with respiration, this does not fit aortic stenosis.",
+    "Step 4: Coarctation of the aorta can cause a systolic murmur but often leads to a variable splitting of S2 based on the position of the aortic constriction relative to the left ventricle. Given the description of a constant S2 split, coarctation is less likely.",
+    "Step 5: Mitral valve prolapse typically causes a late systolic click followed by a mid-to-late systolic murmur and may have a normal or minimally split S2. It does not commonly present with a widely split S2 that remains unchanged during respiration.\n\nConclusion: Based on the clinical presentation, the most likely diagnosis is an atrial septal defect given the combination of a systolic ejection murmur, a widely split S2, and a soft mid-diastolic murmur consistent with mitral regurgitation secondary to the ASD."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "B"
+}

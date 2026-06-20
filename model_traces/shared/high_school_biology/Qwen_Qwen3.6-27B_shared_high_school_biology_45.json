@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "shared",
+  "subject": "High School Biology",
+  "question_index": 279,
+  "question_uuid": "6c2dfcfe-f469-44e1-9efa-138da4f7128f",
+  "question": "Which of the following is a reason that geneticists use mitochondrial DNA (mtDNA) to study the relatedness of animal populations?",
+  "options": {
+    "A": "mtDNA mutates at a slower rate than nuclear DNA.",
+    "B": "mtDNA is passed from mother to child and is free from recombination that occurs between pairs of chromosomes.",
+    "C": "There are few single nucleotide polymorphisms in the hypervariable, noncoding regions.",
+    "D": "All mitochondrial proteins are coded for by mitochondrial genes."
+  },
+  "analysis": [
+    "Step 1: Evaluate Choice A. Mitochondrial DNA actually accumulates mutations at a significantly faster rate than nuclear DNA due to less robust repair mechanisms and proximity to reactive oxygen species generated during cellular respiration. Therefore, claiming it mutates at a slower rate is factually incorrect.",
+    "Step 2: Evaluate Choice B. Mitochondrial DNA is inherited almost exclusively through the maternal lineage and does not undergo meiotic recombination because it functions as a single, independent circular genome. This uniparental transmission and absence of chromosomal crossover preserve intact ancestral sequences, enabling geneticists to reliably trace direct maternal lineages and measure population relatedness without the confounding effects of genetic shuffling.",
+    "Step 3: Evaluate Choice C. The designation \"hypervariable\" specifically indicates regions with exceptionally high mutation frequencies, meaning these segments contain numerous single nucleotide polymorphisms, not few. These abundant variations are precisely what provide the discriminatory power needed for population genetics, making this statement incorrect.",
+    "Step 4: Evaluate Choice D. Only a tiny fraction of mitochondrial proteins (e.g., 13 in humans) are encoded directly by mtDNA. The vast majority of mitochondrial proteins are encoded by nuclear DNA and imported post-translationally, so this choice is biologically false.",
+    "Step 5: Comparing all candidates, only Choice B accurately reflects the established biological characteristics that make mtDNA a powerful tool for studying animal population relatedness. Its strict maternal inheritance and lack of recombination create a clean, non-recombining genetic marker ideal for tracking evolutionary history and demographic connections."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "B"
+}

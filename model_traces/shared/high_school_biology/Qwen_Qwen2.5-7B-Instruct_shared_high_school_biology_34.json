@@ -1,0 +1,22 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "shared",
+  "subject": "High School Biology",
+  "question_index": 198,
+  "question_uuid": "13f85aae-4464-44da-b195-5a2d874a0269",
+  "question": "Which of the following techniques could be used to demonstrate protein binding to specific DNA sequences?",
+  "options": {
+    "A": "Western blot hybridization",
+    "B": "Northern blot hybridization",
+    "C": "Southern blot hybridization",
+    "D": "Electrophoretic mobility shift assay"
+  },
+  "analysis": [
+    "Step 1: Western blot hybridization is typically used to detect proteins after they have been separated by gel electrophoresis. It involves transferring proteins from a gel onto a membrane and then probing for specific proteins using antibodies. This technique does not involve detecting DNA-protein interactions directly but rather focuses on protein detection.",
+    "Step 2: Northern blot hybridization is used to detect RNA molecules in a sample. It involves transferring RNA from a gel onto a membrane and then probing for specific RNA sequences using a complementary probe. Since it deals with RNA and not DNA-protein interactions, it is not suitable for demonstrating protein binding to specific DNA sequences.",
+    "Step 3: Southern blot hybridization is used to detect DNA sequences in a sample. It involves transferring DNA from a gel onto a membrane and then probing for specific DNA sequences using a complementary probe. Similar to Northern blotting, it does not involve detecting protein-DNA interactions and thus is not appropriate for this purpose.",
+    "Step 4: Electrophoretic mobility shift assay (EMSA) is a technique used to detect protein-DNA interactions. In this method, labeled DNA probes are incubated with the protein of interest, and the mixture is run through a gel. If the protein binds to the DNA, it will cause a shift in the electrophoretic mobility of the DNA, making it easier to detect the complex. This technique is specifically designed to demonstrate protein binding to specific DNA sequences."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

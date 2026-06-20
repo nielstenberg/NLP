@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "College Biology",
+  "question_index": 45,
+  "question_uuid": "f659ee9a-a6d0-426f-aba0-978f84ef5fc7",
+  "question": "Which statement about the beak size of finches on the island of Daphne Major during prolonged drought is true?",
+  "options": {
+    "A": "Each bird evolved a deeper, stronger beak as the drought persisted.",
+    "B": "Each bird developed a deeper, stronger beak as the drought persisted.",
+    "C": "Each bird's survival was strongly influenced by the depth and strength of its beak as the drought persisted.",
+    "D": "Each bird that survived the drought produced only offspring with deeper, stronger beaks than seen in the previous generation."
+  },
+  "analysis": [
+    "Step 1: Evaluate Choice A. Evolution is defined as a change in allele frequencies within a population over successive generations, not a physiological alteration within an individual organism. Individual finches cannot \"evolve\" new anatomical features during their lifespan in response to environmental stress, making this statement fundamentally incorrect.",
+    "Step 2: Evaluate Choice B. Beak morphology in adult finches is genetically determined and structurally fixed after maturation; it does not undergo developmental remodeling in response to drought conditions. This choice incorrectly invokes a Lamarckian concept of acquired characteristics, contradicting established principles of genetics and developmental biology.",
+    "Step 3: Evaluate Choice C. This statement accurately captures the mechanism of natural selection documented by Peter and Rosemary Grant. During the prolonged drought, small, soft seeds were depleted, leaving primarily large, hard Tribulus seeds. Pre-existing phenotypic variation meant that individuals with naturally deeper and stronger beaks could efficiently exploit the available food source, directly linking beak morphology to differential survival rates.",
+    "Step 4: Evaluate Choice D. While survivors predominantly possessed larger beaks, their offspring exhibit a continuous distribution of beak sizes due to polygenic inheritance, genetic recombination, and independent assortment. The absolute term \"only\" renders this statement false, as natural selection filters existing variation but does not eliminate genetic diversity or guarantee uniform offspring phenotypes, particularly when environmental pressures fluctuate.",
+    "Step 5: Synthesize findings and determine the correct option. Choices A, B, and D all misrepresent core evolutionary principles by either attributing population-level processes to individuals, invoking discredited acquired trait theories, or ignoring genetic variation in offspring. Choice C correctly identifies that environmental pressure acts on standing phenotypic variation to drive differential survival, which is the foundational mechanism of natural selection. Therefore, Choice C is the scientifically accurate statement."
+  ],
+  "solution": "Choice_C",
+  "ground_truth": "C"
+}

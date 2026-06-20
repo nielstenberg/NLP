@@ -1,0 +1,26 @@
+{
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 679,
+  "question_uuid": "5aaafcc2-4b9d-4a3f-b44d-8fb0c0a320d3",
+  "question": "A sexually active 20-year-old woman has had fever, chills, malaise, and pain of the vulva for 2 days. Examination shows a vulvar pustule that has ulcerated and formed multiple satellite lesions. Nodes are palpated in the inguinal and femoral areas. A smear of fluid from the lesions establishes the diagnosis. Which of the following is the most likely causal organism?",
+  "options": {
+    "A": "Chlamydia trachomatis",
+    "B": "Haemophilus ducreyi",
+    "C": "Neisseria gonorrhoeae",
+    "D": "Streptococcus pyogenes (group A)"
+  },
+  "analysis": [
+    "Step 1: The patient presents with symptoms of fever, chills, malaise, and pain of the vulva, along with a vulvar pustule that has ulcerated and formed multiple satellite lesions. This clinical presentation suggests an infectious process.",
+    "Step 2: The presence of nodes in the inguinal and femoral areas indicates lymphadenopathy, which is often associated with genital ulcers caused by certain pathogens.",
+    "Step 3: A key piece of information is the formation of multiple satellite lesions around the initial lesion. This characteristic is more commonly seen in infections caused by Haemophilus ducreyi, which causes chancroid.",
+    "Step 4: Chancroid is characterized by painful genital ulcers, accompanied by tender lymphadenopathy, which matches the patient's presentation. The causative agent of chancroid is Haemophilus ducreyi.",
+    "Step 5: In contrast, Chlamydia trachomatis typically causes urethritis or cervicitis, rather than painful genital ulcers. While it can cause lymphadenopathy, the specific constellation of symptoms presented does not strongly suggest Chlamydia as the primary cause.",
+    "Step 6: Neisseria gonorrhoeae causes gonorrhea, which can present with painful urination, but the classic \"spontaneous\" discharge is not mentioned in the scenario. Additionally, while gonorrhea can cause lymphadenopathy, the combination of painful genital ulcers and satellite lesions points away from this diagnosis.",
+    "Step 7: Streptococcus pyogenes group A typically causes skin infections such as impetigo or erysipelas, rather than genital ulcers. These conditions do not match the patient's presentation.",
+    "Step 8: Considering all the above steps, the most likely causal organism is Haemophilus ducreyi, which causes chancroid."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "B"
+}

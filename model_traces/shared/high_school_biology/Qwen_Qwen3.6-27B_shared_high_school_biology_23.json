@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "shared",
+  "subject": "High School Biology",
+  "question_index": 255,
+  "question_uuid": "0131e9a7-6028-4379-8c17-c1af7d7011f5",
+  "question": "Which of the following statements about mitochondria and chloroplasts is generally true?",
+  "options": {
+    "A": "Plants have chloroplasts but no mitochondria; animals have mitochondria but no chloroplasts.",
+    "B": "Plants have chloroplasts but no mitochondria; fungi have mitochondria but no chloroplasts.",
+    "C": "Plants and fungi have chloroplasts but no mitochondria; animals have only mitochondria.",
+    "D": "Plants have both chloroplasts and mitochondria; animals and fungi have only mitochondria."
+  },
+  "analysis": [
+    "Step 1: Analyze the cellular composition of plants. Plant cells are eukaryotic and perform both photosynthesis and cellular respiration. Chloroplasts are the organelles responsible for photosynthesis, converting light energy into chemical energy (glucose). Mitochondria are the organelles responsible for cellular respiration, breaking down glucose to produce ATP. Since plants need to respire to generate energy from the sugars they produce (especially at night or in non-green parts like roots), plant cells contain both chloroplasts and mitochondria. Therefore, any statement claiming plants lack mitochondria is incorrect. This eliminates Choice A, Choice B, and Choice C immediately, as all three claim that plants do not have mitochondria.",
+    "Step 2: Analyze the cellular composition of animals. Animal cells are heterotrophic eukaryotes, meaning they obtain energy by consuming other organisms rather than producing their own food via photosynthesis. Consequently, animal cells do not possess chloroplasts. However, like all eukaryotic cells, animal cells require ATP for metabolic processes and thus rely heavily on mitochondria for cellular respiration. Therefore, animals have mitochondria but no chloroplasts.",
+    "Step 3: Analyze the cellular composition of fungi. Fungi are also heterotrophic eukaryotes. They absorb nutrients from their environment and do not perform photosynthesis. As such, fungal cells do not contain chloroplasts. Like plants and animals, fungi are eukaryotes and require energy production through cellular respiration, so they possess mitochondria. Therefore, fungi have mitochondria but no chloroplasts.",
+    "Step 4: Evaluate Choice D based on the previous steps. Choice D states that \"Plants have both chloroplasts and mitochondria,\" which aligns with Step 1. It further states that \"animals and fungi have only mitochondria\" (implying they have mitochondria but lack chloroplasts), which aligns with Steps 2 and 3. This statement accurately reflects the general distribution of these organelles across these kingdoms.",
+    "Step 5: Conclude the analysis. Choices A, B, and C are factually incorrect because they falsely assert that plants lack mitochondria. Choice D correctly identifies that plants possess both organelles while animals and fungi possess only mitochondria. Thus, Choice D is the correct answer."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

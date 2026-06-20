@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "independent",
+  "subject": "High School Biology",
+  "question_index": 291,
+  "question_uuid": "0fad7107-75e5-4568-a193-0750e77b61c1",
+  "question": "How do cyanobacteria differ from green unicellular algae?",
+  "options": {
+    "A": "Cyanobacteria reduce sulfur compounds.",
+    "B": "Cyanobacteria lack cell walls.",
+    "C": "Cyanobacteria have no nuclei.",
+    "D": "Green algae produce cell membranes."
+  },
+  "analysis": [
+    "Step 1: Analyzing Choice_A - \"Cyanobacteria reduce sulfur compounds.\"\n- This statement is true but it does not differentiate cyanobacteria from green unicellular algae. Both can perform various metabolic processes including reduction of sulfur compounds under certain conditions, so this cannot be used as a distinguishing feature between them.",
+    "Step 2: Analyzing Choice_B - \"Cyanobacteria lack cell walls.\"\n- This statement is false because both cyanobacteria and green unicellular algae have cell walls composed primarily of peptidoglycan (in bacteria) or cellulose (in eukaryotes). Therefore, this is not a correct differentiation.",
+    "Step 3: Analyzing Choice_C - \"Cyanobacteria have no nuclei.\"\n- This statement is incorrect since cyanobacteria are prokaryotic organisms that contain DNA within their cells but do not have membrane-bound nuclei like eukaryotic cells. However, green unicellular algae are eukaryotic organisms with true nuclei. Thus, this is a key difference between the two groups.",
+    "Step 4: Analyzing Choice_D - \"Green algae produce cell membranes.\"\n- This statement is true for all living organisms, including both cyanobacteria and green unicellular algae. Cell membranes are essential components of all cells, whether they are prokaryotic or eukaryotic, so this does not distinguish between the two types of organisms.",
+    "Step n: Concluding Analysis and Decision\nBased on the above analysis, the only accurate and distinctive characteristic between cyanobacteria and green unicellular algae is found in Choice_C, where cyanobacteria lack true nuclei while green unicellular algae possess them."
+  ],
+  "solution": "Choice_d",
+  "ground_truth": "C"
+}

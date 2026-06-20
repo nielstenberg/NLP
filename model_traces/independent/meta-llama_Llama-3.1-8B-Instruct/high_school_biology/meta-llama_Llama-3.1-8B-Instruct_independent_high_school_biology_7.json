@@ -1,0 +1,26 @@
+{
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "mode": "independent",
+  "subject": "High School Biology",
+  "question_index": 102,
+  "question_uuid": "0b728420-6400-46ab-867a-bb2a32599428",
+  "question": "Approximately what fraction of the human genome encodes proteins?",
+  "options": {
+    "A": "2%",
+    "B": "25%",
+    "C": "50%",
+    "D": "90%"
+  },
+  "analysis": [
+    "Step 1: We know that humans have approximately 20,000-25,000 protein-coding genes. However, the total number of genes in the human genome is estimated to be around 30,000-40,000.",
+    "Step 2: To find the fraction of the human genome that encodes proteins, we need to divide the number of protein-coding genes by the total number of genes in the human genome.",
+    "Step 3: Assuming an average of 22,500 protein-coding genes (midpoint of 20,000-25,000) and an average of 35,000 genes (midpoint of 30,000-40,000), we can calculate the fraction as follows: Fraction = Number of protein-coding genes / Total number of genes\n= 22,500 / 35,000\n\u2248 0.64 or 64%\n\nHowever, since none of the options match our calculated value, let's consider another approach.",
+    "Step 4: Another way to think about this problem is to consider the percentage of the human genome that does not encode proteins. This includes non-coding DNA, such as introns, intergenic regions, and regulatory elements.",
+    "Step 5: Research suggests that only about 1-2% of the human genome encodes proteins, while the remaining 98-99% consists of non-coding DNA.",
+    "Step 6: Considering this information, it seems more likely that the correct answer is one of the lower fractions.",
+    "Step 7: Comparing the two approaches, we see that the first method yields a higher fraction (around 64%), while the second method suggests a much smaller fraction (around 1-2%).",
+    "Step 8: Given these results, we should choose the option with the smallest fraction, which would be Choice A: 2%."
+  ],
+  "solution": "Choice_A",
+  "ground_truth": "A"
+}

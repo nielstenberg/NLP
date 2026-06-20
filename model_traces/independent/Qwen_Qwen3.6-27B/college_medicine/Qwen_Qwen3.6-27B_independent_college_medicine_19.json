@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 412,
+  "question_uuid": "226ebca5-1321-4117-98a1-8121c675b352",
+  "question": "Which of the following statements is false?",
+  "options": {
+    "A": "Ammonia is produced in repeated high intensity exercise.",
+    "B": "Muscle lactate accumulation does not begin until at least 5 seconds of intermittent muscle contractions have taken place.",
+    "C": "Muscle phosphocreatine depletion begins in the first few seconds of high intensity exercise.",
+    "D": "With an increasing number of repeated sprints the rate of accumulation of lactate in muscle declines."
+  },
+  "analysis": [
+    "Step 1: Evaluate Choice A regarding ammonia production. During repeated high-intensity exercise, rapid ATP turnover leads to increased ADP and AMP concentrations. The purine nucleotide cycle is activated, where AMP deaminase converts AMP to IMP, releasing free ammonia (NH3) as a direct byproduct. This makes ammonia production a well-established physiological response to repeated high-intensity efforts, so this statement is true.",
+    "Step 2: Evaluate Choice B regarding the timing of muscle lactate accumulation. Anaerobic glycolysis is recruited almost immediately upon the onset of high-intensity contraction to help meet sudden ATP demands, operating concurrently with the phosphocreatine system. Empirical data shows that muscle lactate accumulation begins within the first 1 to 2 seconds of intense exercise, not after a mandatory 5-second delay. Therefore, this statement is false.",
+    "Step 3: Evaluate Choice C regarding phosphocreatine depletion. The phosphocreatine (PCr) system provides the fastest ATP regeneration pathway for high-intensity activity. Creatine kinase catalyzes PCr breakdown rapidly, with measurable depletion initiating within the first few seconds of maximal exertion. This aligns with core exercise metabolism principles, making this statement true.",
+    "Step 4: Evaluate Choice D regarding lactate dynamics across repeated sprints. In repeated-sprint protocols, incomplete inter-sprint recovery of PCr stores, combined with rising intramuscular H+ and Pi concentrations, progressively inhibits key glycolytic enzymes like phosphofructokinase. This metabolic shift reduces glycolytic flux, causing the rate of lactate accumulation to decline with each successive sprint. Thus, this statement is true.",
+    "Step 5: Synthesize the sequential evaluations. Choices A, C, and D correctly describe validated metabolic kinetics and adaptive responses during high-intensity and repeated-sprint exercise. Choice B incorrectly asserts a rigid 5-second latency period for muscle lactate accumulation, contradicting the near-immediate activation of anaerobic glycolysis. Consequently, Choice B is the only false statement."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "B"
+}

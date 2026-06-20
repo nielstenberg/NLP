@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "shared",
+  "subject": "High School Biology",
+  "question_index": 66,
+  "question_uuid": "95787a82-612a-4791-8900-efec57d464ae",
+  "question": "Mouse sperm contain receptor proteins that bind to a glycoprotein (ZP3) in the zona pellucida of mouse eggs. Binding of ZP3 receptors to ZP3 initiates the sperm\u2019s acrosomal reaction. All of the following experimental observations would be expected EXCEPT:",
+  "options": {
+    "A": "Injecting eggs with antibodies that bind to ZP3 blocks in vitro fertilization.",
+    "B": "Incubating sperm with purified ZP3 prior to mixing sperm and eggs blocks in vitro fertilization.",
+    "C": "Incubating eggs with antibodies that bind to ZP3 blocks in vitro fertilization.",
+    "D": "Coating synthetic beads with a different glycoprotein, ZP2, fails to lead to sperm aggregation on the beads."
+  },
+  "analysis": [
+    "Step 1: Analyzing Choice A, the prompt establishes that ZP3 is located in the zona pellucida, which is an extracellular layer surrounding the egg plasma membrane. Injecting antibodies directly into the egg's cytoplasm confines them inside the cell, where they cannot physically access or bind to the extracellular ZP3. Therefore, this internal injection would not interfere with sperm-egg recognition or prevent the acrosomal reaction, making the claim that it blocks fertilization an unexpected observation.",
+    "Step 2: Analyzing Choice B, pre-incubating sperm with purified ZP3 allows the free glycoprotein to bind to and saturate the specific ZP3 receptors on the sperm surface. When these treated sperm are later mixed with intact eggs, their receptors are already occupied, preventing them from binding to ZP3 on the egg's zona pellucida. This competitively inhibits the acrosomal reaction and blocks fertilization, which is a fully expected outcome.",
+    "Step 3: Analyzing Choice C, incubating intact eggs with antibodies that specifically recognize ZP3 allows those antibodies to bind to the extracellular zona pellucida. These bound antibodies sterically mask the ZP3 binding sites, physically preventing sperm receptors from attaching. Consequently, the acrosomal reaction is not triggered and fertilization is blocked, which aligns perfectly with the expected mechanism of receptor blockade.",
+    "Step 4: Analyzing Choice D, the biological premise highlights the molecular specificity of the sperm receptor for ZP3. Coating synthetic beads with a different glycoprotein like ZP2 provides no compatible binding sites for the sperm receptors. As a result, sperm will not adhere or aggregate on these beads, demonstrating strict ligand-receptor specificity, which is a completely expected experimental result.",
+    "Step 5: Comparing all evaluations, Choices B, C, and D describe experimental manipulations that correctly interact with the extracellular sperm-egg recognition system, producing predictable results that validate the stated mechanism. Choice A describes an intervention that targets the incorrect cellular location (cytoplasm instead of the extracellular zona pellucida), meaning it would fail to disrupt fertilization. Since the question asks for the observation that would NOT be expected, Choice A is the correct answer."
+  ],
+  "solution": "Choice_A",
+  "ground_truth": "A"
+}

@@ -1,0 +1,22 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "shared",
+  "subject": "High School Biology",
+  "question_index": 111,
+  "question_uuid": "33aa4cf2-d498-43a4-afa6-59f1b82464be",
+  "question": "Which of the following is typically NOT found in normal somatic cells of a human male?",
+  "options": {
+    "A": "The entire genetic information possessed by the original zygote",
+    "B": "An inactivated X chromosome",
+    "C": "Forty-four autosomes",
+    "D": "A diploid nucleus"
+  },
+  "analysis": [
+    "Step 1: In normal somatic cells of a human male, the entire genetic information from the original zygote is typically present as it is passed down through cell division. Therefore, Choice_A is not correct because somatic cells contain all the genetic information from the original zygote.",
+    "Step 2: Inactivation of one X chromosome occurs in female somatic cells due to X-chromosome inactivation, but males do not have an extra X chromosome to inactivate. Hence, Choice_B is incorrect as it is specific to females and not applicable to normal somatic cells of a human male.",
+    "Step 3: Human somatic cells typically have 46 chromosomes, which include 44 autosomes and two sex chromosomes (XX for females and XY for males). Thus, Choice_C accurately describes the typical number of autosomes in a human male's somatic cells, making it correct.",
+    "Step 4: Somatic cells are diploid, meaning they contain two sets of chromosomes, one from each parent. This is true for all somatic cells, including those of a human male, so Choice_D correctly describes the state of the nucleus in these cells."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "B"
+}

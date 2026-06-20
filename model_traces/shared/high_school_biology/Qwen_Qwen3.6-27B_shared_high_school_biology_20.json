@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "shared",
+  "subject": "High School Biology",
+  "question_index": 156,
+  "question_uuid": "e00c2bd0-0a50-42f6-8c80-822c04c27a16",
+  "question": "Which of the following statements about fungi is NOT true?",
+  "options": {
+    "A": "They all are eukaryotic.",
+    "B": "They all have rigid cell walls.",
+    "C": "Most are filamentous.",
+    "D": "Some are photosynthetic."
+  },
+  "analysis": [
+    "Step 1: Analyze Choice A (\"They all are eukaryotic\"). Fungi belong to the domain Eukarya, meaning their cells contain a nucleus and membrane-bound organelles. This is a fundamental characteristic of the kingdom Fungi, so this statement is true.",
+    "Step 2: Analyze Choice B (\"They all have rigid cell walls\"). Unlike animal cells, fungal cells possess cell walls. These walls are rigid and primarily composed of chitin (a nitrogen-containing polysaccharide), which provides structural support. This is a defining feature of fungi, so this statement is true.",
+    "Step 3: Analyze Choice C (\"Most are filamentous\"). The majority of fungi, such as molds and mushrooms, grow in the form of hyphae, which are long, branching filamentous structures. While some fungi like yeasts are unicellular, the filamentous form is the most common and characteristic growth habit for the kingdom. Therefore, this statement is generally considered true in the context of general biology.",
+    "Step 4: Analyze Choice D (\"Some are photosynthetic\"). Fungi are heterotrophs, meaning they obtain nutrients by absorbing organic compounds from their environment. They lack chloroplasts and chlorophyll, which are necessary for photosynthesis. No known fungi are photosynthetic; this capability is restricted to plants, algae, and some bacteria. Therefore, this statement is false.",
+    "Step 5: Conclude the analysis. The question asks for the statement that is NOT true. Choices A, B, and C describe accurate characteristics of fungi. Choice D claims that some fungi are photosynthetic, which contradicts the fundamental biological definition of fungi as heterotrophic organisms. Thus, Choice D is the incorrect statement."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

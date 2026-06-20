@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "shared",
+  "subject": "College Biology",
+  "question_index": 390,
+  "question_uuid": "ecdeef74-4b98-4df1-a486-1eac78d97603",
+  "question": "Which of the changes below following the start codon in an mRNA would most likely have the greatest deleterious effect?",
+  "options": {
+    "A": "a deletion of a single nucleotide",
+    "B": "a deletion of a nucleotide triplet",
+    "C": "a single nucleotide substitution of the nucleotide occupying the first codon position",
+    "D": "a single nucleotide substitution of the nucleotide occupying the third codon position"
+  },
+  "analysis": [
+    "Step 1: Analyzing Choice A, a deletion of a single nucleotide shifts the translational reading frame because the ribosome decodes mRNA in consecutive, non-overlapping triplets. This frameshift mutation alters every subsequent codon downstream of the mutation, typically generating a completely different amino acid sequence and frequently introducing a premature stop codon, which severely disrupts protein folding, stability, and function.",
+    "Step 2: Analyzing Choice B, a deletion of a nucleotide triplet removes exactly one codon. Since three nucleotides are deleted, the downstream reading frame remains intact. Although the absence of one specific amino acid may impair function depending on its biochemical role, the remainder of the polypeptide chain is translated correctly, making this substantially less damaging than a frameshift.",
+    "Step 3: Analyzing Choice C, a single nucleotide substitution at the first codon position will almost always change the encoded amino acid (missense mutation) or occasionally create a termination signal (nonsense mutation). However, this alteration is strictly confined to that single codon, leaving the rest of the reading frame and subsequent amino acids unchanged, resulting in a more localized and generally less severe impact than a frameshift.",
+    "Step 4: Analyzing Choice D, a single nucleotide substitution at the third codon position often yields a silent mutation due to the degeneracy of the genetic code and wobble base-pairing rules. Even when a substitution does change the amino acid, the effect is restricted to a single residue, making this the least likely to cause significant functional disruption among the options provided.",
+    "Step 5: Comparing all candidates, Choices B, C, and D either maintain the correct reading frame or affect only a single amino acid, preserving the vast majority of the protein's primary structure. In contrast, Choice A causes a frameshift that corrupts the entire downstream coding sequence, leading to the most profound loss of function. Therefore, the deletion of a single nucleotide has the greatest deleterious effect."
+  ],
+  "solution": "Choice_A",
+  "ground_truth": "A"
+}

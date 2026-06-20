@@ -1,0 +1,22 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "shared",
+  "subject": "College Biology",
+  "question_index": 651,
+  "question_uuid": "04e22ad9-eb40-4c3e-a4ed-5186b25cd1ca",
+  "question": "The pH of two lakes is measured. Lake A has a pH of 8.0; Lake B has a pH of 6.0. Which of the following statements is correct about these lakes?",
+  "options": {
+    "A": "Lake B is alkaline.",
+    "B": "Lake B is 100 times more alkaline than Lake A.",
+    "C": "The hydrogen ion concentration of Lake B is 104 M.",
+    "D": "The pH of both lakes will decrease in response to acid rain."
+  },
+  "analysis": [
+    "Step 1: The pH scale ranges from 0 to 14, where values below 7 are acidic, values above 7 are alkaline (or basic), and 7 is neutral. Lake A with a pH of 8.0 is slightly alkaline, while Lake B with a pH of 6.0 is acidic. Therefore, Lake B cannot be considered alkaline based on its pH value. Choice_A is incorrect.",
+    "Step 2: The pH scale is logarithmic, meaning that each whole number difference represents a tenfold change in hydrogen ion concentration. Thus, a difference of two pH units corresponds to a hundredfold difference in hydrogen ion concentration. Since Lake B has a pH of 6.0 and Lake A has a pH of 8.0, the hydrogen ion concentration in Lake B is \\(10^{(8-6)} = 10^2 = 100\\) times higher than in Lake A. This does not mean Lake B is 100 times more alkaline but rather more acidic. Choice_B is incorrect.",
+    "Step 3: The hydrogen ion concentration can be calculated using the formula \\([H^+] = 10^{-pH}\\). For Lake B with a pH of 6.0, the hydrogen ion concentration is \\(10^{-6} \\text{ M}\\) or \\(10^{-6} \\text{ M} = 10^{-6} \\text{ M}\\). This is not \\(10^4 \\text{ M}\\), so Choice_C is incorrect.",
+    "Step 4: Acid rain typically lowers the pH of water bodies. Both lakes could potentially experience a decrease in pH due to acid rain, making Choice_D plausible. However, since we need to choose the most accurate statement based on the given information, Choices A, B, and C are all incorrect."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

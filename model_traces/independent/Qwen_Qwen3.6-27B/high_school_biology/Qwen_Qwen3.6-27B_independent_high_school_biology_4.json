@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "High School Biology",
+  "question_index": 12,
+  "question_uuid": "b1c5df2c-6d8c-4cfc-8791-a7508a4ece34",
+  "question": "Hybrids between some related species of plants are sterile because the parent plants had different chromosome numbers. Occasionally the chromosome number of such a hybrid plant doubles spontaneously. Which of the following best describes the descendants of those plants with the double chromosome number?",
+  "options": {
+    "A": "The plant with the double chromosome number would be genetically defective and have no descendants.",
+    "B": "The descendants would be at a selective advantage because of the increased ability to introgress.",
+    "C": "The descendants would be reproductively successful because they could backcross with the parental species.",
+    "D": "The descendants would regain the ability to reproduce sexually because chromosomes could pair normally."
+  },
+  "analysis": [
+    "Step 1: Choice A suggests the doubled plant would be genetically defective and produce no descendants. This is incorrect because spontaneous chromosome doubling in a sterile hybrid actually resolves the underlying cause of sterility by providing homologous chromosome pairs, thereby restoring fertility rather than causing genetic defects.",
+    "Step 2: Choice B claims the descendants would gain a selective advantage through increased ability to introgress. This is inaccurate because introgression requires successful crossing and sustained gene flow between species, but chromosome-doubled hybrids (allopolyploids) are typically reproductively isolated from their diploid parents due to ploidy mismatches, making introgression highly unlikely as a primary outcome.",
+    "Step 3: Choice C states the descendants would be reproductively successful because they could backcross with the parental species. This is false because backcrossing a doubled hybrid (typically tetraploid) with diploid parents produces triploid offspring, which are generally sterile due to unbalanced chromosome segregation; thus, the doubled hybrid cannot successfully interbreed with the original parents.",
+    "Step 4: Choice D indicates the descendants would regain sexual reproduction capability because chromosomes could pair normally. This aligns with core biological principles: when the chromosome number doubles, each chromosome acquires a matching homolog from the same parent species, enabling proper synapsis and disjunction during meiosis, which directly restores fertility and allows successful sexual reproduction.",
+    "Step 5: Evaluating all candidates together, Choices A, B, and C misrepresent the genetic and reproductive consequences of polyploidization, while Choice D correctly identifies that chromosome doubling restores homologous pairing during meiosis, thereby overcoming hybrid sterility and enabling the production of viable descendants. Therefore, Choice D is the scientifically accurate answer."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

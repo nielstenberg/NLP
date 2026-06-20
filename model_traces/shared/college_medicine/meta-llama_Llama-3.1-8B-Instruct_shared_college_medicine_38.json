@@ -1,0 +1,23 @@
+{
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "mode": "shared",
+  "subject": "College Medicine",
+  "question_index": 235,
+  "question_uuid": "4540d016-686f-4ef6-91fb-e91b46dbadc7",
+  "question": "A 7-year-old male is brought to the office for evaluation of school problems. The mother says that the teacher has told her that the patient is inattentive, has difficulty following sequential instructions, and often seems to drift off to sleep during class. A polysomnogram reveals obstructive sleep apnea. The most appropriate management is",
+  "options": {
+    "A": "elevation of the head of the bed",
+    "B": "heart rate and apnea monitoring",
+    "C": "imipramine",
+    "D": "surgical evaluation"
+  },
+  "analysis": [
+    "Step 1: Elevation of the head of the bed (Choice_A) is an effective treatment for obstructive sleep apnea (OSA). It helps prevent respiratory obstruction by keeping the airway open.",
+    "Step 2: Heart rate and apnea monitoring (Choice_B) are useful tools for diagnosing OSA but do not constitute a treatment plan. They can help identify episodes of apnea but do not address the underlying cause of the problem.",
+    "Step 3: Imipramine (Choice_C) is a tricyclic antidepressant that may be used to treat attention deficit hyperactivity disorder (ADHD), which shares some symptoms with OSA such as inattention and difficulty following instructions. However, it does not directly address the sleep apnea.",
+    "Step 4: Surgical evaluation (Choice_D) may be necessary if other treatments fail or if there are anatomical abnormalities contributing to the OSA. However, it should not be the initial approach unless absolutely necessary.",
+    "Step 5: Considering all options, the most appropriate management for this child would be to elevate the head of the bed (Choice_A) to improve breathing during sleep, addressing the root cause of his daytime symptoms. This is a non-invasive and relatively simple intervention that can have significant benefits for children with OSA."
+  ],
+  "solution": "Choice_A",
+  "ground_truth": "D"
+}

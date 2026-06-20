@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "shared",
+  "subject": "College Medicine",
+  "question_index": 736,
+  "question_uuid": "acef6cea-7c9b-4677-ac0f-960252a99ffd",
+  "question": "The proportion of genes shared by first cousins is on average ___.",
+  "options": {
+    "A": "1.0/2",
+    "B": "1.0/4",
+    "C": "1.0/8",
+    "D": "1.0/16"
+  },
+  "analysis": [
+    "Step 1: Choice A proposes a 1.0/2 gene-sharing proportion, which accurately describes parent-child dyads or full siblings due to direct biparental inheritance, but significantly overestimates the genetic overlap for more distant relatives like first cousins.",
+    "Step 2: Choice B suggests a 1.0/4 proportion, which correctly applies to grandparent-grandchild relationships or half-siblings involving three meiotic events or a single shared parent, yet remains too high for first cousins who are separated by an additional generational gap.",
+    "Step 3: Choice C indicates a 1.0/8 proportion, which aligns with standard genetic calculations where first cousins connect through two common grandparents; each lineage path involves four meiotic divisions contributing (1/2)^4 = 1/16, and summing the independent contributions from both common ancestors yields 2 \u00d7 1/16 = 1/8.",
+    "Step 4: Choice D claims a 1.0/16 proportion, which only accounts for the genetic contribution through a single common ancestor along one specific pedigree path, neglecting the parallel inheritance route through the second common grandparent that doubles the actual shared fraction.",
+    "Step 5: Synthesizing the sequential evaluations confirms that Mendelian segregation rules and empirical genomic studies consistently establish the average coefficient of relationship for first cousins at 12.5%, directly corresponding to 1/8, thereby identifying Choice C as the scientifically accurate selection."
+  ],
+  "solution": "Choice_C",
+  "ground_truth": "C"
+}

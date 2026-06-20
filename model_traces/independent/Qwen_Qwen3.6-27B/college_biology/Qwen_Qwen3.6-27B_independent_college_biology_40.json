@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "College Biology",
+  "question_index": 579,
+  "question_uuid": "3d67c800-40d1-4d16-821c-49cc888a7202",
+  "question": "In a population of giraffes, an environmental change occurs that favors individuals that are tallest. As a result, more of the taller individuals are able to obtain nutrients and survive to pass along their genetic information. This is an example of",
+  "options": {
+    "A": "directional selection.",
+    "B": "stabilizing selection.",
+    "C": "sexual selection.",
+    "D": "disruptive selection."
+  },
+  "analysis": [
+    "Step 1: Evaluate Choice A (directional selection). Directional selection occurs when environmental conditions consistently favor individuals at one extreme of a phenotypic range, causing the population's mean trait value to shift in that direction over successive generations. The scenario describes an environmental change that specifically favors the tallest giraffes, enabling them to secure nutrients, survive, and reproduce, which perfectly matches the mechanism of directional selection.",
+    "Step 2: Evaluate Choice B (stabilizing selection). Stabilizing selection favors intermediate phenotypes and actively selects against extreme variants, thereby preserving the existing average trait and minimizing variation. Since the prompt explicitly states that the tallest individuals (an extreme phenotype) are favored rather than those with average height, this choice is incorrect.",
+    "Step 3: Evaluate Choice C (sexual selection). Sexual selection arises from differences in mating success due to competition among members of the same sex or mate preferences of the opposite sex, independent of direct survival advantages from environmental pressures. The question attributes increased survival and reproduction to nutrient acquisition driven by an environmental change, classifying this as natural selection rather than sexual selection.",
+    "Step 4: Evaluate Choice D (disruptive selection). Disruptive selection favors individuals at both extremes of the phenotypic spectrum while selecting against intermediate forms, often leading to a bimodal distribution. Because the described scenario only confers an advantage to the tallest giraffes and provides no benefit to shorter individuals, this mechanism does not apply.",
+    "Step 5: Conclude your analysis and decide which choice to make here. After systematically reviewing all four options, only directional selection accurately describes a selective pressure that consistently favors one extreme phenotype, driving a unidirectional shift in the population's trait distribution. Therefore, Choice A is the correct answer."
+  ],
+  "solution": "Choice_A",
+  "ground_truth": "A"
+}

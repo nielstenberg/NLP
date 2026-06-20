@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "shared",
+  "subject": "College Medicine",
+  "question_index": 316,
+  "question_uuid": "6000225a-4918-4223-a8b4-54abb53deb97",
+  "question": "Which of the following conditions is not caused by a mutation in FGFR3?",
+  "options": {
+    "A": "Achondroplasia",
+    "B": "Crouzon syndrome",
+    "C": "Thanatophoric dysplasia",
+    "D": "Waardenburg syndrome"
+  },
+  "analysis": [
+    "Step 1: Evaluating Choice A (Achondroplasia): Achondroplasia is the most common form of inherited disproportionate short stature and is definitively caused by heterozygous gain-of-function mutations in the FGFR3 gene, most frequently the c.1138G>A (p.Gly380Arg) variant.",
+    "Step 2: Evaluating Choice B (Crouzon syndrome): Crouzon syndrome is an autosomal dominant craniosynostosis disorder; while predominantly linked to FGFR2 mutations, a recognized subset (Crouzon syndrome type 2) is explicitly caused by mutations in FGFR3, maintaining its classification within the FGFR-related craniosynostosis spectrum.",
+    "Step 3: Evaluating Choice C (Thanatophoric dysplasia): Thanatophoric dysplasia is a severe, typically perinatal-lethal skeletal dysplasia characterized by extreme micromelia and a narrow thoracic cage, and it is unequivocally caused by distinct high-penetrance gain-of-function mutations in the FGFR3 gene.",
+    "Step 4: Evaluating Choice D (Waardenburg syndrome): Waardenburg syndrome is a neurocristopathy characterized by pigmentary abnormalities and sensorineural hearing loss, resulting from pathogenic variants in neural crest development and melanocyte survival genes such as PAX3, SOX10, MITF, EDN3, or EDNRB, with absolutely no established etiological link to FGFR3.",
+    "Step 5: Synthesizing the sequential evaluations confirms that Choices A and C are classic, well-documented monogenic disorders driven exclusively by FGFR3 mutations, and Choice B includes a defined subtype caused by FGFR3 alterations. In contrast, Choice D originates from entirely separate genetic pathways governing neural crest cell migration and differentiation, making it the sole condition listed that is not caused by an FGFR3 mutation."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

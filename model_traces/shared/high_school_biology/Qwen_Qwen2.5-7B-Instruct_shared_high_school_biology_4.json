@@ -1,0 +1,24 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "shared",
+  "subject": "High School Biology",
+  "question_index": 150,
+  "question_uuid": "e313dea2-4133-421a-90a8-a334a3bce247",
+  "question": "Mutation of homeotic cluster genes often results in which of the following developmental defects in Drosophila?",
+  "options": {
+    "A": "Absence of a group of contiguous segments",
+    "B": "Transformation of one segment into another",
+    "C": "Polarity defects in every segment along the anterior-posterior axis",
+    "D": "Tumor formation in imaginal discs"
+  },
+  "analysis": [
+    "Step 1: Homeotic cluster genes, such as those in the bithorax and antennapedia complexes in Drosophila, are responsible for specifying the identity of body segments along the anterior-posterior axis. Mutations in these genes can lead to changes in the identity of segments, a phenomenon known as homeotic transformation.",
+    "Step 2: Absence of a group of contiguous segments (Choice_A) is a possible outcome of a mutation in homeotic genes, but it is not the most common or characteristic defect. This is more likely to be a result of a more severe developmental issue rather than a homeotic mutation.",
+    "Step 3: Transformation of one segment into another (Choice_B) is a direct result of homeotic mutations. These mutations can cause a segment to adopt the identity of an adjacent segment, leading to the transformation of one segment into another.",
+    "Step 4: Polarity defects in every segment along the anterior-posterior axis (Choice_C) are not a direct result of homeotic mutations. Homeotic mutations typically affect the identity of segments rather than their polarity.",
+    "Step 5: Tumor formation in imaginal discs (Choice_D) is not a direct result of homeotic mutations. While mutations in homeotic genes can affect development, tumor formation is more commonly associated with mutations in genes involved in cell cycle regulation and apoptosis.",
+    "Step 6: Considering the above points, the most accurate and characteristic defect resulting from the mutation of homeotic cluster genes in Drosophila is the transformation of one segment into another."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "B"
+}

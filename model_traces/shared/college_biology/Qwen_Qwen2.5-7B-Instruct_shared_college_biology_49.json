@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "shared",
+  "subject": "College Biology",
+  "question_index": 249,
+  "question_uuid": "77299165-b7fc-4606-b80b-bf8d532bf0e3",
+  "question": "Which of the following principles is NOT part of Darwin's theory of evolution by natural selection?",
+  "options": {
+    "A": "Evolution is a gradual process that occurs over a long period of time.",
+    "B": "Every population has tremendous variation.",
+    "C": "Mutations are the main source of all variation in a population.",
+    "D": "Organisms will overpopulate area, giving rise to competition."
+  },
+  "analysis": [
+    "Step 1: Choice_A states that evolution is a gradual process occurring over a long period of time. This principle is indeed part of Darwin's theory of evolution by natural selection, as it emphasizes the slow, continuous nature of evolutionary change through many generations.",
+    "Step 2: Choice_B mentions that every population has tremendous variation. This is also a fundamental aspect of Darwin's theory, as it provides the raw material for natural selection to act upon, leading to the differential survival and reproduction of individuals with certain traits.",
+    "Step 3: Choice_C claims that mutations are the main source of all variation in a population. While mutations do contribute to genetic variation, they are not the only source. Other factors such as gene flow, genetic drift, and non-random mating can also introduce variation. Therefore, this statement is not entirely accurate according to Darwin's theory.",
+    "Step 4: Choice_D describes organisms overpopulating an area and giving rise to competition. This concept is central to Darwin's theory, as it explains how resources are limited and lead to competition among individuals within a population, driving the process of natural selection.",
+    "Step n: After analyzing each choice, it is clear that Choice_C is the principle that is NOT part of Darwin's theory of evolution by natural selection. The other choices accurately reflect key aspects of the theory."
+  ],
+  "solution": "Choice_C",
+  "ground_truth": "C"
+}

@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "College Biology",
+  "question_index": 330,
+  "question_uuid": "7a5b060f-1f6e-4a1e-924b-ca1384f391a9",
+  "question": "Within a few weeks of treatment with the drug 3TC, a patient's HIV population consists entirely of 3TC-resistant viruses. How can this result best be explained?",
+  "options": {
+    "A": "HIV can change its surface proteins and resist vaccines.",
+    "B": "The patient must have become reinfected with 3TC-resistant viruses.",
+    "C": "HIV began making drug-resistant versions of reverse transcriptase in response to the drug.",
+    "D": "A few drug-resistant viruses were present at the start of treatment, and natural selection increased their frequency."
+  },
+  "analysis": [
+    "Step 1: Choice A incorrectly focuses on surface proteins and vaccine resistance, whereas 3TC is a nucleoside reverse transcriptase inhibitor that targets viral DNA synthesis, making this explanation irrelevant to the observed drug resistance mechanism.",
+    "Step 2: Choice B proposes reinfection as the cause, but acquiring a new infection with exclusively resistant strains within a few weeks of ongoing therapy is epidemiologically implausible and fails to explain the rapid takeover by resistant variants derived from the original infection.",
+    "Step 3: Choice C suggests a Lamarckian mechanism where the virus deliberately produces resistant enzymes in direct response to the drug, which contradicts fundamental genetic principles since mutations occur randomly during replication rather than being adaptively induced by environmental stressors.",
+    "Step 4: Choice D correctly invokes Darwinian natural selection, noting that HIV's exceptionally high mutation rate ensures that resistant mutants spontaneously exist at low frequencies before treatment begins, and the drug acts as a powerful selective pressure that eliminates susceptible viruses while allowing the pre-existing resistant ones to replicate and dominate the population.",
+    "Step 5: Evaluating all options reveals that Choices A, B, and C rely on incorrect molecular targets, unrealistic transmission scenarios, or outdated evolutionary concepts, whereas Choice D accurately applies the core biological principle of natural selection acting on pre-existing genetic variation, making it the definitive scientific explanation for the rapid emergence of 3TC resistance."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

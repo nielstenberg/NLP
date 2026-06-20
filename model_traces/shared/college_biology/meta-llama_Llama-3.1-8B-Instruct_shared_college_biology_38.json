@@ -1,0 +1,24 @@
+{
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "mode": "shared",
+  "subject": "College Biology",
+  "question_index": 24,
+  "question_uuid": "68f0e859-4cc0-4ba7-91b5-7d3b64a105aa",
+  "question": "Which of the following is a frameshift mutation?",
+  "options": {
+    "A": "CAT HAS HIS \u2192 CAT HAS HIT",
+    "B": "CAT HAS HIS \u2192 CAT HSH ISA",
+    "C": "CAT HAS HIS \u2192 CAT HIS HAT",
+    "D": "CAT HAS HIS \u2192 CAT WAS HIT"
+  },
+  "analysis": [
+    "Step 1: Frameshift mutations occur due to insertions or deletions of nucleotides that are not divisible by three, leading to a shift in the reading frame of the genetic code. To identify a frameshift mutation, we need to look for insertions or deletions that change the reading frame.",
+    "Step 2: Choice A: CAT HAS HIS \u2192 CAT HAS HIT. This is not a frameshift mutation because the insertion of \"IT\" is divisible by three, and the reading frame remains the same.",
+    "Step 3: Choice B: CAT HAS HIS \u2192 CAT HSH ISA. This is a frameshift mutation because the insertion of \"HSH\" is not divisible by three, changing the reading frame.",
+    "Step 4: Choice C: CAT HAS HIS \u2192 CAT HIS HAT. This is not a frameshift mutation because the insertion of \"HIS\" is divisible by three, and the reading frame remains the same.",
+    "Step 5: Choice D: CAT HAS HIS \u2192 CAT WAS HIT. This is not a frameshift mutation because the deletion of \"HAS\" is divisible by three, and the reading frame remains the same.",
+    "Step 6: Based on the analysis, the correct answer is Choice B: CAT HAS HIS \u2192 CAT HSH ISA, which is a frameshift mutation due to the insertion of \"HSH\" that changes the reading frame."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "B"
+}

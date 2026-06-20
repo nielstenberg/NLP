@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 214,
+  "question_uuid": "901fa600-7157-4689-a53c-d5ce6a205e9e",
+  "question": "Which of the following diagnostic techniques is of no value for the diagnosis of neural tube defects?",
+  "options": {
+    "A": "Amniocentesis",
+    "B": "Chorion villus sampling (CVS)",
+    "C": "Maternal serum screening",
+    "D": "Ultrasonography"
+  },
+  "analysis": [
+    "Step 1: Amniocentesis involves extracting amniotic fluid from the uterus during pregnancy to test for chromosomal abnormalities and other genetic issues. While it can detect neural tube defects through the presence of alpha-fetoprotein levels, it is not specifically used as a primary diagnostic technique for neural tube defects due to its invasive nature and associated risks.",
+    "Step 2: Chorion villus sampling (CVS) is another prenatal diagnostic procedure that involves taking a sample of tissue from the placenta. It can also be used to diagnose neural tube defects but is typically more commonly used for detecting chromosomal abnormalities early in pregnancy rather than primarily for neural tube defects.",
+    "Step 3: Maternal serum screening measures certain substances in the mother's blood to assess the risk of neural tube defects in the fetus. This non-invasive method is widely used because it does not pose risks to the pregnancy and provides an initial indication of potential neural tube defects, making it valuable for further investigation if results suggest a high risk.",
+    "Step 4: Ultrasonography uses sound waves to create images of the developing fetus and is particularly useful for visualizing structural anomalies including neural tube defects. It is a non-invasive and commonly used diagnostic tool throughout pregnancy.",
+    "Step 5: Considering all options, while Amniocentesis and Chorion villus sampling can both potentially provide information about neural tube defects, they are not the most direct methods compared to maternal serum screening and ultrasonography. However, among these choices, Amniocentesis stands out as less directly related to the primary detection of neural tube defects when compared to the others."
+  ],
+  "solution": "Choice_A",
+  "ground_truth": "B"
+}

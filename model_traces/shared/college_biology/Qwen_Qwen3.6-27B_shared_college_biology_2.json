@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "shared",
+  "subject": "College Biology",
+  "question_index": 3,
+  "question_uuid": "5d2d4205-2067-4d4f-becc-3a19e1437bc9",
+  "question": "All of the following support the endosymbiotic theory that ancestors of mitochondria and chloroplasts were once independent, free-living prokaryotes EXCEPT:",
+  "options": {
+    "A": "Mitochondria and chloroplasts divide independently of the eukaryotic host cell by a process similar to binary fission.",
+    "B": "Mitochondria and chloroplasts have ribosomes that more closely resemble those of bacteria than of eukaryotic cells.",
+    "C": "Mitochondria and chloroplasts function independently from the eukaryotic host cell.",
+    "D": "Mitochondria, chloroplasts, and bacteria have a single, circular chromosome without histones or proteins."
+  },
+  "analysis": [
+    "Step 1: Choice A describes the independent division of mitochondria and chloroplasts via binary fission, a reproductive mechanism characteristic of prokaryotes. This observation directly supports the endosymbiotic theory by demonstrating a retained ancestral trait from free-living bacteria.",
+    "Step 2: Choice B highlights that the ribosomes found in these organelles are structurally and functionally similar to bacterial (70S) ribosomes rather than eukaryotic cytoplasmic (80S) ribosomes. This molecular homology provides strong biochemical evidence for a prokaryotic origin, thereby supporting the theory.",
+    "Step 3: Choice C claims that mitochondria and chloroplasts function independently from the eukaryotic host cell. This statement is biologically incorrect; through billions of years of co-evolution, the vast majority of ancestral organellar genes have been transferred to the host nucleus, rendering these organelles highly dependent on the host for essential proteins, lipid synthesis, and metabolic regulation. Because they do not operate autonomously, this claim does not support the endosymbiotic theory.",
+    "Step 4: Choice D notes that mitochondria, chloroplasts, and bacteria all possess a single, circular chromosome that lacks histone proteins. This specific genomic architecture is a defining feature of prokaryotes and serves as compelling genetic evidence validating the theory.",
+    "Step 5: Comparing all four candidates, Choices A, B, and D each present well-documented lines of evidence (reproductive mode, ribosomal type, and chromosomal structure) that confirm the prokaryotic ancestry of these organelles. Choice C presents a false premise regarding functional autonomy, which contradicts the established biological reality of tight host-organelle integration. Therefore, Choice C is the only statement that does not support the endosymbiotic theory."
+  ],
+  "solution": "Choice_C",
+  "ground_truth": "C"
+}

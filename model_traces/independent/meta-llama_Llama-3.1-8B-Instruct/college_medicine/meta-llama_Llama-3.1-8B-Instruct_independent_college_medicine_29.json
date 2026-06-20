@@ -1,0 +1,23 @@
+{
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 352,
+  "question_uuid": "ceeec873-196e-4a0d-b00e-5a4e4db373ac",
+  "question": "A 72-year-old man is admitted to the intensive care unit for pain management and observation of ventricular ectopy 4 hours after undergoing uncomplicated left total knee replacement. He is receiving fentanyl via systemic patient-controlled analgesic pump for pain management. Medical history is remarkable for coronary artery disease, for which he takes atorvastatin, furosemide, carvedilol, lisinopril, and 81-mg aspirin. Baseline echocardiogram showed an ejection fraction of 0.20. Vital signs now are temperature 38.0\u00b0C (100.4\u00b0F), pulse 90/min, respirations 16/min, and blood pressure 130/90 mm Hg. Pulse oximetry on room air shows an oxygen saturation of 96%. Physical examination discloses no unexpected abnormalities. Which of the following regimens for prophylaxis of deep venous thrombosis will likely be most beneficial in this patient?",
+  "options": {
+    "A": "Continuous application of bilateral lower extremity pneumatic compression devices",
+    "B": "Continuous intravenous infusion of heparin titrated to a PTT of 1.5 to 2.0 times the control value",
+    "C": "Oral warfarin",
+    "D": "Subcutaneous enoxaparin"
+  },
+  "analysis": [
+    "Step 1: Continuous application of bilateral lower extremity pneumatic compression devices (Choice_A) can help prevent deep vein thrombosis (DVT) by mechanically compressing the veins in the legs, thereby reducing the risk of clot formation. This method is non-invasive and does not require anticoagulation therapy.",
+    "Step 2: Continuous intravenous infusion of heparin titrated to a PTT of 1.5 to 2.0 times the control value (Choice_B) is a traditional method of DVT prophylaxis. However, it requires close monitoring of the activated partial thromboplastin time (aPTT) to avoid bleeding complications. In patients with renal insufficiency or those taking medications that affect coagulation, such as aspirin, the risk of bleeding may be increased.",
+    "Step 3: Oral warfarin (Choice_C) is another commonly used agent for DVT prophylaxis. It works by inhibiting vitamin K-dependent clotting factors. However, its use is associated with a higher risk of bleeding due to its narrow therapeutic index and potential interactions with other medications. Additionally, it requires regular monitoring of international normalized ratio (INR) levels to adjust dosing.",
+    "Step 4: Subcutaneous enoxaparin (Choice_D) is a low molecular weight heparin (LMWH) that has been shown to be effective in preventing DVT with a lower risk of bleeding compared to unfractionated heparin. Its use does not require routine monitoring of coagulation parameters, making it more convenient than traditional heparin therapy.",
+    "Step 5: Considering the patient's history of coronary artery disease, recent surgery, and baseline ejection fraction of 0.20, the risk of DVT is high. Given the patient's age and medical history, the risk of bleeding is also a concern. Between Choice_A and Choice_D, subcutaneous enoxaparin (Choice_D) is likely the most beneficial regimen for prophylaxis of deep venous thrombosis in this patient. Enoxaparin has a proven track record of efficacy and safety in preventing DVT, and its use does not require routine monitoring of coagulation parameters."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

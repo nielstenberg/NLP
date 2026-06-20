@@ -1,0 +1,24 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "shared",
+  "subject": "High School Biology",
+  "question_index": 246,
+  "question_uuid": "72a9a02b-531e-408b-955b-4c5cda7f7204",
+  "question": "In garden peas, the allele for tall plants (D) is completely dominant to the allele for dwarf plants (d) and the allele for violet flower color (W) is completely dominant to the allele for white flower color (w). In a cross between a tall violet plant, with the genotype DDWw, and a dwarf white plant, what phenotypic ratio of the progeny would be expected from this cross?",
+  "options": {
+    "A": "All tall violet",
+    "B": "1 tall violet: 1 dwarf violet",
+    "C": "1 tall violet: 1 tall white: 1 dwarf violet: 1 dwarf white",
+    "D": "1 tall violet: 1 tall white"
+  },
+  "analysis": [
+    "Step 1: Identify the genotypes of the parents involved in the cross. The first parent is a tall violet plant with the genotype DDWw. The second parent is a dwarf white plant. Since dwarf (d) and white (w) are recessive traits, the genotype of the second parent must be ddww.",
+    "Step 2: Determine the possible gametes produced by each parent. The first parent (DDWw) produces gametes by segregating alleles. For the D locus, it only has D alleles, so all gametes will carry D. For the W locus, it has W and w alleles, so it produces gametes with W and gametes with w in a 1:1 ratio. Therefore, the gametes from the first parent are DW and Dw. The second parent (ddww) is homozygous recessive for both traits, so it can only produce one type of gamete: dw.",
+    "Step 3: Perform the cross by combining the gametes from both parents to determine the genotypes of the progeny.\n- Combining gamete DW (from Parent 1) with gamete dw (from Parent 2) results in the genotype DdWw.\n- Combining gamete Dw (from Parent 1) with gamete dw (from Parent 2) results in the genotype Ddww.",
+    "Step 4: Determine the phenotypes associated with the resulting genotypes.\n- The genotype DdWw contains at least one dominant D allele (resulting in Tall) and at least one dominant W allele (resulting in Violet). Thus, the phenotype is Tall Violet.\n- The genotype Ddww contains at least one dominant D allele (resulting in Tall) but is homozygous recessive ww (resulting in White). Thus, the phenotype is Tall White.",
+    "Step 5: Calculate the phenotypic ratio. Since the first parent produces DW and Dw gametes in equal proportions (1:1), and the second parent produces only dw gametes, the resulting offspring will be 50% DdWw (Tall Violet) and 50% Ddww (Tall White). This results in a phenotypic ratio of 1 Tall Violet : 1 Tall White.",
+    "Step 6: Evaluate the given choices against the calculated ratio.\n- Choice A (All tall violet) is incorrect because white flowers are produced.\n- Choice B (1 tall violet: 1 dwarf violet) is incorrect because no dwarf plants are produced (all offspring inherit D from the first parent).\n- Choice C (1 tall violet: 1 tall white: 1 dwarf violet: 1 dwarf white) is incorrect because this ratio implies a dihybrid cross between two heterozygotes (DdWw x DdWw), which is not the case here.\n- Choice D (1 tall violet: 1 tall white) matches the calculated ratio derived in Step 5."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

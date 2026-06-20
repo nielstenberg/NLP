@@ -1,0 +1,25 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "shared",
+  "subject": "College Medicine",
+  "question_index": 664,
+  "question_uuid": "0fa5fac6-903d-4206-8946-42fade7bf372",
+  "question": "A previously healthy 40-year-old man is brought to the emergency department because of constant substernal chest pain for 12 hours that is exacerbated by coughing and inspiration. The pain is relieved with sitting up and leaning forward. There is no family history of heart disease. His temperature is 38\u00b0C (100.4\u00b0F), pulse is 120/min, and blood pressure is 110/60 mm Hg. The lungs are clear to auscultation. Cardiac examination shows distant heart sounds. An ECG shows diffuse ST-segment elevation in all leads. An x-ray of the chest shows normal findings. The most likely cause of his condition is injury to which of the following tissues?",
+  "options": {
+    "A": "Aortic intima",
+    "B": "Esophageal sphincter",
+    "C": "Myocardium",
+    "D": "Pericardium"
+  },
+  "analysis": [
+    "Step 1: The patient presents with severe chest pain exacerbated by certain movements like coughing and inspiration, relieved by sitting upright and leaning forward. This pattern suggests involvement of structures above the diaphragm such as the esophagus or pericardium rather than myocardial ischemia given the absence of classic angina risk factors and the diffuse ST-segment elevation seen on ECG which is more indicative of acute pericarditis.",
+    "Step 2: The diffuse ST-segment elevation is highly suggestive of pericarditis, particularly when associated with a high fever and tachycardia. Acute pericarditis often causes chest pain that worsens with deep breaths due to increased intrathoracic pressure compressing the heart against the inflamed pericardium.",
+    "Step 3: The physical exam finding of distant heart sounds could indicate cardiac tamponade from fluid accumulation within the pericardial sac, consistent with pericarditis. However, it's less specific compared to the ECG changes and clinical presentation.",
+    "Step 4: The differential includes aortic dissection but this would typically present with sudden onset tearing chest pain radiating to the back, not substernal pain. Additionally, an aortic intimal tear would show localized ST segment elevations corresponding to the affected vessel territory unlike the diffuse pattern seen here.",
+    "Step 5: Gastroesophageal reflux disease can cause chest pain but usually doesn't elevate ST segments diffusely across all leads nor does it typically cause tachycardia and fever.",
+    "Step 6: The normal chest x-ray rules out pneumothorax or other lung conditions causing similar symptoms.",
+    "Step 7: Comparing the remaining options, myocardial infarction would be expected to have more specific ECG patterns like Q waves or depressed ST segments rather than diffuse ST elevation. It also wouldn't explain the systemic signs like fever and tachycardia.\nFinal conclusion: The most likely cause of the patient's condition is acute pericarditis involving injury to the pericardium. Therefore, the answer is Choice_D: Pericardium. Solution: D"
+  ],
+  "solution": "Choice_C",
+  "ground_truth": "D"
+}

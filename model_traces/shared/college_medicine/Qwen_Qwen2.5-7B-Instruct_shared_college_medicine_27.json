@@ -1,0 +1,22 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "shared",
+  "subject": "College Medicine",
+  "question_index": 161,
+  "question_uuid": "34731a36-98cb-472b-bc02-eb85f62acce5",
+  "question": "Each of the following is an example of the transmission of knowledge through symbolic culture EXCEPT:\r\nI. A young macaque monkey learning to rinse off food in the ocean from an older monkey, even when the food is not covered in dirt or sand.\r\nII. A child learning the rules of baseball from a parent.\r\nIII. A new group of inductees in a military organization experiencing hazing rituals from older students, which they then later carry out on new recruits.",
+  "options": {
+    "A": "I only",
+    "B": "III only",
+    "C": "I and III only",
+    "D": "II and III only"
+  },
+  "analysis": [
+    "Step 1: The question asks us to identify which scenario does NOT exemplify the transmission of knowledge through symbolic culture. Symbolic culture involves the use of symbols (such as language) to transmit cultural knowledge.",
+    "Step 2: Let's analyze each option: - Option I describes a young macaque monkey learning from an older one how to rinse food in the ocean. This is primarily a form of observational learning based on direct observation rather than symbolic communication involving language or abstract concepts. Therefore, it doesn't involve symbolic culture.\n\n- Option II describes a child learning the rules of baseball from a parent. This involves explicit teaching using language and rules, which are symbolic representations of the game\u2019s structure. Thus, it fits within the definition of symbolic culture.\n\n- Option III describes a new recruit undergoing hazing rituals before being accepted into a military organization. These rituals often include specific practices and understandings that are passed down symbolically through shared experiences and traditions. Hence, it also represents symbolic culture.",
+    "Step 3: Based on these analyses, we can conclude that only Option I does not represent the transmission of knowledge through symbolic culture because it relies solely on imitation rather than symbolic representation.",
+    "Step n: Considering all steps together, the correct answer must be the one where only Option I is excluded since it does not involve symbolic culture."
+  ],
+  "solution": "Choice_A",
+  "ground_truth": "A"
+}

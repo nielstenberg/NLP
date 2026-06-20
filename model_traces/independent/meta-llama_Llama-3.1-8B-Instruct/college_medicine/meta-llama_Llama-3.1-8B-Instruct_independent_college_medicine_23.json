@@ -1,0 +1,23 @@
+{
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 125,
+  "question_uuid": "77d9ed5e-bc94-4762-9ee3-857da5688ace",
+  "question": "Approximately how many kJ of energy are expended if an athlete's steady-rate oxygen uptake averages 3.0 l/min for 5 minutes of exercise?",
+  "options": {
+    "A": "60 kJ",
+    "B": "150 kJ",
+    "C": "300 kJ",
+    "D": "500 kJ"
+  },
+  "analysis": [
+    "Step 1: To solve this problem, we need to understand that the energy expenditure can be calculated using the formula: Energy (in kJ) = Volume of Oxygen (in L) x Respiratory Quotient (RQ) x 20.8 kJ/L.\n\nHowever, we don't have the RQ value directly, but we know that the average RQ for most exercises is around 0.95-1.00. For simplicity, let's use RQ = 1.00.",
+    "Step 2: Given that the athlete's steady-rate oxygen uptake averages 3.0 L/min, we need to convert this volume from liters per minute to liters per hour since the energy expenditure formula requires the volume in liters per hour.\n\nWe'll multiply 3.0 L/min by 60 min/h to get the volume in liters per hour: 3.0 L/min * 60 min/h = 180 L/h.",
+    "Step 3: Now, we'll substitute the values into the energy expenditure formula: Energy (in kJ) = Volume of Oxygen (in L) x Respiratory Quotient (RQ) x 20.8 kJ/L.\n\nSubstituting the given values: Energy (in kJ) = 180 L/h * 1.00 * 20.8 kJ/L.",
+    "Step 4: Performing the calculation: Energy (in kJ) = 180 L/h * 1.00 * 20.8 kJ/L = 3736 kJ/h.\n\nHowever, we're interested in the energy expenditure over 5 minutes, not hours. To find the energy expenditure over 5 minutes, we'll divide the total energy expenditure by 12 (since there are 12 five-minute intervals in one hour): Energy (in kJ) = 3736 kJ/h / 12 = 311.33 kJ/5min.\n\nSince none of our options match exactly with this result, we should round down to the nearest answer choice.",
+    "Step 5: Comparing our result with the available options, we see that the closest answer choice is 300 kJ."
+  ],
+  "solution": "Choice_C",
+  "ground_truth": "C"
+}

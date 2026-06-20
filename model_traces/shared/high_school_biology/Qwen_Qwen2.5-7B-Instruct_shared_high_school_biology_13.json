@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "shared",
+  "subject": "High School Biology",
+  "question_index": 90,
+  "question_uuid": "712de382-57fb-4705-a396-8e34b5c76f76",
+  "question": "A behavioral response called a fixed action pattern shown by animals",
+  "options": {
+    "A": "occurs the second time an animal is exposed to the correct stimulus at the appropriate time in its life",
+    "B": "occurs in the absence of sensory feedback",
+    "C": "is a motor response which once released may be terminated spontaneously",
+    "D": "is triggered by a number of sensory signals in the animal's environment"
+  },
+  "analysis": [
+    "Step 1: A fixed action pattern (FAP) is a stereotyped, invariant sequence of behaviors that is triggered by a specific stimulus and is often seen in animals. The key characteristics of a FAP include its stereotypical nature and the fact that it is typically triggered by a specific stimulus. This rules out Choice_C, as FAPs are not typically terminated spontaneously.",
+    "Step 2: Choice_A suggests that a FAP occurs the second time an animal is exposed to the correct stimulus at the appropriate time in its life. However, FAPs are typically triggered by the first exposure to the correct stimulus, not the second. This makes Choice_A incorrect.",
+    "Step 3: Choice_B states that a FAP occurs in the absence of sensory feedback. This is incorrect because FAPs are triggered by specific sensory stimuli, and the sensory feedback is crucial for the initiation of the behavior.",
+    "Step 4: Choice_D indicates that a FAP is triggered by a number of sensory signals in the animal's environment. This is correct because FAPs are typically triggered by specific sensory cues, such as the sight of a predator or the sound of a mating call, which are sensory signals.",
+    "Step 5: Considering the analysis of each choice, Choice_D accurately describes the nature of a fixed action pattern."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "B"
+}

@@ -1,0 +1,22 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "independent",
+  "subject": "High School Biology",
+  "question_index": 285,
+  "question_uuid": "0ca1c95a-abfa-44a9-92ce-b7eb62d0c3b6",
+  "question": "Which of the following agents will induce polyploidy in a dividing eukaryote?",
+  "options": {
+    "A": "Penicillin",
+    "B": "Colchicine",
+    "C": "Tetracycline",
+    "D": "Puromycin"
+  },
+  "analysis": [
+    "Step 1: Penicillin is an antibiotic that inhibits cell wall synthesis primarily in bacteria, not affecting eukaryotic cells directly related to inducing polyploidy. Therefore, it can be eliminated as a potential inducer of polyploidy.",
+    "Step 2: Tetracycline is another antibiotic that affects protein synthesis by binding to the ribosome, but it does not have the capability to induce polyploidy in eukaryotic cells. Thus, it can also be ruled out.",
+    "Step 3: Puromycin works similarly to tetracycline by inhibiting protein synthesis in eukaryotes; however, its mechanism does not lead to polyploidy. Hence, it cannot be the correct answer.",
+    "Step 4: Colchicine is known to inhibit microtubule formation during mitosis and meiosis, leading to chromosome mis-segregation and the induction of polyploidy. This makes colchicine a strong candidate for inducing polyploidy in a dividing eukaryote."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "B"
+}

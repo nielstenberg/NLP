@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "High School Biology",
+  "question_index": 51,
+  "question_uuid": "f046424e-d752-4ac1-b20f-e47089f9cce2",
+  "question": "If the activity of an enzyme is constant over a broad range of pH values, it is likely that",
+  "options": {
+    "A": "only ionizing groups on the enzyme participate in the reaction",
+    "B": "only ionizing groups on the substrate participate in the reaction",
+    "C": "ionizing groups on both the enzyme and substrate participate in the reaction",
+    "D": "no ionizing groups on the enzyme or substrate participate in the reaction"
+  },
+  "analysis": [
+    "Step 1: Evaluate Choice A. If only ionizing groups on the enzyme participated in the reaction, changes in pH would alter the protonation state of these groups, directly affecting the enzyme's active site conformation or catalytic ability. This would cause enzyme activity to fluctuate with pH rather than remain constant, making this choice incorrect.",
+    "Step 2: Evaluate Choice B. If only ionizing groups on the substrate participated in the reaction, pH fluctuations would change the substrate's ionization state, impacting its binding affinity or chemical reactivity within the active site. This dependence on pH would result in variable enzyme activity across different pH levels, ruling out this choice.",
+    "Step 3: Evaluate Choice C. If ionizing groups on both the enzyme and substrate participated in the reaction, pH changes would simultaneously affect both components' ionization states. This dual dependency would create a pronounced pH optimum with steep activity declines outside that range, contradicting the condition of constant activity over a broad pH range.",
+    "Step 4: Evaluate Choice D. If no ionizing groups on either the enzyme or substrate participate in the reaction, the catalytic mechanism and binding interactions rely on non-ionizable features such as hydrophobic interactions or steric complementarity. Since pH primarily influences ionization states, the absence of essential ionizing groups means pH variations will not disrupt the reaction, allowing activity to remain constant across a broad pH range.",
+    "Step 5: Based on the sequential evaluation, Choices A, B, and C all predict pH-dependent activity due to the involvement of ionizable groups, while only Choice D logically explains why enzyme activity would remain unchanged across varying pH conditions. Therefore, Choice D is the correct answer."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

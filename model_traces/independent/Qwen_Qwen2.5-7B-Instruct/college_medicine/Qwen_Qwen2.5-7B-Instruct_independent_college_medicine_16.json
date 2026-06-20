@@ -1,0 +1,22 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 191,
+  "question_uuid": "54f718a9-74fd-4a83-a602-41cef4acacb0",
+  "question": "Fast-twitch fibres contain:",
+  "options": {
+    "A": "a relatively large number of mitochondria and low ATPase activity.",
+    "B": "a relatively small number of mitochondria and low ATPase activity.",
+    "C": "a relatively small number of mitochondria and high ATPase activity.",
+    "D": "a relatively large number of mitochondria and high ATPase activity."
+  },
+  "analysis": [
+    "Step 1: Fast-twitch muscle fibers are characterized by their ability to contract quickly and forcefully, which requires rapid energy production. They primarily use anaerobic metabolism due to their reliance on quick bursts of power rather than sustained endurance activities. This means they have less need for aerobic respiration processes that involve mitochondria, leading to fewer mitochondria overall compared to slow-twitch fibers.",
+    "Step 2: Mitochondria are essential for ATP (adenosine triphosphate) production through cellular respiration. Since fast-twitch fibers do not rely heavily on aerobic metabolism, they have fewer mitochondria relative to other types of muscle fibers like slow-twitch fibers.",
+    "Step 3: ATPase activity refers to the rate at which ATP is produced within cells. In fast-twitch fibers, since they predominantly use anaerobic glycolysis for immediate energy needs, the ATPase activity can be higher because it does not require the complex metabolic pathways associated with mitochondrial function. However, the key point is that the primary source of ATP in these fibers is not from mitochondrial processes but from glycogenolysis and lactate production.",
+    "Step 4: Considering both points above, fast-twitch fibers indeed have a relatively small number of mitochondria and typically exhibit higher ATPase activity as part of their anaerobic energy production mechanisms.\n\nFinal Step: Based on the analysis, the correct answer is Choice_C: a relatively small number of mitochondria and high ATPase activity."
+  ],
+  "solution": "Choice_C",
+  "ground_truth": "C"
+}

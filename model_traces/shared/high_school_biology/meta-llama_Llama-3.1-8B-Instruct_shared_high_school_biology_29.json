@@ -1,0 +1,22 @@
+{
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "mode": "shared",
+  "subject": "High School Biology",
+  "question_index": 63,
+  "question_uuid": "ed83dd48-d35a-46e3-87d4-82382fbbeaad",
+  "question": "Which of the following is encoded by the src oncogene and catalyzes the specific addition of phosphate groups to cellular proteins?",
+  "options": {
+    "A": "Protein phosphatase",
+    "B": "Adenylate cyclase",
+    "C": "G protein-linked receptor",
+    "D": "Tyrosine kinase"
+  },
+  "analysis": [
+    "Step 1: First, let's analyze Choice_A: Protein phosphatase. Protein phosphatases are enzymes that remove phosphate groups from proteins, which is the opposite of what the question is asking. So, Choice_A is not the correct answer.",
+    "Step 2: Next, let's analyze Choice_B: Adenylate cyclase. Adenylate cyclase is an enzyme that catalyzes the formation of cyclic AMP (cAMP) from ATP, but it does not add phosphate groups to proteins. So, Choice_B is not the correct answer.",
+    "Step 3: Now, let's analyze Choice_C: G protein-linked receptor. G protein-linked receptors are a type of receptor that responds to signals from outside the cell, but they do not catalyze the addition of phosphate groups to proteins. So, Choice_C is not the correct answer.",
+    "Step 4: Finally, let's analyze Choice_D: Tyrosine kinase. Tyrosine kinases are enzymes that add phosphate groups to tyrosine residues on proteins, which is exactly what the question is asking. The src oncogene is a well-known example of a gene that encodes a tyrosine kinase. So, Choice_D is the correct answer."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

@@ -1,0 +1,23 @@
+{
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "mode": "independent",
+  "subject": "College Biology",
+  "question_index": 303,
+  "question_uuid": "d954e3d0-559b-4d9f-bb95-fc8894a4920e",
+  "question": "Which of the following pieces of evidence most strongly supports the common origin of all life on Earth?",
+  "options": {
+    "A": "All organisms require energy.",
+    "B": "All organisms use essentially the same genetic code.",
+    "C": "All organisms reproduce.",
+    "D": "All organisms show heritable variation."
+  },
+  "analysis": [
+    "Step 1: We start by analyzing each choice individually to see if it provides strong evidence for the common origin of all life on Earth. Let's begin with Choice A: \"All organisms require energy.\" While it's true that all living things need energy to survive, this statement doesn't necessarily imply a shared ancestry. Many non-living systems also require energy to function, so this characteristic alone does not provide conclusive evidence for a common origin.",
+    "Step 2: Moving on to Choice B: \"All organisms use essentially the same genetic code.\" This statement suggests that despite their differences, all living beings share a fundamental language - the genetic code. The universality of the genetic code implies a deep connection between all forms of life, as it indicates a common ancestor from which all life evolved.",
+    "Step 3: Next, we consider Choice C: \"All organisms reproduce.\" Like Choice A, this statement describes a universal trait among living things but doesn't necessarily imply a shared ancestry. Many non-living systems can be replicated or reproduced through various processes, making this characteristic less compelling evidence for a common origin.",
+    "Step 4: Now, let's examine Choice D: \"All organisms show heritable variation.\" While heritable variation is indeed a key aspect of evolution, it's more of an outcome of the process rather than direct evidence of a common origin. Heritable variation exists because of mutations, genetic drift, and other mechanisms that occur over time, making this choice less convincing as standalone evidence.",
+    "Step 5: Considering all the individual analyses above, we find that Choice B stands out as the strongest piece of evidence supporting the common origin of all life on Earth. The universality of the genetic code across all living beings provides a clear link to a shared ancestral lineage, making it the most compelling argument for a common origin."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "B"
+}

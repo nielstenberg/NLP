@@ -1,0 +1,22 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "College Biology",
+  "question_index": 534,
+  "question_uuid": "bf9d1cdb-d717-4307-91c3-9f32166e2019",
+  "question": "A biologist studied a population of squirrels for 15 years. During that time, the population was never fewer than 30 squirrels and never more than 45. Her data showed that over half of the squirrels born did not survive to reproduce, because of competition for food and predation. In a single generation, 90% of the squirrels that were born lived to reproduce, and the population increased to 80. Which inference(s) about this population might be true?",
+  "options": {
+    "A": "The amount of available food may have increased.",
+    "B": "The number of predators may have decreased.",
+    "C": "The squirrels of subsequent generations should show greater levels of genetic variation than previous generations, because squirrels that would not have survived in the past will now survive.",
+    "D": "A, B, and C"
+  },
+  "analysis": [
+    "Step 1: Evaluate Choice A. The long-term population stability between 30 and 45 squirrels indicates a carrying capacity constrained by limiting factors, specifically food competition. A sudden increase to 80 individuals alongside a 90% juvenile survival rate strongly suggests that a critical resource bottleneck was relieved. An increase in available food would directly reduce intraspecific competition, allowing more offspring to secure adequate nutrition and reach reproductive maturity, making this inference ecologically sound.",
+    "Step 2: Evaluate Choice B. Predation was explicitly identified as a primary driver of mortality in the baseline population. A decline in predator numbers would significantly lower extrinsic death rates among juveniles. With fewer predators culling the young cohort, a substantially higher percentage of births would survive to breed, directly accounting for the observed population surge and validating this inference.",
+    "Step 3: Evaluate Choice C. Under normal high-mortality conditions, intense competition and predation act as strong directional selective pressures, consistently filtering out individuals carrying less advantageous alleles and maintaining a relatively narrow gene pool. When survival spikes to 90%, many genotypes that would historically have been eliminated are now permitted to survive and contribute gametes to the next generation. This relaxation of selective pressure allows previously purged genetic variants to persist and recombine, resulting in greater genetic variation in subsequent generations.",
+    "Step 4: Jointly evaluate all options. Choices A and B correctly identify ecological mechanism shifts (resource availability and predation pressure) that explain the demographic expansion beyond the historical carrying capacity. Choice C accurately applies population genetics principles, demonstrating how reduced selective mortality broadens the genetic base of the breeding population. Since all three statements are biologically valid, logically consistent with the data, and potentially concurrent, the combined option is the definitive answer."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

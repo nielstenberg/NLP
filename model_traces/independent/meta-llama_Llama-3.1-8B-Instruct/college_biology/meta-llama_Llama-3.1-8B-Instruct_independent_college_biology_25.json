@@ -1,0 +1,23 @@
+{
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "mode": "independent",
+  "subject": "College Biology",
+  "question_index": 480,
+  "question_uuid": "fe710a65-1ef3-41c8-9aaf-6cc229ab00c9",
+  "question": "A population undergoes a shift in which those who are really tall and those who are really short decrease in relative frequency compared to those of medium size, due to a change in the availability of resources. This is an example of",
+  "options": {
+    "A": "directional selection.",
+    "B": "stabilizing selection.",
+    "C": "disruptive selection.",
+    "D": "sympatric speciation."
+  },
+  "analysis": [
+    "Step 1: Directional selection (Choice_A) involves a consistent force that favors one extreme trait over another. However, the given scenario does not specify a preference for either extreme trait; it only mentions a decrease in their frequencies. Therefore, directional selection doesn't seem to be the correct answer.",
+    "Step 2: Stabilizing selection (Choice_B) occurs when there is no net evolutionary change because both extreme traits have lower fitness than intermediate ones. The provided information indicates that individuals with extreme traits (tall and short) experience a decline in relative frequency, suggesting that they may have lower fitness compared to those of medium size. However, we cannot conclude that stabilizing selection is the correct answer yet.",
+    "Step 3: Disruptive selection (Choice_C), also known as diversifying selection, happens when two or more extreme traits become favored over intermediate ones. In the given scenario, the relative frequencies of extremely tall and short individuals decrease, while those of medium size increase. This suggests that the environment favors individuals with medium traits over those with extreme traits, indicating that disruptive selection might be the correct explanation.",
+    "Step 4: Sympatric speciation (Choice_D) refers to the process where new species emerge from populations that do not interbreed but still inhabit the same geographic area. The description provided does not mention anything about the emergence of new species or reproductive isolation between groups. Thus, sympatric speciation seems unlikely to be the correct answer.",
+    "Step 5: Considering all the previous steps, the most plausible explanation for the observed phenomenon is disruptive selection. This type of selection occurs when the environment favors individuals with extreme traits, leading to an increase in their relative frequencies. In contrast, individuals with intermediate traits experience a relative increase in frequency. Given that the problem states that the relative frequencies of extremely tall and short individuals decrease, while those of medium size increase, this matches the definition of disruptive selection."
+  ],
+  "solution": "Choice_C",
+  "ground_truth": "B"
+}

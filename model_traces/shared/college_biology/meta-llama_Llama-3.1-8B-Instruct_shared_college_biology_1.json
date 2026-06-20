@@ -1,0 +1,25 @@
+{
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "mode": "shared",
+  "subject": "College Biology",
+  "question_index": 51,
+  "question_uuid": "919632b4-dcf9-4fb4-8c1c-fc21a08447e0",
+  "question": "A certain autosomal recessive trait is expressed in 1% of a population. Assuming that the population is in Hardy-Weinberg equilibrium, what percent of the population are carriers but do not express the trait?",
+  "options": {
+    "A": "10%",
+    "B": "18%",
+    "C": "27%",
+    "D": "50%"
+  },
+  "analysis": [
+    "Step 1: The Hardy-Weinberg equilibrium states that the allele and genotype frequencies in a population will remain constant from generation to generation if the following conditions are met: no mutation, no gene flow, no genetic drift, no natural selection, and a large population size. In this case, we are given that the population is in Hardy-Weinberg equilibrium and that 1% of the population expresses the autosomal recessive trait. This means that the frequency of the recessive allele (q) is 0.01, since the frequency of the dominant allele (p) is 1 - q = 0.99.",
+    "Step 2: To find the frequency of carriers who do not express the trait, we need to find the frequency of the heterozygous genotype (pq), where p is the frequency of the dominant allele and q is the frequency of the recessive allele. Since the population is in Hardy-Weinberg equilibrium, the frequency of the heterozygous genotype is given by the formula: 2pq.",
+    "Step 3: We can now substitute the values of p and q into the formula to find the frequency of carriers who do not express the trait. p = 0.99 and q = 0.01, so the frequency of carriers is 2pq = 2(0.99)(0.01) = 0.0198.",
+    "Step 4: To find the percentage of the population that are carriers but do not express the trait, we need to convert the frequency to a percentage. This is done by multiplying the frequency by 100.",
+    "Step 5: Therefore, the percentage of the population that are carriers but do not express the trait is 1.98%.",
+    "Step 6: However, we need to choose the closest answer from the given options. The closest answer is 10%.",
+    "Step 7: Therefore, the correct answer is Choice_A: 10%."
+  ],
+  "solution": "Choice_A",
+  "ground_truth": "B"
+}

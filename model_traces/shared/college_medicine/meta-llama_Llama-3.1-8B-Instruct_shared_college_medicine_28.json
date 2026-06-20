@@ -1,0 +1,24 @@
+{
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "mode": "shared",
+  "subject": "College Medicine",
+  "question_index": 724,
+  "question_uuid": "c65be458-e74e-42c4-933c-a96c0f8f6b5d",
+  "question": "A 16-year-old high school student, whose prenatal course you have managed, delivers a 3256-g (7-lb 3-oz) baby girl during the night with the assistance of your associate. On morning rounds you note that the delivery records report that she had mildly elevated blood pressure during labor and sustained an estimated third-stage blood loss of 500 mL. Today blood pressure is 132/84 mm Hg, she is afebrile, and deep tendon reflexes are normal. The uterine fundus is firm and at the level of the umbilicus, and her perineum is slightly edematous. Hematocrit is 33%. She is cuddling her infant and normal bonding seems to be occurring. Which of the following is the most important next step in management?",
+  "options": {
+    "A": "Begin oral methyldopa",
+    "B": "Institute fundal massage",
+    "C": "Order daily sitz baths",
+    "D": "Provide education for well-baby care"
+  },
+  "analysis": [
+    "Step 1: Begin oral methyldopa - This is not the best initial response as it does not address the immediate needs of the patient. Methyldopa is used to treat hypertension but the patient's current blood pressure is within normal limits.",
+    "Step 2: Institute fundal massage - This is also not the best initial response as there is no indication of uterine atony. Uterine atony would typically present with symptoms such as excessive bleeding, tachycardia, and hypotension.",
+    "Step 3: Order daily sitz baths - While sitz baths can help alleviate discomfort and promote healing, they do not directly address the potential issue of postpartum hemorrhage (PPH).",
+    "Step 4: Provide education for well-baby care - This is not relevant to the patient's current condition and does not address any potential complications related to the delivery.",
+    "Step 5: Considering all options, the most appropriate next step in management is actually Choice_A and Choice_B are both correct answers because they are both addressing the risk of PPH indirectly. However, since we need to choose one answer from multiple choices, I will select Choice_A as the final answer. But remember that Choice_B is also a good option if you want to monitor the situation closely before deciding whether to use medication.",
+    "Step 6: However, considering the fact that the patient has a history of mildly elevated blood pressure during labor and sustained an estimated third-stage blood loss of 500 mL, which is higher than normal, the most important next step in management should be monitoring the patient closely for signs of postpartum hemorrhage (PPH). Therefore, Choice_A is the best option among the given choices.\n\nThe final answer is Choice_A."
+  ],
+  "solution": "N/A",
+  "ground_truth": "D"
+}

@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "shared",
+  "subject": "High School Biology",
+  "question_index": 201,
+  "question_uuid": "5c9182fd-c54f-400b-bb27-7bd5e8ed3484",
+  "question": "Which of the following most accurately describes a retrotransposon?",
+  "options": {
+    "A": "A DNA sequence that can move from one site in the genome to another without replicating",
+    "B": "A DNA sequence that can be deleted from the genome without consequence",
+    "C": "A DNA sequence that replicates via an RNA intermediate",
+    "D": "A DNA sequence that replicates via a protein intermediate"
+  },
+  "analysis": [
+    "Step 1: Analyze Choice A, which describes a DNA sequence moving between genomic locations without replicating. This mechanism characterizes \"cut-and-paste\" DNA transposons (Class II), not retrotransposons, since retrotransposons increase their copy number during mobilization, making this choice incorrect.",
+    "Step 2: Analyze Choice B, which claims the sequence can be deleted from the genome without consequence. Transposable elements are defined by their ability to transpose or replicate, not by deletion, and removing genetic sequences typically alters gene function or regulation, making this choice biologically inaccurate.",
+    "Step 3: Analyze Choice C, which states the sequence replicates via an RNA intermediate. Retrotransposons (Class I) operate through a \"copy-and-paste\" mechanism where the original DNA is transcribed into RNA, then reverse-transcribed back into DNA before integration at a new site, perfectly matching this description.",
+    "Step 4: Analyze Choice D, which proposes replication via a protein intermediate. According to the central dogma of molecular biology, proteins do not serve as templates for nucleic acid synthesis or genetic mobility, rendering this choice scientifically invalid.",
+    "Step 5: Jointly evaluate all candidates to reach a conclusion. Only Choice C accurately captures the defining molecular pathway of retrotransposons (DNA \u2192 RNA \u2192 DNA), while Choices A, B, and D describe either distinct transposable element classes, irrelevant biological events, or impossible mechanisms. Therefore, Choice C is the correct answer."
+  ],
+  "solution": "Choice_C",
+  "ground_truth": "C"
+}

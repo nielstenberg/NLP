@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "College Biology",
+  "question_index": 27,
+  "question_uuid": "00879eee-c682-41b2-8e88-a7b222453011",
+  "question": "This process couples the production of ATP with the movement of electrons down the electron transport chain by harnessing the driving force created by a proton gradient.",
+  "options": {
+    "A": "Glycolysis",
+    "B": "Chemiosmosis",
+    "C": "Fermentation",
+    "D": "Calvin cycle"
+  },
+  "analysis": [
+    "Step 1: Choice A (Glycolysis) is incorrect because it occurs in the cytosol and generates ATP exclusively through substrate-level phosphorylation, operating independently of an electron transport chain and proton gradients.",
+    "Step 2: Choice B (Chemiosmosis) is correct because it specifically describes the mechanism where the energy stored in a transmembrane proton gradient, established by electron transport chain activity, drives protons through ATP synthase to power ATP synthesis.",
+    "Step 3: Choice C (Fermentation) is incorrect because it functions under anaerobic conditions to regenerate NAD+ for continued glycolysis, relying entirely on substrate-level phosphorylation for ATP production without utilizing an electron transport chain or proton motive force.",
+    "Step 4: Choice D (Calvin cycle) is incorrect because it is a light-independent phase of photosynthesis that consumes ATP and NADPH to fix carbon dioxide into sugars, rather than producing ATP via a proton gradient or electron transport chain.",
+    "Step 5: Following the sequential evaluation of all candidates, only chemiosmosis accurately fulfills the criteria of coupling ATP production with electron transport chain activity by harnessing a proton gradient, confirming Choice B as the correct answer."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "B"
+}

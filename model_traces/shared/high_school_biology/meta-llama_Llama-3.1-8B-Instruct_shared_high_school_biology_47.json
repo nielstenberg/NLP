@@ -1,0 +1,23 @@
+{
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "mode": "shared",
+  "subject": "High School Biology",
+  "question_index": 195,
+  "question_uuid": "ffd129e4-8311-4b8d-90a8-4b1f3edbc112",
+  "question": "Natural enemies have been implicated as a strong selective force for all of the following EXCEPT",
+  "options": {
+    "A": "aposematic coloration",
+    "B": "chemical defenses",
+    "C": "masting (synchronous fruiting)",
+    "D": "lekking behavior"
+  },
+  "analysis": [
+    "Step 1: Aposematic coloration is a defense mechanism where an organism displays bright or warning colors to deter predators. This is a direct response to natural enemies, as the organism is trying to avoid being eaten. Therefore, natural enemies have been implicated as a strong selective force for aposematic coloration.",
+    "Step 2: Chemical defenses, such as toxins or alkaloids, are also a response to natural enemies. These chemicals can deter predators or make the organism unpalatable, thereby reducing predation pressure. As a result, natural enemies have been implicated as a strong selective force for chemical defenses.",
+    "Step 3: Masting, or synchronous fruiting, is a reproductive strategy where plants produce large amounts of fruit at the same time. This can be a response to natural enemies, such as seed predators, as the large fruit production can overwhelm the predators and increase the chances of successful seed dispersal. Therefore, natural enemies have been implicated as a strong selective force for masting.",
+    "Step 4: Lekking behavior is a mating strategy where males gather in a specific area to display their courtship behaviors and attract females. While lekking behavior can be influenced by various factors, including predation, it is not a direct response to natural enemies. Instead, it is often driven by factors such as mate choice and competition among males. Therefore, natural enemies have not been implicated as a strong selective force for lekking behavior.",
+    "Step 5: Based on the analysis above, natural enemies have been implicated as a strong selective force for aposematic coloration, chemical defenses, and masting. However, they have not been implicated as a strong selective force for lekking behavior. Therefore, the correct answer is Choice D: lekking behavior."
+  ],
+  "solution": "N/A",
+  "ground_truth": "D"
+}

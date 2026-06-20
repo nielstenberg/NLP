@@ -1,0 +1,22 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "shared",
+  "subject": "High School Biology",
+  "question_index": 177,
+  "question_uuid": "33b1b8f7-1a66-4dec-9ef5-53acd684b01e",
+  "question": "Mobile regions of DNA capable of inserting themselves into an existing genome are",
+  "options": {
+    "A": "prions",
+    "B": "cistrons",
+    "C": "introns",
+    "D": "transposons"
+  },
+  "analysis": [
+    "Step 1: Prions are misfolded proteins that can induce similar misfolding in other proteins and are associated with neurodegenerative diseases like mad cow disease. They do not involve genetic material and cannot insert themselves into a genome, making Choice_A incorrect.",
+    "Step 2: Cistrons refer to coding sequences that produce a functional protein product. While they are important for gene expression, they do not have the ability to move within the genome, so Choice_B is incorrect.",
+    "Step 3: Introns are non-coding sequences found within genes that are removed during RNA processing. They do not have the capability to move around the genome, thus Choice_C is incorrect.",
+    "Step 4: Transposons, also known as \"jumping genes,\" are mobile genetic elements that can move from one location to another within the genome. They can replicate themselves and insert into different parts of the genome, making Choice_D correct."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

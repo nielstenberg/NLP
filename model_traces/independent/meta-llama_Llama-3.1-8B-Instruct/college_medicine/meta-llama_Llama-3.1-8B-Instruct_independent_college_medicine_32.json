@@ -1,0 +1,23 @@
+{
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 694,
+  "question_uuid": "0fa63309-4b41-4723-a641-f594b5ac955d",
+  "question": "A 46-year-old woman, gravida 1, para 1, comes to the office because of a 2-week history of black discharge from her right nipple. The patient had mammography and ultrasonography of the breasts 2 months ago for evaluation of increased glandularity, palpated in the upper outer quadrant of the right breast, noted at her most recent annual examination. The studies showed likely benign findings with recommended follow-up in 6 months. Medical history is otherwise unremarkable and she takes no medications. BMI is 30 kg/m2 . Vital signs are normal. Palpation of the right breast discloses glandularity in the upper outer quadrant but no other masses. There is scant, black discharge from the right nipple. Which of the following is the most appropriate next step in diagnosis?",
+  "options": {
+    "A": "Ductography",
+    "B": "Excisional biopsy of glandular tissue",
+    "C": "Repeat mammography",
+    "D": "Repeat ultrasonography of the right breast"
+  },
+  "analysis": [
+    "Step 1: The patient presents with a new symptom of black discharge from her right nipple, which is a significant change from her previous presentation of increased glandularity in the upper outer quadrant of the right breast. This new symptom warrants further investigation.",
+    "Step 2: Given that the patient's previous mammography and ultrasonography showed likely benign findings, it would be reasonable to consider repeating these tests to assess if there has been any change in the breast tissue. However, the presence of black discharge suggests a possible issue within the ducts themselves, rather than just the surrounding tissue.",
+    "Step 3: Considering the options provided: - Choice C (Repeat mammography) and Choice D (Repeat ultrasonography of the right breast) may not provide sufficient information about the ductal system, as they primarily focus on the overall breast tissue.\n\n- Choice B (Excisional biopsy of glandular tissue) might be considered if there were a clear indication of malignancy based on imaging results, but given the new symptom of black discharge, a more targeted diagnostic approach is needed before proceeding to invasive procedures like biopsies.",
+    "Step 4: Ductography, also known as galactography, involves injecting contrast material into the milk ducts under imaging guidance. It can help identify abnormalities such as intraductal papillomas, which could explain the black discharge. Given the new symptom of black discharge, ductography appears to be the most appropriate next step in diagnosis.",
+    "Step 5: In conclusion, while repeat imaging might seem appealing due to the initial findings being deemed \"likely benign,\" the emergence of a new symptom necessitates a more focused approach to diagnose the cause of the black discharge."
+  ],
+  "solution": "Choice_A",
+  "ground_truth": "A"
+}

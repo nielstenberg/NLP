@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "shared",
+  "subject": "College Medicine",
+  "question_index": 688,
+  "question_uuid": "ca65819e-6a44-4cfa-b5e7-a6efffdeab8a",
+  "question": "Which of the following is a feature of X-linked dominant inheritance?",
+  "options": {
+    "A": "Parental consanguinity",
+    "B": "Male to male transmission",
+    "C": "Transmission only by females",
+    "D": "Transmitted by males only to females"
+  },
+  "analysis": [
+    "Step 1: X-linked dominant inheritance involves genes located on the X chromosome where the presence of even one copy of an abnormal gene can cause disease. This type of inheritance pattern does not typically involve parental consanguinity (Choice_A), as it is more related to genetic disorders caused by mutations that arise spontaneously rather than being inherited from close relatives. Therefore, Choice_A is incorrect.",
+    "Step 2: In X-linked dominant conditions, affected males will pass their abnormal X chromosome to all of their daughters but none of their sons because they have one X and one Y chromosome. However, since males do not transmit their X chromosomes to other males, Choice_B about male-to-male transmission is incorrect.",
+    "Step 3: For X-linked dominant traits, females are usually carriers unless they inherit two copies of the defective gene. Thus, these traits can be transmitted by both males and females, making Choice_C incorrect as it suggests transmission only by females.",
+    "Step 4: Similarly, Choice_D states that the trait is transmitted by males only to females, which contradicts how X-linked dominant traits work since males can also transmit them to males through their Y chromosome if the female has a normal X chromosome.",
+    "Step n: After analyzing each choice individually, we conclude that none of the provided options accurately describe the features of X-linked dominant inheritance except for recognizing that it does not involve specific patterns like those described in Choices_A, B, C, and D."
+  ],
+  "solution": "Choice_C",
+  "ground_truth": "D"
+}

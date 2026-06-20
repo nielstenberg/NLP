@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "shared",
+  "subject": "High School Biology",
+  "question_index": 240,
+  "question_uuid": "8990f438-e01f-4e5e-b4ce-1a040113683c",
+  "question": "Hardy-Weinberg equilibrium generally assumes all of the following EXCEPT",
+  "options": {
+    "A": "a large population",
+    "B": "genetic drift",
+    "C": "random mating",
+    "D": "absence of selection"
+  },
+  "analysis": [
+    "Step 1: The Hardy-Weinberg equilibrium principle assumes a large population size because small populations are more susceptible to genetic drift and other evolutionary forces that can cause allele frequencies to change over time. Therefore, genetic drift is not an assumption of Hardy-Weinberg equilibrium but rather a factor that can disrupt it.",
+    "Step 2: Random mating is one of the key assumptions of the Hardy-Weinberg equilibrium. It means that individuals within the population mate randomly with respect to their genotypes, which ensures that allele frequencies remain constant from generation to generation under no other evolutionary forces acting upon them.",
+    "Step 3: The absence of selection is another fundamental assumption of the Hardy-Weinberg equilibrium. Selection, whether natural or artificial, can lead to changes in allele frequencies over time, thus disrupting the equilibrium state. Therefore, the absence of selection is necessary for maintaining the Hardy-Weinberg equilibrium.",
+    "Step 4: Genetic drift refers to random changes in the frequency of alleles in a population due to chance events. While genetic drift does not need to be explicitly assumed for the Hardy-Weinberg equilibrium, it can still occur in finite populations and potentially affect allele frequencies over time. However, genetic drift is not considered an essential condition for the Hardy-Weinberg equilibrium as it can occur even when the other conditions are met.",
+    "Step n: After analyzing each candidate choice, we can conclude that genetic drift (Choice_B) is the only option that is not an essential condition for the Hardy-Weinberg equilibrium. The other options\u2014large population size (Choice_A), random mating (Choice_C), and absence of selection (Choice_D)\u2014are all necessary conditions for the Hardy-Weinberg equilibrium to hold true."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "B"
+}

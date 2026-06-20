@@ -1,0 +1,24 @@
+{
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "mode": "shared",
+  "subject": "High School Biology",
+  "question_index": 327,
+  "question_uuid": "d32c9a4b-bf62-4ea6-88a6-70459bb638d8",
+  "question": "Monoclonal antisera are distinguished from polyclonal antisera in which of the following ways?",
+  "options": {
+    "A": "Each type of antibody in a monoclonal antiserum reacts against a single region of a single antigen; each type of antibody in a polyclonal antiserum reacts against multiple regions of different antigens.",
+    "B": "A monoclonal antibody reacts against multiple regions of a single antigen; a polyclonal antibody reacts against a single region of related antigens.",
+    "C": "A monoclonal antiserum contains antibodies secreted from the descendants of a single B lymphocyte; a polyclonal antiserum contains antibodies secreted from the descendants of different B lymphocytes.",
+    "D": "A monoclonal antiserum contains antibodies secreted from the descendants of a single B lymphocyte; a polyclonal antiserum contains antibodies secreted from the descendants of both B and T lymphocytes."
+  },
+  "analysis": [
+    "Step 1: To begin with, let's understand the key difference between monoclonal and polyclonal antisera. Monoclonal antisera are produced by a single clone of B lymphocytes, whereas polyclonal antisera are produced by multiple clones of B lymphocytes. This difference in origin affects the characteristics of the antibodies present in these antisera.",
+    "Step 2: Now, let's analyze each choice based on the understanding of monoclonal and polyclonal antisera. Choice A states that each type of antibody in a monoclonal antiserum reacts against a single region of a single antigen, while each type of antibody in a polyclonal antiserum reacts against multiple regions of different antigens. This description aligns with the concept that monoclonal antibodies are produced by a single clone of B lymphocytes, which would produce antibodies with a single specificity.",
+    "Step 3: Moving on to Choice B, it states that a monoclonal antibody reacts against multiple regions of a single antigen, while a polyclonal antibody reacts against a single region of related antigens. This description is incorrect because monoclonal antibodies are known to have a single specificity, not multiple regions of a single antigen.",
+    "Step 4: Next, let's examine Choice C, which states that a monoclonal antiserum contains antibodies secreted from the descendants of a single B lymphocyte, while a polyclonal antiserum contains antibodies secreted from the descendants of different B lymphocytes. This description accurately reflects the origin of monoclonal and polyclonal antisera.",
+    "Step 5: Finally, let's consider Choice D, which states that a monoclonal antiserum contains antibodies secreted from the descendants of a single B lymphocyte, while a polyclonal antiserum contains antibodies secreted from the descendants of both B and T lymphocytes. This description is incorrect because polyclonal antisera are produced by multiple clones of B lymphocytes, not by both B and T lymphocytes.",
+    "Step 6: After analyzing each choice, we can conclude that Choice A is incorrect because it inaccurately describes the specificity of monoclonal antibodies. Choice B is also incorrect because it misrepresents the specificity of monoclonal antibodies. Choice D is incorrect because it inaccurately describes the origin of polyclonal antisera. Therefore, the correct choice is Choice C, which accurately describes the origin of monoclonal and polyclonal antisera."
+  ],
+  "solution": "Choice_C",
+  "ground_truth": "C"
+}

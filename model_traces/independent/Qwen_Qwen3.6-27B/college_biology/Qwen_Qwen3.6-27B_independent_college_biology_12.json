@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "College Biology",
+  "question_index": 126,
+  "question_uuid": "34faa9c5-ea1b-442e-8b74-e59dccf65608",
+  "question": "The base composition of DNA varies from one species to another. Which of the following ratios would you expect to remain constant in the DNA?",
+  "options": {
+    "A": "Cytosine : Adenine",
+    "B": "Pyrimidine : Purine",
+    "C": "Adenine : Guanine",
+    "D": "Guanine : Deoxyribose"
+  },
+  "analysis": [
+    "Step 1: Evaluate Choice A (Cytosine : Adenine). Cytosine and adenine belong to different base-pairing categories (cytosine pairs with guanine, adenine pairs with thymine), and their molar quantities are not constrained to be equal; therefore, this ratio fluctuates depending on the specific genomic base composition of each species and is not constant.",
+    "Step 2: Evaluate Choice B (Pyrimidine : Purine). In double-stranded DNA, Watson-Crick base pairing strictly mandates that every purine (adenine or guanine) pairs with a pyrimidine (thymine or cytoside), which mathematically guarantees that the total number of pyrimidine bases always equals the total number of purine bases, yielding a constant 1:1 ratio across all species.",
+    "Step 3: Evaluate Choice C (Adenine : Guanine). Both adenine and guanine are purines, but their individual concentrations are independently determined by their respective partners (thymine and cytosine); because the overall GC content varies widely among organisms, the ratio of adenine to guanine changes accordingly and does not remain constant.",
+    "Step 4: Evaluate Choice D (Guanine : Deoxyribose). While each DNA nucleotide contains exactly one nitrogenous base linked to one deoxyribose sugar, the ratio of guanine molecules to total deoxyribose molecules simply reflects the fractional abundance of guanine in the genome, which is species-dependent and therefore variable.",
+    "Step 5: Synthesize the sequential evaluations to reach a conclusion. Choices A, C, and D all depend on variable, species-specific base frequencies, whereas Choice B represents a universal structural invariant of double-stranded DNA (Chargaff's second rule) that maintains a fixed stoichiometric balance regardless of taxonomic differences."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "B"
+}

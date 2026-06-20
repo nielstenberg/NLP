@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "independent",
+  "subject": "College Biology",
+  "question_index": 30,
+  "question_uuid": "0f68d2ad-6f5d-4cdc-bcb4-e457a928a613",
+  "question": "This biome contains plants whose roots cannot go deep due to the presence of a permafrost.",
+  "options": {
+    "A": "Desert",
+    "B": "Tundra",
+    "C": "Taiga",
+    "D": "Deciduous forests"
+  },
+  "analysis": [
+    "Step 1: The tundra biome is characterized by its cold climate and the presence of permafrost, which is a layer of soil that remains frozen throughout the year. Plants in the tundra have adapted to these conditions, often having shallow root systems to access nutrients near the surface where the ground thaws during summer months. Therefore, Choice_B (Tundra) fits the description provided.",
+    "Step 2: Deserts typically have very little rainfall and high temperatures, making it unlikely for there to be permafrost present. Thus, Choice_A (Desert) can be eliminated as a possible answer.",
+    "Step 3: The taiga biome, also known as boreal forest, has long, harsh winters but does not generally feature permafrost except in certain regions close to the Arctic Circle. Hence, while some plants may have shallow roots, the widespread presence of permafrost is not typical across most of the taiga biome. So, Choice_C (Taiga) is less likely to match the given scenario.",
+    "Step 4: Deciduous forests are found in temperate zones with distinct seasons, including warm summers and cold winters. These areas do not experience permafrost, so the plants in deciduous forests would not need to adapt their root structures to avoid permafrost. Consequently, Choice_D (Deciduous forests) can be ruled out.",
+    "Step n: Based on the analysis above, only the tundra biome matches the criteria described in the question, where plants must have shallow roots to avoid the permafrost layer beneath the surface."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "C"
+}

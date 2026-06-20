@@ -1,0 +1,23 @@
+{
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "mode": "shared",
+  "subject": "High School Biology",
+  "question_index": 180,
+  "question_uuid": "a8f3f682-d325-4d0d-81ac-62dc6beb4604",
+  "question": "A rise in intracellular free calcium in the sea urchin oocyte causes the release of proteolytic enzymes which act to prevent polyspermy. The events just described entail the",
+  "options": {
+    "A": "zona reaction",
+    "B": "acrosomal reaction",
+    "C": "cortical reaction",
+    "D": "fertilization reaction"
+  },
+  "analysis": [
+    "Step 1: Let's start by analyzing Choice_A: zona reaction. The zona reaction is a process that occurs in the zona pellucida of the egg after fertilization, where it becomes impenetrable to sperm. However, this process is not directly related to the release of proteolytic enzymes in response to a rise in intracellular free calcium in the sea urchin oocyte.",
+    "Step 2: Next, let's consider Choice_B: acrosomal reaction. The acrosomal reaction is a process that occurs in the sperm, where the acrosome releases enzymes to break down the zona pellucida and allow the sperm to penetrate the egg. This process is not related to the release of proteolytic enzymes in the egg in response to a rise in intracellular free calcium.",
+    "Step 3: Now, let's analyze Choice_C: cortical reaction. The cortical reaction is a process that occurs in the egg after fertilization, where the release of proteolytic enzymes from the cortical granules in the egg helps to prevent polyspermy by breaking down the sperm's acrosome and zona pellucida. This process is directly related to the release of proteolytic enzymes in response to a rise in intracellular free calcium in the sea urchin oocyte.",
+    "Step 4: Finally, let's consider Choice_D: fertilization reaction. The fertilization reaction is a broad term that encompasses the entire process of fertilization, including the acrosomal reaction, cortical reaction, and zona reaction. However, this term is too general and does not specifically refer to the release of proteolytic enzymes in response to a rise in intracellular free calcium in the sea urchin oocyte.",
+    "Step 5: Based on the analysis of each choice, the correct answer is the one that specifically refers to the release of proteolytic enzymes in response to a rise in intracellular free calcium in the sea urchin oocyte. Therefore, the correct answer is Choice_C: cortical reaction."
+  ],
+  "solution": "N/A",
+  "ground_truth": "C"
+}

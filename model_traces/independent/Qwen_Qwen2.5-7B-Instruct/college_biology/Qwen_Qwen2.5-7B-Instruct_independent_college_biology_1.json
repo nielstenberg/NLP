@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "independent",
+  "subject": "College Biology",
+  "question_index": 375,
+  "question_uuid": "1fb933b8-b136-4b64-aeff-fc8ace3a909f",
+  "question": "Which of these is the smallest unit that natural selection can change?",
+  "options": {
+    "A": "a species' gene frequency",
+    "B": "a population's gene frequency",
+    "C": "an individual's genome",
+    "D": "an individual's genotype"
+  },
+  "analysis": [
+    "Step 1: Natural selection acts at the level of populations, changing the frequencies of alleles within a population over time. Therefore, the smallest unit that natural selection can directly change is the population's gene frequency, making Choice_B a potential correct answer.",
+    "Step 2: A species consists of many populations, and changes in one population do not necessarily affect other populations immediately unless there is gene flow between them. Thus, while a species' gene frequency can be indirectly affected by natural selection acting on its constituent populations, it is not the immediate target of natural selection.",
+    "Step 3: An individual's genome represents all genetic information contained within a single organism. However, since natural selection operates on heritable traits passed down through generations, it cannot act upon an individual's genome because individuals do not reproduce independently; their genes must be part of a population to be selected upon.",
+    "Step 4: Similarly, an individual's genotype refers to the specific combination of alleles present in an individual\u2019s genome. Since natural selection affects the overall distribution of alleles across a population rather than specific genotypes of individuals, it does not directly change an individual's genotype.",
+    "Step n: Considering the above steps, the smallest unit that natural selection can change is the population's gene frequency as it involves the collective genetic makeup of a group of interbreeding individuals."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "B"
+}

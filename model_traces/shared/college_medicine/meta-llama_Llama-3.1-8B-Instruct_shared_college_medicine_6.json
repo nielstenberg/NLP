@@ -1,0 +1,23 @@
+{
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "mode": "shared",
+  "subject": "College Medicine",
+  "question_index": 631,
+  "question_uuid": "82756a1d-4ee9-4b76-b69d-9246d9d41ca8",
+  "question": "With which of the following relatives is an individual most likely to share a common HLA haplotype?",
+  "options": {
+    "A": "Father",
+    "B": "Mother",
+    "C": "Sister",
+    "D": "Son"
+  },
+  "analysis": [
+    "Step 1: To determine with which relative an individual is most likely to share a common HLA (Human Leukocyte Antigen) haplotype, we need to understand how genetic inheritance works, particularly focusing on the concept that parents pass their genes to offspring.",
+    "Step 2: Parents contribute equally to the genetic makeup of their children but do so independently. This means each parent contributes half of their chromosomes, resulting in a unique combination of genes from both parents in each child. However, when considering the sharing of specific alleles within these combinations, it's essential to note that siblings can inherit different versions of the same gene from their parents due to the random assortment of chromosomes during meiosis.",
+    "Step 3: Given this understanding, let's consider the options provided: - **Father**: A father contributes one set of chromosomes to his child, but he does not have two copies of the same chromosome because he has only one copy of each chromosome type himself. Therefore, the chance of passing identical HLA haplotypes to a child is lower compared to other family members who could potentially carry matching alleles.\n\n- **Mother**: Similar to the father, a mother also contributes one set of chromosomes to her child. However, she too has only one copy of each chromosome type herself, making the likelihood of passing identical HLA haplotypes to a child less probable than if she were a carrier of a specific allele already.\n\n- **Sister**: Siblings are more likely to share similar genetic traits, including HLA haplotypes, because they receive half of their DNA from each parent. The probability of inheriting the same HLA haplotype increases significantly among siblings due to shared parental contributions.\n\n- **Son**: Sons inherit half of their DNA from each parent as well, just like daughters. However, the question focuses on the likelihood of sharing a common HLA haplotype, which doesn't inherently favor sons over daughters given the random nature of genetic inheritance.",
+    "Step 4: Considering the above points, the most logical conclusion is that an individual is most likely to share a common HLA haplotype with their sibling, specifically a sister, due to the shared genetic material inherited from their parents.",
+    "Step 5: Therefore, based on the principles of genetics and the specifics of HLA haplotype inheritance, the correct answer is the one indicating a sibling relationship."
+  ],
+  "solution": "Choice_C",
+  "ground_truth": "C"
+}

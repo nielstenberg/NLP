@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "shared",
+  "subject": "College Medicine",
+  "question_index": 244,
+  "question_uuid": "aa507c31-8997-45b3-b175-e6c08204a324",
+  "question": "A 52-year-old man is brought to the emergency department 30 minutes after he had an episode of chest pain radiating to his jaw while shoveling snow. His pulse is 80/min, and blood pressure is 130/70 mm Hg. The lungs are clear to auscultation. Cardiac examination shows an S4. While undergoing an ECG, the patient says that he feels the chest pain returning. The most appropriate immediate treatment is a drug with which of the following mechanisms of action?",
+  "options": {
+    "A": "Increases cAMP concentration",
+    "B": "Increases nitric oxide concentration",
+    "C": "Inhibits potassium flux",
+    "D": "Inhibits sodium flux"
+  },
+  "analysis": [
+    "Step 1: The patient's presentation suggests possible acute coronary syndrome (ACS), specifically unstable angina given the new onset of chest pain during physical exertion and the return of symptoms despite resting. Immediate treatment should focus on relieving ischemic symptoms and preventing further myocardial injury. Nitroglycerin is commonly used for its rapid vasodilatory effects, particularly on the coronary arteries, which can improve blood flow and alleviate chest pain. Therefore, increasing nitric oxide concentration through nitroglycerin would be the most appropriate initial treatment.",
+    "Step 2: Increasing cAMP concentration as seen in some drugs like forskolin does not directly address the underlying cause of ACS but may have some beneficial effects on smooth muscle relaxation and potentially improving cardiac contractility. However, it is less immediately effective than nitroglycerin in providing quick relief from ischemic symptoms.",
+    "Step 3: Inhibiting potassium flux could theoretically affect cellular function, possibly leading to arrhythmias or other complications if not carefully managed. This mechanism is not typically used as a first-line therapy for acute chest pain due to potential risks.",
+    "Step 4: Inhibiting sodium flux might help in managing hypertension but is not indicated for the immediate management of chest pain associated with ACS.",
+    "Step 5: Considering the need for rapid symptom relief and prevention of further myocardial damage, the most appropriate immediate treatment is one that increases nitric oxide concentration, such as nitroglycerin."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "B"
+}

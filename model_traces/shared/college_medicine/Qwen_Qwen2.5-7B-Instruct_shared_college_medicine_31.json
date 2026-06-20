@@ -1,0 +1,24 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "shared",
+  "subject": "College Medicine",
+  "question_index": 15,
+  "question_uuid": "e55b39c0-4670-401f-bf92-de154874a091",
+  "question": "A 47-year-old man is admitted to the hospital through the emergency department because of the sudden onset of palpitations, left-sided chest pain, light-headedness, and shortness of breath that began while he was watching television 2 hours ago. Medical history is remarkable for paroxysmal atrial fibrillation. The patient is 180 cm (5 ft 11 in) tall and weighs 82 kg (180 lb); BMI is 25 kg/m2 . ECG obtained in the emergency department showed atrial fibrillation with narrow QRS complex. Pulse was 146/min. Physical examination was remarkable for rapid heart rate. The patient was given oxygen via nasal cannula and intravenous metoprolol 5 mg every 5 minutes for a total of 15 mg. His pulse slowed to 90/min. Two hours after admission, he is pain free but his pulse is now 160/min. Blood pressure is 122/78 mm Hg. In order to decrease the patient's pulse, which of the following should be administered intravenously?",
+  "options": {
+    "A": "Digoxin",
+    "B": "Enalapril",
+    "C": "Lidocaine",
+    "D": "Metoprolol"
+  },
+  "analysis": [
+    "Step 1: The patient presents with symptoms consistent with tachycardia, specifically atrial fibrillation with a narrow QRS complex, and a high heart rate of 160/min despite initial treatment with metoprolol. This suggests the need for further management to control the heart rate and prevent complications such as stroke due to the underlying atrial fibrillation.",
+    "Step 2: Digoxin is an option often used to manage atrial fibrillation, particularly when it causes significant symptoms or hemodynamic instability. However, its use requires careful monitoring due to potential toxicity and its effect on conduction. Given the patient\u2019s current stable condition post-metoprolol administration, digoxin could be considered if the heart rate remains uncontrolled.",
+    "Step 3: Enalapril is an ACE inhibitor primarily used for hypertension and heart failure. It does not directly affect heart rate or rhythm and would not be appropriate for managing the acute episode of atrial fibrillation.",
+    "Step 4: Lidocaine is typically used for ventricular arrhythmias rather than supraventricular tachycardias like atrial fibrillation. Its primary role is to stabilize the cardiac membrane and reduce the risk of ventricular fibrillation, making it unsuitable for this case.",
+    "Step 5: Metoprolol has already been administered and effectively reduced the heart rate from 146/min to 90/min initially. Since the heart rate has increased again to 160/min, continuing the use of beta-blockers like metoprolol is logical. Beta-blockers are effective in controlling both the rate and rhythm in atrial fibrillation episodes.",
+    "Step 6: Considering all options, metoprolol is the most suitable choice for continued management of the patient\u2019s tachycardia. While digoxin might also be considered, metoprolol provides immediate and sustained effects on heart rate control, aligning better with the clinical scenario presented."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "College Biology",
+  "question_index": 591,
+  "question_uuid": "4bff6c5e-ef38-4f20-a64b-abef142e33c5",
+  "question": "Which describes an African butterfly species that exists in two strikingly different color patterns?",
+  "options": {
+    "A": "artificial selection",
+    "B": "directional selection",
+    "C": "stabilizing selection",
+    "D": "disruptive selection"
+  },
+  "analysis": [
+    "Step 1: Artificial selection refers to human-directed breeding for desired traits, which does not apply to wild butterfly populations evolving under natural environmental pressures.",
+    "Step 2: Directional selection favors one extreme phenotype over others, shifting the population mean in a single direction and eliminating alternative forms, so it cannot explain the coexistence of two distinct patterns.",
+    "Step 3: Stabilizing selection favors intermediate phenotypes and selects against extremes, reducing variation and maintaining a uniform appearance, which directly contradicts the observation of two strikingly different color patterns.",
+    "Step 4: Disruptive selection favors individuals at both extremes of a phenotypic range while selecting against intermediate forms, creating a bimodal distribution that allows two distinct color patterns to stably coexist within the same species.",
+    "Step 5: Evaluating all options sequentially confirms that only disruptive selection accurately describes the evolutionary mechanism maintaining two extreme phenotypes in this natural population, making it the correct answer."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

@@ -1,0 +1,25 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 391,
+  "question_uuid": "841b2f89-0df4-4fa0-a42c-4706e6306d19",
+  "question": "A couple comes for preconceptional genetic counseling because they both have a family history of \u03b1-thalassemia. The woman has a minimally decreased hemoglobin concentration. Genetic studies show a single gene deletion. The man has microcytic anemia and a two-gene deletion. If the two-gene deletion is in trans (one deletion on the maternal gene and one deletion on the paternal gene), which of the following percentages of their offspring will have a two-gene deletion?",
+  "options": {
+    "A": "0%",
+    "B": "25%",
+    "C": "50%",
+    "D": "75%"
+  },
+  "analysis": [
+    "Step 1: Analyzing the inheritance pattern of \u03b1-thalassemia involves understanding that it is typically caused by deletions in the alpha-globin genes. Each parent can pass on either a normal copy or a deleted copy of the gene. For a two-gene deletion to occur in an offspring, both parents must contribute a deleted gene.",
+    "Step 2: Given that the woman has a single gene deletion and the man has a two-gene deletion with the deletions being in trans (one on the maternal allele and one on the paternal allele), we need to consider the possible combinations of alleles passed from each parent to the offspring.",
+    "Step 3: The woman's genotype could be represented as having one normal \u03b1-gene and one deleted \u03b1-gene. Therefore, she can pass on either the normal or the deleted gene to her offspring.",
+    "Step 4: The man\u2019s genotype would be such that he contributes one normal \u03b1-gene and one deleted \u03b1-gene due to his two-gene deletion being in trans configuration. Thus, he can also pass on either the normal or the deleted gene to his offspring.",
+    "Step 5: Considering all possible combinations when these parents conceive: - Both parents pass on the normal gene \u2192 Offspring does not have \u03b1-thalassemia.\n- Mother passes on the normal gene & father passes on the deleted gene \u2192 Offspring has one deleted gene.\n- Mother passes on the deleted gene & father passes on the normal gene \u2192 Offspring has one deleted gene.\n- Mother passes on the deleted gene & father passes on the deleted gene \u2192 Offspring has two deleted genes.",
+    "Step 6: Out of four possible outcomes, only one outcome results in the offspring having no deleted genes, two outcomes result in the offspring having one deleted gene, and one outcome results in the offspring having two deleted genes. This means there is a 25% chance that the offspring will have a two-gene deletion if the deletions are in trans.",
+    "Step n: Based on the above analysis, the correct answer is Choice_B: 25%."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "C"
+}

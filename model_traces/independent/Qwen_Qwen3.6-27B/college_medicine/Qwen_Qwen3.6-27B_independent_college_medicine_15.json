@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 622,
+  "question_uuid": "a0b84839-7ca5-47bf-a505-bb1a15710d97",
+  "question": "A 54-year-old man comes to the physician because of episodes of fainting for 3 months. He also has had difficulty performing daily tasks because he is easily fatigued. He had a myocardial infarction 12 years ago. His pulse is 40/min, respirations are 18/min, and blood pressure is 138/85 mm Hg. Physical examination shows evidence of cannon a waves. An ECG shows a P-wave rate of 90/min, and an R-wave rate of 40/min, with no apparent relation between the two. Which of the following is the most likely diagnosis?",
+  "options": {
+    "A": "Right bundle branch block",
+    "B": "Second-degree atrioventricular block, type I",
+    "C": "Second-degree atrioventricular block, type II",
+    "D": "Third-degree atrioventricular block"
+  },
+  "analysis": [
+    "Step 1: Evaluate Choice A (Right bundle branch block): RBBB represents a delay in intraventricular conduction rather than atrioventricular conduction; it produces a widened QRS complex but maintains normal P-to-QRS synchronization, so it cannot explain the profound bradycardia, cannon a waves, or complete AV dissociation seen in this patient.",
+    "Step 2: Evaluate Choice B (Second-degree atrioventricular block, type I): Also called Wenckebach, this block features progressively lengthening PR intervals until a ventricular beat is dropped; despite periodic nonconduction, a predictable grouping pattern and underlying relationship between P waves and QRS complexes persist, contradicting the ECG finding of no apparent relation.",
+    "Step 3: Evaluate Choice C (Second-degree atrioventricular block, type II): Known as Mobitz II, this condition involves sudden, intermittent failure of impulse transmission with a constant PR interval before drops; while it causes some degree of AV dyssynchrony, a fixed conduction ratio (e.g., 2:1 or 3:1) remains visible, which does not match the complete independence of P and R waves described.",
+    "Step 4: Evaluate Choice D (Third-degree atrioventricular block): This complete heart block is defined by total electrical separation of atrial and ventricular activity, producing independent P wave and QRS rhythms with absolutely no relationship, a slow idioventricular escape rate (consistent with the 40/min pulse), and cannon a waves generated when atrial contraction occurs simultaneously with ventricular systole against a closed tricuspid valve.",
+    "Step 5: Conclude the analysis by synthesizing all findings: The combination of syncope and fatigue from low cardiac output, marked bradycardia, characteristic cannon a waves on physical exam, and ECG demonstrating completely independent P and R waves definitively points to third-degree atrioventricular block, as no other listed arrhythmia accounts for complete AV dissociation and these specific clinical signs."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "shared",
+  "subject": "College Medicine",
+  "question_index": 128,
+  "question_uuid": "2682a2c1-1bb6-43b8-9b0b-4d0a8fcee1ec",
+  "question": "A 52-year-old woman has had dyspnea and hemoptysis for 1 month. She has a history of rheumatic fever as a child and has had a cardiac murmur since early adulthood. Her temperature is 36.7\u00b0C (98\u00b0F), pulse is 130/min and irregularly irregular, respirations are 20/min, and blood pressure is 98/60 mm Hg. Jugular venous pressure is not increased. Bilateral crackles are heard at the lung bases. There is an opening snap followed by a low-pitched diastolic murmur at the third left intercostal space. An x-ray of the chest shows left atrial enlargement, a straight left cardiac border, and pulmonary venous engorgement. Which of the following is the most likely explanation for these findings?",
+  "options": {
+    "A": "Aortic valve insufficiency",
+    "B": "Aortic valve stenosis",
+    "C": "Mitral valve insufficiency",
+    "D": "Mitral valve stenosis"
+  },
+  "analysis": [
+    "Step 1: The patient's history includes a history of rheumatic fever as a child, which often leads to valvular heart disease later in life. This points towards either mitral valve stenosis or mitral valve insufficiency due to their association with rheumatic heart disease. Both conditions can cause symptoms like dyspnea and hemoptysis, but they present differently.",
+    "Step 2: The physical examination reveals an irregularly irregular pulse rate of 130/min, indicative of atrial fibrillation, which is common in patients with longstanding rheumatic heart disease affecting the mitral valve. Additionally, the presence of an opening snap followed by a low-pitched diastolic murmur at the third left intercostal space suggests a restrictive type of murmur consistent with mitral valve stenosis rather than insufficiency.",
+    "Step 3: The chest X-ray findings show left atrial enlargement, a straight left cardiac border, and pulmonary venous engorgement, all of which are characteristic of mitral valve stenosis. Left atrial enlargement occurs because the left ventricle cannot pump effectively against the high resistance created by the narrowed mitral valve, leading to increased pressure in the left atrium. Pulmonary venous engorgement results from the backflow of blood into the lungs due to the obstruction caused by the stenotic valve.",
+    "Step 4: Mitral valve insufficiency would typically present with a high-pitched systolic murmur heard best at the apex and radiating to the axilla, along with signs of volume overload such as elevated jugular venous pressure and peripheral edema. However, none of these features are mentioned in the case description.",
+    "Step 5: Aortic valve insufficiency and stenosis do not fit the clinical presentation well. Aortic valve insufficiency usually presents with a late decrescendo diastolic murmur heard at the left sternal border and may lead to left ventricular hypertrophy and systemic signs of volume overload. Aortic valve stenosis causes a loud, harsh systolic ejection murmur heard at the right upper sternal border and may result in angina pectoris, syncope, or sudden death due to its impact on coronary perfusion.\n\nConclusion: Based on the clinical history, physical examination findings, and imaging results, the most likely diagnosis is mitral valve stenosis."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

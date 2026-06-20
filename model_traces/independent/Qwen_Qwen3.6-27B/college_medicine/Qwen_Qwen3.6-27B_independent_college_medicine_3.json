@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 807,
+  "question_uuid": "b0bb3602-f6d3-48bf-a34f-d650bcbc3ab6",
+  "question": "A 28-year-old man comes to the office because he would like to quit smoking cigarettes. He says, \"I cannot go more than a day without cigarettes because I get so anxious and irritable. I even wake up at night to smoke.\" The patient began smoking cigarettes at age 12 years; he was smoking two packs of cigarettes daily by age 17 years, and he has not curtailed his use since that time. He does not drink alcoholic beverages or use illicit drugs. Medical history is remarkable for childhood febrile seizures. He takes no medications. Vital signs are normal. The patient is interested in using a nicotine patch and bupropion therapy because he says his friend found the treatments to be helpful. In combining these two therapies, this patient is at greatest risk for which of the following?",
+  "options": {
+    "A": "Hypertension",
+    "B": "Polyuria",
+    "C": "Renal insufficiency",
+    "D": "The patient is at no increased risk"
+  },
+  "analysis": [
+    "Step 1: Evaluating Choice A (Hypertension): While both bupropion and nicotine can mildly stimulate the sympathetic nervous system, extensive clinical trials demonstrate that combining bupropion with nicotine replacement therapy does not produce a statistically or clinically significant increase in hypertension risk. Blood pressure changes, if any, are transient and not considered a primary safety concern with this regimen.",
+    "Step 2: Evaluating Choice B (Polyuria): Polyuria is not a recognized adverse effect of either bupropion or transdermal nicotine. Common side effects of bupropion include insomnia, dry mouth, and headache, whereas nicotine patches typically cause application site erythema or sleep disturbances. There is no physiologic mechanism linking this combination to dysregulated antidiuretic hormone secretion or osmotic diuresis.",
+    "Step 3: Evaluating Choice C (Renal insufficiency): Neither bupropion nor nicotine exhibits nephrotoxic properties, and their hepatic metabolism pathways do not interact in a manner that compromises renal perfusion or glomerular filtration. Routine monitoring of serum creatinine or electrolytes is not indicated when initiating this smoking cessation protocol, effectively ruling out renal insufficiency as a risk.",
+    "Step 4: Evaluating Choice D (The patient is at no increased risk): The patient's history of childhood febrile seizures serves as a deliberate clinical distractor. Although bupropion is known to lower the seizure threshold and is absolutely contraindicated in patients with active or unprovoked seizure disorders, simple febrile seizures confined to early childhood are benign and explicitly excluded from bupropion contraindications. Major clinical guidelines confirm that such a history does not elevate seizure risk, and combining bupropion with a nicotine patch is a well-validated, synergistic first-line therapy that does not amplify risks for the conditions listed in the other options.",
+    "Step 5: Concluding analysis: Systematic review confirms that Choices A, B, and C lack pharmacologic or clinical evidence as complications of this specific drug combination. The vignette highlights childhood febrile seizures to"
+  ],
+  "solution": "N/A",
+  "ground_truth": "D"
+}

@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 307,
+  "question_uuid": "76806ed2-32ff-47fc-bfa3-743c1cc816a9",
+  "question": "A 77-year-old female presents to the office for evaluation of a syncopal event that occurred while she was walking. Cardiac examination reveals a grade 3/6\u00a0systolic murmur, heard best at the right upper sternal border. There is radiation of the murmur into the neck. The valvular abnormality that most likely caused this episode is",
+  "options": {
+    "A": "aortic insufficiency",
+    "B": "aortic stenosis",
+    "C": "mitral regurgitation",
+    "D": "mitral stenosis"
+  },
+  "analysis": [
+    "Step 1: Aortic insufficiency (AI) can cause a high-pitched, decrescendo diastolic murmur heard best at the left lower sternal border and radiating to the back, not typically the neck as described. However, if the murmur is heard better at the right upper sternal border with radiation to the neck, it could suggest an aortic valve issue affecting systole rather than diastole.",
+    "Step 2: Aortic stenosis (AS) is characterized by a harsh, crescendo-decrescendo systolic murmur heard best at the right upper sternal border and radiating to the neck. This description matches well with the patient's presentation, making AS a strong possibility.",
+    "Step 3: Mitral regurgitation (MR) would present with a late systolic or early diastolic murmur heard best at the apex and may have radiation to the axilla but not typically to the neck.",
+    "Step 4: Mitral stenosis (MS) would present with a low-pitched, rumbling diastolic murmur heard best at the apex and does not fit the description given.",
+    "Step 5: Considering the clinical scenario where a syncopal event has occurred due to a cardiac murmur, aortic stenosis is known to be associated with syncope due to its hemodynamic effects leading to reduced stroke volume and hypotension during systole when the stenotic valve cannot fully open."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "B"
+}

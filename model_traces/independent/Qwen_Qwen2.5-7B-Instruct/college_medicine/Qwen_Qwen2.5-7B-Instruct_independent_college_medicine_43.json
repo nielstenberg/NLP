@@ -1,0 +1,22 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 739,
+  "question_uuid": "445d2cde-9c3b-4966-bb73-47e677a3ec43",
+  "question": "In an SDS-PAGE procedure, the SDS serves as a detergent. Why are the proteins treated with a detergent before being run through the electrophoresis gel?",
+  "options": {
+    "A": "To coat the proteins with a large positive charge, since amino acid side chains may have positive, negative, or neutral charges, and a large uniform charge is necessary to get good separation in the gel.",
+    "B": "To allow the electrophoresis to separate the proteins solely on the basis of the length of the primary sequence.",
+    "C": "To prevent the protein from denaturing so that the electrophoresis can accurately resolve the proteins on the basis of tertiary structure.",
+    "D": "To break the intramolecular bonds holding the tertiary and primary structure of the protein together, thereby generating linear fragments that may be sorted on size."
+  },
+  "analysis": [
+    "Step 1: The SDS (Sodium Dodecyl Sulfate) used in SDS-PAGE acts as a strong detergent that coats the proteins with a uniform negative charge. This ensures that all proteins migrate based on their size rather than their inherent charge, which could vary significantly due to differences in amino acid composition and post-translational modifications. Therefore, Choice_A correctly explains why SDS is used\u2014by providing a large uniform negative charge to the proteins, it facilitates better separation in the gel.",
+    "Step 2: Choice_B suggests that electrophoresis separates proteins based on the length of the primary sequence alone. However, SDS-PAGE does not primarily rely on the primary sequence but on the size of the polypeptide chains because SDS binds uniformly across the entire protein, effectively masking the natural charge distribution and allowing separation based on molecular weight.",
+    "Step 3: Choice_C implies that SDS prevents protein denaturation. While SDS does disrupt hydrogen bonding and other secondary structures, leading to partial unfolding of proteins, it does not protect them from denaturation entirely. Thus, this explanation is not accurate regarding the role of SDS in maintaining protein integrity during electrophoresis.",
+    "Step 4: Choice_D states that SDS breaks intramolecular bonds, resulting in linear fragments. Although SDS does disrupt some secondary and tertiary structures, its main function is not to fragment proteins into smaller pieces but to provide a consistent charge density around each protein molecule for effective size-based separation.\n\nFinal Step: Considering the above analyses, Choice_A best describes the purpose of using SDS in SDS-PAGE. It provides a uniform negative charge to proteins, ensuring they migrate according to their size in the gel, making it easier to distinguish different proteins based on their molecular weights."
+  ],
+  "solution": "Choice_A",
+  "ground_truth": "B"
+}

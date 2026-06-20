@@ -1,0 +1,22 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "shared",
+  "subject": "College Biology",
+  "question_index": 231,
+  "question_uuid": "cc8a1144-a1d7-4001-a1d2-362ff3a3e6f5",
+  "question": "Which of the following is an example of a cline?",
+  "options": {
+    "A": "The hybrid tomato plant is stronger and produces better fruit than the pure genotype.",
+    "B": "There are two distinct varieties in one population of snail that inhabits an island in the Pacific Ocean.",
+    "C": "Males of some species have long antlers to fight other males for females.",
+    "D": "In one species of rabbit, the ones that evolved in the cold, snowy north are white, while the ones that evolved in the south are brown."
+  },
+  "analysis": [
+    "Step 1: A cline refers to a gradual change in a trait across a geographical gradient. Choice_A describes a comparison between a hybrid tomato plant and its pure genotype, which does not involve a geographical gradient or gradual change in a trait over distance. Therefore, it is not an example of a cline.",
+    "Step 2: Choice_B describes two distinct varieties within a single population of snails inhabiting an island. This scenario involves two distinct varieties rather than a gradual change along a geographic gradient, so it does not represent a cline.",
+    "Step 3: Choice_C describes sexual selection through the evolution of long antlers in males for fighting other males for females. This is an example of intrasexual competition and does not involve a geographical gradient or gradual change in a trait over distance, thus it is not a cline.",
+    "Step 4: Choice_D describes a gradual change in fur coloration (white vs. brown) in rabbits based on their location (north vs. south). This represents a cline as it shows a gradual change in a trait (fur color) across a geographical gradient (north to south)."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

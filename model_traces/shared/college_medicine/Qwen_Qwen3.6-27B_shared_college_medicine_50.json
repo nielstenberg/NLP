@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "shared",
+  "subject": "College Medicine",
+  "question_index": 128,
+  "question_uuid": "2682a2c1-1bb6-43b8-9b0b-4d0a8fcee1ec",
+  "question": "A 52-year-old woman has had dyspnea and hemoptysis for 1 month. She has a history of rheumatic fever as a child and has had a cardiac murmur since early adulthood. Her temperature is 36.7\u00b0C (98\u00b0F), pulse is 130/min and irregularly irregular, respirations are 20/min, and blood pressure is 98/60 mm Hg. Jugular venous pressure is not increased. Bilateral crackles are heard at the lung bases. There is an opening snap followed by a low-pitched diastolic murmur at the third left intercostal space. An x-ray of the chest shows left atrial enlargement, a straight left cardiac border, and pulmonary venous engorgement. Which of the following is the most likely explanation for these findings?",
+  "options": {
+    "A": "Aortic valve insufficiency",
+    "B": "Aortic valve stenosis",
+    "C": "Mitral valve insufficiency",
+    "D": "Mitral valve stenosis"
+  },
+  "analysis": [
+    "Step 1: Evaluate Choice A (Aortic valve insufficiency): Aortic regurgitation typically presents with a high-pitched, blowing, early diastolic decrescendo murmur best heard at the left sternal border, not an opening snap or a low-pitched apical diastolic murmur. Chest x-ray would typically demonstrate left ventricular enlargement rather than isolated left atrial enlargement with a straightened left cardiac border, making this choice inconsistent with the clinical presentation.",
+    "Step 2: Evaluate Choice B (Aortic valve stenosis): Aortic stenosis characteristically produces a crescendo-decrescendo systolic ejection murmur that radiates to the carotid arteries, accompanied by pulsus parvus et tardus. It does not cause an opening snap or a diastolic murmur, and chest imaging would show left ventricular hypertrophy and possible post-stenotic aortic dilation, ruling out this option.",
+    "Step 3: Evaluate Choice C (Mitral valve insufficiency): Mitral regurgitation manifests as a holosystolic, high-pitched blowing murmur at the apex radiating to the axilla. While it can result from rheumatic heart disease and cause left atrial enlargement, it lacks the pathognomonic opening snap and low-pitched diastolic rumble described, and typically leads to both left atrial and left ventricular enlargement rather than the isolated left atrial changes noted.",
+    "Step 4: Evaluate Choice D (Mitral valve stenosis): Mitral stenosis is the classic sequela of childhood rheumatic fever and commonly presents decades later with dyspnea, hemoptysis, and atrial fibrillation (evidenced by the irregularly irregular tachycardia). The physical examination finding of an opening snap followed by a low-pitched diastolic murmur at the apex is pathognomonic for this condition. Furthermore, the chest x-ray findings of marked left atrial enlargement creating a straightened left cardiac border and pulmonary venous engorgement directly correlate with elevated left atrial pressures backing up into the pulmonary circulation, perfectly matching all clinical data.",
+    "Step 5: Conclude the analysis by comparing all candidates: Only mitral valve stenosis comprehensively explains the patient's history of rheumatic fever, symptomatic triad of dyspnea and hemoptysis, development of atrial fibrillation, characteristic auscultatory findings (opening snap and diastolic rumble), and specific radiographic silhouette changes. Therefore, Choice D is definitively the correct diagnosis."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

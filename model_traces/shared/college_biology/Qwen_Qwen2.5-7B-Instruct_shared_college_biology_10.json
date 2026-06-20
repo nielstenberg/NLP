@@ -1,0 +1,22 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "shared",
+  "subject": "College Biology",
+  "question_index": 660,
+  "question_uuid": "3fd59b82-b51d-4e01-8f76-c13a3248a8f0",
+  "question": "Which of the following statements about lipids is correct?",
+  "options": {
+    "A": "Unsaturated fatty acids are linked to heart disease.",
+    "B": "Lipids make up most cell surface receptors.",
+    "C": "Phospholipids are water soluble.",
+    "D": "Steroids are lipids that consist of glycerol and fatty acids."
+  },
+  "analysis": [
+    "Step 1: Choice_A states that unsaturated fatty acids are linked to heart disease. This statement is true; unsaturated fatty acids can contribute to the formation of plaque in arteries, leading to heart disease when consumed in excess. However, not all unsaturated fatty acids are bad; some, like omega-3 fatty acids, are beneficial.",
+    "Step 2: Choice_B claims that lipids make up most cell surface receptors. This is incorrect. Most cell surface receptors are proteins, not lipids. Lipids are primarily involved in the structure of cell membranes but do not typically form the majority of cell surface receptors.",
+    "Step 3: Choice_C asserts that phospholipids are water soluble. This is false. Phospholipids have hydrophilic heads that are attracted to water and hydrophobic tails that repel water, making them amphipathic and capable of forming lipid bilayers in aqueous environments. However, they are not entirely water-soluble.",
+    "Step 4: Choice_D suggests that steroids are lipids consisting of glycerol and fatty acids. This is incorrect. Steroids are lipids, but they are not derived from glycerol and fatty acids. Instead, they are built from four interconnected carbon rings, with no glycerol component."
+  ],
+  "solution": "Choice_A",
+  "ground_truth": "C"
+}

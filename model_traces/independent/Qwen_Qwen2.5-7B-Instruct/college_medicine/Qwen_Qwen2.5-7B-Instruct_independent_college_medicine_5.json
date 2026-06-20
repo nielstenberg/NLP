@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 30,
+  "question_uuid": "646c86d6-e588-402c-8a98-2cbd074b9883",
+  "question": "After what period of time does maximal dynamic exercise become predominantly aerobic?",
+  "options": {
+    "A": "10 seconds",
+    "B": "30 seconds",
+    "C": "1 minute",
+    "D": "4 minutes"
+  },
+  "analysis": [
+    "Step 1: Maximal dynamic exercises typically involve high-intensity activities that require immediate energy from ATP and phosphocreatine stores. These stores can sustain such efforts for about 10 seconds before depletion. Therefore, Choice_A (10 seconds) aligns with the initial phase of maximal dynamic exercise where anaerobic metabolism predominates.",
+    "Step 2: As the exercise continues beyond these initial 10 seconds, the body shifts towards using oxygen more efficiently to continue the activity. This transition point marks the shift from predominantly anaerobic to aerobic metabolism. Research indicates that after approximately 30 seconds into maximal effort, the contribution of aerobic metabolism increases significantly as the body adapts its fuel sources.",
+    "Step 3: The onset of steady-state aerobic metabolism during maximal exercise generally occurs around 30-60 seconds depending on intensity and individual fitness levels. Thus, Choice_B (30 seconds) represents a critical juncture when the body begins to rely more heavily on aerobic pathways.",
+    "Step 4: While some forms of maximal exercise may see an increase in aerobic contribution even earlier than 30 seconds due to variations in intensity and duration, the typical threshold for significant aerobic involvement is closer to one minute. Hence, Choice_C (1 minute) captures the broader average scenario where aerobic metabolism becomes increasingly important.",
+    "Step 5: For prolonged maximal efforts lasting several minutes, the body's reliance on aerobic systems further increases. However, the question asks specifically about the point at which maximal dynamic exercise transitions to being predominantly aerobic. Given the options provided, the most accurate representation of this transition is within the timeframe of Choice_B (30 seconds).\n\nConclusion: The body\u2019s transition to predominantly aerobic metabolism during maximal dynamic exercise happens after about 30 seconds."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "C"
+}

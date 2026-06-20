@@ -1,0 +1,22 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "shared",
+  "subject": "College Medicine",
+  "question_index": 277,
+  "question_uuid": "f3c98c83-f2fa-4f08-b281-3d9cf10f729b",
+  "question": "A 10-month-old boy is brought to the physician because of a 4-day history of fever and cough. His illness began with lowgrade fever and copious, clear nasal discharge. Two days ago he developed a moist, nonproductive cough and rapid breathing. He has received all scheduled childhood immunizations. He attends a large day-care center and has three schoolaged siblings. His temperature is 38\u00b0C (100.4\u00b0F), pulse is 101/min, respirations are 38/min, and blood pressure is 85/60 mm Hg. Physical examination shows nasal flaring and rhinorrhea. Chest examination shows intercostal retractions along with bilateral, diffuse wheezes and expiratory rhonchi. The infectious agent of this patient's condition most likely has which of the following properties?",
+  "options": {
+    "A": "DNA genome",
+    "B": "Double-stranded nucleic acid genome",
+    "C": "Mature virion lacking viral polymerase",
+    "D": "Mediation of cell entry via a fusion protein"
+  },
+  "analysis": [
+    "Step 1: Identify the clinical syndrome and causative pathogen based on the patient's age, symptom progression, and physical exam findings. The 10-month-old presents with initial coryza followed by tachypnea, nasal flaring, intercostal retractions, wheezing, and rhonchi, which is the classic presentation of acute bronchiolitis in infants. Given the daycare exposure and epidemiology, Respiratory Syncytial Virus (RSV) is the most likely etiologic agent.",
+    "Step 2: Analyze Choice A regarding the genomic material. RSV is a member of the Pneumoviridae family and contains a single-stranded, negative-sense RNA genome. Since the virus does not possess a DNA genome, this choice is incorrect.",
+    "Step 3: Analyze Choice B regarding the strandedness of the nucleic acid. As noted, RSV harbors a single-stranded RNA genome rather than a double-stranded one. Double-stranded genomes are characteristic of families such as Reoviridae or Herpesviridae, which do not cause this typical infantile bronchiolitis presentation. Thus, this choice is incorrect.",
+    "Step 4: Analyze Choice C regarding the presence of viral polymerase in the mature virion. Because RSV has a negative-sense RNA genome, it cannot be directly translated by host ribosomes upon entry. To overcome this, the virus packages its own RNA-dependent RNA polymerase within the mature virion. Therefore, claiming the virion lacks viral polymerase is fact"
+  ],
+  "solution": "N/A",
+  "ground_truth": "D"
+}

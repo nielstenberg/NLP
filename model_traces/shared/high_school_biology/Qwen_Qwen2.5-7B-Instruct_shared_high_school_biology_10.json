@@ -1,0 +1,21 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "shared",
+  "subject": "High School Biology",
+  "question_index": 78,
+  "question_uuid": "6271c18e-af83-4ad9-8c51-95797e67090b",
+  "question": "Double fertilization is a unique feature of flowering plants. In this process, one sperm unites with the egg to yield a zygote. The second sperm unites with the polar nuclei to initiate the formation of the",
+  "options": {
+    "A": "megagametophyte",
+    "B": "endodermis",
+    "C": "embryo",
+    "D": "endosperm"
+  },
+  "analysis": [
+    "Step 1: Double fertilization in flowering plants involves two sperm cells. One sperm unites with the egg to form a zygote, which will develop into the embryo. The other sperm unites with the polar nuclei to form the endosperm. Therefore, Choice_A (megagametophyte) and Choice_B (endodermis) are not correct as they are not products of double fertilization.",
+    "Step 2: Choice_C (embryo) is the result of the union of the sperm and the egg, not the second sperm and the polar nuclei.",
+    "Step 3: Choice_D (endosperm) is the correct answer because it is formed when the second sperm fuses with the polar nuclei, initiating its development."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

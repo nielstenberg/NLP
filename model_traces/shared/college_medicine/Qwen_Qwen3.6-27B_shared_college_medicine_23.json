@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "shared",
+  "subject": "College Medicine",
+  "question_index": 158,
+  "question_uuid": "fdc2772f-0007-4270-8e90-1ac4ba093ec8",
+  "question": "In nerve cells, microtubule-associated proteins (MAPs), most notably MAP2 and MAP tau, act to stabilize microtubules. In a mouse model, a mutant is developed that vastly reduced function across all families of MAPs, leading to increased microtubule degradation. Which cellular activity would likely be most affected?",
+  "options": {
+    "A": "Cardiac muscle contraction",
+    "B": "Transcription of mRNA from DNA",
+    "C": "Krebs cycle",
+    "D": "Meiosis"
+  },
+  "analysis": [
+    "Step 1: Cardiac muscle contraction is primarily driven by the interaction between actin and myosin filaments, which constitute the microfilament system rather than the microtubule network. Consequently, widespread microtubule degradation would have negligible direct effects on contractile mechanics in heart muscle.",
+    "Step 2: Transcription of mRNA from DNA occurs within the nucleus and is governed by RNA polymerases, transcription factors, and chromatin remodeling complexes. This enzymatic process is spatially and mechanistically independent of the cytoplasmic microtubule cytoskeleton, leaving it largely unaffected by MAP deficiency.",
+    "Step 3: The Krebs cycle takes place in the mitochondrial matrix and involves a tightly regulated sequence of enzyme-catalyzed redox and decarboxylation reactions. These metabolic pathways operate autonomously from cytoskeletal elements, meaning microtubule instability would not disrupt this energy-producing pathway.",
+    "Step 4: Meiosis critically depends on the assembly and dynamic regulation of the microtubule-based spindle apparatus to achieve proper chromosome alignment, cohesion, and segregation. Microtubule-associated proteins provide essential structural stability to these polymers; their drastic reduction would trigger rapid microtubule depolymerization, collapse the spindle, and arrest or severely misdirect meiotic division.",
+    "Step 5: Evaluating all candidates reveals that only meiosis is fundamentally reliant on a stable microtubule framework for its core cellular machinery. Given that the mutation specifically induces massive microtubule degradation, meiosis would suffer the most severe functional impairment compared to the actin-driven, nuclear, or mitochondrial processes listed."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

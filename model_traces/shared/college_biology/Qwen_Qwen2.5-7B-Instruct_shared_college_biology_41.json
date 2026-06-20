@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "shared",
+  "subject": "College Biology",
+  "question_index": 486,
+  "question_uuid": "0e9f7d8f-4d16-469a-a5d3-a4c520fbf069",
+  "question": "The major difference between cartilage and bone is that cartilage",
+  "options": {
+    "A": "is a part of the skeletal system",
+    "B": "is composed of collagen and salts",
+    "C": "lacks blood vessels and nerves",
+    "D": "secretes a matrix"
+  },
+  "analysis": [
+    "Step 1: Cartilage and bone are both types of connective tissue but serve different functions within the body. Choice_A states that cartilage is a part of the skeletal system, which is true as it forms part of the skeleton in some areas like the nose and the ends of long bones. However, this does not differentiate cartilage from bone.",
+    "Step 2: Choice_B claims that cartilage is composed of collagen and salts. While cartilage does contain collagen, it is primarily made up of a matrix of collagen fibers embedded in a ground substance rich in proteoglycans, not salts. Therefore, this statement is partially correct but incomplete.",
+    "Step 3: Choice_C asserts that cartilage lacks blood vessels and nerves. This is accurate; cartilage does not have a vascular supply or nerve endings, which distinguishes it from bone. Bone contains blood vessels and nerves to support its growth and repair.",
+    "Step 4: Choice_D suggests that cartilage secretes a matrix. This is incorrect because cartilage does not secrete a matrix; rather, it is formed from the matrix itself.",
+    "Step 5: Comparing all choices, Choice_C stands out as the most accurate and specific differentiation between cartilage and bone. It highlights a key characteristic unique to cartilage that is not present in bone."
+  ],
+  "solution": "Choice_C",
+  "ground_truth": "C"
+}

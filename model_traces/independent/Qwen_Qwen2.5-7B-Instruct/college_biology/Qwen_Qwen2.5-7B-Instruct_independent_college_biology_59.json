@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "independent",
+  "subject": "College Biology",
+  "question_index": 351,
+  "question_uuid": "48fcc859-0283-4962-ad47-aa0912cf7e8f",
+  "question": "Which of the following about meiosis is NOT true?",
+  "options": {
+    "A": "Meiosis produces two haploid gametes.",
+    "B": "Homologous chromosomes join during synapsis.",
+    "C": "Sister chromatids separate during meiosis I.",
+    "D": "Crossing-over increases genetic variation in gametes."
+  },
+  "analysis": [
+    "Step 1: Meiosis is a type of cell division that reduces the chromosome number by half, producing gametes (sperm or egg cells) with one set of chromosomes. Therefore, it is accurate to say that meiosis produces two haploid gametes, making Choice_A true.",
+    "Step 2: During prophase I of meiosis, homologous chromosomes pair up and exchange genetic material through a process called synapsis. This means that Choice_B is also true as homologous chromosomes do indeed join during synapsis.",
+    "Step 3: In meiosis I, homologous chromosomes separate into different daughter cells, while sister chromatids remain together until anaphase II. Thus, Choice_C states that sister chromatids separate during meiosis I, which is incorrect because they do not separate at this stage; rather, homologous chromosomes separate.",
+    "Step 4: Crossing-over occurs during prophase I when homologous chromosomes exchange genetic material, increasing genetic diversity among the resulting gametes. Hence, Choice_D accurately describes a function of crossing-over.",
+    "Step n: Based on the above analysis, Choice_C is the statement that is NOT true regarding meiosis."
+  ],
+  "solution": "Choice_b",
+  "ground_truth": "C"
+}

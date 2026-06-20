@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 226,
+  "question_uuid": "fd505171-216d-46e8-aa74-b89f8cff7b7d",
+  "question": "The most common chromosome abnormality in first trimester spontaneous miscarriages is:",
+  "options": {
+    "A": "trisomy.",
+    "B": "monosomy.",
+    "C": "triploidy.",
+    "D": "tetrasomy."
+  },
+  "analysis": [
+    "Step 1: Trisomy refers to having three copies of a particular chromosome instead of the usual two. It is one of the most common types of chromosomal abnormalities seen in human cells. In the context of first trimester spontaneous miscarriages, trisomies, particularly trisomy 21 (Down syndrome), trisomy 16, and trisomy 18, are frequently observed. Therefore, trisomy is a strong contender as the most common chromosome abnormality leading to early miscarriage.",
+    "Step 2: Monosomy involves having only one copy of a particular chromosome rather than the normal two. This condition is less commonly associated with spontaneous miscarriages because it often leads to severe developmental issues that result in embryonic death before birth.",
+    "Step 3: Triploidy occurs when an embryo has three sets of chromosomes instead of the typical two sets. While triploidies can lead to pregnancy loss, they are not as frequent as trisomies in causing first trimester miscarriages.",
+    "Step 4: Tetrasomy involves four sets of chromosomes, which is extremely rare and typically results in very early embryonic demise due to genetic instability.",
+    "Step 5: Considering the frequency and impact of these conditions, trisomies are more commonly observed in first trimester spontaneous miscarriages compared to other options like monosomy, triploidy, and tetrasomy."
+  ],
+  "solution": "Choice_A",
+  "ground_truth": "A"
+}

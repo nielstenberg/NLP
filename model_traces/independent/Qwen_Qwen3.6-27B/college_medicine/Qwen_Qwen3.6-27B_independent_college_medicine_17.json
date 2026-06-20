@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 798,
+  "question_uuid": "3e9d3ada-f5de-4267-950a-95185d32b7b9",
+  "question": "Neonatal Respiratory Distress Syndrome (NRDS) is a serious complication seen in infants born prematurely who have a compromised ability to facilitate oxygen diffusion across their alveolar membranes. This is caused by inadequate surfactant production. What role does surfactant play in facilitating oxygen diffusion?",
+  "options": {
+    "A": "Increases surface permeability",
+    "B": "Maintains alveoli in an open state",
+    "C": "Depresses cilia of the lung",
+    "D": "Dilates blood vessels"
+  },
+  "analysis": [
+    "Step 1: Evaluate Choice A (\"Increases surface permeability\"). Pulmonary surfactant is a lipoprotein complex secreted by type II alveolar cells that primarily lowers surface tension at the air-liquid interface. It does not alter the molecular permeability of the alveolar-capillary membrane; gas diffusion across the respiratory membrane is driven by partial pressure gradients, membrane thickness, and available surface area, not by surfactant-mediated permeability changes. Therefore, this choice is physiologically inaccurate.",
+    "Step 2: Evaluate Choice B (\"Maintains alveoli in an open state\"). According to the Law of Laplace, the collapsing force on an alveolus is proportional to surface tension and inversely proportional to radius. Without surfactant, high surface tension causes smaller alveoli to collapse into larger ones during expiration, resulting in widespread atelectasis. Surfactant reduces this surface tension, stabilizing alveoli of varying sizes and preventing collapse. By keeping alveoli inflated and open, surfactant preserves the expansive surface area required for efficient oxygen diffusion, directly addressing the core defect in NRDS.",
+    "Step 3: Evaluate Choice C (\"Depresses cilia of the lung\"). Ciliated epithelial cells reside in the conducting airways (trachea, bronchi, bronchioles) and function in mucociliary clearance to move mucus and pathogens upward. Surfactant is localized exclusively to the alveolar spaces and has no known interaction with ciliary structure or motility. This choice is anatomically and functionally irrelevant to surfactant's role in gas exchange.",
+    "Step 4: Evaluate Choice D (\"Dilates blood vessels\"). While tissue hypoxia can trigger hypoxic pulmonary vasoconstriction and various mediators regulate vascular tone, surfactant itself lacks direct vasodilatory properties. Its mechanism of action is strictly biophysical at the alveolar lining to modulate surface tension, not pharmacological regulation of pulmonary hemodynamics. Thus, this choice does not explain how surfactant facilitates oxygen diffusion.",
+    "Step 5: Jointly synthesize the sequential analyses to determine the correct answer. Choices A, C, and D propose mechanisms (increased membrane permeability, ciliary depression, and vascular dilation) that contradict established respiratory physiology and do not relate to surfactant's known function. Only Choice B correctly identifies that surfactant reduces alveolar surface tension to prevent atelectasis and maintain alveoli in an open, expanded state. This structural preservation maximizes the cross-sectional area for gas exchange, directly resolving the impaired oxygen diffusion characteristic of NRDS when surfactant is deficient."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "B"
+}

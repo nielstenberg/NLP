@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "College Biology",
+  "question_index": 219,
+  "question_uuid": "284d6b7d-0048-46fa-b0ab-d327ce9823c6",
+  "question": "A child with type A B blood inherits an IA allele from one parent and an IB allele from the other. The child will carry both A and B glycoproteins on the surface of all red blood cells. This pattern of expression is referred to as",
+  "options": {
+    "A": "codominance",
+    "B": "epistasis",
+    "C": "polygenic",
+    "D": "linkage"
+  },
+  "analysis": [
+    "Step 1: Evaluate Choice_A (codominance). Codominance occurs when two different alleles at a single genetic locus are both fully and simultaneously expressed in the heterozygous condition. In the ABO blood group system, the I^A and I^B alleles code for distinct carbohydrate antigens, and individuals with the I^A I^B genotype display both A and B glycoproteins on their red blood cell membranes, which precisely matches the scenario described.",
+    "Step 2: Evaluate Choice_B (epistasis). Epistasis refers to a genetic interaction where the expression of one gene masks or modifies the phenotypic effect of alleles at a completely different gene locus. Since the question addresses the expression pattern of two alleles at the same locus rather than intergenic interactions, this term is incorrect.",
+    "Step 3: Evaluate Choice_C (polygenic). Polygenic inheritance describes complex traits controlled by the additive effects of multiple independent genes, typically resulting in a continuous phenotypic distribution such as human height or skin tone. ABO blood type is determined by variants at a single gene locus, so this choice does not apply.",
+    "Step 4: Evaluate Choice_D (linkage). Genetic linkage describes the tendency of genes located physically close together on the same chromosome to be inherited as a unit during meiotic recombination. It pertains to chromosomal positioning and co-inheritance of different genes, not the molecular expression mechanism of alleles at one locus, making this option irrelevant.",
+    "Step 5: Synthesize the analysis and determine the correct answer. The question explicitly describes a heterozygous individual exhibiting equal and simultaneous expression of both inherited alleles' protein products, which is the textbook definition of codominance. All alternative choices describe fundamentally different genetic mechanisms that contradict the given biological context. Therefore, Choice_A is the correct selection."
+  ],
+  "solution": "Choice_A",
+  "ground_truth": "C"
+}

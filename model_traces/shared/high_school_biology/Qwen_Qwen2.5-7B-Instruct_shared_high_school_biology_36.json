@@ -1,0 +1,22 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "shared",
+  "subject": "High School Biology",
+  "question_index": 306,
+  "question_uuid": "50a0c464-9414-4311-937b-ff3af75bd1e0",
+  "question": "Which of the following must be true in order for evolution to have occurred?",
+  "options": {
+    "A": "The frequencies of some alleles in a population's gene pool has changed over successive generations.",
+    "B": "The frequencies of some alleles in a population's gene pool has changed during the organisms' lifetimes.",
+    "C": "The frequencies of each allele in a population's gene pool has remained constant over successive generations.",
+    "D": "The frequencies of each allele in an organism's genotype has remained constant within the organism's lifetime."
+  },
+  "analysis": [
+    "Step 1: Evolution is defined as a change in the genetic composition of a population over time. For evolution to occur, there must be a change in the frequency of alleles in the gene pool of a population from one generation to the next. This directly supports Choice_A.",
+    "Step 2: Choice_B suggests that the change occurs during the organisms' lifetimes rather than between generations. However, for evolution to be observed, changes must occur across generations, not just within individuals. Therefore, Choice_B does not fully capture the essence of evolution.",
+    "Step 3: Choice_C implies no change in the gene pool over time, which contradicts the fundamental definition of evolution. If all allele frequencies remain constant, no evolution has occurred.",
+    "Step 4: Choice_D focuses on the genotype stability within an individual's lifetime, which is irrelevant to the concept of evolution. Evolution concerns changes in populations over generations, not the genetic stability of individuals."
+  ],
+  "solution": "Choice_A",
+  "ground_truth": "A"
+}

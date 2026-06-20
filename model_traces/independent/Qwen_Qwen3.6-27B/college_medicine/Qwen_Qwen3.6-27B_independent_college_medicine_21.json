@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 451,
+  "question_uuid": "6e121b95-a08b-481b-b699-29111ac64a19",
+  "question": "Mutations that cause achondroplasia exert an effect which can be classified as:",
+  "options": {
+    "A": "dominant negative.",
+    "B": "gain-of-function.",
+    "C": "haploinsufficiency.",
+    "D": "loss-of-function."
+  },
+  "analysis": [
+    "Step 1: Evaluate Choice A (dominant negative). A dominant negative mutation occurs when a mutant protein actively interferes with the function of the wild-type protein, typically by forming nonfunctional oligomers or sequestering essential cofactors. In achondroplasia, the mutant FGFR3 does not inhibit the wild-type receptor; instead, it signals autonomously, rendering this classification incorrect.",
+    "Step 2: Evaluate Choice B (gain-of-function). Achondroplasia is predominantly caused by specific missense mutations in the FGFR3 gene, most commonly Gly380Arg. These mutations lock the receptor in a constitutively active conformation, triggering continuous downstream signaling that excessively inhibits chondrocyte proliferation and endochondral ossification. Because the mutation enhances or perpetuates the receptor's normal inhibitory activity beyond physiological limits, it is accurately classified as a gain-of-function mutation.",
+    "Step 3: Evaluate Choice C (haploinsufficiency). Haploinsufficiency describes a genetic scenario where a single functional allele produces insufficient protein quantity to maintain normal cellular physiology, causing disease through quantitative deficit. Since achondroplasia results from qualitative hyperactivation of the mutant protein rather than a simple reduction in functional protein dosage, this mechanism does not apply.",
+    "Step 4: Evaluate Choice D (loss-of-function). A loss-of-function mutation reduces or completely abolishes the normal biological activity of a protein. Given that FGFR3 physiologically serves as a negative regulator of long bone growth, a true loss-of-function would theoretically promote increased skeletal elongation, which directly contradicts the characteristic rhizomelic shortening observed in achondroplasia. Thus, this classification is invalid.",
+    "Step 5: Synthesize the sequential evaluations to reach a definitive conclusion. The molecular pathogenesis of achondroplasia hinges on ligand-independent, constitutive activation of FGFR3, which amplifies its native inhibitory signal on cartilage development. This mechanism aligns precisely with a gain-of-function effect, systematically ruling out dominant negative interference, haploinsufficiency, and loss-of-function models. Therefore, Choice B is the correct answer."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "B"
+}

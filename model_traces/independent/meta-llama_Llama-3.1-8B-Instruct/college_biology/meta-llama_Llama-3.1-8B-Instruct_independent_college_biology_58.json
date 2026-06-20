@@ -1,0 +1,23 @@
+{
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "mode": "independent",
+  "subject": "College Biology",
+  "question_index": 663,
+  "question_uuid": "9dca5c39-a41d-4318-b109-c94f0c78ec28",
+  "question": "Invertebrate immune systems possess which of the following?",
+  "options": {
+    "A": "Cytotoxic T-lymphocytes",
+    "B": "Phagocytes",
+    "C": "B-cells",
+    "D": "Helper T-cells"
+  },
+  "analysis": [
+    "Step 1: Cytotoxic T-lymphocytes are a type of lymphocyte that plays a key role in cell-mediated immunity in vertebrates. They are responsible for recognizing and killing infected cells or tumor cells. However, invertebrates do not have a complex adaptive immune system like vertebrates.",
+    "Step 2: Phagocytes are a type of white blood cell that engulfs and digests foreign particles, bacteria, and dead cells. This process is an essential part of the innate immune response found in both vertebrates and invertebrates.",
+    "Step 3: B-cells are a type of lymphocyte involved in humoral immunity, producing antibodies to fight pathogens. However, B-cells are primarily associated with vertebrates' adaptive immune responses.",
+    "Step 4: Helper T-cells are another component of the adaptive immune response in vertebrates, assisting in activating B-cells and other immune cells.",
+    "Step 5: Considering all options, we can conclude that only phagocytes (choice B) are present in both vertebrate and invertebrate immune systems as they belong to the innate immune response."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "B"
+}

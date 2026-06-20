@@ -1,0 +1,25 @@
+{
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 646,
+  "question_uuid": "67a6d9d2-b766-4b35-aa0c-8ca47729d8e3",
+  "question": "A 9-year-old boy is brought to the office by his parents for a well-child examination. The patient and his family immigrated to the United States 2 months ago and he has not been evaluated by a physician in 4 years. He has been generally healthy. Medical history is significant for pneumonia at age 3 years. He takes no medications. He is at the 25th percentile for height, weight, and BMI. Vital signs are temperature 37.0\u00b0C (98.6\u00b0F), pulse 82/min, respirations 20/min, and blood pressure 112/74 mm Hg. Cardiac examination discloses a grade 3/6 systolic murmur audible along the left sternal border at the third and fourth intercostal spaces. Femoral pulses are weak and brachial pulses are strong; there is a radiofemoral delay. Chest xray discloses mild cardiomegaly with left ventricular prominence. ECG shows left ventricular hypertrophy. This patient is at greatest risk for which of the following complications?",
+  "options": {
+    "A": "Atrial fibrillation",
+    "B": "Cor pulmonale",
+    "C": "Systemic hypertension",
+    "D": "Tricuspid valve regurgitation"
+  },
+  "analysis": [
+    "Step 1: Analyzing Choice A: Atrial Fibrillation\nAtrial fibrillation is a type of irregular heartbeat that can lead to stroke, heart failure, and other heart-related complications. However, it's more commonly seen in older adults or those with pre-existing cardiac conditions.",
+    "Step 2: Analyzing Choice B: Cor Pulmonale\nCor pulmonale refers to right-sided heart failure due to lung disease. While it's possible for children to develop cor pulmonale, especially if they have severe respiratory issues, the provided information doesn't suggest any underlying lung disease.",
+    "Step 3: Analyzing Choice C: Systemic Hypertension\nSystemic hypertension is a common issue in pediatric patients, particularly those who are overweight or obese. Given that the child is at the 25th percentile for height, weight, and BMI, systemic hypertension seems less likely.",
+    "Step 4: Analyzing Choice D: Tricuspid Valve Regurgitation\nTricuspid valve regurgitation occurs when the tricuspid valve does not close properly, allowing blood to flow backward into the right atrium. There's no direct evidence from the provided information to support this condition.",
+    "Step 5: Considering all options together, we need to identify the most plausible complication given the clinical presentation. The key findings include a grade 3/6 systolic murmur, left ventricular hypertrophy, and a radiofemoral delay. These symptoms point towards an issue with the left side of the heart rather than the right side.",
+    "Step 6: Given the presence of a systolic murmur and left ventricular hypertrophy, the child is likely suffering from aortic stenosis. Aortic stenosis increases the risk of developing systemic hypertension as the left ventricle works harder to pump blood through the narrowed valve.",
+    "Step 7: Based on the analysis, the correct answer is the one that aligns with the increased risk of systemic hypertension due to aortic stenosis."
+  ],
+  "solution": "Choice_C",
+  "ground_truth": "C"
+}

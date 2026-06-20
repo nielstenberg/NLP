@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 167,
+  "question_uuid": "5f0425f2-cda6-4f52-9ba8-f7237b81749c",
+  "question": "A young man working with a therapist on becoming more productive is expressing many of his desires throughout growing up and how he feels that it has affected him. Through discernment, the therapist states that he believes the young man\u2019s development is stuck in a stage that reflects itself by his inability to keep his house clean. According to Freud\u2019s theory of psychosexual development, what stage would this young man be fixated in?",
+  "options": {
+    "A": "Anal",
+    "B": "Phallic",
+    "C": "Latent",
+    "D": "Genital"
+  },
+  "analysis": [
+    "Step 1: The young man's fixation at the stage where he cannot maintain cleanliness suggests an issue related to organization and control over one's environment. In Freud's psychosexual stages, the anal stage involves developing skills such as self-control and independence through toilet training and maintaining orderliness. This aligns closely with the described behavior.",
+    "Step 2: Moving to the phallic stage, it focuses primarily on issues of autonomy versus shame and doubt, involving conflicts around sexuality and aggression towards parents. While this stage can affect personal relationships and self-esteem, it does not directly correlate with the specific issue of environmental cleanliness.",
+    "Step 3: The latent stage refers to the period between childhood and adolescence when sexual feelings are repressed and focus shifts to other interests. This stage does not typically manifest in behaviors like those described unless there is a significant underlying issue that needs exploration.",
+    "Step 4: The genital stage involves mature sexual functioning and the resolution of earlier conflicts. It is characterized by the ability to form intimate relationships based on mutual respect and understanding. Since the young man's problem seems to stem from early childhood rather than being resolved or unresolved into adulthood, this stage does not fit the description.",
+    "Step n: Considering all these steps, the most fitting stage according to Freud's psychosexual development theory is the anal stage, as it deals specifically with issues of control and orderliness, which the young man struggles with regarding his housekeeping."
+  ],
+  "solution": "Choice_A",
+  "ground_truth": "B"
+}

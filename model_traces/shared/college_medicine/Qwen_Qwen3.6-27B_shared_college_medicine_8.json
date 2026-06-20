@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "shared",
+  "subject": "College Medicine",
+  "question_index": 454,
+  "question_uuid": "33e8f455-4565-4ced-9639-3e74acc66dca",
+  "question": "A 16-year-old girl is brought to the office by her mother because she is concerned that she may have contracted meningitis from her soccer teammate, who was diagnosed with meningococcal meningitis and admitted to the hospital yesterday. The patient's soccer team traveled to a neighboring state to participate in a tournament 1 week ago and she shared a hotel room with the girl who was hospitalized. The patient feels well but is concerned she may have \"caught the same bug.\" Medical history is remarkable for asthma. Medications include inhaled albuterol. Vital signs are temperature 37.2\u00b0C (98.9\u00b0F), pulse 64/min, respirations 16/min, and blood pressure 107/58 mm Hg. Physical examination shows no abnormalities. Which of the following is the most appropriate intervention for this patient at this time?",
+  "options": {
+    "A": "Administer the meningococcal vaccine",
+    "B": "Prescribe doxycycline",
+    "C": "Prescribe penicillin",
+    "D": "Prescribe rifampin"
+  },
+  "analysis": [
+    "Step 1: Choice A recommends administering the meningococcal vaccine. While vaccination is important for long-term prevention of Neisseria meningitidis, it requires 7 to 10 days to mount a protective antibody response and does not provide immediate coverage against a recent exposure. Therefore, it is not the appropriate immediate intervention for post-exposure prophylaxis.",
+    "Step 2: Choice B suggests prescribing doxycycline. Doxycycline lacks reliable activity against Neisseria meningitidis carriage and is not included in any major guideline recommendations for meningococcal post-exposure prophylaxis. It is typically reserved for other indications such as Lyme disease, rickettsial infections, or atypical pneumonias.",
+    "Step 3: Choice C proposes prescribing penicillin. Although penicillin G can treat active meningococcal disease, it is ineffective for eradicating nasopharyngeal carriage due to widespread beta-lactamase production among N. meningitidis strains. Consequently, it is not recommended for prophylactic use in close contacts.",
+    "Step 4: Choice D recommends prescribing rifampin. Current CDC and infectious disease guidelines mandate antibiotic prophylaxis for close contacts (including those sharing sleeping quarters or direct exposure to oral secretions) of patients with invasive meningococcal disease. Rifampin (600 mg orally twice daily for 2 days) is a first-line agent that effectively eliminates nasopharyngeal carriage and prevents secondary transmission, making it the standard of care in this scenario.",
+    "Step 5: Sequential evaluation demonstrates that vaccination offers delayed protection, while doxycycline and penicillin lack guideline support and efficacy for carriage eradication. Only rifampin meets established criteria for immediate post-exposure prophylaxis in an asymptomatic close contact. Therefore, rifampin is the most appropriate intervention."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

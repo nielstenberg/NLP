@@ -1,0 +1,22 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "independent",
+  "subject": "College Biology",
+  "question_index": 567,
+  "question_uuid": "1868a820-ee25-43e1-b74e-e84bbb3a12ba",
+  "question": "An organism exposed to wild temperature fluctuations shows very little, if any, change in its metabolic rate. This organism is most probably a",
+  "options": {
+    "A": "ectotherm.",
+    "B": "endotherm.",
+    "C": "thermophyle.",
+    "D": "ascospore."
+  },
+  "analysis": [
+    "Step 1: Ectotherms are organisms that rely primarily on external sources of heat to regulate their body temperature. They typically have metabolic rates that vary significantly with changes in environmental temperature because their internal processes are influenced by these external conditions. Since the organism in question shows very little, if any, change in its metabolic rate when exposed to wild temperature fluctuations, it suggests that it does not depend heavily on external temperatures to maintain its body temperature. Therefore, an ectothermic explanation can be ruled out.",
+    "Step 2: Endotherms are organisms capable of maintaining a constant body temperature through internal mechanisms such as shivering or sweating, independent of the ambient temperature. However, the description provided indicates minimal change in metabolic rate despite temperature fluctuations, suggesting that the organism's metabolism is not actively regulated to counteract these changes. Thus, while endotherms do not show immediate changes in metabolic rate due to temperature, they generally exhibit some degree of regulation to maintain a stable core body temperature, making them less likely candidates compared to other options given the specific condition described.",
+    "Step 3: Thermophiles are organisms adapted to thrive in high-temperature environments but do not necessarily imply anything about how their metabolic rate responds to general temperature fluctuations across different environments. The term \"thermophile\" refers more to the optimal temperature range rather than the response to varying temperatures within those ranges.",
+    "Step 4: Ascospores are spores produced by certain fungi and are not living organisms themselves; thus, they cannot exhibit metabolic rates at all. Therefore, this option is irrelevant to the context of the question regarding an organism\u2019s metabolic rate.\n\nFinal Step: Considering the above analyses, the only logical conclusion is that the organism must be an endotherm since it maintains a consistent metabolic rate regardless of external temperature changes, aligning with the definition of endothermy where the organism regulates its own body temperature internally."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "B"
+}

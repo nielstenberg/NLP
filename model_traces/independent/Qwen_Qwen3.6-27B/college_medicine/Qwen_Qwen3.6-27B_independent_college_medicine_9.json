@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 673,
+  "question_uuid": "046cece7-caa8-4e19-9f7a-d419701010e5",
+  "question": "Regarding exons, which, if any, of the following statements is correct?",
+  "options": {
+    "A": "Some exons in protein-coding genes consist of noncoding DNA.",
+    "B": "The first exon of a protein-coding gene always contains the translational start site.",
+    "C": "The last exon of a protein-coding gene always contains the normal termination codon.",
+    "D": "A coding exon is always translated in just one of the three possible forward reading frames."
+  },
+  "analysis": [
+    "Step 1: Evaluate Choice A. Exons are defined as the segments of a gene that are retained in the mature mRNA after intron splicing. While internal exons typically contain only protein-coding sequences, terminal exons (the first and last) frequently harbor untranslated regions (5' UTR and 3' UTR). These UTR sequences are derived from the genomic DNA but do not encode amino acids, meaning portions of these exons consist of noncoding DNA. This statement accurately reflects standard eukaryotic gene architecture and is correct.",
+    "Step 2: Evaluate Choice B. The translational start site (typically an AUG codon) initiates protein synthesis. Although it is commonly located within the first exon, it does not always reside there. Many genes utilize alternative promoters or complex splicing patterns where the first exon comprises only the 5' UTR, placing the actual start codon in the second or a downstream exon. The absolute qualifier \"always\" makes this statement incorrect.",
+    "Step 3: Evaluate Choice C. The normal termination (stop) codon marks the end of translation. While often found in the final exon, it is not universally restricted to it. Mechanisms like alternative polyadenylation or alternative splicing can position the stop codon in a penultimate exon, leaving the true last exon dedicated entirely to the 3' UTR. Consequently, the claim that it \"always\" resides in the last exon is false.",
+    "Step 4: Evaluate Choice D. The reading frame is a property of the complete, spliced mRNA molecule, not of individual exons. During translation, the ribosome reads the continuous mRNA sequence established by the start codon. Furthermore, alternative splicing can incorporate the same exon into different mRNA isoforms with shifted reading frames, or cause deliberate frameshifts. Thus, asserting that a coding exon is exclusively translated in a single fixed reading frame contradicts these dynamic processes, making this statement false.",
+    "Step 5: Synthesize the findings. Choices B, C, and D incorrectly apply absolute language (\"always\") to features that exhibit significant biological variability due to alternative splicing, promoter usage, and polyadenylation. Choice A correctly acknowledges that exons, particularly terminal ones, routinely contain noncoding sequences. Therefore, Choice A is the only valid statement."
+  ],
+  "solution": "Choice_A",
+  "ground_truth": "A"
+}

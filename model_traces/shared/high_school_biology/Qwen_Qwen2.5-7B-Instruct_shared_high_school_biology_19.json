@@ -1,0 +1,22 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "shared",
+  "subject": "High School Biology",
+  "question_index": 165,
+  "question_uuid": "088bc86e-175d-4edb-8394-2671e8d5d1aa",
+  "question": "The process in which pioneer species colonize a bare substrate such as rock, sand, or glacial till is known as",
+  "options": {
+    "A": "weathering",
+    "B": "stabilizing succession",
+    "C": "secondary succession",
+    "D": "primary succession"
+  },
+  "analysis": [
+    "Step 1: Weathering refers to the breakdown of rocks and minerals through contact with the environment. This process does not involve living organisms colonizing a bare substrate, so it can be ruled out as the correct answer.",
+    "Step 2: Stabilizing succession involves the stabilization of an ecosystem after a disturbance, where the community becomes more stable over time. This term describes the progression from one stable state to another but does not describe the initial colonization of a bare substrate, making it incorrect.",
+    "Step 3: Secondary succession occurs when a new ecosystem develops on land that was previously occupied by a different ecosystem, such as after a forest fire or the abandonment of a field. It starts from a less complex stage than the original ecosystem and progresses towards a climax community. However, the question specifically asks about the process where pioneer species colonize a bare substrate, which is not the same as regrowth after a disturbance.",
+    "Step 4: Primary succession is the process where pioneer species colonize a bare substrate such as rock, sand, or glacial till, gradually developing into a stable ecosystem. This matches the description given in the question perfectly."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

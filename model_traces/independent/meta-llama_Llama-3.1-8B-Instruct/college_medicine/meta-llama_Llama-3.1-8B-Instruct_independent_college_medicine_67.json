@@ -1,0 +1,26 @@
+{
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 505,
+  "question_uuid": "813cbec7-0ff8-4b57-8ab2-0fe9b5b0143c",
+  "question": "Pseudocholinesterase deficiency is associated with increased sensitivity to what?",
+  "options": {
+    "A": "Fava beans",
+    "B": "Halothane",
+    "C": "Primaquine",
+    "D": "Succinylcholine"
+  },
+  "analysis": [
+    "Step 1: Pseudocholinesterase deficiency is an inherited disorder that affects the enzyme responsible for breaking down certain drugs, specifically those that act as cholinesterase inhibitors. This condition leads to prolonged exposure to these substances due to their inability to be metabolized efficiently.",
+    "Step 2: Focusing on the options provided, we need to identify which one is directly related to pseudocholinesterase activity. Among them, 'Succinylcholine' is known to be metabolized by pseudocholinesterase. It's a depolarizing muscle relaxant used in anesthesia.",
+    "Step 3: Considering the other options - 'Fava beans', 'Halothane', and 'Primaquine' - they are not primarily associated with pseudocholinesterase metabolism. These substances have different metabolic pathways and do not rely on this enzyme for breakdown.",
+    "Step 4: Given the information above, it becomes clear that 'Succinylcholine' has a direct relationship with pseudocholinesterase activity. Individuals with pseudocholinesterase deficiency would experience increased sensitivity to this substance due to its prolonged presence in the body.",
+    "Step 5: In contrast, while fava beans contain a toxin called vicine, which can cause hemolytic anemia in individuals with glucose-6-phosphate dehydrogenase (G6PD) deficiency, there isn't a direct link between pseudocholinesterase deficiency and sensitivity to fava beans.",
+    "Step 6: Similarly, halothane and primaquine have different mechanisms of action and metabolism, unrelated to pseudocholinesterase.",
+    "Step 7: Therefore, considering all the options and their relationships with pseudocholinesterase, the correct answer is linked to the drug that relies on this enzyme for its breakdown.",
+    "Step 8: Based on the analysis above, the correct association is between pseudocholinesterase deficiency and increased sensitivity to 'Succinylcholine'."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

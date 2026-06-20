@@ -1,0 +1,25 @@
+{
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "mode": "shared",
+  "subject": "College Medicine",
+  "question_index": 769,
+  "question_uuid": "5c97dbfc-932f-455a-a320-a6de0d8647da",
+  "question": "A 44-year-old female presents to the office for evaluation of a lump on her neck that she noted 1\u00a0week ago. She denies any tenderness, fever, weight loss, or fatigue. Physical examination reveals a\u00a02-cm\u00a0freely movable mass in the lower left lobe of the thyroid. In addition to thyroid-stimulating hormone and free thyroxine levels, the most appropriate initial method to investigate this lesion is",
+  "options": {
+    "A": "a nuclear thyroid scan",
+    "B": "an iodine131\u00a0scan",
+    "C": "fine-needle aspiration",
+    "D": "ultrasonography of the thyroid gland"
+  },
+  "analysis": [
+    "Step 1: The patient has a palpable thyroid nodule with no symptoms suggestive of malignancy (e.g., pain, weight loss). This scenario suggests a benign process such as a goiter or a non-toxic multinodular goiter.",
+    "Step 2: Fine-needle aspiration (FNA) is generally recommended when there are suspicious features on ultrasound or if the nodule is large (>4 cm), but it's not typically used as an initial investigation unless there are specific risk factors present.",
+    "Step 3: Ultrasonography of the thyroid gland can help identify characteristics of the nodule that may suggest malignancy, such as irregular borders, hypoechogenicity, and increased vascularity. However, it cannot provide a definitive diagnosis.",
+    "Step 4: Nuclear thyroid scans are primarily used to assess the functional status of the thyroid gland, particularly in cases where there are concerns about hyperthyroidism or hypothyroidism. They are less useful in evaluating solitary nodules.",
+    "Step 5: Iodine-131 scans are typically used to evaluate metastatic disease from known thyroid cancer rather than as an initial investigation for a newly discovered nodule.",
+    "Step 6: Considering the above points, the best approach would be to perform an ultrasonography of the thyroid gland to assess its characteristics and guide further management, including the potential need for FNA if the nodule shows concerning features.",
+    "Step 7: Therefore, the most appropriate initial method to investigate this lesion is ultrasonography of the thyroid gland."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

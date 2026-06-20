@@ -1,0 +1,25 @@
+{
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 283,
+  "question_uuid": "d88e8cf2-ce27-46c3-986d-21ef4d955a1e",
+  "question": "A 49-year-old man, who is recovering in the hospital 2 days after uncomplicated left femoral-popliteal bypass grafting for claudication, has now developed increasing pain in his left foot. Until now, the patient's postoperative course had been unremarkable and he has been treated with low-dose morphine for pain control. Medical history is remarkable for type 2 diabetes mellitus controlled with metformin and diet. Vital signs now are temperature 36.8\u00b0C (98.2\u00b0F), pulse 80/min and regular, respirations 20/min, and blood pressure 150/92 mm Hg. The surgical incision appears clean and well approximated without abnormal erythema or swelling. The left lower extremity and foot appear pale. Palpation of the left lower extremity discloses a strong femoral pulse, a weak popliteal pulse, and a cool, pulseless foot. Which of the following is the most appropriate management?",
+  "options": {
+    "A": "Bedside compartment pressure measurements",
+    "B": "Doppler ultrasonography of the left lower extremity",
+    "C": "Intra-arterial tissue plasminogen activator (tPA) therapy",
+    "D": "Intraoperative angiography"
+  },
+  "analysis": [
+    "Step 1: The patient presents with increasing pain in his left foot, a cool, pulseless foot, and a weak popliteal pulse despite having a strong femoral pulse. This clinical presentation suggests an acute limb ischemia (ALI). ALI occurs when there is a sudden blockage of one or more arteries that supply blood to the limbs, leading to severe pain, pallor, pulselessness, poikilothermia (coldness), and paresthesias.",
+    "Step 2: Given the patient's medical history of type 2 diabetes mellitus, it is essential to consider the possibility of a thrombotic event due to atherosclerotic disease. However, the presence of a pulseless foot indicates a need for immediate intervention to restore perfusion.",
+    "Step 3: Bedside compartment pressure measurements (Choice_A) can help identify potential compartment syndrome but do not address the underlying cause of the pulseless foot. While compartment syndrome is a concern in patients with trauma or crush injuries, it is less likely in this scenario given the patient's recent surgery and lack of swelling around the incision site.",
+    "Step 4: Doppler ultrasonography of the left lower extremity (Choice_B) would be useful in assessing the arterial flow and identifying potential areas of obstruction. It could provide valuable information about the location and severity of the occlusion, helping guide further management.",
+    "Step 5: Intra-arterial tissue plasminogen activator (tPA) therapy (Choice_C) is a treatment option for acute limb ischemia, especially if the occlusion is short and located in a larger artery. However, its use requires careful consideration of the potential risks and benefits, including the risk of bleeding complications.",
+    "Step 6: Intraoperative angiography (Choice_D) may be helpful in visualizing the vascular anatomy during surgery but does not directly address the urgent need to restore perfusion to the ischemic limb.",
+    "Step 7: Considering the urgency of restoring blood flow to the ischemic limb, both Choice_A and Choice_B are necessary steps before deciding on intra-arterial tPA therapy or surgical intervention. \n\nHowever, since we have to choose between these options, I will select the best initial approach based on the provided choices."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "D"
+}

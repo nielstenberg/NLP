@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 520,
+  "question_uuid": "b9fd8efb-db55-43d7-a6bc-6c48e479af6e",
+  "question": "A 22-year-old woman comes to the emergency department because of a 5-day history of sore throat and fever. During the past 3 days, she also has noticed a change in her voice and has had increased pain with swallowing. She has been taking acetaminophen since her symptoms began. Medical history is unremarkable and she takes no routine medications. Vital signs are temperature 40.0\u00b0C (104.0\u00b0F), pulse 130/min, respirations 18/min, and blood pressure 102/66 mm Hg. Pulse oximetry on room air shows an oxygen saturation of 97%. Examination of the oropharynx shows erythema, edema, and anterior displacement of the right side of the soft palate. The uvula is deviated to the left. There is a white exudate on the right tonsil. Trismus is noted. Palpation of the neck discloses enlarged, tender, mobile anterior cervical lymph nodes. In addition to antibiotic therapy, which of the following is the most appropriate management?",
+  "options": {
+    "A": "Incision and drainage",
+    "B": "Intravenous methylprednisolone therapy",
+    "C": "Oral nystatin therapy",
+    "D": "Salt water gargle"
+  },
+  "analysis": [
+    "Step 1: Evaluate Choice A (Incision and drainage). The patient's presentation of high fever, severe odynophagia, trismus, muffled voice, unilateral tonsillar exudate, anterior displacement of the ipsilateral soft palate, and contralateral uvular deviation is classic for a peritonsillar abscess. The definitive management for this condition, in conjunction with appropriate broad-spectrum antibiotics, is physical evacuation of the purulent collection, most appropriately achieved through incision and drainage or needle aspiration.",
+    "Step 2: Evaluate Choice B (Intravenous methylprednisolone therapy). While corticosteroids may serve as a short-term adjunct to reduce edema and improve comfort, they do not address the underlying purulent collection. Prioritizing steroids over drainage fails to provide source control and carries a risk of facilitating deeper neck space infection or sepsis, making it inappropriate as the primary management strategy.",
+    "Step 3: Evaluate Choice C (Oral nystatin therapy). Nystatin is an antifungal agent specifically indicated for oropharyngeal candidiasis, which typically presents with easily scrapable white plaques and lacks systemic signs like high fever, trismus, or structural displacement. Since this case demonstrates a localized bacterial abscess rather than a fungal infection, antifungal therapy is clinically irrelevant.",
+    "Step 4: Evaluate Choice D (Salt water gargle). Salt water gargles offer only mild, symptomatic relief for superficial pharyngeal irritation or uncomplicated viral/bacterial pharyngitis. They lack any mechanism to penetrate or drain a walled-off deep-tissue abscess, and relying on this conservative measure would dangerously delay definitive surgical management.",
+    "Step 5: Conclude the analysis. The clinical findings unequivocally diagnose a peritonsillar abscess, a complication of acute tonsillitis that requires immediate source control to prevent airway compromise and mediastinal or carotid space extension. Among the listed options, incision and drainage is the standard-of-care procedural intervention required to evacuate pus and accelerate recovery when paired with antibiotics. Therefore, Choice A is the most appropriate management."
+  ],
+  "solution": "Choice_A",
+  "ground_truth": "A"
+}

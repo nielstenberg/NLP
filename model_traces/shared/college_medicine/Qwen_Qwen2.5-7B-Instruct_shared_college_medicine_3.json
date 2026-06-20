@@ -1,0 +1,24 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "shared",
+  "subject": "College Medicine",
+  "question_index": 751,
+  "question_uuid": "607ecc8c-32a6-4dd3-8f25-8236d2113fc3",
+  "question": "A 35-year-old male presents to the office for the result of an HIV test, and he is informed that the result is positive. The patient resists disclosure to his wife because he has not told her about his extramarital sexual partners. The physician informs the patient that his wife's right to know is paramount because she could also be HIV positive. Which of the following relationships best describes the rationale for the physician's recommendation that the patient inform his wife of his condition rather than withhold this information?",
+  "options": {
+    "A": "autonomy overrides beneficence",
+    "B": "autonomy overrides justice",
+    "C": "beneficence overrides autonomy",
+    "D": "nonmaleficence overrides autonomy"
+  },
+  "analysis": [
+    "Step 1: Autonomy refers to the individual\u2019s right to make decisions regarding their own health care based on personal values and beliefs. In this case, the patient wishes to keep the diagnosis private from his wife due to emotional reasons. However, the physician believes that the wife's right to know is more important as it pertains to public health and ethical responsibility.",
+    "Step 2: Beneficence involves acting in ways that promote good outcomes and do no harm. By informing the wife, the physician aims to protect her from potential infection and encourage appropriate medical care if necessary. This action aligns with the principle of beneficence.",
+    "Step 3: Justice concerns fairness and the distribution of resources and responsibilities. In this context, the physician argues that the wife should have the same rights and knowledge as other individuals who are potentially exposed to the virus through their partner.",
+    "Step 4: Nonmaleficence means avoiding harm. By ensuring the wife knows about the diagnosis, the physician seeks to prevent potential harm to her health and well-being.",
+    "Step 5: Comparing these principles, the physician prioritizes the wife's right to know over the patient's desire for privacy. This decision reflects a conflict between autonomy (the patient's right to privacy) and beneficence/nonmaleficence/justice (the need to protect the wife).",
+    "Step 6: The physician's recommendation that the patient disclose his HIV status to his wife can be seen as placing beneficence and justice above autonomy. Therefore, the relationship between these principles supports the conclusion that beneficence overrides autonomy in this scenario."
+  ],
+  "solution": "Choice_C",
+  "ground_truth": "D"
+}

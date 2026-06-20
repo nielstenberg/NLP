@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "High School Biology",
+  "question_index": 321,
+  "question_uuid": "4c72d1ee-91d6-4330-aefa-bf3601e4c131",
+  "question": "The concept of punctuated equilibrium refers to",
+  "options": {
+    "A": "oscillating ecological successional stages",
+    "B": "ecological succession arrested by sudden environmental changes, e.g., fire",
+    "C": "persistent predator-prey relationships in relatively stable environments",
+    "D": "bursts of speciation followed by relatively unchanging lineages"
+  },
+  "analysis": [
+    "Step 1: Evaluating Choice A reveals it describes oscillating ecological successional stages, a concept rooted in community ecology that explains how ecosystems transition between different developmental phases over time. This ecological framework does not address evolutionary mechanisms or speciation patterns, so it cannot define punctuated equilibrium.",
+    "Step 2: Evaluating Choice B shows it refers to ecological succession being interrupted by sudden abiotic disturbances like wildfires. While this involves rapid environmental shifts, it pertains to ecosystem resilience and recovery cycles rather than evolutionary biology, making it an incorrect match for the term.",
+    "Step 3: Evaluating Choice C indicates it focuses on stable predator-prey population dynamics, which relates to trophic interactions and coevolutionary feedback loops within an ecosystem. This describes microecological balance rather than macroevolutionary tempo, so it does not correspond to punctuated equilibrium.",
+    "Step 4: Evaluating Choice D demonstrates it accurately captures the core definition of punctuated equilibrium, a foundational evolutionary theory introduced by Eldredge and Gould. The concept explicitly proposes that evolutionary history is characterized by long periods of morphological stasis in existing lineages, occasionally interrupted by rapid, geologically brief bursts of speciation and significant phenotypic change.",
+    "Step 5: Comparing all analyzed options confirms that Choices A, B, and C exclusively describe ecological processes involving community succession and population interactions, while only Choice D correctly articulates the evolutionary pattern of rapid speciation events alternating with extended periods of stability. Consequently, Choice D is the scientifically accurate answer."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

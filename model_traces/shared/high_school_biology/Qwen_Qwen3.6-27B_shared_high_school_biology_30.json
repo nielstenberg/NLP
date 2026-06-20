@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "shared",
+  "subject": "High School Biology",
+  "question_index": 111,
+  "question_uuid": "33aa4cf2-d498-43a4-afa6-59f1b82464be",
+  "question": "Which of the following is typically NOT found in normal somatic cells of a human male?",
+  "options": {
+    "A": "The entire genetic information possessed by the original zygote",
+    "B": "An inactivated X chromosome",
+    "C": "Forty-four autosomes",
+    "D": "A diploid nucleus"
+  },
+  "analysis": [
+    "Step 1: Analyzing Choice A, normal somatic cells develop from the original zygote through repeated mitotic divisions, which faithfully copy and partition the complete nuclear DNA; therefore, somatic cells retain the entire genetic information possessed by the zygote, making this feature typically found in male somatic cells.",
+    "Step 2: Analyzing Choice B, X-chromosome inactivation (Barr body formation) is a dosage-compensation mechanism that occurs only in cells containing two X chromosomes, specifically in typical human females (XX); since normal human males possess an XY karyotype with only one X chromosome that must remain fully active to survive, an inactivated X chromosome is typically NOT found in their somatic cells.",
+    "Step 3: Analyzing Choice C, human somatic cells contain 22 pairs of non-sex chromosomes known as autosomes, totaling forty-four autosomes; this numerical count is identical in both males and females, so this feature is typically found in male somatic cells.",
+    "Step 4: Analyzing Choice D, normal human somatic cells maintain a diploid chromosomal complement (2n = 46) through regulated cell cycles, meaning a diploid nucleus is a defining characteristic and is typically found in male somatic cells.",
+    "Step 5: Jointly evaluating all options confirms that Choices A, C, and D represent standard genetic and cellular features of normal human male somatic cells, while Choice B describes a phenomenon exclusive to female somatic cells; therefore, the correct answer identifying what is NOT found is Choice B."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "B"
+}

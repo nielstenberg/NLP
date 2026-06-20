@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "shared",
+  "subject": "College Biology",
+  "question_index": 120,
+  "question_uuid": "92c8243b-6eb5-4b51-9ab3-e1b63cfe39ab",
+  "question": "A gas phase is generally absent from which of the following biogeochemical cycles?",
+  "options": {
+    "A": "Water",
+    "B": "Carbon",
+    "C": "Sulfur",
+    "D": "Phosphorus"
+  },
+  "analysis": [
+    "Step 1: Evaluate Choice A (Water): The water cycle inherently includes a gas phase through evaporation and transpiration, which convert liquid water into atmospheric water vapor before it condenses and returns to Earth as precipitation.",
+    "Step 2: Evaluate Choice B (Carbon): The carbon cycle is predominantly gaseous, relying heavily on atmospheric carbon dioxide and methane that are exchanged between the air, oceans, and living organisms via photosynthesis, respiration, and decomposition.",
+    "Step 3: Evaluate Choice C (Sulfur): While largely sedimentary, the sulfur cycle still features a notable gas phase, as volcanic activity, microbial breakdown, and human combustion release sulfur dioxide and hydrogen sulfide into the atmosphere.",
+    "Step 4: Evaluate Choice D (Phosphorus): The phosphorus cycle is classified as a purely sedimentary cycle because phosphorus moves exclusively through rock weathering, soil, groundwater, and biological uptake, lacking any stable gaseous compound under normal Earth surface conditions.",
+    "Step 5: Compare all options to determine which cycle lacks a gas phase: Since the water, carbon, and sulfur cycles all utilize atmospheric reservoirs in various forms, only the phosphorus cycle operates without a significant gaseous component, making it the correct selection."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

@@ -1,0 +1,21 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "College Biology",
+  "question_index": 288,
+  "question_uuid": "12031685-3f19-4a11-8376-0af119178f1f",
+  "question": "In a hypothetical population's gene pool, an autosomal gene, which had previously been fixed, undergoes a mutation that introduces a new allele, one inherited according to incomplete dominance. Natural selection then causes stabilizing selection at this locus. Consequently, what should happen over the course of many generations?",
+  "options": {
+    "A": "The proportions of both types of homozygote should decrease.",
+    "B": "The proportion of the population that is heterozygous at this locus should remain constant.",
+    "C": "The population's average heterozygosity should increase.",
+    "D": "Both A and C"
+  },
+  "analysis": [
+    "Step 1: Evaluate Choice A by examining the interaction between incomplete dominance and stabilizing selection. Incomplete dominance ensures that heterozygotes display an intermediate phenotype, while both homozygotes express extreme phenotypes. Stabilizing selection explicitly favors intermediate traits and penalizes extremes, so natural selection will progressively reduce the fitness and proportional representation of both homozygous genotypes over successive generations, making Choice A correct.",
+    "Step 2: Evaluate Choice B by assessing the expected trajectory of heterozygote frequency. The population initially consists entirely of one homozygous genotype (fixed allele), resulting in zero heterozygosity. Once the new allele arises and stabilizing selection favors the intermediate heterozygous phenotype, the proportion of heterozygotes must rise from this baseline to establish a new equilibrium, directly contradicting the claim that it remains constant and proving Choice B incorrect.",
+    "Step 3: Evaluate Choice C by analyzing the impact on overall genetic variation. Population heterozygosity quantifies the frequency of heterozygous individuals within the gene pool. Because stabilizing selection continuously advantages heterozygotes over both homozygous extremes, the frequency of heterozygotes steadily climbs, causing the population's average heter"
+  ],
+  "solution": "N/A",
+  "ground_truth": "D"
+}

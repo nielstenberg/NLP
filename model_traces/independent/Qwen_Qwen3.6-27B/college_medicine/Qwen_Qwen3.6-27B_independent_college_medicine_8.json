@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 211,
+  "question_uuid": "740e46a9-8fa4-4b70-bf59-9232daaf287c",
+  "question": "A 40-year-old woman comes to the physician because of a 6-month history of increased facial hair growth. Her last menstrual period was 4 months ago. She is 165 cm (5 ft 5 in) tall and weighs 70 kg (154 lb); BMI is 26 kg/m2 . Her pulse is 80/min, and blood pressure is 130/82 mm Hg. Physical examination shows temporal balding and coarse dark hair on the upper lip and chin. Pelvic examination shows clitoral enlargement. Her serum testosterone concentration is increased. Serum concentrations of androstenedione, dehydroepiandrosterone, and urinary 17-ketosteroids are within the reference ranges. Ultrasonography of the pelvis shows a 12-cm ovarian mass. Which of the following best describes this mass?",
+  "options": {
+    "A": "Granulosa tumor",
+    "B": "Ovarian carcinoid",
+    "C": "Sertoli-Leydig tumor",
+    "D": "Teratoma"
+  },
+  "analysis": [
+    "Step 1: Evaluate Choice A (Granulosa tumor): Granulosa cell tumors are sex cord-stromal neoplasms that predominantly secrete estrogen, leading to hyperestrogenic manifestations such as abnormal uterine bleeding, endometrial hyperplasia, or precocious puberty. They do not typically produce significant amounts of androgens, making them inconsistent with this patient's rapid virilization, clitoromegaly, and markedly elevated testosterone levels.",
+    "Step 2: Evaluate Choice B (Ovarian carcinoid): Carcinoid tumors are rare neuroendocrine malignancies that primarily synthesize vasoactive amines like serotonin. When functional, they may cause carcinoid syndrome characterized by flushing, bronchospasm, and secretory diarrhea, but they lack androgen-producing capacity. Therefore, this tumor type cannot account for the patient's virilizing symptoms or isolated testosterone elevation.",
+    "Step 3: Evaluate Choice C (Sertoli-Leydig tumor): Sertoli-Leydig cell tumors are androgen-secreting sex cord-stromal tumors that classically present in women aged 20 to 40 years with rapid-onset virilization. The clinical triad of hirsutism, temporal balding, clitoromegaly, amenorrhea, and elevated serum testosterone with normal adrenal androgen markers (DHEA and 17-ketosteroids) strongly localizes the hormone excess to the ovary, perfectly matching the pathophysiology and imaging findings of this tumor.",
+    "Step 4: Evaluate Choice D (Teratoma): Teratomas are germ cell tumors containing differentiated tissues from multiple embryonic layers. Mature cystic teratomas are typically benign and hormonally inactive, while immature variants carry malignant potential but rarely secrete hormones. Neither subtype commonly presents with isolated androgen excess or virilization, effectively ruling out this option.",
+    "Step 5: Synthesizing the sequential evaluations, the patient's acute virilization, clitoromegaly, elevated testosterone, and normal adrenal androgens confirm an androgen-secreting ovarian neoplasm. Only the Sertoli-Leydig cell tumor among the provided choices exhibits this specific hormonal profile and clinical presentation, establishing it as the definitive diagnosis."
+  ],
+  "solution": "Choice_C",
+  "ground_truth": "C"
+}

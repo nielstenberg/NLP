@@ -1,0 +1,27 @@
+{
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "mode": "independent",
+  "subject": "College Biology",
+  "question_index": 699,
+  "question_uuid": "3ecc116d-206b-4541-b23e-432426f7b2d7",
+  "question": "A researcher conducts a survey of a biome and finds 35 percent more species than she has found in any other biome. Which biome is she most likely to be in?",
+  "options": {
+    "A": "Tundra",
+    "B": "Tiaga",
+    "C": "Tropical rainforest",
+    "D": "Temperate deciduous forest"
+  },
+  "analysis": [
+    "Step 1: We need to analyze each biome's characteristics to determine which one would have the highest number of species.",
+    "Step 2: Let's start with Choice_A: Tundra. The tundra biome is known for its harsh climate and limited vegetation. It supports a relatively small variety of plant and animal life due to its cold temperatures and short growing season.",
+    "Step 3: Moving on to Choice_B: Taiga (also known as Boreal Forest). This biome is characterized by coniferous forests and a subarctic climate. While it supports a wider range of species compared to the tundra, it still has a relatively low diversity of flora and fauna.",
+    "Step 4: Now let's consider Choice_C: Tropical Rainforest. This biome is known for its high levels of rainfall, warm temperatures, and dense vegetation. As a result, it supports an incredibly diverse array of plant and animal life, including many exotic and endemic species.",
+    "Step 5: Next up is Choice_D: Temperate Deciduous Forest. This biome experiences seasonal changes, with warm summers and cold winters. While it supports a wide variety of tree species and some wildlife, the diversity of species is lower compared to tropical rainforests.",
+    "Step 6: Comparing all the biomes, we can see that the Tropical Rainforest (Choice_C) has the highest diversity of species due to its favorable climate conditions and geographical location near the equator.",
+    "Step 7: Considering the information provided in the question, the researcher finds 35% more species than in any other biome. Given this condition, the biome with the highest initial number of species will show the greatest increase when compared to others.",
+    "Step 8: Since the Tropical Rainforest already has the highest number of species among the given options, adding 35% more species would indeed make it stand out from the rest.",
+    "Step 9: Therefore, the biome where the researcher is most likely to find 35% more species than in any other biome is the Tropical Rainforest."
+  ],
+  "solution": "Choice_C",
+  "ground_truth": "C"
+}

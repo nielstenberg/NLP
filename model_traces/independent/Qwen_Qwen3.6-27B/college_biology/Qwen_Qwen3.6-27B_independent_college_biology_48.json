@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "College Biology",
+  "question_index": 465,
+  "question_uuid": "f08f640f-6c18-41c8-a2ff-f6afe52c8ec9",
+  "question": "Certain populations of finches have long been isolated on the Galapagos Islands off the western coast of South America. Compared with the larger stock population of mainland finches, these separate populations exhibit far greater variation over a wider range of species. The variation among these numerous finch species is the result of",
+  "options": {
+    "A": "convergent evolution",
+    "B": "divergent evolution",
+    "C": "disruptive selection",
+    "D": "stabilizing selection"
+  },
+  "analysis": [
+    "Step 1: Choice A proposes convergent evolution, which describes unrelated species independently developing similar traits due to comparable environmental pressures; however, the question describes a single ancestral stock splitting into highly varied species, making this choice incorrect.",
+    "Step 2: Choice B proposes divergent evolution, which occurs when geographically isolated populations of a common ancestor adapt to different ecological niches, accumulating distinct mutations and adaptations that lead to significant phenotypic variation and speciation, perfectly matching the described pattern of the Gal\u00e1pagos finches.",
+    "Step 3: Choice C suggests disruptive selection, a microevolutionary force that favors extreme phenotypes over intermediates within a single population; while it can initiate divergence, it does not fully capture the broad macroevolutionary radiation and speciation across multiple isolated island populations described in the prompt.",
+    "Step 4: Choice D suggests stabilizing selection, which favors average traits and actively reduces population variation by eliminating extremes; since the prompt explicitly notes \"far greater variation\" in the isolated populations, this choice directly contradicts the observed biological outcome.",
+    "Step 5: Evaluating all options collectively, Choices A and D describe processes that increase similarity or decrease variation, respectively, which oppose the prompt's premise, while Choice C only addresses a narrow selective mechanism rather than the overarching speciation pattern; therefore, Choice B correctly identifies the macroevolutionary process of adaptive radiation/divergence driven by isolation and niche differentiation as the cause of the observed variation."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "B"
+}

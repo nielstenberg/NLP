@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "shared",
+  "subject": "High School Biology",
+  "question_index": 168,
+  "question_uuid": "664372af-419b-449f-a6b1-1acb0ecd835b",
+  "question": "Which of the following adaptations would limit pollination by bees and promote hummingbird pollination?",
+  "options": {
+    "A": "Patterns of ultraviolet color on the petals",
+    "B": "Modified petals to provide a landing space",
+    "C": "Pendant (hanging) red-colored flowers",
+    "D": "Nectar with high sugar concentration produced in limited amounts"
+  },
+  "analysis": [
+    "Step 1: Analyze Choice A (Patterns of ultraviolet color on the petals). Bees have the ability to see ultraviolet (UV) light, and many flowers have evolved UV nectar guides to attract them. Since bees can perceive these patterns, this adaptation promotes bee pollination rather than limiting it. Hummingbirds, on the other hand, have poor UV vision, so this trait is not a primary mechanism for excluding bees in favor of hummingbirds.",
+    "Step 2: Analyze Choice B (Modified petals to provide a landing space). Bees are insects that typically land on flowers to access nectar and pollen. Providing a landing space is a classic adaptation to facilitate bee pollination. Hummingbirds, being birds, hover in mid-air and do not require a landing platform. Therefore, this adaptation promotes bee pollination and does not limit it.",
+    "Step 3: Analyze Choice C (Pendant (hanging) red-colored flowers). Hummingbirds are strongly attracted to the color red, which stands out vividly to them. Bees, however, are generally not attracted to the color red as they see it as black or dark gray. Furthermore, pendant or tubular hanging flowers often have long corollas that are difficult for bees to access due to their short tongues, whereas hummingbirds have long beaks suited for reaching deep into such flowers. This combination of color and shape effectively limits bee access while promoting hummingbird visitation.",
+    "Step 4: Analyze Choice D (Nectar with high sugar concentration produced in limited amounts). While hummingbirds do prefer high-sugar nectar to fuel their high metabolic rates, bees also seek high-energy nectar. The limitation of \"limited amounts\" might deter some bees, but it is not as specific or effective a barrier as morphological or visual adaptations. Bees can still visit flowers with limited nectar if the sugar concentration is high. Therefore, this is less definitive than the visual and structural barriers in Choice C.",
+    "Step 5: Conclude the analysis by comparing the options. Choice A and Choice B are adaptations that specifically attract or facilitate bees. Choice D is a nutritional preference that both bees and hummingbirds share to some extent, making it a weaker discriminator. Choice C combines a visual cue (red color) that attracts hummingbirds but is invisible/unattractive to bees, with a structural cue (pendant/hanging shape) that physically hinders bees while accommodating hummingbird hovering and beak length. Thus, Choice C is the most effective adaptation for limiting bee pollination and promoting hummingbird pollination."
+  ],
+  "solution": "Choice_C",
+  "ground_truth": "C"
+}

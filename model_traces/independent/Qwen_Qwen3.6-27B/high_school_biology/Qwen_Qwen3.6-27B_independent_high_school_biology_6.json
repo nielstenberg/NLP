@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "High School Biology",
+  "question_index": 225,
+  "question_uuid": "5b96c35f-6b43-4704-bcf5-f9e74e2cf4ad",
+  "question": "All of the following characteristics are typical of r-selected species EXCEPT",
+  "options": {
+    "A": "high reproductive rate",
+    "B": "small body size",
+    "C": "occupancy of unstable environments",
+    "D": "high competitive ability"
+  },
+  "analysis": [
+    "Step 1: Analyze Choice A (high reproductive rate). r-selected species prioritize maximizing intrinsic population growth rate (r), which necessitates producing large numbers of offspring rapidly with minimal parental investment. Therefore, a high reproductive rate is a fundamental and typical characteristic of r-selected species.",
+    "Step 2: Analyze Choice B (small body size). Organisms following an r-selection strategy allocate limited metabolic energy primarily toward rapid maturation and prolific reproduction rather than extensive somatic growth or long-term physiological maintenance. Consequently, small body size is a standard and expected trait among r-selected species.",
+    "Step 3: Analyze Choice C (occupancy of unstable environments). r-selected species are evolutionarily adapted to colonize unpredictable, transient, or frequently disturbed habitats where they can quickly exploit temporary resources before competitors arrive. Their life history strategy relies on rapid population expansion and dispersal, making occupancy of unstable environments a typical characteristic.",
+    "Step 4: Analyze Choice D (high competitive ability). High competitive ability is a defining feature of K-selected species, which invest heavily in individual survival, defense mechanisms, and efficient resource utilization to persist stably near environmental carrying capacity. In contrast, r-selected species typically exhibit low competitive ability, compensating for this disadvantage through sheer numerical output and rapid colonization. Thus, high competitive ability is NOT typical of r-selected species.",
+    "Step 5: Synthesizing the sequential evaluations reveals that Choices A, B, and C align precisely with classical ecological definitions of r-selected organisms, whereas Choice D describes a core adaptation of K-selected organisms. Because the question asks for the characteristic that is an exception, Choice D is the correct answer."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

@@ -1,0 +1,22 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "shared",
+  "subject": "College Medicine",
+  "question_index": 158,
+  "question_uuid": "fdc2772f-0007-4270-8e90-1ac4ba093ec8",
+  "question": "In nerve cells, microtubule-associated proteins (MAPs), most notably MAP2 and MAP tau, act to stabilize microtubules. In a mouse model, a mutant is developed that vastly reduced function across all families of MAPs, leading to increased microtubule degradation. Which cellular activity would likely be most affected?",
+  "options": {
+    "A": "Cardiac muscle contraction",
+    "B": "Transcription of mRNA from DNA",
+    "C": "Krebs cycle",
+    "D": "Meiosis"
+  },
+  "analysis": [
+    "Step 1: Microtubules are essential for maintaining cell structure and facilitating intracellular transport. The stabilization of microtubules by MAPs like MAP2 and MAP tau suggests their critical role in these processes. Cardiac muscle contraction involves the sliding of actin filaments past myosin filaments, primarily driven by calcium ions and ATP hydrolysis. While microtubules do play some roles in cardiac muscle physiology, such as modulating calcium release channels, the primary mechanism does not heavily rely on microtubule stability compared to other cellular activities listed.",
+    "Step 2: Transcription of mRNA from DNA occurs within the nucleus where ribonucleoproteins assemble into transcription complexes around specific regions of DNA. This process requires a stable cytoskeleton but does not directly depend on microtubule stability for its core function. However, microtubules can influence nuclear organization and positioning, potentially affecting gene expression indirectly. Yet, the direct impact on transcription efficiency due to microtubule destabilization might be less pronounced than in other cellular functions.",
+    "Step 3: The Krebs cycle takes place in the mitochondrial matrix and involves a series of enzymatic reactions converting acetyl-CoA into carbon dioxide and energy-rich molecules like NADH and FADH\u2082. Mitochondria have their own cytoskeletal structures distinct from those found in the cytoplasm of the cell body, making them relatively independent of microtubule stability for their primary metabolic functions.",
+    "Step 4: Meiosis is a type of cell division crucial for producing gametes. It involves complex rearrangements of chromosomes and relies heavily on the correct formation and separation of sister chromatids during prophase I and II. Microtubules form the mitotic spindle, which is essential for chromosome segregation. Given that meiosis shares many similarities with mitosis in terms of spindle formation and function, the disruption of microtubule stability could significantly affect the accuracy of chromosome segregation during meiosis.\n\nFinal Step: Considering the above analyses, while all cellular activities may be impacted by changes in microtubule stability, meiosis stands out because it critically depends on precise microtubule-based mechanisms for proper chromosome segregation. Therefore, the cellular activity most likely to be most affected by the reduction in microtubule-stabilizing protein function is meiosis."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

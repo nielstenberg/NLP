@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "shared",
+  "subject": "College Biology",
+  "question_index": 486,
+  "question_uuid": "0e9f7d8f-4d16-469a-a5d3-a4c520fbf069",
+  "question": "The major difference between cartilage and bone is that cartilage",
+  "options": {
+    "A": "is a part of the skeletal system",
+    "B": "is composed of collagen and salts",
+    "C": "lacks blood vessels and nerves",
+    "D": "secretes a matrix"
+  },
+  "analysis": [
+    "Step 1: Evaluate Choice A. Both cartilage and bone serve as structural components of the vertebrate skeletal system, so membership in the skeletal system is a shared trait rather than a distinguishing difference.",
+    "Step 2: Evaluate Choice B. Although both tissues contain collagen, bone is distinguished by extensive mineralization with calcium salts that confer hardness, whereas cartilage remains relatively unmineralized and flexible; therefore, attributing salt composition primarily to cartilage inaccurately represents their compositional contrast.",
+    "Step 3: Evaluate Choice C. Cartilage is fundamentally avascular and aneural, lacking both blood vessels and nerves, which necessitates nutrient diffusion through the matrix and results in slow repair capabilities; conversely, bone possesses a rich blood supply and extensive nerve networks, establishing this as the most significant histological and physiological divergence between the two.",
+    "Step 4: Evaluate Choice D. Matrix secretion is a universal function of specialized connective tissue cells, as chondrocytes produce the cartilaginous matrix and osteoblasts produce the osseous matrix, making this a commonality rather than a difference.",
+    "Step 5: Synthesize the evaluations to determine the correct answer. Since Choices A and D describe features common to both tissues and Choice B mischaracterizes their mineral content, Choice C stands out as the accurate and major distinction, confirming it as the correct selection."
+  ],
+  "solution": "Choice_C",
+  "ground_truth": "C"
+}

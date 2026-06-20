@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 146,
+  "question_uuid": "fcecd4c8-da47-4d45-8cc1-7e42b2e19930",
+  "question": "A 23-year-old woman with bone marrow failure is treated with a large dose of rabbit antithymocyte globulin. Ten days later, she develops fever, lymphadenopathy, arthralgias, and erythema on her hands and feet. Which of the following is the most likely cause of these symptoms?",
+  "options": {
+    "A": "Cytokine secretion by natural killer cells",
+    "B": "Eosinophil degranulation",
+    "C": "Immune complex deposition in tissues",
+    "D": "Polyclonal T-lymphocyte activation"
+  },
+  "analysis": [
+    "Step 1: The patient has been treated with rabbit antithymocyte globulin (ATG), which is used to suppress immune responses by depleting T-cells from the thymus. The symptoms presented include fever, lymphadenopathy, arthralgias, and erythema on her hands and feet, which suggest an immune response. This points towards polyclonal T-lymphocyte activation as a potential mechanism.",
+    "Step 2: Cytokine secretion by natural killer cells could potentially explain some of the symptoms like fever and arthralgias, but it does not directly account for the lymphadenopathy and skin manifestations seen.",
+    "Step 3: Eosinophil degranulation typically leads to eosinophilia and can cause pruritus and rash, but it is less likely to explain the systemic symptoms such as fever and arthralgias.",
+    "Step 4: Immune complex deposition in tissues would more commonly present as vasculitis, glomerulonephritis, or other organ-specific inflammatory conditions rather than generalized symptoms like those described.",
+    "Step 5: Polyclonal T-lymphocyte activation due to ATG treatment can lead to a hyperactive immune response that might manifest as the symptoms observed. This includes cytokine release syndrome, where multiple cytokines are released leading to various clinical presentations including fever, rash, and joint pain.\n\nFinal Step: Considering all the above points, the most likely cause of the symptoms is polyclonal T-lymphocyte activation triggered by the ATG treatment."
+  ],
+  "solution": "N/A",
+  "ground_truth": "C"
+}

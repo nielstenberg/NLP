@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "shared",
+  "subject": "College Biology",
+  "question_index": 177,
+  "question_uuid": "432f1a22-f619-499e-b201-40e47f0b88d7",
+  "question": "In the process of generating ATP, hydrogen ions (H+, or protons) are transported across the inner mitochondrial membrane and the thylakoid membrane by a proton pump (an ATPase). You would expect to find similar proton pumps in the plasma membranes of",
+  "options": {
+    "A": "bacteria",
+    "B": "mammalian muscle cells",
+    "C": "mammalian nerve cells",
+    "D": "plants and fungi"
+  },
+  "analysis": [
+    "Step 1: Analyze the fundamental biological principle described in the question. The question highlights chemiosmosis, where proton gradients across a membrane drive ATP synthesis via an ATP synthase (often referred to loosely as a proton pump in this context, though technically it synthesizes ATP using the gradient created by electron transport chains). This mechanism relies on a closed internal membrane system (like the inner mitochondrial membrane or thylakoid membrane) to maintain a significant proton gradient ($\\Delta$pH and $\\Delta\\Psi$) separate from the external environment.",
+    "Step 2: Evaluate Choice B (mammalian muscle cells) and Choice C (mammalian nerve cells). These are eukaryotic animal cells. While they possess mitochondria with inner membranes that use proton gradients for ATP production, their *plasma membranes* do not typically house primary proton pumps used for bulk ATP generation via chemiosmosis. Animal cell plasma membranes primarily use $Na^+/K^+$-ATPases to maintain electrochemical gradients for signaling and transport, not proton gradients for ATP synthesis. Therefore, these choices are incorrect regarding the location of such pumps on the plasma membrane.",
+    "Step 3: Evaluate Choice D (plants and fungi). Plants have chloroplasts (thylakoids) and mitochondria (inner membrane), while fungi have mitochondria. However, like animals, both plants and fungi are eukaryotes. Their plasma membranes generally rely on other mechanisms (such as $H^+$-ATPases for nutrient uptake or turgor pressure regulation in plants, but not for the core oxidative phosphorylation ATP generation seen in mitochondria/chloroplasts). More importantly, the specific evolutionary trait of having the entire respiratory chain and ATP synthase located directly in the plasma membrane is characteristic of organisms lacking internal membrane-bound organelles. Thus, while plant/fungi plasma membranes may have proton pumps, they are not the primary site for the ATP-generating chemiosmotic process described in the same way the question implies (comparing to inner mitochondrial/thylakoid membranes).",
+    "Step 4: Evaluate Choice A (bacteria). Bacteria are prokaryotes and lack membrane-bound organelles such as mitochondria or chloroplasts. To perform cellular respiration (and photosynthesis in cyanobacteria), bacteria must locate their electron transport chains and ATP synthases in their only available extensive membrane surface: the plasma membrane. Consequently, bacteria transport protons across their plasma membrane to create a gradient, which is then used by ATP synthase embedded in that same plasma membrane to generate ATP. This matches the description of finding \"similar proton pumps\" (in the sense of the machinery creating/utilizing the gradient for ATP) in the plasma membrane.",
+    "Step 5: Conclude the analysis. Since bacteria lack internal organelles, their plasma membrane performs the functions equivalent to the inner mitochondrial membrane of eukaryotes. Therefore, one expects to find the machinery for proton-gradient-driven ATP synthesis in the bacterial plasma membrane. Mammalian cells (muscle/nerve) and other eukaryotes (plants/fungi) compartmentalize this process within organelles, leaving the plasma membrane with different primary roles. Thus, bacteria are the correct answer."
+  ],
+  "solution": "Choice_A",
+  "ground_truth": "A"
+}

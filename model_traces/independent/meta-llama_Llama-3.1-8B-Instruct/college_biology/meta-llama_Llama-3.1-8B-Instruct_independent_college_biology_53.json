@@ -1,0 +1,27 @@
+{
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "mode": "independent",
+  "subject": "College Biology",
+  "question_index": 435,
+  "question_uuid": "47e6051e-1090-4d39-b8ee-94f173ad7909",
+  "question": "Tay-Sachs is a disease caused by a recessive allele. Individuals with the genetic disorder usually do not survive more than a few years, and thus are not able to reproduce and pass on the gene. What would explain how this allele and its associated disease is preserved in the population?",
+  "options": {
+    "A": "Heterozygous individuals will show no symptoms.",
+    "B": "Spontaneous mutation converts the dominant allele to the recessive form.",
+    "C": "Occasionally the gene will instead increase the fitness of the individual.",
+    "D": "Tay-Sachs is asymptomatic in people who are homozygous recessive."
+  },
+  "analysis": [
+    "Step 1: We need to find an explanation that preserves the Tay-Sachs allele in the population despite it being a recessive allele and causing a severe disease that leads to early death.",
+    "Step 2: Let's analyze Choice A: Heterozygous individuals will show no symptoms.\nIf heterozygous individuals (carrying one normal and one mutated allele) show no symptoms, they can still reproduce and pass on the mutated allele to their offspring.",
+    "Step 3: Now let's consider Choice B: Spontaneous mutation converts the dominant allele to the recessive form.\nThis statement doesn't provide a mechanism for preserving the Tay-Sachs allele; rather, it suggests a change from a dominant to a recessive allele, which wouldn't help preserve the disease-causing allele.",
+    "Step 4: Next, we'll examine Choice C: Occasionally the gene will instead increase the fitness of the individual.\nIf the Tay-Sachs gene occasionally increased the fitness of the individual, it could be beneficial and thus more likely to be passed on to future generations.",
+    "Step 5: Finally, let's look at Choice D: Tay-Sachs is asymptomatic in people who are homozygous recessive.\nHomozygous recessive individuals cannot reproduce because they typically die young due to the disease, so this option does not provide a mechanism for preserving the allele.",
+    "Step 6: Considering all options, Choices A and C seem plausible explanations for how the Tay-Sachs allele is preserved in the population. However, since Choice C involves a less common scenario where the gene increases fitness, Choice A provides a more straightforward explanation for why the allele persists.",
+    "Step 7: However, there is another possibility - Choice B might not be as irrelevant as initially thought. If spontaneous mutations convert the dominant allele to the recessive form, it could potentially create new carriers of the disease-causing allele.",
+    "Step 8: But considering the initial problem description, the most logical answer should be either Choice A or Choice C, both of them are possible but only one of them is correct according to the question.",
+    "Step 9: After re-evaluating the options, I think the best explanation for how the Tay-Sachs allele is preserved in the population is indeed Choice A: Heterozygous individuals will show no symptoms."
+  ],
+  "solution": "Choice_A",
+  "ground_truth": "A"
+}

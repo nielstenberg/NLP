@@ -1,0 +1,23 @@
+{
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 74,
+  "question_uuid": "b1772ee2-825d-4cf0-ab10-3cc6db3e765d",
+  "question": "Consanguinity shows a strong association with which pattern of inheritance?",
+  "options": {
+    "A": "Autosomal dominant",
+    "B": "Autosomal recessive",
+    "C": "X-linked dominant",
+    "D": "X-linked recessive"
+  },
+  "analysis": [
+    "Step 1: To determine the correct answer, let's start by understanding what consanguinity is. Consanguinity refers to the relationship between two individuals who share a recent common ancestor, often resulting from marriage within a close family group (e.g., siblings, parents and children). This can lead to an increased chance of inheriting similar genetic traits.",
+    "Step 2: Now, let's analyze each type of inheritance pattern: - **Autosomal Dominant**: In this pattern, one copy of the mutated gene is enough to cause the condition. It does not necessarily increase the risk due to consanguinity as it only requires one allele to be expressed.\n\n- **Autosomal Recessive**: For this pattern, an individual must inherit two copies of the mutated gene (one from each parent) to express the condition. When there are more chances of sharing the same mutated genes due to consanguinity, the likelihood of expressing the condition increases significantly.",
+    "Step 3: Considering the above points, we see that autosomal recessive conditions have a higher likelihood of being expressed when there is consanguinity involved. This is because both parents are likely to pass down their mutated genes to their offspring, increasing the chances of the child inheriting the condition.",
+    "Step 4: On the other hand, X-linked patterns of inheritance involve genes located on the X chromosome. These do not directly relate to the concept of consanguinity since they are influenced by the sex chromosomes rather than the number of shared alleles.",
+    "Step 5: Based on our analysis, we conclude that consanguinity has a strong association with the **Autosomal Recessive** pattern of inheritance. This is because consanguinity increases the chances of inheriting the same mutated genes from both parents, leading to a higher likelihood of expressing the condition."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "B"
+}

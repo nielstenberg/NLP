@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "shared",
+  "subject": "College Medicine",
+  "question_index": 484,
+  "question_uuid": "ff2d2fcd-ce77-410a-9ea4-76c916ca6fce",
+  "question": "A 30-year-old woman comes to the physician because of a 2-day history of abdominal pain. She has a history of recurrent upper respiratory tract infections, sinusitis, and pancreatitis. She has thick nasal secretions. She says that her sweat is salty and crystallizes on her skin. Her vital signs are within normal limits. Physical examination shows epigastric tenderness. Genetic testing for the 36 most common mutations shows a detectable mutation (G551D) in one allele of the CFTR gene. Which of the following best explains this patient's clinical phenotype?",
+  "options": {
+    "A": "Only one G551D allele is needed in CFTR",
+    "B": "The patient is a CFTR obligate carrier",
+    "C": "The patient's CFTR mutation is unrelated to her clinical phenotype",
+    "D": "The second CFTR mutation was not detected by the testing obtained"
+  },
+  "analysis": [
+    "Step 1: Analyze Choice A. Cystic fibrosis is inherited in an autosomal recessive pattern, requiring pathogenic mutations in both alleles of the CFTR gene to manifest the classic multisystem disease. Stating that only one G551D allele is needed contradicts fundamental Mendelian genetics and the known pathophysiology of cystic fibrosis.",
+    "Step 2: Analyze Choice B. An obligate carrier possesses a single mutated CFTR allele and is typically asymptomatic regarding major organ systems. While carriers may occasionally exhibit mild traits like chronic rhinosinusitis or congenital absence of the vas deferens, they do not develop severe sinopulmonary disease, exocrine pancreatic dysfunction, or markedly elevated sweat chloride levels, making this choice inconsistent with the patient's presentation.",
+    "Step 3: Analyze Choice C. The G551D variant is a well-documented class III CFTR mutation that impairs channel gating and is definitively linked to cystic fibrosis. Dismissing its relevance ignores the direct genotype-phenotype correlation, especially given the patient's hallmark symptoms of recurrent respiratory infections, pancreatitis, and salty sweat.",
+    "Step 4: Analyze Choice D. Routine commercial CFTR mutation panels typically screen only the most prevalent variants (often 23 to 70 mutations), which account for approximately 80-90% of disease alleles in certain ethnic groups. With over 2,000 known CFTR mutations, it is highly probable that this patient harbors a second, less common pathogenic variant that was excluded from the 36-mutation panel. Full gene sequencing would be necessary to identify the missing allele.",
+    "Step 5: Conclude the analysis. The patient exhibits a classic cystic fibrosis phenotype, which genetically necessitates biallelic CFTR mutations. Since the initial targeted panel only detected one mutation, the most scientifically sound explanation is that the second causative mutation is rare and fell outside the scope of the limited assay. Therefore, Choice D accurately resolves the apparent discrepancy between the test results and the clinical findings."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

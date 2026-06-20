@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 598,
+  "question_uuid": "7da42222-8af4-4488-bd62-9507f08e6ff9",
+  "question": "Severe anaemia at birth is a feature of what?",
+  "options": {
+    "A": "Alpha-thalassaemia",
+    "B": "Beta-thalassaemia",
+    "C": "Hereditary persistence of fetal haemoglobin",
+    "D": "Sickle cell disease"
+  },
+  "analysis": [
+    "Step 1: Alpha-thalassaemia results from deletions or mutations affecting alpha-globin gene clusters. Since fetal haemoglobin (HbF) is composed of two alpha and two gamma chains (\u03b12\u03b32), a complete loss of alpha-chain production (as in four-gene deletion/Hb Barts) prevents functional haemoglobin synthesis in utero, directly causing severe anaemia and frequently hydrops fetalis at birth.",
+    "Step 2: Beta-thalassaemia arises from defective beta-globin chain synthesis. Because HbF does not require beta chains, affected fetuses and newborns maintain adequate oxygen transport via normal HbF production. Consequently, severe anaemia is absent at birth and typically manifests only between 6 and 24 months of age when the developmental switch to adult haemoglobin (HbA) begins.",
+    "Step 3: Hereditary persistence of fetal haemoglobin (HPFH) involves cis-acting regulatory mutations that sustain high HbF expression into adulthood. This condition is clinically benign and asymptomatic, as the persistently produced HbF functions normally, completely ruling out severe anaemia at birth.",
+    "Step 4: Sickle cell disease is caused by a missense mutation in the beta-globin gene yielding abnormal HbS. Like beta-thalassaemia, the high intrauterine and early infantile concentrations of HbF inhibit sickling and preserve red cell survival. Significant anaemia and clinical symptoms therefore remain masked until after six months of age when physiological HbF decline occurs.",
+    "Step 5: Synthesizing the pathophysiology of all candidates confirms that only alpha-thalassaemia disrupts the synthesis of globin chains indispensable for fetal haemoglobin assembly. This unique mechanism explains why profound anaemia presents immediately at delivery, distinctly separating it from beta-thalassaemia, HPFH, and sickle cell disease, which are clinically silent at birth. Thus, alpha-thalassaemia is the definitive answer."
+  ],
+  "solution": "Choice_A",
+  "ground_truth": "A"
+}

@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "College Biology",
+  "question_index": 399,
+  "question_uuid": "c15d13ed-b086-4361-9c82-d15f1e8b29d9",
+  "question": "Which of these is a statement that Darwin would have rejected?",
+  "options": {
+    "A": "Environmental change plays a role in evolution.",
+    "B": "The smallest entity that can evolve is an individual organism.",
+    "C": "Individuals can acquire new characteristics as they respond to new environments or situations.",
+    "D": "Inherited variation in a population is a necessary precondition for natural selection to operate."
+  },
+  "analysis": [
+    "Step 1: Evaluate Choice A. Darwin's theory of natural selection fundamentally relies on environmental pressures driving differential survival and reproduction. He explicitly recognized that changes in the environment alter selective pressures, thereby guiding evolutionary change. Thus, Darwin would accept this statement.",
+    "Step 2: Evaluate Choice B. A core tenet of Darwinian evolution is that evolution is a population-level phenomenon occurring across generations, not within a single lifespan. An individual organism's genetic constitution is fixed at conception and does not change over its lifetime in a way that constitutes evolution. Darwin consistently described evolution as the gradual modification of species or populations over time, making him reject the idea that an individual is the smallest unit of evolution.",
+    "Step 3: Evaluate Choice C. Darwin acknowledged that organisms can undergo physiological or morphological adjustments during their lifetimes in response to environmental conditions, such as muscle development from exercise or behavioral adaptations. While he debated the inheritance of such acquired traits, he did not reject the premise that individuals can acquire characteristics during their lives. Therefore, he would accept this statement.",
+    "Step 4: Evaluate Choice D. Darwin identified heritable variation as the essential raw material upon which natural selection acts. Without pre-existing, inheritable differences among individuals in a population, differential survival and reproduction could not lead to adaptive change. This concept is central to his work, so he would strongly endorse this statement.",
+    "Step 5: Synthesize the findings. Choices A, C, and D are consistent with Darwin's published theories and observations. Choice B directly contradicts the foundational principle that evolution operates on populations over generations, not on individual organisms within a single lifetime. Therefore, Darwin would definitively reject Choice B."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "B"
+}

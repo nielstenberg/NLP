@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "College Biology",
+  "question_index": 387,
+  "question_uuid": "eaaa114c-491e-4f38-96bc-5132e0b42718",
+  "question": "In minks, the gene for brown fur (B) is dominant over the gene for silver fur (b). Which set of genotypes represents a cross that could produce offspring with silver fur from parents that both have brown fur?",
+  "options": {
+    "A": "BB BB",
+    "B": "BB Bb",
+    "C": "Bb Bb",
+    "D": "Bb bb"
+  },
+  "analysis": [
+    "Step 1: Evaluate Choice A (BB \u00d7 BB): Both parents possess the homozygous dominant genotype, giving them brown fur. Since neither parent carries the recessive b allele, all gametes will contain only the B allele, guaranteeing that all offspring will be BB and express brown fur. This cross cannot yield silver-furred offspring.",
+    "Step 2: Evaluate Choice B (BB \u00d7 Bb): Both parents display brown fur. The BB parent exclusively produces gametes with the B allele, while the Bb parent produces gametes with either B or b. Consequently, all offspring will be either BB or Bb, both of which result in brown fur. This cross cannot produce silver-furred offspring.",
+    "Step 3: Evaluate Choice C (Bb \u00d7 Bb): Both parents have brown fur but are heterozygous carriers of the recessive b allele. According to Mendelian inheritance, crossing two heterozygotes yields a genotypic ratio of 1 BB : 2 Bb : 1 bb. The bb genotype corresponds to silver fur, meaning this cross has a 25% chance of producing silver-furred offspring while satisfying the condition that both parents are brown.",
+    "Step 4: Evaluate Choice D (Bb \u00d7 bb): Although this cross can genetically produce silver-furred offspring (bb), it directly contradicts the problem statement requiring both parents to have brown fur. The bb parent would phenotypically express silver fur, disqualifying this option.",
+    "Step 5: Synthesize the findings from the sequential evaluations. Choices A and B lack the necessary recessive alleles in both parents to produce silver offspring. Choice D fails the phenotypic constraint regarding the parents. Only Choice C meets all criteria: both parents are phenotypically brown, yet both carry the recessive allele required to generate a homozygous recessive (bb) silver-furred offspring."
+  ],
+  "solution": "Choice_C",
+  "ground_truth": "C"
+}

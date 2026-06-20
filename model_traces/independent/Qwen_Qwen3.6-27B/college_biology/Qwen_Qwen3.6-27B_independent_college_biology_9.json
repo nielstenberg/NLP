@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "College Biology",
+  "question_index": 57,
+  "question_uuid": "e4a38331-094e-4556-bb28-b92b40a6b5e0",
+  "question": "The same gene that causes various coat patterns in wild and domesticated cats also causes the cross-eyed condition in these cats, the cross-eyed condition being slightly maladaptive. In a hypothetical environment, the coat pattern that is associated with crossed eyes is highly adaptive, with the result that both the coat pattern and the cross-eyed condition increase in a feline population over time. Which statement is supported by these observations?",
+  "options": {
+    "A": "Evolution is progressive and tends toward a more perfect population.",
+    "B": "Phenotype is often the result of compromise.",
+    "C": "Natural selection reduces the frequency of maladaptive genes in populations over the course of time.",
+    "D": "Polygenic inheritance is generally maladaptive, and should become less common in future generations."
+  },
+  "analysis": [
+    "Step 1: Evaluation of Choice A reveals a fundamental misunderstanding of evolutionary theory; natural selection does not drive populations toward perfection or linear progress, but rather optimizes reproductive success within current environmental contexts while constrained by available genetic variation, making this statement scientifically inaccurate.",
+    "Step 2: Evaluation of Choice B correctly identifies that the scenario demonstrates pleiotropy, where a single gene influences multiple phenotypic traits with opposing selective values. Because the highly adaptive coat pattern and the slightly maladaptive cross-eyed condition are genetically inseparable, natural selection favors the net fitness benefit, forcing the population to retain the visual defect to gain the survival advantage, which directly supports the concept of phenotypic compromise.",
+    "Step 3: Evaluation of Choice C claims that natural selection consistently reduces the frequency of maladaptive genes over time, but the prompt explicitly states that the maladaptive cross-eyed condition increases in frequency due to its tight genetic linkage with a highly beneficial trait, directly contradicting this absolute assertion.",
+    "Step 4: Evaluation of Choice D incorrectly identifies the underlying genetic mechanism; the scenario describes pleiotropy (one gene affecting multiple traits), not polygenic inheritance (multiple genes affecting a single trait), and polygenic inheritance is a standard, often adaptive mechanism for complex traits, rendering this statement factually erroneous and irrelevant to the observation.",
+    "Step 5: Joint synthesis of the sequential evaluations confirms that Choices A, C, and D either violate core evolutionary principles or directly contradict the explicit outcomes described in the prompt. Only Choice B accurately interprets the biological dynamics at play, recognizing that genetic linkage and pleiotropy constrain independent optimization of traits, thereby supporting the conclusion that phenotypes frequently arise as evolutionary compromises."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "B"
+}

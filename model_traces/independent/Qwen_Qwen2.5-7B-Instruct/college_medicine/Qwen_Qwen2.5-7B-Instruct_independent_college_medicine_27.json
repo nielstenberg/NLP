@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 370,
+  "question_uuid": "38c6e7ae-a1a3-4be2-9934-b67aca6ffdf9",
+  "question": "A dentist that is performing procedures in his clinic is brought out to the front desk one day to handle a dispute between one of his patients and the clerk. The patient is a middle-aged businessman who is irate and creating a scene because he was told he would have to see the dental hygienist instead of the dentist. The patient loudly rants that he makes too much money to be subjected to treatment by a half-trained associate. The clerk explains to the dentist that the patient was 40 minutes late to his appointment, and the only opening now was with the hygienist. The patient snaps back that his time is worth more than any of the people in the office. What personality disorder is this patient likely exhibiting?",
+  "options": {
+    "A": "Histrionic",
+    "B": "Narcissistic",
+    "C": "Paranoid",
+    "D": "Obsessive-compulsive"
+  },
+  "analysis": [
+    "Step 1: Histrionic Personality Disorder (HPD) involves a pattern of attention-seeking behavior designed to draw focus onto oneself. While the patient's behavior could seem dramatic and seek attention, HPD typically does not involve claims about personal value or professional qualifications.",
+    "Step 2: Narcissistic Personality Disorder (NPD) is characterized by an inflated sense of self-importance, need for admiration, and lack of empathy. The patient\u2019s assertion that his time is worth more than anyone else\u2019s aligns closely with NPD traits, as it reflects a grandiose sense of self-importance and entitlement.",
+    "Step 3: Paranoid Personality Disorder (PPD) involves a pervasive distrust and suspiciousness of others\u2019 motives. Although the patient may feel slighted, there is no indication of a deep-seated mistrust or belief that others are plotting against him, which is characteristic of PPD.",
+    "Step 4: Obsessive-Compulsive Personality Disorder (OCPD) focuses on perfectionism and control over details, efficiency, and orderliness. There is no evidence in the scenario suggesting the patient exhibits these behaviors or has an excessive need for control.",
+    "Step n: Considering the patient\u2019s behavior\u2014asserting his right to receive care from the dentist specifically due to his perceived high value and making a scene at the clinic\u2014it is most consistent with Narcissistic Personality Disorder."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "C"
+}

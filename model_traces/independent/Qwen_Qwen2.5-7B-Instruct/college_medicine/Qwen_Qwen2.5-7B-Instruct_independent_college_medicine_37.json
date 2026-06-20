@@ -1,0 +1,21 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 400,
+  "question_uuid": "de5edd02-0cb1-429e-984b-2a9d5de5b71d",
+  "question": "A 5-year-old boy returns to the office with his 19-year-old mother to discuss results of studies done to evaluate his behavior of eating dirt. The patient sits quietly while his mother answers questions about his health. She says her son seems healthy, although he does not seem to be as active as other children his age. He has said his head hurts three or four times during the past 2 weeks. He has not had fever, sweats, or chills. She says he has a good appetite but has had a habit of eating sand and dirt since age 3 years. She says, \"I don't know where he gets that habit. I used to eat dirt, but I stopped years ago. I try to stop him from eating dirt, but I'm not around much since I work two jobs.\" The patient takes no medications. Vaccinations are upto-date. Height, weight, and BMI are at the 50th percentile. Vital signs are normal. Physical examination discloses no abnormalities except for symmetrical nontender cervical adenopathy. Results of laboratory studies, including serum zinc, lead, and iron concentrations, are within the reference ranges. Serologic testing confirms toxoplasmosis. In addition to prescribing pyrimethamine and sulfadiazine therapy, which of the following is the most appropriate next step in management?",
+  "options": {
+    "A": "Prescribe fluoxetine",
+    "B": "Prescribe methylphenidate",
+    "C": "Prescribe risperidone",
+    "D": "Refer the patient to a child psychiatrist"
+  },
+  "analysis": [
+    "Step 1: The case presents a 5-year-old boy who has been eating dirt (geophagia) since age 3 and now shows symptoms suggestive of toxoplasmosis, confirmed by serologic testing. The presence of symmetrical nontender cervical adenopathy could indicate lymphatic involvement due to the infection. The patient's history of geophagia raises concerns for pica, a disorder characterized by an abnormal craving for non-nutritive substances.",
+    "Step 2: Considering the options provided: - **Choice_A: Prescribe fluoxetine** - Fluoxetine is an antidepressant that can help manage behavioral issues such as depression and anxiety. However, it does not address the underlying condition causing the pica or toxoplasmosis.\n\n- **Choice_B: Prescribe methylphenidate** - Methylphenidate is commonly used to treat ADHD. While the patient may have some inattention given his lack of activity compared to peers, there is no indication of ADHD based on the information provided. Additionally, it does not address the pica or toxoplasmosis.\n\n- **Choice_C: Prescribe risperidone** - Risperidone is an antipsychotic medication often used to manage irritability associated with autism spectrum disorders and other conditions. It also does not directly address the pica or toxoplasmosis.\n\n- **Choice_D: Refer the patient to a child psychiatrist** - Given the diagnosis of toxoplasmosis and the presence of pica, referral to a child psychiatrist would allow for comprehensive evaluation and management of both the infectious disease and potential psychological factors contributing to the pica. This approach allows for addressing the underlying cause of the pica through treatment of the toxoplasmosis and managing any comorbidities or behavioral issues.",
+    "Step n: After evaluating all options, the most appropriate next step in management is to refer the patient to a child psychiatrist. This will provide a multidisciplinary approach to treating the toxoplasmosis and addressing the pica, potentially uncovering any underlying psychological factors that might contribute to the behavior."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

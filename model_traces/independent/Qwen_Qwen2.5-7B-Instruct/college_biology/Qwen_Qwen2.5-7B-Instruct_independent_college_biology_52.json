@@ -1,0 +1,22 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "independent",
+  "subject": "College Biology",
+  "question_index": 597,
+  "question_uuid": "63767ca1-a035-4807-8c28-5719972e76e8",
+  "question": "A piece of potato is dropped into a beaker of pure water. Which of the following describes the activity after the potato is immersed into the water?",
+  "options": {
+    "A": "Water moves from the potato into the surrounding water.",
+    "B": "Water moves from the surrounding water into the potato.",
+    "C": "Potato cells plasmolyze.",
+    "D": "Solutes in the water move into the potato."
+  },
+  "analysis": [
+    "Step 1: The initial condition involves a piece of potato being placed in pure water. In osmosis, water moves across a semipermeable membrane from an area of lower solute concentration to higher solute concentration until equilibrium is reached. Pure water has no solute, while potatoes contain dissolved substances such as sugars and salts. Therefore, water will move into the potato due to the difference in solute concentrations between the two solutions.",
+    "Step 2: Plasmolysis occurs when plant cells lose turgor pressure because they have lost water through osmosis, causing their cell membranes to pull away from the cell wall. This process would not occur immediately upon immersion since there is no external force pulling the cell membrane away from the cell wall; it requires time for the cell to lose enough water to cause this effect.",
+    "Step 3: If solutes in the water were to move into the potato, this would imply that the potato's internal environment becomes more dilute over time, which does not align with the principles of osmosis where water moves towards areas of higher solute concentration.",
+    "Step 4: Since water moves from the surrounding water (which has no solute) into the potato (which contains solutes), the correct description is that water moves from the surrounding water into the potato."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "B"
+}

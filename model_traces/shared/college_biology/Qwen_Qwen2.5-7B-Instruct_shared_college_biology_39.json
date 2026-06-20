@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "shared",
+  "subject": "College Biology",
+  "question_index": 102,
+  "question_uuid": "688bd40d-e7b9-4bd8-9b96-e541edd935c2",
+  "question": "A scientist carries out a cross between two guinea pigs, both of which have black coats. Black hair coat is dominant over white hair coat. Three quarters of the offspring have black coats, and one quarter have white coats. The genotypes of the parents were most likely",
+  "options": {
+    "A": "bb \u00d7 bb",
+    "B": "Bb \u00d7 Bb",
+    "C": "Bb \u00d7 bb",
+    "D": "BB \u00d7 Bb"
+  },
+  "analysis": [
+    "Step 1: The first choice, bb \u00d7 bb, suggests that both parents are homozygous recessive for the white coat trait. If this were true, all offspring would be expected to have white coats since the black coat is dominant. However, the observed ratio of three quarters black and one quarter white does not match this prediction. Therefore, this choice can be eliminated.",
+    "Step 2: The second choice, Bb \u00d7 Bb, indicates that both parents are heterozygous for the black coat trait. In a monohybrid cross where both parents are Bb, the expected phenotypic ratio is 3:1 (dominant to recessive), which matches the observed ratio of three quarters black and one quarter white. This suggests that the genotypes of the parents were most likely Bb \u00d7 Bb.",
+    "Step 3: The third choice, Bb \u00d7 bb, implies that one parent has the black coat genotype while the other has the white coat genotype. This combination would result in a 50% chance of offspring having the black coat and a 50% chance of having the white coat, leading to an equal distribution of the two phenotypes. This does not match the observed ratio, so this choice can be eliminated.",
+    "Step 4: The fourth choice, BB \u00d7 Bb, suggests that one parent is homozygous dominant for the black coat trait while the other is heterozygous. This combination would result in all offspring being black-coated because the black coat is dominant. This does not match the observed ratio, so this choice can be eliminated.",
+    "Step n: After analyzing all the options, the only choice that matches the observed phenotypic ratio of three quarters black and one quarter white is Bb \u00d7 Bb."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "B"
+}

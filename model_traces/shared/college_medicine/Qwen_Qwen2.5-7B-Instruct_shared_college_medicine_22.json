@@ -1,0 +1,24 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "shared",
+  "subject": "College Medicine",
+  "question_index": 140,
+  "question_uuid": "8a6dad7f-6b31-4708-9ba4-015dbbd464cc",
+  "question": "Walking down a street late at night, an adult male pedestrian notices a young female on the ground, not moving. The female is on the opposite side of the street. Crossing the street, the pedestrian notices that the young woman appears both much wealthier than he is and is of a different ethnicity. Seeing no one else present, the pedestrian renders aid. According to the bystander effect, which of the following would change how the pedestrian reacts?",
+  "options": {
+    "A": "The person requiring aid appearing to be of a lower socioeconomic class rather than a higher one",
+    "B": "The presence of another group of people one block up the street",
+    "C": "The person requiring aid appearing to be the same ethnicity rather than a different one",
+    "D": "The presence of one other person who is already approaching the girl"
+  },
+  "analysis": [
+    "Step 1: The bystander effect suggests that individuals are less likely to offer help when others are present because they assume someone else will take responsibility. If the person requiring aid appears to be of a lower socioeconomic class (Choice_A), it may trigger a perception bias where the pedestrian feels less empathy due to societal stereotypes about such individuals. This could potentially reduce their likelihood of offering assistance.",
+    "Step 2: Conversely, if there is another group of people one block up the street (Choice_B), the pedestrian might feel less inclined to act as they believe others will intervene instead. However, this scenario does not directly relate to the pedestrian's personal reaction based on the individual's appearance but rather the perceived collective action.",
+    "Step 3: When the person needing help is of the same ethnicity (Choice_C), research indicates that people tend to have more empathy towards those who share their cultural background, potentially increasing the likelihood of intervention. Thus, this factor could influence the pedestrian\u2019s decision positively.",
+    "Step 4: Having one other person already approaching the girl (Choice_D) can significantly impact the pedestrian\u2019s behavior according to the bystander effect. Knowing that someone else has started helping can encourage the pedestrian to join in or at least provide support, reducing the diffusion of responsibility.",
+    "Step 5: Comparing all options, while Choices B and D directly address the immediate social context influencing the pedestrian\u2019s decision-making process through the bystander effect, Choices A and C focus more on individual biases and empathy levels. Given the core principle of the bystander effect being about shared responsibility and the presence of others, the most direct influence on the pedestrian\u2019s reaction would come from knowing others are already involved (Choice_D).",
+    "Step n: Solution: Choice_D"
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

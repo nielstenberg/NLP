@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 813,
+  "question_uuid": "2f73e87b-f86c-4338-9d45-51a6e946ec80",
+  "question": "A 47-year-old man comes to the physician 12 hours after the sudden onset of a severe occipital headache and stiff neck. He has not had any other symptoms and has no history of severe headache. He has hypertension and gastroesophageal reflux disease. Current medications include hydrochlorothiazide and ranitidine. He is oriented to person, place, and time. His temperature is 36.7\u00b0C (98.1\u00b0F), pulse is 100/min, and blood pressure is 160/90 mm Hg. Range of motion of the neck is decreased due to pain. Neurologic examination shows no focal findings. Which of the following is the most likely diagnosis?",
+  "options": {
+    "A": "Cluster headache",
+    "B": "Meningitis",
+    "C": "Migraine",
+    "D": "Subarachnoid hemorrhage"
+  },
+  "analysis": [
+    "Step 1: The patient presents with a severe occipital headache and a stiff neck, which are classic symptoms of meningitis. However, the absence of fever, altered mental status, and the normal neurologic exam suggest that this might not be the primary concern. Therefore, while meningitis cannot be completely ruled out, it seems less likely given the current presentation.",
+    "Step 2: Cluster headaches typically present as unilateral orbital, supraorbital, temporal, or occipital pain, often accompanied by conjunctival injection, lacrimation, rhinorrhea, or ptosis. Since the patient's headache is described as occipital and there are no other typical cluster headache symptoms mentioned, this diagnosis is unlikely.",
+    "Step 3: Migraines can cause severe headaches but do not typically present with a stiff neck unless they are complicated by a subarachnoid hemorrhage. Given the patient\u2019s history of hypertension and the lack of other migraine-specific symptoms like photophobia or phonophobia, migraine is less likely.",
+    "Step 4: Subarachnoid hemorrhage (SAH) can present with a severe, abrupt-onset headache, often described as \"the worst headache of my life,\" and a stiff neck (due to meningeal irritation). The patient\u2019s history of hypertension increases the risk of SAH, especially if there was a recent increase in blood pressure. Additionally, the presence of a stiff neck and the fact that the headache started suddenly supports this diagnosis more than others.",
+    "Step 5: Considering all factors\u2014sudden onset, severe headache, stiff neck, and the patient\u2019s history of hypertension\u2014the most likely diagnosis is subarachnoid hemorrhage."
+  ],
+  "solution": "N/A",
+  "ground_truth": "D"
+}

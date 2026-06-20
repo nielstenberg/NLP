@@ -1,0 +1,22 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "shared",
+  "subject": "College Biology",
+  "question_index": 345,
+  "question_uuid": "728585e3-ada5-4ef1-b77e-0772376d9f31",
+  "question": "Which of the following statements about cellular respiration is correct?",
+  "options": {
+    "A": "Most CO2 produced during cellular respiration is released from glycolysis.",
+    "B": "Protons are pumped through ATP synthase by active transport.",
+    "C": "The final electron acceptor of the electron transport chain is NAD+.",
+    "D": "ATP is formed because an endergonic reaction is coupled with an exergonic reaction."
+  },
+  "analysis": [
+    "Step 1: Cellular respiration involves the breakdown of glucose into pyruvate in glycolysis, followed by the conversion of pyruvate into acetyl-CoA in the citric acid cycle, and finally the transfer of electrons through the electron transport chain to produce ATP. Most of the CO2 produced during cellular respiration comes from the citric acid cycle, not glycolysis, making Choice_A incorrect.",
+    "Step 2: Protons are indeed pumped through ATP synthase during chemiosmosis, but this process is not an example of active transport. Instead, it is a form of passive transport driven by the proton gradient across the mitochondrial membrane. Therefore, Choice_B is incorrect.",
+    "Step 3: The final electron acceptor of the electron transport chain is oxygen, not NAD+. NAD+ is used as a coenzyme in various metabolic pathways but is not the final electron acceptor in cellular respiration. Thus, Choice_C is incorrect.",
+    "Step 4: In cellular respiration, the coupling of an endergonic reaction (such as the synthesis of ATP) with an exergonic reaction (such as the oxidation of NADH) allows for the formation of ATP. This is a correct description of how ATP is formed during cellular respiration, making Choice_D correct."
+  ],
+  "solution": "N/A",
+  "ground_truth": "D"
+}

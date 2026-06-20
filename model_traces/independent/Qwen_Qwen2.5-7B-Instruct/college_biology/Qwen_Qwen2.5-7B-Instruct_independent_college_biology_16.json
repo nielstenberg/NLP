@@ -1,0 +1,20 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "independent",
+  "subject": "College Biology",
+  "question_index": 258,
+  "question_uuid": "9beac18f-5421-4a41-ad3f-599bd811f4f1",
+  "question": "Which of the following disorders will most likely result from X chromosome aneuploidy in women?",
+  "options": {
+    "A": "Cystic fibrosis",
+    "B": "Hemophilia",
+    "C": "Turner syndrome",
+    "D": "Tay-Sachs disease"
+  },
+  "analysis": [
+    "Step 1: X chromosome aneuploidy refers to having either too many or too few X chromosomes. In females, the normal karyotype is 46, XX. Aneuploidy can lead to conditions where there is an extra X chromosome (47, XXX) or a missing X chromosome (45, X). Let's analyze each disorder: Choice_A: Cystic fibrosis is caused by mutations in the CFTR gene and typically does not involve X chromosome aneuploidy.\n\nChoice_B: Hemophilia is due to mutations in genes that produce clotting factors, primarily found on the X chromosome (X-linked recessive inheritance). However, hemophilia results specifically from a mutation rather than aneuploidy.\n\nChoice_C: Turner syndrome results from the partial or complete absence of one of the two X chromosomes (45, X), making it directly related to X chromosome aneuploidy.\n\nChoice_D: Tay-Sachs disease is caused by a deficiency in the enzyme hexosaminidase A and involves autosomal recessive inheritance, unrelated to X chromosome aneuploidy.",
+    "Step 2: Among these options, only Turner syndrome (Choice_C) is a direct consequence of X chromosome aneuploidy."
+  ],
+  "solution": "Choice_C",
+  "ground_truth": "C"
+}

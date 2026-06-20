@@ -1,0 +1,24 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 535,
+  "question_uuid": "bd087ddd-0eec-47e4-b160-2e7e135860d2",
+  "question": "A 51-year-old man comes to the office because of a 6-month history of a lump on his tongue that is interfering with his speech and eating; he also has had a 6.8-kg (15-lb) weight loss during this period. He has smoked 1 pack of cigarettes daily and has consumed six 12-oz bottles of beer on weekend nights during the past 30 years. His vital signs are within normal limits. Physical examination shows a 1.5-cm mass on the apex of the tongue. Further evaluation of the mass confirms squamous cell carcinoma. It is most appropriate to evaluate which of the following lymph nodes first for evidence of metastasis in this patient?",
+  "options": {
+    "A": "Inferior deep cervical",
+    "B": "Parotid",
+    "C": "Retropharyngeal",
+    "D": "Submental"
+  },
+  "analysis": [
+    "Step 1: The patient's history includes a significant smoking habit and alcohol consumption, both known risk factors for squamous cell carcinoma of the head and neck. The location of the tumor on the apex of the tongue suggests involvement of regional lymph nodes could be possible. The most common sites for metastasis from tumors of the base of the tongue and tonsils include the upper deep cervical and submental regions.",
+    "Step 2: The inferior deep cervical lymph nodes are located near the angle of the mandible and can receive drainage from the base of the tongue and tonsils. Given the location of the primary tumor on the apex of the tongue, these lymph nodes would likely be the first to be evaluated for metastatic disease.",
+    "Step 3: The parotid lymph nodes are more commonly involved in metastases from cancers of the floor of the mouth and lower lip rather than the apex of the tongue.",
+    "Step 4: Retropharyngeal lymph nodes are less likely to be the initial site of metastasis for a tumor at the apex of the tongue due to their anatomical position relative to the pharynx.",
+    "Step 5: The submental lymph nodes are typically assessed if there is suspicion of spread to the anterior part of the neck, but given the location of the primary tumor, they are less likely to be the first site of metastasis compared to the deep cervical region.",
+    "Step n: Considering the above points, the most appropriate lymph node group to evaluate first for evidence of metastasis is the inferior deep cervical lymph nodes."
+  ],
+  "solution": "Choice_A",
+  "ground_truth": "D"
+}

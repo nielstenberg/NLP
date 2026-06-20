@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "College Biology",
+  "question_index": 78,
+  "question_uuid": "38e6a6f9-2d65-4ad1-aa46-3d77d93f798d",
+  "question": "If two modern organisms are distantly related in an evolutionary sense, then one should expect that",
+  "options": {
+    "A": "they live in very different habitats.",
+    "B": "they should share fewer homologous structures than two more closely related organisms.",
+    "C": "their chromosomes should be very similar.",
+    "D": "they shared a common ancestor relatively recently."
+  },
+  "analysis": [
+    "Step 1: Evaluate Choice A by examining the relationship between evolutionary distance and ecological niche. Habitat distribution is primarily driven by adaptive convergence and environmental pressures rather than phylogenetic proximity; distantly related taxa frequently converge on similar habitats (e.g., ichthyosaurs and sharks), while closely related taxa often radiate into disparate environments, making this expectation biologically invalid.",
+    "Step 2: Evaluate Choice B through the lens of comparative anatomy and phylogenetic divergence. Homologous structures originate from a common ancestor, and as evolutionary time since divergence increases, cumulative mutations, functional shifts, and selective pressures progressively modify or eliminate these ancestral traits; therefore, distantly related organisms will inherently share fewer recognizable homologous structures than closely related ones, aligning perfectly with established evolutionary theory.",
+    "Step 3: Evaluate Choice C by analyzing molecular and cytogenetic conservation. Chromosomal architecture, including ploidy, banding patterns, and gene synteny, undergoes extensive rearrangement and speciation-specific changes over long evolutionary intervals; consequently, distantly related organisms exhibit substantial chromosomal divergence rather than high similarity, rendering this choice incorrect.",
+    "Step 4: Evaluate Choice D by applying the foundational definition of phylogenetic relatedness. Evolutionary distance is quantitatively defined by the temporal depth of the most recent common ancestor, meaning organisms classified as distantly related necessarily diverged from a shared ancestor deep in evolutionary history, directly contradicting the assertion of a recent common ancestry.",
+    "Step 5: Synthesize the sequential evaluations to determine the correct answer. Since Choices A, C, and D either conflate ecological adaptation with phylogeny, misstate molecular conservation trends, or directly oppose the definition of evolutionary distance, only Choice B correctly reflects the expected biological consequence of prolonged divergence, confirming it as the accurate selection."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "B"
+}

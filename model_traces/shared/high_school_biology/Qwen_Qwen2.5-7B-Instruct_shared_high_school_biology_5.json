@@ -1,0 +1,22 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "shared",
+  "subject": "High School Biology",
+  "question_index": 312,
+  "question_uuid": "e198f1ec-09ef-411b-92cc-b1751d57525a",
+  "question": "Which of the following statements concerning the Golgi apparatus of a eukaryote is correct?",
+  "options": {
+    "A": "It is oriented in the cytoplasm so that its cis face is closest to the endoplasmic reticulum.",
+    "B": "It is typically associated with small secretory vesicles located near its cis face.",
+    "C": "Its composite flattened cisternae are continuous with one another.",
+    "D": "Glycosylation of certain secretory proteins occurs prior to the protein's entry into its lumen."
+  },
+  "analysis": [
+    "Step 1: The Golgi apparatus is typically oriented in the cytoplasm so that its cis face is closest to the endoplasmic reticulum. This is a correct statement as the Golgi apparatus receives proteins from the endoplasmic reticulum and processes them before they are sent to their final destinations. Choice_A is correct.",
+    "Step 2: The Golgi apparatus is often associated with small secretory vesicles located near its trans face, not the cis face. The cis face receives vesicles from the endoplasmic reticulum, while the trans face is where vesicles are formed for transport to the cell membrane or other destinations. Choice_B is incorrect.",
+    "Step 3: The composite flattened cisternae of the Golgi apparatus are not continuous with one another. Each cisterna is a separate structure within the Golgi apparatus. Choice_C is incorrect.",
+    "Step 4: Glycosylation of certain secretory proteins occurs within the lumen of the Golgi apparatus, not before the protein's entry into the lumen. Choice_D is incorrect."
+  ],
+  "solution": "Choice_A",
+  "ground_truth": "A"
+}

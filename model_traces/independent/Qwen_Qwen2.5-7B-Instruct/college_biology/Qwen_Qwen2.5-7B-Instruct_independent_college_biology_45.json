@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "independent",
+  "subject": "College Biology",
+  "question_index": 558,
+  "question_uuid": "c67f209a-028e-4a11-b798-de9c68130ccc",
+  "question": "Which of the following cells is most closely associated with phagocytosis?",
+  "options": {
+    "A": "Neutrophils",
+    "B": "Plasma cells",
+    "C": "B cells",
+    "D": "Memory cells"
+  },
+  "analysis": [
+    "Step 1: Neutrophils are a type of white blood cell that plays a crucial role in the immune system's defense against infections. They are particularly effective at engulfing and destroying bacteria through a process called phagocytosis. Therefore, neutrophils are directly involved in phagocytosis.",
+    "Step 2: Plasma cells are specialized B lymphocytes that produce antibodies after being activated by an antigen. Their primary function is not related to phagocytosis but rather to the production of specific proteins (antibodies) that can neutralize pathogens.",
+    "Step 3: B cells are also part of the adaptive immune response and can differentiate into plasma cells upon activation. However, their main function involves producing antibodies and is not directly linked to phagocytosis.",
+    "Step 4: Memory cells are derived from T and B cells and provide long-term immunity by remembering previous infections. While they play a critical role in the immune memory, they do not perform phagocytosis themselves.",
+    "Step n: Based on the above analysis, the cell most closely associated with phagocytosis is the neutrophil."
+  ],
+  "solution": "Choice_A",
+  "ground_truth": "A"
+}

@@ -1,0 +1,23 @@
+{
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 730,
+  "question_uuid": "32c40cc1-d6fe-4a48-affe-3421ad1a4fe3",
+  "question": "Which of the following disorders does not show X-linked inheritance?",
+  "options": {
+    "A": "Duchenne muscular dystrophy",
+    "B": "Tay-Sachs disease",
+    "C": "Haemophilia A",
+    "D": "Haemophilia B"
+  },
+  "analysis": [
+    "Step 1: Duchenne muscular dystrophy (A) is caused by mutations in the DMD gene located on the X chromosome. This disorder shows X-linked recessive inheritance pattern.",
+    "Step 2: Tay-Sachs disease (B) is an autosomal recessive disorder, meaning it is inherited in a way that is not linked to the sex chromosomes. It is caused by mutations in the HEXA gene, which is located on chromosome 15.",
+    "Step 3: Haemophilia A (C) is caused by mutations in the F8 gene located on the X chromosome. This disorder shows X-linked recessive inheritance pattern.",
+    "Step 4: Haemophilia B (D) is caused by mutations in the F9 gene located on the X chromosome. This disorder also shows X-linked recessive inheritance pattern.",
+    "Step 5: Comparing all options, we can see that only one disorder does not show X-linked inheritance. That is Tay-Sachs disease, as it is an autosomal recessive disorder."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "B"
+}

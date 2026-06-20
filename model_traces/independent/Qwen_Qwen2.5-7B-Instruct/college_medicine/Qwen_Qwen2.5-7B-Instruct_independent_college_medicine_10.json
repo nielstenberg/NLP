@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 301,
+  "question_uuid": "b56fedde-c074-41cb-833b-622accd38263",
+  "question": "If the frequency of males affected with an X-linked recessive condition in a human population is .10 (one in ten), what will be the expected frequency of affected females?",
+  "options": {
+    "A": "0.01",
+    "B": "0.001",
+    "C": "0.02",
+    "D": "0.0001"
+  },
+  "analysis": [
+    "Step 1: The key information given is that the frequency of males affected with an X-linked recessive condition is one in ten, meaning the frequency is 0.10. For X-linked recessive conditions, males have only one X chromosome, so if they inherit the recessive allele from their mother, they will express the condition. Females have two X chromosomes, so they must inherit both copies of the recessive allele to express the condition.",
+    "Step 2: To find the expected frequency of affected females, we need to consider the probability of both alleles being recessive. Since the frequency of the affected males indicates the frequency of the recessive allele in the population, the frequency of the recessive allele (q) is 0.10. Therefore, the frequency of the dominant allele (p) would be 1 - q = 0.90.",
+    "Step 3: For a female to be affected, she needs to inherit the recessive allele from both parents. Assuming Hardy-Weinberg equilibrium, the frequency of heterozygous females (carriers) can be calculated as 2pq, where p is the frequency of the dominant allele and q is the frequency of the recessive allele. However, since we are interested in the frequency of affected females, who must have two recessive alleles, it's simply \\(q^2\\).",
+    "Step 4: Calculating \\(q^2\\) gives us \\(0.10 \\times 0.10 = 0.01\\). This means the expected frequency of affected females is 0.01.",
+    "Step n: Based on the above calculations, the correct answer is Choice_A."
+  ],
+  "solution": "Choice_A",
+  "ground_truth": "A"
+}

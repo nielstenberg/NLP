@@ -1,0 +1,23 @@
+{
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "mode": "shared",
+  "subject": "High School Biology",
+  "question_index": 168,
+  "question_uuid": "664372af-419b-449f-a6b1-1acb0ecd835b",
+  "question": "Which of the following adaptations would limit pollination by bees and promote hummingbird pollination?",
+  "options": {
+    "A": "Patterns of ultraviolet color on the petals",
+    "B": "Modified petals to provide a landing space",
+    "C": "Pendant (hanging) red-colored flowers",
+    "D": "Nectar with high sugar concentration produced in limited amounts"
+  },
+  "analysis": [
+    "Step 1: Choice_A: Patterns of ultraviolet color on the petals - Bees have compound eyes that are sensitive to ultraviolet light, which helps them navigate and locate flowers. However, this adaptation would not limit pollination by bees but rather attract them. It's unlikely to promote hummingbird pollination, as hummingbirds rely more on visual cues like color and movement rather than ultraviolet light.",
+    "Step 2: Choice_B: Modified petals to provide a landing space - This adaptation would likely attract bees, as they often land on flowers to collect nectar. Bees are generally larger and more clumsy than hummingbirds, so a modified landing space might be more suitable for them. However, this adaptation does not specifically promote hummingbird pollination.",
+    "Step 3: Choice_C: Pendant (hanging) red-colored flowers - Hummingbirds are attracted to red flowers and are able to hover in front of them, allowing for efficient pollination. Pendant flowers would be more accessible to hummingbirds, as they can easily reach the nectar without having to land. This adaptation would promote hummingbird pollination.",
+    "Step 4: Choice_D: Nectar with high sugar concentration produced in limited amounts - This adaptation would attract hummingbirds, as they are attracted to high-sugar nectar. However, it would not specifically limit pollination by bees, as they are also attracted to high-sugar nectar. This adaptation does not promote hummingbird pollination over bee pollination.",
+    "Step 5: Considering the options, Choice_C: Pendant (hanging) red-colored flowers is the most effective adaptation to limit pollination by bees and promote hummingbird pollination. This is because pendant flowers are more accessible to hummingbirds, which can hover in front of them, and the red color is a visual cue that attracts hummingbirds."
+  ],
+  "solution": "N/A",
+  "ground_truth": "C"
+}

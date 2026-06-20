@@ -1,0 +1,24 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 691,
+  "question_uuid": "dd9f3908-3edb-495c-8c27-868e7365b4d5",
+  "question": "The ATP store in muscle can only supply energy in high intensity exercise for about:",
+  "options": {
+    "A": "2 milliseconds.",
+    "B": "2 seconds.",
+    "C": "10 seconds.",
+    "D": "20 seconds."
+  },
+  "analysis": [
+    "Step 1: Analyzing the time scale provided by each choice, we need to consider what \"high intensity exercise\" means in terms of ATP consumption. High-intensity exercises typically involve anaerobic activities where muscles rely heavily on ATP stores since oxygen supply cannot keep up with the demand during such intense efforts.",
+    "Step 2: Choice_A suggests an extremely short duration of 2 milliseconds. This timeframe is far too brief even for the fastest muscle contractions, making it implausible as the correct answer.",
+    "Step 3: Choice_B proposes 2 seconds. While this might seem plausible given that some high-intensity exercises like sprints can last up to around 10 seconds before fatigue sets in due to lactic acid buildup, it still seems somewhat short considering the rapid depletion of ATP stores under high intensity.",
+    "Step 4: Choice_C offers 10 seconds, which aligns better with typical durations of high-intensity exercises where phosphocreatine (PCr) stores deplete within this range, leading to fatigue from accumulated hydrogen ions and other metabolic waste products.",
+    "Step 5: Choice_D at 20 seconds is longer than most high-intensity exercise periods but could potentially be relevant if the exercise continues beyond the initial phase relying solely on ATP and PCr stores.",
+    "Step 6: Considering the physiological processes involved\u2014where ATP is rapidly consumed via glycolysis and creatine phosphate breakdown\u2014and the onset of fatigue once these stores are depleted, Choice_C of 10 seconds best fits the description of how long ATP stores can sustain high-intensity exercise before significant fatigue occurs."
+  ],
+  "solution": "Choice_C",
+  "ground_truth": "B"
+}

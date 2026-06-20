@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "College Biology",
+  "question_index": 606,
+  "question_uuid": "21ede160-eb2b-4267-bfcf-826a3780b25f",
+  "question": "When imbalances occur in the sex ratio of sexual species that have two sexes (i.e., other than a 50:50 ratio), the members of the minority sex often receive a greater proportion of care and resources from parents than do the offspring of the majority sex. This is most clearly an example of",
+  "options": {
+    "A": "sexual selection.",
+    "B": "disruptive selection.",
+    "C": "balancing selection.",
+    "D": "frequency-dependent selection."
+  },
+  "analysis": [
+    "Step 1: Evaluate Choice A (sexual selection). Sexual selection involves evolutionary pressure arising from competition for mates or mate preferences based on specific heritable traits. The scenario describes differential parental investment tied to population sex ratios rather than competitive displays or mate choice, making this an incorrect classification.",
+    "Step 2: Evaluate Choice B (disruptive selection). Disruptive selection favors extreme phenotypes over intermediate ones, often splitting a population into distinct groups. The described mechanism actively counteracts deviation from a 50:50 ratio by boosting the fitness of the rarer sex, thereby stabilizing rather than disrupting the distribution, so this choice is incorrect.",
+    "Step 3: Evaluate Choice C (balancing selection). Balancing selection is a broad category describing any selective process that maintains genetic or phenotypic variation within a population. While the outcome preserves a balanced sex ratio, the specific driver highlighted in the prompt\u2014the shifting advantage based on relative abundance\u2014is more precisely defined by a narrower mechanistic term.",
+    "Step 4: Evaluate Choice D (frequency-dependent selection). Frequency-dependent selection occurs when the fitness value of a phenotype depends directly on how common or rare it is within the population. In this case, the minority sex gains a disproportionate share of parental care precisely because it is rare, increasing its survival and reproductive success until the ratio approaches equilibrium. This perfectly aligns with negative frequency-dependent selection.",
+    "Step 5: Conclude the analysis by synthesizing the evaluations. Because the fitness advantage explicitly shifts in direct response to the relative frequency of each sex, driving the population back toward a stable 50:50 ratio, frequency-dependent selection is the most accurate and specific biological explanation for this phenomenon."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

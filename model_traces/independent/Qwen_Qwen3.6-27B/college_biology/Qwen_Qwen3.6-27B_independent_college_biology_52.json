@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "College Biology",
+  "question_index": 72,
+  "question_uuid": "b60b5069-a3c7-4fa0-a5bc-c56cbf23bb19",
+  "question": "Which of the following is most correct concerning cell differentiation in vertebrates?",
+  "options": {
+    "A": "Cells in different tissues contain different sets of genes, leading to structural and functional differences.",
+    "B": "Differences in the timing and expression levels of different genes leads to structural and functional differences.",
+    "C": "Differences in the reading frame of mRNA leads to structural and functional differences.",
+    "D": "Differences between tissues result from spontaneous morphogenesis."
+  },
+  "analysis": [
+    "Step 1: Evaluating Choice A reveals it is factually incorrect because nearly all somatic cells in vertebrates share the exact same genomic DNA sequence inherited from the zygote; tissue specialization does not arise from cells containing different gene sets, but from how the shared genome is utilized.",
+    "Step 2: Evaluating Choice B confirms it is correct because cell differentiation is fundamentally governed by differential gene expression, wherein complex regulatory networks precisely dictate the timing, spatial localization, and quantitative levels of specific gene transcription and translation, directly producing structurally and functionally distinct cell types.",
+    "Step 3: Evaluating Choice C shows it is incorrect because shifting the translational reading frame of mRNA typically generates nonfunctional or degraded proteins; while alternative splicing contributes to proteomic diversity, systematic reading frame alterations are not the regulated mechanism driving normal vertebrate tissue differentiation.",
+    "Step 4: Evaluating Choice D demonstrates it is incorrect because morphogenesis is a tightly controlled developmental process directed by genetic programs, signaling gradients, and mechanical forces rather than occurring spontaneously, and it describes macroscopic tissue shaping rather than the molecular basis of cellular identity.",
+    "Step 5: Comparing all options establishes that Choices A, C, and D contradict foundational principles of developmental and molecular biology, whereas Choice B accurately identifies regulated temporal and quantitative gene expression as the definitive mechanism underlying cell differentiation, making it the most correct selection."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "B"
+}

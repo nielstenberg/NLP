@@ -1,0 +1,24 @@
+{
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "mode": "independent",
+  "subject": "College Biology",
+  "question_index": 384,
+  "question_uuid": "149051d7-c705-41db-9da7-1d0cc5843f68",
+  "question": "Natural selection changes allele frequencies in populations because some ____ survive and reproduce more successfully than others.",
+  "options": {
+    "A": "alleles",
+    "B": "loci",
+    "C": "gene pools",
+    "D": "individuals"
+  },
+  "analysis": [
+    "Step 1: We need to understand what natural selection does to allele frequencies in populations. It's about how different traits affect an individual's ability to survive and reproduce.",
+    "Step 2: Let's analyze Choice A: alleles. Alleles are alternative forms of a gene that occupy the same locus on a chromosome. However, the question asks about survival and reproduction success, not directly about genes themselves.",
+    "Step 3: Now let's look at Choice B: loci. Loci refer to specific locations on chromosomes where genes can be found. This doesn't seem to fit with the idea of survival and reproduction either.",
+    "Step 4: Next, we have Choice C: gene pools. Gene pool refers to all the unique alleles present in a population. While it's related to genetics, it's still too broad and doesn't specifically relate to survival and reproduction.",
+    "Step 5: Finally, let's examine Choice D: individuals. Individuals are the living organisms within a population. If some individuals survive and reproduce more successfully than others due to their traits, this would indeed change allele frequencies as they pass those traits to their offspring.",
+    "Step 6: Considering the above points, the most logical answer is that natural selection changes allele frequencies in populations because some individuals survive and reproduce more successfully than others."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

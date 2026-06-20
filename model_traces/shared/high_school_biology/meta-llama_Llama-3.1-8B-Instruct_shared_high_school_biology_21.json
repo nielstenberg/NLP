@@ -1,0 +1,24 @@
+{
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "mode": "shared",
+  "subject": "High School Biology",
+  "question_index": 147,
+  "question_uuid": "91651356-bc3f-4147-804b-5af7679f55ee",
+  "question": "In chloroplasts, a certain protein is found in the lumen of the thylakoid (thylakoid space). It is transcribed in the nucleus and synthesized on cytoplasmic ribosomes. How many membrane bilayers must this protein cross to reach its final location?",
+  "options": {
+    "A": "One",
+    "B": "Two",
+    "C": "Three",
+    "D": "Four"
+  },
+  "analysis": [
+    "Step 1: To determine how many membrane bilayers the protein must cross, we need to consider the path it takes from the cytoplasm to the thylakoid lumen. The protein is synthesized on cytoplasmic ribosomes, which means it starts in the cytoplasm. It then needs to be transported across the outer membrane of the chloroplast, the intermembrane space, the inner membrane, and finally into the thylakoid lumen.",
+    "Step 2: The protein is synthesized in the cytoplasm and needs to be transported across the outer membrane of the chloroplast. This means it must cross one membrane bilayer to enter the chloroplast.",
+    "Step 3: Once inside the chloroplast, the protein needs to cross the intermembrane space, which is the space between the inner and outer membranes of the chloroplast. This means it must cross another membrane bilayer to enter the stroma.",
+    "Step 4: After crossing the intermembrane space, the protein needs to be transported across the inner membrane of the chloroplast. This means it must cross another membrane bilayer to enter the thylakoid space.",
+    "Step 5: Finally, the protein needs to be transported across the thylakoid membrane to reach the thylakoid lumen. This means it must cross one more membrane bilayer.",
+    "Step 6: Considering all the steps, the protein must cross a total of 4 membrane bilayers: the outer membrane of the chloroplast, the inner membrane of the chloroplast, the thylakoid membrane, and it does not need to cross the intermembrane space as it is not a membrane bilayer but a space between two membrane bilayers."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "C"
+}

@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 481,
+  "question_uuid": "0951c109-0f0b-4450-9184-e0d76952c8af",
+  "question": "An object rests on a plane, with an angle of incline, ?, an acceleration due to gravity, g, and a coefficient of friction \u00b5 between the object and the plane. Which of the following gives the acceleration of the object?",
+  "options": {
+    "A": "a = g sin ?",
+    "B": "a = g (sin ? \u2013 cos ?)",
+    "C": "a = g (cos ? \u2013 \u00b5 sin ?)",
+    "D": "a = g (sin ? \u2013 \u00b5 cos ?)"
+  },
+  "analysis": [
+    "Step 1: Evaluate Choice A (a = g sin ?). This expression represents the acceleration of an object sliding down a frictionless inclined plane, where the sole accelerating force is the parallel component of gravity. Because the problem explicitly specifies a coefficient of friction \u00b5 between the object and the plane, a resistive frictional force must act opposite to the motion and reduce the net acceleration. Choice A neglects friction entirely and is therefore incorrect.",
+    "Step 2: Evaluate Choice B (a = g (sin ? \u2013 cos ?)). This formulation attempts to introduce a resistive term by subtracting the cosine component, but it completely omits the coefficient of friction \u00b5. In classical mechanics, frictional force is directly proportional to \u00b5 and the normal force; removing \u00b5 makes the equation dimensionally inconsistent with friction models and physically inaccurate. Thus, Choice B is incorrect.",
+    "Step 3: Evaluate Choice C (a = g (cos ? \u2013 \u00b5 sin ?)). This option misassigns the trigonometric functions to the relevant force components. For an inclined plane, the gravitational component responsible for driving motion down the slope is proportional to sin ?, while the component determining the normal force (and thereby the magnitude of friction) is proportional to cos ?. Swapping these terms fundamentally misrepresents the force resolution geometry, rendering Choice C incorrect.",
+    "Step 4: Evaluate Choice D (a = g (sin ? \u2013 \u00b5 cos ?)). Resolving forces parallel to the incline gives a driving force of mg sin ?. The normal force perpendicular to the surface is mg cos ?, yielding a kinetic friction force of \u00b5 mg cos ? opposing motion. Applying Newton\u2019s second law (\u03a3F = ma) produces ma = mg sin ? \u2013 \u00b5 mg cos ?, which simplifies to a = g(sin ? \u2013 \u00b5 cos ?). This correctly balances the gravitational drive against the frictional resistance and matches standard mechanical derivation. Therefore, Choice D is correct.",
+    "Step 5: Jointly evaluate all candidates to finalize the selection. Choices A, B, and C fail to properly model the system: A ignores friction, B drops the essential coefficient \u00b5, and C incorrectly swaps the sine and cosine dependencies. Only Choice D accurately reflects the net acceleration by correctly combining the parallel gravitational component with the friction term scaled by the normal force. Consequently, Choice D is the valid solution."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

@@ -1,0 +1,21 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 508,
+  "question_uuid": "cb2a90cd-403a-41f8-bddc-a5bc6b456171",
+  "question": "The pattern of inheritance shown by glucose-6-phosphate dehydrogenase (G6PD) deficiency is:",
+  "options": {
+    "A": "autosomal dominant.",
+    "B": "autosomal recessive.",
+    "C": "X-linked dominant.",
+    "D": "X-linked recessive."
+  },
+  "analysis": [
+    "Step 1: G6PD deficiency is known to be inherited in an X-linked manner because it is caused by mutations in the X chromosome. This rules out options A (autosomal dominant) and B (autosomal recessive), as these patterns involve both sexes equally and do not align with the sex-specific distribution seen in G6PD deficiency.",
+    "Step 2: Between C (X-linked dominant) and D (X-linked recessive), G6PD deficiency is typically expressed as a recessive trait. In X-linked recessive inheritance, males (who have one X and one Y chromosome) will show symptoms if they inherit even one defective gene from their mother. Females (who have two X chromosomes) may carry the gene but usually do not show symptoms unless they inherit two defective genes.",
+    "Step n: Therefore, the correct pattern of inheritance for G6PD deficiency is X-linked recessive."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

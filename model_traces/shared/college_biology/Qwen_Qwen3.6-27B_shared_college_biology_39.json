@@ -1,0 +1,24 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "shared",
+  "subject": "College Biology",
+  "question_index": 102,
+  "question_uuid": "688bd40d-e7b9-4bd8-9b96-e541edd935c2",
+  "question": "A scientist carries out a cross between two guinea pigs, both of which have black coats. Black hair coat is dominant over white hair coat. Three quarters of the offspring have black coats, and one quarter have white coats. The genotypes of the parents were most likely",
+  "options": {
+    "A": "bb \u00d7 bb",
+    "B": "Bb \u00d7 Bb",
+    "C": "Bb \u00d7 bb",
+    "D": "BB \u00d7 Bb"
+  },
+  "analysis": [
+    "Step 1: Identify the inheritance pattern and phenotypic ratios. The problem states that black coat color (B) is dominant over white coat color (b). The observed offspring ratio is 3/4 black to 1/4 white. This specific 3:1 phenotypic ratio is characteristic of a monohybrid cross between two heterozygous individuals (a test cross involving two carriers of the recessive allele).",
+    "Step 2: Analyze Choice A (bb \u00d7 bb). Both parents are homozygous recessive (white coats). However, the problem states both parents have black coats. Furthermore, a cross between bb and bb would result in 100% white offspring (bb), which contradicts the observation of black offspring. Thus, Choice A is incorrect.",
+    "Step 3: Analyze Choice C (Bb \u00d7 bb). One parent is heterozygous black (Bb) and the other is homozygous recessive white (bb). This violates the premise that both parents have black coats. Additionally, this cross yields a 1:1 ratio (50% black, 50% white), not the observed 3:1 ratio. Thus, Choice C is incorrect.",
+    "Step 4: Analyze Choice D (BB \u00d7 Bb). Both parents have black coats (BB is homozygous dominant, Bb is heterozygous). A Punnett square for this cross results in genotypes BB and Bb in a 1:1 ratio. Since B is dominant, all offspring will express the black phenotype (100% black). This contradicts the observation that one-quarter of the offspring have white coats. Thus, Choice D is incorrect.",
+    "Step 5: Analyze Choice B (Bb \u00d7 Bb). Both parents are heterozygous, meaning they carry one dominant allele (B) and one recessive allele (b). Phenotypically, they both display the dominant black coat, satisfying the condition given in the question. A Punnett square for Bb \u00d7 Bb yields the following genotypic ratio: 1 BB : 2 Bb : 1 bb. Phenotypically, BB and Bb result in black coats (3/4 total), while bb results in a white coat (1/4 total). This matches the observed 3:1 ratio perfectly.",
+    "Step 6: Conclude the analysis. Only Choice B satisfies both conditions: the parents must have black coats, and the offspring must exhibit a 3:1 ratio of black to white coats. Therefore, the genotypes of the parents were most likely Bb \u00d7 Bb."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "B"
+}

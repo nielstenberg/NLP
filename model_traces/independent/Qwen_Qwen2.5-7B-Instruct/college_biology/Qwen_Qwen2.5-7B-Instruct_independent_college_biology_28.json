@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "independent",
+  "subject": "College Biology",
+  "question_index": 234,
+  "question_uuid": "d0f8a076-0353-4f80-9066-a6f90c8cf0db",
+  "question": "In chick embryos, the extraembryonic membrane that provides nourishment to the fetus is the",
+  "options": {
+    "A": "amnion",
+    "B": "chorion",
+    "C": "placenta",
+    "D": "egg yolk"
+  },
+  "analysis": [
+    "Step 1: The amnion is a protective sac filled with fluid that surrounds and protects the developing embryo. It does not provide direct nourishment to the fetus but rather helps protect it from physical trauma and maintains an optimal environment.",
+    "Step 2: The chorion is part of the extraembryonic membranes and plays a role in gas exchange between the embryo and its surroundings. However, it is not specifically responsible for providing nourishment directly to the fetus.",
+    "Step 3: The placenta is a specialized organ in mammals that develops during pregnancy and facilitates the exchange of nutrients, gases, and waste products between the mother and the fetus. In non-mammalian species like birds, including chickens, the equivalent structure is called the allantois, which primarily stores waste products and some nutrients.",
+    "Step 4: The egg yolk is stored within the egg itself and serves as a source of nutrition for the developing chick before hatching. Once the chick begins to develop inside the egg, the yolk is no longer necessary for nourishment since the chick now receives nutrients through other means such as the yolk sac (which is part of the digestive system) and the blood supply via the chorionic villi.",
+    "Step 5: Considering the above points, the correct answer is the one that describes the structure providing nourishment to the developing chick embryo after it has begun to develop inside the egg. For avian species, this function is performed by structures similar to the mammalian placenta, known collectively as the chorioallantoic membrane."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "D"
+}

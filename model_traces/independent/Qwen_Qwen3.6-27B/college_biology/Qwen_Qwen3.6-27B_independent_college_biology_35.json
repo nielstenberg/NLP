@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "College Biology",
+  "question_index": 81,
+  "question_uuid": "a74c05e3-299b-4306-89c4-c01041a25d4c",
+  "question": "In the inherited disorder called Pompe disease, glycogen breakdown in the cytosol occurs normally and blood glucose levels are normal, yet glycogen accumulates in lysosomes. This suggests a malfunction with",
+  "options": {
+    "A": "enzymes in the lysosomes",
+    "B": "enzymes in the mitochondria",
+    "C": "membrane transport during exocytosis",
+    "D": "membrane transport during endocytosis"
+  },
+  "analysis": [
+    "Step 1: Evaluating Choice A, lysosomes serve as the primary degradative organelles in eukaryotic cells, utilizing acidic hydrolytic enzymes to break down macromolecules including glycogen. The question specifies that cytosolic glycogen breakdown and blood glucose levels are completely normal, indicating that upstream synthesis and cytoplasmic catabolic pathways are functioning correctly. The exclusive accumulation of glycogen within lysosomes therefore points directly to a failure in the lysosomal degradation machinery, which matches the well-documented pathophysiology of Pompe disease caused by a deficiency in the lysosomal enzyme acid alpha-glucosidase.",
+    "Step 2: Evaluating Choice B, mitochondria are specialized for cellular respiration, ATP synthesis, and metabolic processes such as the citric acid cycle and beta-oxidation of fatty acids. They do not store or metabolize glycogen. A defect in mitochondrial enzymes would manifest as impaired energy production or related metabolic disturbances, not as selective glycogen accumulation in lysosomes, rendering this option biologically invalid.",
+    "Step 3: Evaluating Choice C, exocytosis is the cellular mechanism for exporting materials to the extracellular space via vesicle fusion with the plasma membrane. Lysosomal glycogen accumulation stems from an internal degradation failure, not a secretion defect. Furthermore, normal blood glucose levels confirm that systemic glucose regulation remains intact, eliminating exocytotic membrane transport as a plausible cause for the observed lysopathic phenotype.",
+    "Step 4: Evaluating Choice D, endocytosis facilitates the uptake of extracellular substances into intracellular vesicles that may eventually fuse with lysosomes. However, the premise establishes that cytosolic glycogen metabolism proceeds normally, demonstrating that general vesicular trafficking and metabolic routing are operational. A malfunction in endocytic transport would disrupt broad cellular intake and recycling pathways rather than causing the highly specific, compartment-restricted glycogen buildup described, making this choice incorrect.",
+    "Step 5: Synthesizing the sequential analysis, the defining feature of the disorder is a compartmentalized metabolic defect: normal processing in the cytosol contrasted with pathological accumulation in lysosomes. This precise localization rules out mitochondrial dysfunction, exocytotic failures, and endocytic transport defects, as none would produce this isolated lysosomal phenotype. Only a malfunction of the specific enzymes residing within the lysosome can explain why glycogen reaches the organelle but cannot be broken down, definitively identifying Choice A as the correct answer."
+  ],
+  "solution": "Choice_A",
+  "ground_truth": "A"
+}

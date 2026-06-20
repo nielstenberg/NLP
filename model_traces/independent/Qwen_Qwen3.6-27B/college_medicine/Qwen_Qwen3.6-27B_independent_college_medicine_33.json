@@ -1,0 +1,22 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 27,
+  "question_uuid": "cee4841e-fa58-4fd1-986b-75237be3798c",
+  "question": "An individual is born with a mutation causing her to partially retain a form of fetal hemoglobin into adulthood. Compared to a normal individual, this person would exhibit:",
+  "options": {
+    "A": "no differences from a normal adult.",
+    "B": "significantly reduced oxygen binding in the lungs.",
+    "C": "no symptoms, since retention of fetal hemoglobin would be fatal.",
+    "D": "increased oxygen binding to hemoglobin in the tissues."
+  },
+  "analysis": [
+    "Step 1: Evaluate Choice A, which claims no differences from a normal adult. Fetal hemoglobin (HbF) structurally differs from adult hemoglobin (HbA) by containing gamma subunits instead of beta subunits, which drastically reduces its binding affinity for 2,3-bisphosphoglycerate (2,3-BPG). This alteration shifts the oxygen-hemoglobin dissociation curve to the left, guaranteeing measurable physiological and biochemical differences in an adult, thereby invalidating this option.",
+    "Step 2: Evaluate Choice B, which suggests significantly reduced oxygen binding in the lungs. Because HbF possesses a higher intrinsic oxygen affinity than HbA, it actually loads oxygen more efficiently at the high partial pressures present in the pulmonary capillaries. Consequently, oxygen binding in the lungs would be enhanced rather than diminished, making this choice incorrect.",
+    "Step 3: Evaluate Choice C, which asserts that retention of fetal hemoglobin would be fatal and therefore yield no symptoms. Medical literature clearly documents benign genetic variants such as Hereditary Persistence of Fetal Hemoglobin (HPFH), where individuals maintain elevated HbF levels throughout life without mortality risk. Moreover, pharmacologic induction of HbF is a validated therapeutic strategy for sickle cell disease and beta-thalassemia, confirming that retention is neither fatal nor symptomless, ruling out this option.",
+    "Step 4: Evaluate Choice D, which proposes increased oxygen binding to hemoglobin in the tissues. The hallmark of HbF is its reduced interaction with 2,3-BPG, which stabilizes the high-affinity R-state of the tetramer. This leftward shift in the dissociation curve means that at the lower partial pressures typical of systemic tissues, HbF maintains a higher fractional saturation (i.e., binds more oxygen) compared to"
+  ],
+  "solution": "N/A",
+  "ground_truth": "D"
+}

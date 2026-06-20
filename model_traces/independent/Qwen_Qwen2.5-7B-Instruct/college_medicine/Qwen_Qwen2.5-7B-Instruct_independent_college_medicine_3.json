@@ -1,0 +1,24 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 406,
+  "question_uuid": "1f72dae6-738a-47f4-8218-be43138bdf22",
+  "question": "A 72-year-old man comes to the physician because of a 7-month history of leg weakness and dry eyes and mouth. He also has had a 10.4-kg (23-lb) weight loss over the past 4 months despite no change in appetite. He has smoked one and a half packs of cigarettes daily for 50 years. He drinks 4 oz of alcohol daily. He has peptic ulcer disease and emphysema. Medications include cimetidine, theophylline, and low-dose prednisone. Examination shows mild ptosis. He has a barrelshaped chest. Breath sounds are distant. There is moderate weakness of proximal muscles of the lower extremities. Reflexes are absent. He has difficulty rising from a chair. Sensory examination shows no abnormalities. An x-ray shows a hyperinflated chest and a 3 x 4-cm mass in the right hilum. His neurologic findings are most likely due to a lesion involving which of the following?",
+  "options": {
+    "A": "Muscle membrane",
+    "B": "Parasympathetic nervous system",
+    "C": "Peripheral nerve",
+    "D": "Presynaptic neuromuscular junction"
+  },
+  "analysis": [
+    "Step 1: The patient's symptoms of leg weakness, dry eyes and mouth, significant weight loss, and difficulty rising from a chair suggest a systemic disorder affecting multiple systems. The presence of a barrel-shaped chest with distant breath sounds and a hyperinflated chest on X-ray suggests chronic obstructive pulmonary disease (COPD), possibly related to his smoking history. The 3x4 cm mass in the right hilum could indicate lung cancer, further supporting COPD as a contributing factor.",
+    "Step 2: The muscle weakness and proximal muscle involvement point towards a neuromuscular disorder. However, the absence of reflexes and sensory abnormalities narrow down the possibilities significantly. This rules out peripheral neuropathy caused by diabetes or other metabolic disorders since those typically present with sensory deficits.",
+    "Step 3: The ptosis observed can be indicative of myasthenia gravis, an autoimmune disorder where antibodies attack acetylcholine receptors at the neuromuscular junction leading to muscle weakness. Myasthenia gravis often presents with ocular symptoms like ptosis and generalized weakness that worsens with activity and improves with rest, fitting well with the patient\u2019s presentation.",
+    "Step 4: Cimetidine, used for peptic ulcers, does not directly affect neuromuscular transmission but may interact with theophylline and prednisone. Theophylline is a bronchodilator used for COPD management and does not cause neuromuscular weakness. Prednisone use might mask symptoms of underlying neuromuscular diseases but does not explain the specific pattern of weakness seen here.",
+    "Step 5: Considering all these factors together, the most likely cause of the patient\u2019s symptoms is an autoimmune process affecting the neuromuscular junction, specifically myasthenia gravis. This condition primarily affects the presynaptic neuromuscular junction, leading to muscle weakness and fatigue upon exertion.",
+    "Step n: Therefore, the neurologic findings are most likely due to a lesion involving the presynaptic neuromuscular junction."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

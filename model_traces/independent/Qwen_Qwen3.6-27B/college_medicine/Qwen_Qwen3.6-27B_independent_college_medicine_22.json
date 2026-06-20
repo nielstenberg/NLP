@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 346,
+  "question_uuid": "2d4bc23c-b9b3-411b-b4f5-e0b15e28ea9d",
+  "question": "A 7-month-old infant, who was recently discharged from the hospital following an episode of enteritis and dehydration, has persistent watery diarrhea. His mother feeds him cow-milk formula and a variety of strained fruits and vegetables. On physical examination, his temperature is 37.4\u00b0C (99.3\u00b0F), his mucous membranes are dry, and his abdomen is slightly distended. No other abnormalities are seen. The problem is most likely related to which of the following?",
+  "options": {
+    "A": "Fructose intolerance",
+    "B": "Transient lactase deficiency",
+    "C": "Magnesium deficiency",
+    "D": "Regional enteritis"
+  },
+  "analysis": [
+    "Step 1: Evaluate Choice A (Fructose intolerance). Hereditary fructose intolerance typically presents with severe hypoglycemia, vomiting, and hepatic dysfunction shortly after introducing fructose or sucrose, while non-hereditary fructose malabsorption may cause bloating and loose stools but is not a recognized post-infectious complication. Given the recent enteritis and the prominence of cow-milk formula in the diet, fructose intolerance does not explain the persistent watery diarrhea.",
+    "Step 2: Evaluate Choice B (Transient lactase deficiency). Lactase is a brush-border enzyme located exclusively at the tips of intestinal villi, making it highly susceptible to damage during acute enteritis. Mucosal injury leads to secondary (transient) lactase deficiency that persists until villous regeneration occurs. Continued consumption of cow-milk formula, which is rich in lactose, results in undigested lactose remaining in the intestinal lumen, creating an osmotic gradient that draws water into the gut and undergoes bacterial fermentation, producing gas and persistent watery diarrhea with abdominal distension, precisely matching this infant's clinical picture.",
+    "Step 3: Evaluate Choice C (Magnesium deficiency). While magnesium salts can act as osmotic laxatives, magnesium deficiency itself does not typically cause persistent watery diarrhea. Diarrhea related to magnesium is almost always iatrogenic (from supplements, antacids, or laxatives) or linked to specific renal tubular disorders, neither of which applies to this post-enteritis scenario.",
+    "Step 4: Evaluate Choice D (Regional enteritis). Regional enteritis (Crohn disease) is a chronic granulomatous inflammatory bowel disease that typically presents in older children or adolescents with insidious onset, characterized by weight loss, bloody stools, systemic inflammation, perianal disease, and growth failure. An acute onset of persistent diarrhea immediately following a resolved infectious enteritis in a 7-month-old strongly contradicts this diagnosis.",
+    "Step 5: Jointly decide the solution. Sequential analysis systematically excludes fructose intolerance, magnesium deficiency, and regional enteritis based on pathophysiology, age of onset, and clinical features. Transient lactase deficiency directly accounts for the temporal relationship with recent enteritis, the dietary trigger (cow-milk formula), and the resulting osmotic diarrhea with mild abdominal distension, establishing it as the definitive underlying mechanism."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "B"
+}

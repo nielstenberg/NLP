@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "shared",
+  "subject": "College Biology",
+  "question_index": 162,
+  "question_uuid": "0db8ad47-3680-400c-9cea-7d1e6e39a55d",
+  "question": "Which of the following would most likely provide examples of mitotic cell divisions?",
+  "options": {
+    "A": "cross section of muscle tissue",
+    "B": "cross section of an anther (site of pollen production in a flower)",
+    "C": "longitudinal section of a shoot tip",
+    "D": "cross section of a leaf"
+  },
+  "analysis": [
+    "Step 1: Analyze Choice A (cross section of muscle tissue). Muscle cells, particularly skeletal and cardiac muscle fibers, are typically post-mitotic, meaning they have exited the cell cycle and do not undergo division in adult organisms. While satellite cells can divide to repair damage, a standard cross-section of mature muscle tissue primarily shows differentiated, non-dividing cells rather than active mitosis.",
+    "Step 2: Analyze Choice B (cross section of an anther). The anther is the site of pollen production in flowers. Pollen grains are produced through meiosis, specifically within microsporangia where diploid microsporocytes undergo meiotic division to form haploid microspores. Therefore, this tissue is characterized by meiotic divisions, not mitotic ones, although subsequent mitotic divisions occur later during pollen grain development, the primary defining event in the anther's sporogenous layer is meiosis.",
+    "Step 3: Analyze Choice C (longitudinal section of a shoot tip). The shoot tip contains the apical meristem, which consists of undifferentiated stem cells that actively divide via mitosis to facilitate plant growth in length. Meristematic tissues are defined by their high rate of cell division, making them the classic example of tissues undergoing frequent mitosis in plants.",
+    "Step 4: Analyze Choice D (cross section of a leaf). Most cells in a mature leaf are specialized parenchyma, epidermal, or bundle sheath cells that are fully differentiated and perform functions like photosynthesis or protection. These cells generally do not divide; thus, a cross-section of a typical leaf blade will show very few, if any, cells in the process of mitosis compared to meristematic regions.",
+    "Step 5: Compare all options to determine the best fit. Choice A involves mostly post-mitotic cells. Choice B is primarily associated with meiosis for gamete formation. Choice D involves differentiated, non-dividing cells. Choice C represents the apical meristem, which is the primary site of active mitotic cell division responsible for plant growth. Therefore, the shoot tip provides the clearest and most abundant examples of mitotic cell divisions."
+  ],
+  "solution": "Choice_C",
+  "ground_truth": "C"
+}

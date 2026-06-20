@@ -1,0 +1,22 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "shared",
+  "subject": "High School Biology",
+  "question_index": 66,
+  "question_uuid": "95787a82-612a-4791-8900-efec57d464ae",
+  "question": "Mouse sperm contain receptor proteins that bind to a glycoprotein (ZP3) in the zona pellucida of mouse eggs. Binding of ZP3 receptors to ZP3 initiates the sperm\u2019s acrosomal reaction. All of the following experimental observations would be expected EXCEPT:",
+  "options": {
+    "A": "Injecting eggs with antibodies that bind to ZP3 blocks in vitro fertilization.",
+    "B": "Incubating sperm with purified ZP3 prior to mixing sperm and eggs blocks in vitro fertilization.",
+    "C": "Incubating eggs with antibodies that bind to ZP3 blocks in vitro fertilization.",
+    "D": "Coating synthetic beads with a different glycoprotein, ZP2, fails to lead to sperm aggregation on the beads."
+  },
+  "analysis": [
+    "Step 1: Injecting eggs with antibodies that bind to ZP3 blocks in vitro fertilization because it interferes with the binding of sperm to the egg's zona pellucida, preventing the acrosomal reaction from occurring. This directly affects the initial interaction between sperm and egg, making it a logical outcome.",
+    "Step 2: Incubating sperm with purified ZP3 prior to mixing sperm and eggs blocks in vitro fertilization because the sperm will already have bound to ZP3, and the subsequent mixture with eggs will not trigger the acrosomal reaction due to the pre-bound state of the sperm. This is consistent with the function of ZP3 as a receptor protein.",
+    "Step 3: Incubating eggs with antibodies that bind to ZP3 blocks in vitro fertilization because it prevents the sperm from binding to the egg's zona pellucida, thus blocking the acrosomal reaction and preventing fertilization. This is similar to the effect described in Choice_A but focuses on the egg rather than the sperm.",
+    "Step 4: Coating synthetic beads with a different glycoprotein, ZP2, fails to lead to sperm aggregation on the beads because ZP2 does not act as a receptor for mouse sperm. The acrosomal reaction is specifically triggered by ZP3 binding, so ZP2-coated beads will not cause sperm to aggregate. This is the only choice that does not involve interference with the binding process between sperm and egg."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "A"
+}

@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "shared",
+  "subject": "College Medicine",
+  "question_index": 164,
+  "question_uuid": "64647e64-1b25-4fcd-bcd4-908f95943132",
+  "question": "A wrestler attempting to lose weight for a match in December commits himself to dropping 30lbs over 2 months. Which of the following is NOT a good method to restrict his caloric intake?",
+  "options": {
+    "A": "Study at a health smoothie store instead of a coffee shop.",
+    "B": "Reward himself with a savory meal every Saturday for meeting his calorie goals.",
+    "C": "Snap himself with a rubber band when he eats a high calorie snack.",
+    "D": "Hide snack food out of sight within his house."
+  },
+  "analysis": [
+    "Step 1: Analyze Choice A (Study at a health smoothie store instead of a coffee shop). This strategy utilizes environmental design to influence behavior. By placing oneself in an environment where healthy options are readily available and unhealthy options are less accessible or socially normative, the individual reduces the likelihood of impulsive, high-calorie consumption. This is considered a valid behavioral modification technique for weight loss.",
+    "Step 2: Analyze Choice B (Reward himself with a savory meal every Saturday for meeting his calorie goals). This approach employs positive reinforcement, a core concept in operant conditioning. Rewarding adherence to a diet plan helps maintain motivation and prevents feelings of deprivation, making it a sustainable and psychologically sound method for long-term weight management.",
+    "Step 3: Analyze Choice C (Snap himself with a rubber band when he eats a high calorie snack). This method relies on aversive conditioning, specifically using physical pain as a punishment for eating certain foods. In medical psychology and nutrition counseling, associating food with pain can lead to disordered eating patterns, such as binge-eating disorders or emotional trauma related to food. It does not teach healthy coping mechanisms or nutritional awareness, making it clinically inappropriate and potentially harmful.",
+    "Step 4: Analyze Choice D (Hide snack food out of sight within his house). This is another form of environmental control based on the principle that \"out of sight, out of mind.\" Reducing visual cues for high-calorie snacks decreases the frequency of cravings and impulse eating. This is widely recognized as an effective and safe strategy for reducing caloric intake.",
+    "Step 5: Compare all choices to determine which is NOT a good method. Choices A, B, and D represent standard, evidence-based behavioral strategies involving environmental modification and positive reinforcement. Choice C involves self-harm and negative association, which violates ethical guidelines in healthcare and can exacerbate psychological issues rather than solve them. Therefore, snapping oneself with a rubber band is the only method listed that is not recommended."
+  ],
+  "solution": "Choice_C",
+  "ground_truth": "D"
+}

@@ -1,0 +1,23 @@
+{
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "mode": "shared",
+  "subject": "College Biology",
+  "question_index": 540,
+  "question_uuid": "5579d0d4-656a-4cee-81aa-56e65df8eef6",
+  "question": "The tandem back-and-forth evolution of closely related species, which is exemplified by predator-prey relationships.",
+  "options": {
+    "A": "Divergent evolution",
+    "B": "Convergent evolution",
+    "C": "Parallel evolution",
+    "D": "Coevolution"
+  },
+  "analysis": [
+    "Step 1: Divergent evolution refers to the process where two or more related species become more dissimilar over time due to genetic drift, mutation, and natural selection. This process is not specifically related to predator-prey relationships, so Choice_A is incorrect.",
+    "Step 2: Convergent evolution is the process where unrelated species develop similar traits in response to similar environmental pressures. This process does not involve the back-and-forth evolution of closely related species, so Choice_B is incorrect.",
+    "Step 3: Parallel evolution is the process where two or more related species develop similar traits independently of each other. This process does not involve the back-and-forth evolution of closely related species, so Choice_C is incorrect.",
+    "Step 4: Coevolution is the process where two or more closely related species evolve together, often in a predator-prey relationship. This process involves the back-and-forth evolution of closely related species, making it the correct choice.",
+    "Step 5: Based on the analysis of each choice, the correct answer is Choice_D"
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

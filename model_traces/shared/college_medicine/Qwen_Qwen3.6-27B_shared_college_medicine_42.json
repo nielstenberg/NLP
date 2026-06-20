@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "shared",
+  "subject": "College Medicine",
+  "question_index": 322,
+  "question_uuid": "dc55f844-23b9-4eea-93e4-5b8a5477215d",
+  "question": "The electron transport chain, which is embedded in the mitochondrial membrane, exists primarily to generate new molecules of ATP for use by the cell. This is accomplished by a positive gradient of H+ ions that are formed outside the membrane which then pass back through a specialized channel known as ATP synthase. The energy created from this phosphorylates an ATP to an ATP, known as oxidative phosphorylation. The mechanism by which H+ returns to the inside of the mitochondria is known as what?",
+  "options": {
+    "A": "Passive transport",
+    "B": "Passive diffusion",
+    "C": "Active transport",
+    "D": "Endocytosis"
+  },
+  "analysis": [
+    "Step 1: Evaluating Choice A (Passive transport), this mechanism describes the movement of substances across a membrane down their electrochemical gradient without direct ATP consumption, which accurately reflects how H+ ions flow through the ATP synthase channel to harness potential energy for ATP synthesis.",
+    "Step 2: Evaluating Choice B (Passive diffusion), while this term also denotes movement down a gradient without energy input, it specifically refers to simple diffusion directly through the lipid bilayer, which is physically impossible for charged ions like H+ that require a specific transmembrane protein channel.",
+    "Step 3: Evaluating Choice C (Active transport), this process requires metabolic energy to move substances against their concentration or electrochemical gradient, which applies to the initial pumping of H+ out of the mitochondrial matrix by the electron transport chain complexes, not their subsequent return.",
+    "Step 4: Evaluating Choice D (Endocytosis), this is a bulk vesicular transport mechanism used at the plasma membrane to internalize large macromolecules or fluids, making it entirely irrelevant to the rapid translocation of individual protons across the inner mitochondrial membrane.",
+    "Step 5: Synthesizing the sequential analysis, Choices C and D are eliminated due to fundamental directional and mechanistic mismatches, while Choice B is rejected because charged ions cannot undergo simple diffusion across hydrophobic barriers; therefore, Choice A correctly categorizes the channel-mediated, gradient-driven return of H+ as passive transport."
+  ],
+  "solution": "Choice_A",
+  "ground_truth": "A"
+}

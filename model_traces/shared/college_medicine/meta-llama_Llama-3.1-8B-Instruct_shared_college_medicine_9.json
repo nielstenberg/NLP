@@ -1,0 +1,23 @@
+{
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "mode": "shared",
+  "subject": "College Medicine",
+  "question_index": 164,
+  "question_uuid": "64647e64-1b25-4fcd-bcd4-908f95943132",
+  "question": "A wrestler attempting to lose weight for a match in December commits himself to dropping 30lbs over 2 months. Which of the following is NOT a good method to restrict his caloric intake?",
+  "options": {
+    "A": "Study at a health smoothie store instead of a coffee shop.",
+    "B": "Reward himself with a savory meal every Saturday for meeting his calorie goals.",
+    "C": "Snap himself with a rubber band when he eats a high calorie snack.",
+    "D": "Hide snack food out of sight within his house."
+  },
+  "analysis": [
+    "Step 1: Choice A suggests studying at a health smoothie store instead of a coffee shop as a means to reduce caloric intake. This option could be considered somewhat effective because it implies choosing lower-calorie beverages like smoothies over higher-calorie coffee drinks. However, its effectiveness depends on the specific ingredients and portion sizes used in these smoothies, which can vary widely.",
+    "Step 2: Choice B involves rewarding oneself with a savory meal every Saturday for meeting calorie goals. While this might seem counterintuitive given the goal of reducing calories, the key aspect here is that it's a reward for achieving milestones, not an ongoing strategy. If managed correctly, such rewards can provide motivation without undermining the overall diet plan.",
+    "Step 3: Choice C proposes snapping oneself with a rubber band when eating a high-calorie snack. This method is more about psychological impact than actual calorie reduction. The physical discomfort from the rubber band might deter some individuals from consuming high-calorie snacks, but its effectiveness varies greatly among people due to differences in pain tolerance and emotional response to such stimuli.",
+    "Step 4: Choice D recommends hiding snack foods out of sight within the house. This approach targets the visual cue aspect of snacking, making it harder to grab a quick bite without thinking through the consequences. It aligns well with principles of mindful eating and can lead to reduced snacking if implemented consistently.",
+    "Step 5: Considering all options, Choice C stands out as the least effective method for restricting caloric intake. Unlike the other choices, which either promote healthier alternatives (A), structured rewards (B), or environmental changes (D) to support dietary goals, Choice C relies heavily on individual psychological responses to pain, which can be highly variable and less reliable for sustained behavior change."
+  ],
+  "solution": "Choice_C",
+  "ground_truth": "D"
+}

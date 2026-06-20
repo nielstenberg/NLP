@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "shared",
+  "subject": "College Medicine",
+  "question_index": 182,
+  "question_uuid": "f0061231-3901-4714-b963-ed4010628abc",
+  "question": "A 37-year-old woman is brought to the emergency department 45 minutes after she was found unconscious on her apartment floor. Her coworkers became concerned when she did not arrive for work. On arrival, she is unable to provide a history. Her pulse is 96/min, respirations are 12/min, and blood pressure is 124/58 mm Hg. Examination shows erythema, warmth, and induration of the upper back, buttocks, and posterior thighs. Her serum creatine kinase activity is 10,300 U/L. Urine toxicology screening is positive for opiates and cocaine. Urine dipstick is strongly positive for blood. Microscopic examination of the urine shows pigmented granular casts and rare erythrocytes. This patient is at increased risk for which of the following conditions over the next 24 hours?",
+  "options": {
+    "A": "Acute respiratory distress syndrome",
+    "B": "Acute tubular necrosis",
+    "C": "Cerebral edema",
+    "D": "Cerebral hemorrhage"
+  },
+  "analysis": [
+    "Step 1: The patient's symptoms include erythema, warmth, and induration of the skin areas along with elevated serum creatine kinase (CK) levels, indicating muscle damage. CK levels exceeding 5,000 U/L can lead to acute tubular necrosis due to rhabdomyolysis, where damaged muscle cells release myoglobin into the bloodstream that can cause renal injury if not managed properly. Therefore, the patient is at an increased risk for acute tubular necrosis.",
+    "Step 2: The presence of pigmented granular casts and rare erythrocytes in the urine suggests hematuria and renal involvement consistent with acute kidney injury from rhabdomyolysis. This further supports the likelihood of acute tubular necrosis.",
+    "Step 3: Elevated CK levels combined with the positive urine toxicology for opiates and cocaine suggest these substances may have contributed to the patient\u2019s condition by causing vasospasm, hypotension, and subsequent tissue ischemia leading to muscle breakdown.",
+    "Step 4: While cerebral edema and cerebral hemorrhage could occur secondary to drug toxicity or systemic illness, there is no direct evidence provided in the case presentation suggesting neurological complications such as those seen in acute respiratory distress syndrome (ARDS), cerebral edema, or cerebral hemorrhage.",
+    "Step 5: Considering all factors together\u2014elevated CK levels indicative of rhabdomyolysis, renal involvement evidenced by granular casts and hematuria, and the potential role of drugs in precipitating the condition\u2014the most likely complication within the next 24 hours would be acute tubular necrosis."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "B"
+}

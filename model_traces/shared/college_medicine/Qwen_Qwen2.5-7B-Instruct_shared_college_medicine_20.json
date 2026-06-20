@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "shared",
+  "subject": "College Medicine",
+  "question_index": 649,
+  "question_uuid": "88b62b89-2d82-4b99-98d9-42c7246f541d",
+  "question": "An investigator is studying the incidence of the common cold among medical students at various time points during the school year. Results show an increased incidence of upper respiratory tract infections among these students during finals week. It is hypothesized that the stress of studying for examinations adversely affects the immune system, making the students more susceptible to infection. Which of the following laboratory findings in these students during examination week is most likely to support this hypothesis?",
+  "options": {
+    "A": "Decreased AM serum cortisol concentration",
+    "B": "Decreased macrophage activity",
+    "C": "Increased basophil count",
+    "D": "Increased lymphocyte count"
+  },
+  "analysis": [
+    "Step 1: The hypothesis suggests that stress from studying may affect the immune system's function, potentially leading to decreased immune responses. Cortisol is known as the primary stress hormone; its levels typically increase under stressful conditions to help the body respond effectively. If stress negatively impacts the immune system, one might expect to see lower cortisol levels due to the body\u2019s inability to maintain normal homeostasis under prolonged stress. Therefore, decreased AM (morning) serum cortisol concentration could indicate impaired stress response mechanisms, supporting the hypothesis.",
+    "Step 2: Macrophages are crucial for phagocytosis and antigen presentation, playing a significant role in the innate immune response. If stress weakens the immune system, it would likely result in reduced macrophage activity since they are directly involved in fighting pathogens. Thus, decreased macrophage activity supports the hypothesis that stress impairs the immune system.",
+    "Step 3: Basophils are part of the immune system but primarily associated with allergic reactions rather than direct pathogen defense. Their count being increased does not necessarily correlate with overall immune function impairment related to stress, making this less supportive evidence compared to the other options.",
+    "Step 4: Lymphocytes include T-cells and B-cells, essential components of adaptive immunity responsible for recognizing specific antigens and producing antibodies. While an increased lymphocyte count might suggest a stronger immune response, it doesn't directly address how stress affects the immune system's effectiveness against pathogens. This makes it less relevant to the specific hypothesis about stress weakening the immune system.",
+    "Step n: Considering all factors, both decreased AM serum cortisol concentration and decreased macrophage activity strongly support the hypothesis that stress from studying weakens the immune system. However, cortisol levels provide a broader indication of systemic stress effects, while macrophage activity specifically reflects immediate immune function. Given the direct involvement of macrophages in pathogen clearance, their decreased activity more directly supports the idea that stress compromises the ability to fight off infections like those causing the common cold."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "B"
+}

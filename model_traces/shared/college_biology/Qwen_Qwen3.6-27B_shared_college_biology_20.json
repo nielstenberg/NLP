@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "shared",
+  "subject": "College Biology",
+  "question_index": 291,
+  "question_uuid": "cd962951-7e5e-4135-a6e3-ef7412a98622",
+  "question": "Viruses are considered an exception to the cell theory because they",
+  "options": {
+    "A": "are not independent organisms",
+    "B": "have only a few genes",
+    "C": "move about via their tails",
+    "D": "have evolved from ancestral protists"
+  },
+  "analysis": [
+    "Step 1: Analyzing Choice A reveals that cell theory fundamentally posits that all living organisms are composed of cells and that cells are the basic units of life capable of independent existence. Viruses lack cellular structure and cannot perform metabolism or replication without a host cell, meaning they are not independent organisms. This direct contradiction to the independence and cellular composition required by cell theory correctly identifies why they are considered an exception.",
+    "Step 2: Analyzing Choice B shows that genome size or gene count is not a criterion of cell theory. Many cellular organisms, including certain bacteria, possess very few genes but still fully satisfy cell theory because they maintain intact cellular structures and autonomous life functions. Therefore, having few genes does not justify an exception status.",
+    "Step 3: Analyzing Choice C demonstrates that motility mechanisms are irrelevant to cell theory, which concerns structural and organizational units of life rather than movement. Additionally, only specific viruses like bacteriophages possess tail structures, while many recognized cells are completely non-motile. Thus, movement via tails does not relate to the theoretical framework of cell theory.",
+    "Step 4: Analyzing Choice D indicates that evolutionary lineage does not determine adherence to cell theory. Regardless of proposed viral origins, their current acellular nature and obligate parasitism are what matter for biological classification. Evolutionary history alone does not create an exception to cell theory.",
+    "Step 5: Jointly evaluating all options confirms that only Choice A addresses the core tenet violated by viruses. Cell theory requires life to be cellular and self-sustaining at the cellular level, whereas viruses are acellular particles entirely dependent on host machinery for replication and survival. This lack of independent organismal status is the definitive reason they are classified as an exception to cell theory."
+  ],
+  "solution": "Choice_A",
+  "ground_truth": "A"
+}

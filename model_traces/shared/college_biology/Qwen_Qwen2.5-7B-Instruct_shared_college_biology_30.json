@@ -1,0 +1,22 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "shared",
+  "subject": "College Biology",
+  "question_index": 540,
+  "question_uuid": "5579d0d4-656a-4cee-81aa-56e65df8eef6",
+  "question": "The tandem back-and-forth evolution of closely related species, which is exemplified by predator-prey relationships.",
+  "options": {
+    "A": "Divergent evolution",
+    "B": "Convergent evolution",
+    "C": "Parallel evolution",
+    "D": "Coevolution"
+  },
+  "analysis": [
+    "Step 1: Divergent evolution involves the development of different traits in different lineages from a common ancestor. This process does not involve the back-and-forth evolution between predator and prey, making it an incorrect choice.",
+    "Step 2: Convergent evolution refers to the independent development of similar traits in different lineages. While this can occur in predator-prey relationships, it does not describe the tandem back-and-forth evolution where both species evolve in response to each other, making it an incorrect choice.",
+    "Step 3: Parallel evolution occurs when two or more lineages evolve similarly in response to similar environmental pressures. Although this can happen in predator-prey relationships, it does not specifically describe the reciprocal influence between the two species, making it an incorrect choice.",
+    "Step 4: Coevolution describes the simultaneous evolution of two interacting species, such as predator and prey, where each species evolves in response to changes in the other. This accurately describes the tandem back-and-forth evolution seen in predator-prey relationships, making it the correct choice."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

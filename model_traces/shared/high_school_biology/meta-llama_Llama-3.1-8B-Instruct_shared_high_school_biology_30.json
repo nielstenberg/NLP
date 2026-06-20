@@ -1,0 +1,23 @@
+{
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "mode": "shared",
+  "subject": "High School Biology",
+  "question_index": 111,
+  "question_uuid": "33aa4cf2-d498-43a4-afa6-59f1b82464be",
+  "question": "Which of the following is typically NOT found in normal somatic cells of a human male?",
+  "options": {
+    "A": "The entire genetic information possessed by the original zygote",
+    "B": "An inactivated X chromosome",
+    "C": "Forty-four autosomes",
+    "D": "A diploid nucleus"
+  },
+  "analysis": [
+    "Step 1: Let's start by analyzing Choice_A: The entire genetic information possessed by the original zygote. \nIn humans, the original zygote contains 46 chromosomes, which is the typical number of chromosomes found in somatic cells. This genetic information is present in the form of 23 pairs of chromosomes. Therefore, Choice_A is not typically NOT found in normal somatic cells of a human male.",
+    "Step 2: Next, let's analyze Choice_B: An inactivated X chromosome. \nIn human females, one of the two X chromosomes is inactivated to form a Barr body, which is a compact, inactive X chromosome. However, in human males, there is only one X chromosome, so there is no need for inactivation. Therefore, an inactivated X chromosome is typically NOT found in normal somatic cells of a human male.",
+    "Step 3: Now, let's analyze Choice_C: Forty-four autosomes. \nIn humans, the typical number of autosomes (non-sex chromosomes) in somatic cells is 44, which is 22 pairs of autosomes. This is because the sex chromosomes (X and Y) are not considered autosomes. Therefore, Choice_C is not typically NOT found in normal somatic cells of a human male.",
+    "Step 4: Finally, let's analyze Choice_D: A diploid nucleus. \nIn humans, somatic cells are diploid, meaning they have two sets of chromosomes, one from each parent. This is true for both males and females. Therefore, a diploid nucleus is typically found in normal somatic cells of a human male.",
+    "Step 5: Based on the analysis, the correct answer is Choice_B: An inactivated X chromosome, which is typically NOT found in normal somatic cells of a human male."
+  ],
+  "solution": "N/A",
+  "ground_truth": "B"
+}

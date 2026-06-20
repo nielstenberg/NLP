@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "High School Biology",
+  "question_index": 243,
+  "question_uuid": "1900dc65-d60d-40d2-a7b3-1d646849f300",
+  "question": "A fluorescent molecule of 1,000 daltons injected into one cell is observed to enter an adjacent cell by passing through a",
+  "options": {
+    "A": "spot desmosome",
+    "B": "belt desmosome",
+    "C": "gap junction",
+    "D": "tight junction"
+  },
+  "analysis": [
+    "Step 1: Evaluate Choice A (spot desmosome). Spot desmosomes are specialized anchoring junctions that mechanically link intermediate filaments between adjacent cells to provide tensile strength to tissues. They do not contain aqueous pores or channels, so they cannot facilitate the direct passage of cytoplasmic molecules between cells.",
+    "Step 2: Evaluate Choice B (belt desmosome). Belt desmosomes (often referred to as adherens junctions in epithelial belts) function structurally by connecting actin cytoskeletons across neighboring cells to maintain tissue architecture and resist mechanical stress. Like spot desmosomes, they lack transmembrane channels and therefore cannot allow molecular traffic between adjacent cytoplasms.",
+    "Step 3: Evaluate Choice C (gap junction). Gap junctions are formed by connexin proteins that assemble into hexameric connexons, which dock with connexons from adjacent cells to create continuous hydrophilic channels. These channels are specifically designed to allow the rapid diffusion of ions, second messengers, and small water-soluble molecules up to approximately 1,000 to 1,500 daltons, perfectly matching the size and behavior of the injected fluorescent molecule.",
+    "Step 4: Evaluate Choice D (tight junction). Tight junctions consist of overlapping membrane protein strands that fuse adjacent plasma membranes together to form an impermeable seal. Their biological role is to prevent the paracellular movement of substances and maintain distinct cellular compartments, rather than enabling direct intercellular molecular exchange.",
+    "Step 5: Synthesize the findings to determine the correct answer. Since desmosomes serve purely adhesive and mechanical functions while tight junctions act as barriers to extracellular flow, neither structure can explain the direct cytoplasmic transfer of a 1,000-dalton molecule. Only gap junctions possess the appropriate channel structure and precise size selectivity to permit this specific type of intercellular communication, confirming that the molecule passed through a gap junction."
+  ],
+  "solution": "Choice_C",
+  "ground_truth": "C"
+}

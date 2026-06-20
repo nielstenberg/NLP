@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "shared",
+  "subject": "College Medicine",
+  "question_index": 161,
+  "question_uuid": "34731a36-98cb-472b-bc02-eb85f62acce5",
+  "question": "Each of the following is an example of the transmission of knowledge through symbolic culture EXCEPT:\r\nI. A young macaque monkey learning to rinse off food in the ocean from an older monkey, even when the food is not covered in dirt or sand.\r\nII. A child learning the rules of baseball from a parent.\r\nIII. A new group of inductees in a military organization experiencing hazing rituals from older students, which they then later carry out on new recruits.",
+  "options": {
+    "A": "I only",
+    "B": "III only",
+    "C": "I and III only",
+    "D": "II and III only"
+  },
+  "analysis": [
+    "Step 1: Analyze Choice A (I only) by evaluating Statement I; the macaque's food-rinsing behavior represents observational social learning and direct behavioral imitation for practical utility, lacking arbitrary symbols, language, or conventional meaning, which disqualifies it as symbolic culture transmission and correctly identifies it as the exception.",
+    "Step 2: Analyze Choice B (III only) by evaluating Statement III; military hazing rituals are institutionalized traditions embedded with arbitrary symbolic meanings, status transitions, and conventional practices passed down through socialization, making it a valid example of symbolic culture transmission and thus not an exception.",
+    "Step 3: Analyze Choice C (I and III only) by synthesizing prior evaluations; while Statement I correctly functions as an exception due to its reliance on non-symbolic behavioral imitation, Statement III clearly demonstrates symbolic transmission through ritualized conventions, so grouping both as exceptions renders this choice incorrect.",
+    "Step 4: Analyze Choice D (II and III only) by evaluating Statements II and III; learning baseball rules requires acquiring arbitrary linguistic agreements and conventional frameworks, and participating in hazing rituals involves internalizing symbolic institutional traditions, meaning both are legitimate examples of symbolic culture transmission and neither qualifies as an exception.",
+    "Step 5: Jointly compare all sequentially analyzed choices; Choices B, C, and D erroneously categorize at least one instance of symbolic transmission as an exception, whereas Choice A precisely isolates the single scenario that operates through direct observational learning without symbolic mediation, confirming it as the definitive answer."
+  ],
+  "solution": "Choice_A",
+  "ground_truth": "A"
+}

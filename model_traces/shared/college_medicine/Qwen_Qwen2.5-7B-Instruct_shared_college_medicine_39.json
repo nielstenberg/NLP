@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "shared",
+  "subject": "College Medicine",
+  "question_index": 466,
+  "question_uuid": "d15b2979-f137-4e85-8900-e53ceb1e8c53",
+  "question": "Which of the following conditions shows anticipation in paternal transmission?",
+  "options": {
+    "A": "Huntington disease",
+    "B": "Marfan syndrome",
+    "C": "Cystic fibrosis",
+    "D": "Fragile X syndrome"
+  },
+  "analysis": [
+    "Step 1: Huntington disease is an autosomal dominant disorder caused by a mutation in the HTT gene. It typically manifests later in life and does not show anticipation, meaning the age of onset does not increase with each generation due to the same genetic mutation being passed down.",
+    "Step 2: Marfan syndrome is an autosomal dominant condition that affects connective tissue throughout the body. Like Huntington disease, it does not exhibit anticipation as the age of onset remains consistent across generations unless there are de novo mutations.",
+    "Step 3: Cystic fibrosis is a recessive genetic disorder caused by mutations in the CFTR gene. Since it requires two copies of the mutated gene (one from each parent) to manifest symptoms, it cannot show anticipation because both parents must contribute their copy of the defective gene.",
+    "Step 4: Fragile X syndrome is an X-linked dominant condition where the FMR1 gene has an expanded trinucleotide repeat sequence. Anticipation can occur in this condition when the premutation gets larger with each generation, leading to earlier and more severe manifestations in successive offspring. This is possible only through paternal transmission since the mutation occurs on the X chromosome, which males pass directly to their daughters but not to sons.",
+    "Step 5: Considering all options, Fragile X syndrome is the only condition among the choices that exhibits anticipation specifically through paternal transmission due to the expansion of the trinucleotide repeat sequence in the FMR1 gene."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "A"
+}

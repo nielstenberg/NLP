@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "College Biology",
+  "question_index": 138,
+  "question_uuid": "821c96d7-9dbd-4b29-87e2-391606e7040f",
+  "question": "The structure of ATP synthase in the plasma membranes of bacteria is nearly identical to that in the mitochondria and chloroplasts of eukaryotic cells. This similarity best supports which of the following hypotheses?",
+  "options": {
+    "A": "Eukaryotic and prokaryotic cells share a common ancestor.",
+    "B": "Mitochondria are derived from ancient aerobic bacteria, and chloroplasts are derived from ancient photosynthetic bacteria.",
+    "C": "The similarity of ATP synthase in bacteria, mitochondria, and chloroplasts is an example of convergent evolution.",
+    "D": "Mitochondria and chloroplasts escaped from eukaryotic cells and formed aerobic and photosynthetic prokaryotes."
+  },
+  "analysis": [
+    "Step 1: Evaluating Choice A, while it is universally accepted that all cellular life shares a distant common ancestor, this broad hypothesis does not specifically account for why ATP synthase exhibits near-identical structure in bacterial plasma membranes compared to the inner membranes of mitochondria and chloroplasts; general common ancestry explains conserved fundamental processes across all domains but lacks the targeted explanatory power needed for this specific organelle-to-bacterium structural match.",
+    "Step 2: Evaluating Choice B, this statement directly corresponds to the endosymbiotic theory, which proposes that mitochondria and chloroplasts originated from free-living aerobic and photosynthetic bacteria that were engulfed by ancestral eukaryotic cells; the remarkable structural identity of ATP synthase across these distinct membranes provides strong molecular evidence that these organelles retain the biochemical heritage of their prokaryotic ancestors.",
+    "Step 3: Evaluating Choice C, convergent evolution describes the independent emergence of similar functional traits in unrelated lineages facing comparable selective pressures, but ATP synthase is an extraordinarily complex rotary motor enzyme with highly specific subunit compositions, folding patterns, and catalytic mechanisms that are statistically impossible to evolve identically twice by chance, thereby ruling out convergence in favor of homologous descent.",
+    "Step 4: Evaluating Choice D, this option fundamentally reverses the established direction of evolutionary history, as extensive genetic, ultrastructural, and phylogenetic evidence confirms that organelles evolved from prokaryotic endosymbionts integrating into eukaryotic hosts, rather than organelles escaping eukaryotic cells to give rise to prokaryotes.",
+    "Step 5: Jointly comparing all candidates, Choice A is too generalized to explain the specific compartmental correspondence, Choice C contradicts established principles of molecular complexity and homology, and Choice D inverts evolutionary causality; only Choice B accurately and directly links the precise structural conservation of ATP synthase to the well-documented endosymbiotic origin of mitochondria and chloroplasts, making it the definitive hypothesis supported by the observation."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "B"
+}

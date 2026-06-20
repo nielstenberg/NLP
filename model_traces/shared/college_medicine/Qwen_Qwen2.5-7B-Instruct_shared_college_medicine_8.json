@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "shared",
+  "subject": "College Medicine",
+  "question_index": 454,
+  "question_uuid": "33e8f455-4565-4ced-9639-3e74acc66dca",
+  "question": "A 16-year-old girl is brought to the office by her mother because she is concerned that she may have contracted meningitis from her soccer teammate, who was diagnosed with meningococcal meningitis and admitted to the hospital yesterday. The patient's soccer team traveled to a neighboring state to participate in a tournament 1 week ago and she shared a hotel room with the girl who was hospitalized. The patient feels well but is concerned she may have \"caught the same bug.\" Medical history is remarkable for asthma. Medications include inhaled albuterol. Vital signs are temperature 37.2\u00b0C (98.9\u00b0F), pulse 64/min, respirations 16/min, and blood pressure 107/58 mm Hg. Physical examination shows no abnormalities. Which of the following is the most appropriate intervention for this patient at this time?",
+  "options": {
+    "A": "Administer the meningococcal vaccine",
+    "B": "Prescribe doxycycline",
+    "C": "Prescribe penicillin",
+    "D": "Prescribe rifampin"
+  },
+  "analysis": [
+    "Step 1: The patient has been exposed to a case of meningococcal meningitis through close contact with an infected individual sharing a hotel room. Meningococcal disease is caused by Neisseria meningitidis, which can spread through respiratory droplets and direct contact. The primary concern is whether the patient should receive prophylactic antibiotics to prevent infection.",
+    "Step 2: The administration of the meningococcal vaccine would be inappropriate as it is not indicated for post-exposure prophylaxis. The vaccine provides protection against several serogroups of N. meningitidis, but its efficacy is limited if administered after exposure. Therefore, Choice_A is incorrect.",
+    "Step 3: Doxycycline is commonly used for post-exposure prophylaxis of meningococcal disease due to its broad-spectrum activity against N. meningitidis. It is effective in preventing invasive meningococcal disease when given within 72 hours of exposure. However, it must be prescribed carefully, especially in children under 8 years old, due to potential side effects such as tooth discoloration and growth inhibition. Given the patient\u2019s age and lack of contraindications, doxycycline could be considered. Thus, Choice_B is a viable option.",
+    "Step 4: Penicillin is generally ineffective against N. meningitidis and would not provide prophylaxis against meningococcal disease. Therefore, Choice_C is incorrect.",
+    "Step 5: Rifampin is another antibiotic used for post-exposure prophylaxis of meningococcal disease. It is highly effective and often preferred over doxycycline in certain settings due to fewer restrictions regarding age and fewer side effects. However, it is less commonly used than doxycycline in routine practice. Since there is no specific indication favoring one over the other based on the information provided, doxycycline remains the more commonly recommended choice.\n\nFinal Step: Considering the options available and their appropriateness for post-exposure prophylaxis of meningococcal disease, doxycycline is the most suitable choice for this patient. While rifampin is also effective, doxycycline is more commonly prescribed and better tolerated in pediatric patients."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "D"
+}

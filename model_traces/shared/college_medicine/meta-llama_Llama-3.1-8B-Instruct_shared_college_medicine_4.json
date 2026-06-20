@@ -1,0 +1,23 @@
+{
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "mode": "shared",
+  "subject": "College Medicine",
+  "question_index": 772,
+  "question_uuid": "9bd60862-f632-42b9-88f9-9ccd66677b6b",
+  "question": "New York City is home to over 7 million inhabitants from a diverse range of backgrounds. Although the city itself has characteristics, there are several smaller areas, usually congregations of people from the same nationality, who adhere to customs from their prior country of inhabitance. For example, in Little Italy, a small town in the city, it is still customary to greet people with cheek kisses. This is an example of what kind of phenomenon?",
+  "options": {
+    "A": "Subculture",
+    "B": "Counterculture",
+    "C": "Microculture",
+    "D": "Culture lag"
+  },
+  "analysis": [
+    "Step 1: Subculture refers to a group within a larger culture that shares distinct values, norms, and practices but remains part of the broader cultural context. It's characterized by its unique identity, often shaped by factors like ethnicity, religion, socioeconomic status, or lifestyle preferences. In the case of Little Italy, the residents maintain customs such as greeting with cheek kisses, which is a distinctive practice compared to the general culture of New York City.",
+    "Step 2: Counterculture typically involves groups that reject or challenge the dominant culture, often due to dissatisfaction with societal norms, values, or institutions. They may adopt alternative lifestyles, beliefs, or behaviors that are significantly different from those of the mainstream culture. While Little Italy maintains some unique customs, it doesn't necessarily reject or challenge the broader New York City culture; instead, it preserves aspects of its heritage.",
+    "Step 3: Microculture refers to a subgroup within a subculture, sharing even more specific values, norms, and practices. These microcultures can be defined by smaller subsets within a community, such as neighborhoods, workplaces, or social cliques. However, the description provided focuses on a broader aspect of preserving customs rather than a subset within a subset.",
+    "Step 4: Culture lag occurs when a group or individual retains outdated customs, practices, or technologies from their past, often due to isolation or limited exposure to new ideas. This concept doesn't fit well with the scenario described, where the preservation of customs is not about holding onto outdated practices but rather maintaining a unique identity within the broader culture.",
+    "Step 5: Considering all the steps above, the most fitting term for the phenomenon observed in Little Italy is \"subculture.\" The residents maintain customs like greeting with cheek kisses, indicating a distinct identity within the broader New York City culture."
+  ],
+  "solution": "Choice_A",
+  "ground_truth": "A"
+}

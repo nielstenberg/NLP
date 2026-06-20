@@ -1,0 +1,22 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "independent",
+  "subject": "College Biology",
+  "question_index": 411,
+  "question_uuid": "6878b9ba-4080-44ad-9c09-f6c1b5bd865c",
+  "question": "The principle inorganic compound found in living things is",
+  "options": {
+    "A": "carbon",
+    "B": "oxygen",
+    "C": "water",
+    "D": "glucose"
+  },
+  "analysis": [
+    "Step 1: Carbon is an essential element for life as we know it, forming the backbone of organic molecules such as proteins, carbohydrates, lipids, and nucleic acids. However, while carbon is crucial for biological processes, it does not qualify as the principle inorganic compound found in living things.",
+    "Step 2: Oxygen is also vital for many biochemical reactions, including cellular respiration, but like carbon, it is not classified as an inorganic compound since it is present in both organic and inorganic forms within organisms.",
+    "Step 3: Water (H\u2082O) is composed entirely of inorganic elements\u2014hydrogen and oxygen\u2014and is the most abundant molecule in living systems. It serves numerous critical functions such as solvation, temperature regulation, and serving as a medium for chemical reactions. Therefore, water can be considered the principle inorganic compound found in living things.",
+    "Step 4: Glucose is a carbohydrate and thus an organic compound made up primarily of carbon, hydrogen, and oxygen atoms. While it is essential for energy transfer in cells, its classification makes it ineligible for being the principle inorganic compound."
+  ],
+  "solution": "Choice_C",
+  "ground_truth": "C"
+}

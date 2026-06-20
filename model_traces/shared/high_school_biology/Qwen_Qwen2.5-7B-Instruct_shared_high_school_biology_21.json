@@ -1,0 +1,22 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "shared",
+  "subject": "High School Biology",
+  "question_index": 147,
+  "question_uuid": "91651356-bc3f-4147-804b-5af7679f55ee",
+  "question": "In chloroplasts, a certain protein is found in the lumen of the thylakoid (thylakoid space). It is transcribed in the nucleus and synthesized on cytoplasmic ribosomes. How many membrane bilayers must this protein cross to reach its final location?",
+  "options": {
+    "A": "One",
+    "B": "Two",
+    "C": "Three",
+    "D": "Four"
+  },
+  "analysis": [
+    "Step 1: The protein is transcribed in the nucleus and synthesized on cytoplasmic ribosomes, indicating it is a nuclear-encoded chloroplast protein. For such proteins to reach their final location in the thylakoid lumen, they must be imported into the chloroplast after synthesis. This import process involves crossing the chloroplast envelope, which consists of two lipid bilayers.",
+    "Step 2: After entering the chloroplast through the envelope, the protein must navigate to the thylakoid membranes. The thylakoids are enclosed by a single lipid bilayer, but since the protein needs to enter the thylakoid space rather than the stroma, it must cross this single bilayer to reach the lumen.",
+    "Step 3: Therefore, the total number of membrane bilayers the protein must cross is the sum of the chloroplast envelope (two bilayers) and the thylakoid membrane (one bilayer), totaling three bilayers.",
+    "Step n: Solution: Choice_C"
+  ],
+  "solution": "Choice_C",
+  "ground_truth": "C"
+}

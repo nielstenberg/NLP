@@ -1,0 +1,19 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "College Biology",
+  "question_index": 36,
+  "question_uuid": "434f01e6-50b1-41c8-80a6-70694c952fa3",
+  "question": "Females with Turner's syndrome have a high incidence of hemophilia, a recessive, X-linked trait. Based on this information, it can be inferred that females with this condition",
+  "options": {
+    "A": "have an extra X chromosome",
+    "B": "have an extra Y chromosome",
+    "C": "lack an X chromosome",
+    "D": "have red blood cells that clump"
+  },
+  "analysis": [
+    "Step 1: Choice A suggests having an extra X chromosome, which"
+  ],
+  "solution": "N/A",
+  "ground_truth": "C"
+}

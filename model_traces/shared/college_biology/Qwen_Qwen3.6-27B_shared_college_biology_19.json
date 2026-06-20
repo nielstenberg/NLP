@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "shared",
+  "subject": "College Biology",
+  "question_index": 492,
+  "question_uuid": "81474ffc-d8f3-409b-bb60-21d711013894",
+  "question": "Which of the following pairs of scientists pioneered the ecological discipline known as island biogeography?",
+  "options": {
+    "A": "Robert MacArthur and E. O. Wilson",
+    "B": "James Watson and Francis Crick",
+    "C": "Matthias Schleiden and Theodor Schwann",
+    "D": "Alfred Hershey and Martha Chase"
+  },
+  "analysis": [
+    "Step 1: Evaluate Choice A (Robert MacArthur and E. O. Wilson). These two researchers co-authored the foundational 1967 publication \"The Theory of Island Biogeography,\" which introduced dynamic equilibrium models explaining how species colonization and extinction rates determine biodiversity on islands based on geographic area and isolation distance. This directly aligns with the ecological discipline specified in the question.",
+    "Step 2: Evaluate Choice B (James Watson and Francis Crick). This pair is historically recognized for elucidating the double-helical structure of DNA in 1953, a breakthrough that revolutionized molecular biology and genetics, but holds no connection to ecological theories or island biogeography.",
+    "Step 3: Evaluate Choice C (Matthias Schleiden and Theodor Schwann). Working in the mid-19th century, these scientists established the fundamental principles of cell theory, asserting that plants and animals are composed of cells, which places their contributions squarely in cellular biology rather than ecology.",
+    "Step 4: Evaluate Choice D (Alfred Hershey and Martha Chase). In 1952, they performed the iconic blender experiment using T2 bacteriophages to demonstrate that DNA is the hereditary material, a milestone in molecular genetics that does not relate to spatial ecology or island biogeography.",
+    "Step 5: Synthesize the findings from the previous steps to determine the correct answer. Since Choices B, C, and D correspond to major discoveries in molecular biology, cell theory, and genetics respectively, only Choice A accurately identifies the scientists who pioneered island biogeography through their theoretical framework on species-area relationships and immigration-extinction dynamics."
+  ],
+  "solution": "Choice_A",
+  "ground_truth": "A"
+}

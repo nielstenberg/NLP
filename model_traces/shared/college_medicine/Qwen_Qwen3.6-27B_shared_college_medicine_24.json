@@ -1,0 +1,20 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "shared",
+  "subject": "College Medicine",
+  "question_index": 65,
+  "question_uuid": "d3880cbf-0dfe-4931-8fb8-45b2972342a6",
+  "question": "A 22-year-old male presents to the office with a\u00a05-day\u00a0history of diarrhea after completing his third course of antibiotics for mastoiditis. Physical examination reveals vague generalized abdominal pain on palpation. Culture on hektoen enteric agar is positive. The most likely etiologic agent causing the diarrhea is",
+  "options": {
+    "A": "Clostridium difficile",
+    "B": "Entamoeba histolytica",
+    "C": "Giardia lamblia",
+    "D": "Salmonella typhi"
+  },
+  "analysis": [
+    "Step 1: Evaluate Choice A (Clostridium difficile). While a history of multiple antibiotic courses is a major risk factor for C. difficile infection, this pathogen is a Gram-positive, spore-forming anaerobe that is clinically diagnosed using toxin immunoassays or nucleic acid amplification tests, not routine stool culture. Crucially, Hektoen enteric agar contains bile salts and pH-sensitive dyes that actively inhibit Gram-positive organisms, meaning C. difficile would not grow or yield a positive result on this medium.",
+    "Step 2: Evaluate Choice B (Entamoeba histolytica). This protozoan parasite causes amebic dysentery and"
+  ],
+  "solution": "N/A",
+  "ground_truth": "D"
+}

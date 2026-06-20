@@ -1,0 +1,24 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 131,
+  "question_uuid": "3b0715d3-5279-4b41-a291-aca28cecedfe",
+  "question": "An epidemic involving 10\u00a0individuals of all ages occurs in a migrant worker camp. None of the patients has had any form of immunization. Most cases present with fever, chills, tachypnea, sore throat, swollen glands, and severe malaise. One patient dies from respiratory complications, and another dies from myocardial involvement. A gram-positive rod is isolated from the respiratory tracts of 7 of the patients. The most likely cause of the outbreak is",
+  "options": {
+    "A": "Bordetella pertussis",
+    "B": "Corynebacterium diphtheriae",
+    "C": "Epstein-Barr virus",
+    "D": "Haemophilus influenzae"
+  },
+  "analysis": [
+    "Step 1: Analyzing the symptoms presented by the patients, such as fever, chills, tachypnea, sore throat, swollen glands, and severe malaise, suggests an infectious disease. The presence of a gram-positive rod isolated from the respiratory tracts of seven patients points towards a bacterial infection.",
+    "Step 2: Considering the severity of the cases where two individuals died\u2014one from respiratory complications and another from myocardial involvement\u2014indicates that the pathogen could be highly virulent and capable of causing systemic effects beyond just respiratory issues.",
+    "Step 3: Bordetella pertussis (Choice_A) is known to cause whooping cough and typically presents with similar symptoms including paroxysmal coughing, but it does not commonly cause myocarditis or significant respiratory complications leading to death.",
+    "Step 4: Corynebacterium diphtheriae (Choice_B) can lead to diphtheria, characterized by a pseudomembrane in the upper respiratory tract and potential myocarditis. However, it usually results in localized infections rather than widespread systemic effects seen in this case.",
+    "Step 5: Epstein-Barr virus (Choice_C) causes infectious mononucleosis, presenting with fatigue, lymphadenopathy, pharyngitis, and hepatosplenomegaly. While it can affect multiple organ systems, it generally does not result in high mortality rates due to respiratory or cardiac complications.",
+    "Step 6: Haemophilus influenzae (Choice_D) can cause various types of infections ranging from mild to severe, including pneumonia and meningitis. It is known to produce \u03b2-hemolytic colonies and can lead to severe respiratory complications and even myocarditis, making it consistent with the clinical presentation and outcomes observed in this outbreak.\n\nFinal Step: After analyzing the characteristics of each pathogen and their typical presentations, Haemophilus influenzae (Choice_D) best fits the description of the outbreak given its ability to cause severe respiratory and systemic complications, aligning well with the clinical picture provided."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "B"
+}

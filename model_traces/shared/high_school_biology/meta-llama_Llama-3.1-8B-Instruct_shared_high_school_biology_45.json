@@ -1,0 +1,23 @@
+{
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "mode": "shared",
+  "subject": "High School Biology",
+  "question_index": 279,
+  "question_uuid": "6c2dfcfe-f469-44e1-9efa-138da4f7128f",
+  "question": "Which of the following is a reason that geneticists use mitochondrial DNA (mtDNA) to study the relatedness of animal populations?",
+  "options": {
+    "A": "mtDNA mutates at a slower rate than nuclear DNA.",
+    "B": "mtDNA is passed from mother to child and is free from recombination that occurs between pairs of chromosomes.",
+    "C": "There are few single nucleotide polymorphisms in the hypervariable, noncoding regions.",
+    "D": "All mitochondrial proteins are coded for by mitochondrial genes."
+  },
+  "analysis": [
+    "Step 1: Let's start by analyzing Choice_A: mtDNA mutates at a slower rate than nuclear DNA. \nThis statement is not entirely accurate. Mitochondrial DNA (mtDNA) actually mutates at a faster rate than nuclear DNA. This is because mtDNA is not protected by histone proteins and is more susceptible to damage from reactive oxygen species (ROS) produced during cellular metabolism. Therefore, Choice_A is incorrect.",
+    "Step 2: Next, let's analyze Choice_B: mtDNA is passed from mother to child and is free from recombination that occurs between pairs of chromosomes. \nThis statement is true. Mitochondrial DNA is inherited maternally, meaning it is passed from mother to child. Additionally, mtDNA is a circular molecule that replicates independently of the nuclear DNA, and it does not undergo recombination like nuclear DNA does. This makes mtDNA a useful tool for studying maternal lineage and phylogenetic relationships. Therefore, Choice_B is a strong candidate.",
+    "Step 3: Now, let's analyze Choice_C: There are few single nucleotide polymorphisms in the hypervariable, noncoding regions. \nThis statement is not accurate. The hypervariable regions of mtDNA, such as the control region, actually have a high degree of variability and are often used in forensic and phylogenetic studies. This variability is due to the high mutation rate of mtDNA, which allows for the accumulation of genetic differences over time. Therefore, Choice_C is incorrect.",
+    "Step 4: Finally, let's analyze Choice_D: All mitochondrial proteins are coded for by mitochondrial genes. \nThis statement is not entirely accurate. While some mitochondrial proteins are encoded by mtDNA, many others are encoded by nuclear DNA and imported into the mitochondria. This is because the mitochondrial genome is relatively small and lacks the genes for many essential proteins. Therefore, Choice_D is incorrect.",
+    "Step 5: Based on the analysis of each choice, the correct answer is Choice_B: mtDNA is passed from mother to child and is free from recombination that occurs between pairs of chromosomes. This is the primary reason why geneticists use mitochondrial DNA to study the relatedness of animal populations."
+  ],
+  "solution": "N/A",
+  "ground_truth": "B"
+}

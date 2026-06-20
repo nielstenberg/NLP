@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "shared",
+  "subject": "College Medicine",
+  "question_index": 182,
+  "question_uuid": "f0061231-3901-4714-b963-ed4010628abc",
+  "question": "A 37-year-old woman is brought to the emergency department 45 minutes after she was found unconscious on her apartment floor. Her coworkers became concerned when she did not arrive for work. On arrival, she is unable to provide a history. Her pulse is 96/min, respirations are 12/min, and blood pressure is 124/58 mm Hg. Examination shows erythema, warmth, and induration of the upper back, buttocks, and posterior thighs. Her serum creatine kinase activity is 10,300 U/L. Urine toxicology screening is positive for opiates and cocaine. Urine dipstick is strongly positive for blood. Microscopic examination of the urine shows pigmented granular casts and rare erythrocytes. This patient is at increased risk for which of the following conditions over the next 24 hours?",
+  "options": {
+    "A": "Acute respiratory distress syndrome",
+    "B": "Acute tubular necrosis",
+    "C": "Cerebral edema",
+    "D": "Cerebral hemorrhage"
+  },
+  "analysis": [
+    "Step 1: Evaluate Choice A (Acute respiratory distress syndrome). ARDS is characterized by diffuse alveolar damage and noncardiogenic pulmonary edema, typically triggered by direct lung injury or severe systemic inflammatory states like sepsis or major trauma. While critically ill patients can develop ARDS, the clinical vignette emphasizes profound skeletal muscle breakdown and specific urinary findings rather than pulmonary compromise, making ARDS an unlikely primary complication within the next 24 hours.",
+    "Step 2: Evaluate Choice B (Acute tubular necrosis). The patient\u2019s prolonged immobilization, markedly elevated creatine kinase (>10,000 U/L), and urine dipstick positivity for blood with minimal erythrocytes on microscopy are diagnostic of rhabdomyolysis with myoglobinuria. Filtered myoglobin induces renal vasoconstriction, exerts direct oxidative toxicity on tubular epithelial cells, and precipitates as intratubular casts in acidic urine, creating a triad that classically results in acute tubular necrosis (ATN) within 24 to 48 hours.",
+    "Step 3: Evaluate Choice C (Cerebral edema). Cerebral edema typically develops secondary to traumatic brain injury, ischemic stroke, central nervous system infections, or rapid corrections of serum sodium. Although the patient was found unconscious, likely due to combined opioid and cocaine intoxication, there is no clinical evidence of head trauma or primary neurological insult that would predispose her to significant brain swelling over the next day.",
+    "Step 4: Evaluate Choice D (Cerebral hemorrhage). Cocaine use can cause acute sympathetic surges, severe hypertension, and an increased risk of intracranial hemorrhage. However, this patient\u2019s blood pressure is normotensive (124/58 mm Hg), and the dominant physical exam findings (pressure-point skin changes) alongside laboratory data (massive CK elevation, myoglobinuria) point decisively toward muscle injury and subsequent renal threat rather than a primary cerebrovascular event.",
+    "Step 5: Synthesize the sequential analyses to determine the correct answer. The presentation is classic for rhabdomyolysis caused by prolonged compression during drug-induced unconsciousness. The combination of extreme CK elevation and myoglobinuria directly predicts renal tubular injury, establishing acute tubular necrosis as the most immediate, pathophysiologically sound, and clinically significant complication among the provided options."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "B"
+}

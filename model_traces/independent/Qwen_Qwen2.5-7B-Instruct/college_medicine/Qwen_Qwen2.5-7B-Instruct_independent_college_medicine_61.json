@@ -1,0 +1,24 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 274,
+  "question_uuid": "965e042c-97ab-41df-8095-a47ccf82f821",
+  "question": "A 42-year-old man comes to the physician for a follow-up examination 1 week after he passed a renal calculus. X-ray crystallographic analysis of the calculus showed calcium as the primary cation. Physical examination today shows no abnormalities. A 24-hour collection of urine shows increased calcium excretion. Which of the following is the most appropriate pharmacotherapy?",
+  "options": {
+    "A": "Carbonic anhydrase inhibitor",
+    "B": "Na+ \u2013Cl\u2212 symport inhibitor",
+    "C": "Na+ \u2013K + \u20132Cl\u2212 symport inhibitor",
+    "D": "Osmotic diuretic"
+  },
+  "analysis": [
+    "Step 1: The patient has a history of passing a renal calculus primarily composed of calcium, with increased urinary calcium excretion noted. This suggests hypercalciuria, likely due to excessive intestinal absorption of calcium or reduced renal reabsorption of calcium. The goal of pharmacotherapy would be to reduce the amount of calcium entering the urine.",
+    "Step 2: Carbonic anhydrase inhibitors (Choice_A) work by inhibiting carbonic anhydrase, leading to decreased hydrogen ion secretion and subsequent retention of bicarbonate and water in the distal tubules. While they can help manage hypertension and glaucoma, their use in reducing hypercalciuria is not common and does not directly address the issue of excess calcium excretion.",
+    "Step 3: Sodium-chloride cotransporter inhibitors (Choice_B) inhibit the sodium-chloride cotransporter, which could potentially decrease sodium and chloride reabsorption, but these drugs do not specifically target calcium excretion and may have side effects unrelated to the condition.",
+    "Step 4: Sodium-potassium-chloride cotransporter type 2 (NKCC2) inhibitors (Choice_C), such as thiazides, block the Na+-K+-2Cl\u2212 symport system in the thick ascending limb of the loop of Henle. These drugs increase calcium excretion by promoting calcium reabsorption into the medulla, thus indirectly increasing its excretion through osmotic diuresis. However, they also promote potassium loss and may cause other electrolyte imbalances.",
+    "Step 5: Osmotic diuretics (Choice_D) like mannitol induce osmotic diuresis by creating an osmotic gradient that draws water out of the blood and into the urine, effectively concentrating it. This can lead to increased calcium excretion if there is sufficient calcium available in the filtrate.",
+    "Step n: Considering the need to reduce calcium excretion and the potential side effects of each drug class, the most appropriate pharmacotherapy is the Na+-K+-2Cl\u2212 symport inhibitor (Choice_C). It directly targets the mechanism responsible for increased calcium excretion while having fewer systemic effects compared to osmotic diuretics."
+  ],
+  "solution": "Choice_C",
+  "ground_truth": "B"
+}

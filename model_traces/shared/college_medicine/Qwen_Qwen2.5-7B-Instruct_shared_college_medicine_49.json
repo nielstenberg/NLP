@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "shared",
+  "subject": "College Medicine",
+  "question_index": 316,
+  "question_uuid": "6000225a-4918-4223-a8b4-54abb53deb97",
+  "question": "Which of the following conditions is not caused by a mutation in FGFR3?",
+  "options": {
+    "A": "Achondroplasia",
+    "B": "Crouzon syndrome",
+    "C": "Thanatophoric dysplasia",
+    "D": "Waardenburg syndrome"
+  },
+  "analysis": [
+    "Step 1: Achondroplasia is caused by a mutation in the FGFR3 gene, leading to impaired bone growth due to abnormal cartilage formation during development. This makes Choice_A a condition that can be caused by a mutation in FGFR3.",
+    "Step 2: Crouzon syndrome involves multiple cranial abnormalities including premature fusion of skull bones (craniosynostosis), giving the head a misshapen appearance. It is known to result from mutations in FGFR2, not FGFR3, making Choice_B incorrect as it does not involve a mutation in FGFR3.",
+    "Step 3: Thanatophoric dysplasia is characterized by severe skeletal abnormalities resulting from mutations in the SOX9 gene, not FGFR3. Therefore, Choice_C is also not caused by a mutation in FGFR3.",
+    "Step 4: Waardenburg syndrome is associated with hearing loss and distinctive facial features, often linked to mutations in genes such as PAX6, MITF, or SNAI2, but not FGFR3. Thus, Choice_D is another condition not caused by a mutation in FGFR3.",
+    "Step 5: Comparing all options, while both Choices_C and D are correct in stating they do not involve FGFR3 mutations, the question asks for the single condition among the given choices that is not caused by a mutation in FGFR3. Since Choice_B specifically mentions an unrelated gene mutation (FGFR2) rather than no involvement at all, it stands out uniquely."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "D"
+}

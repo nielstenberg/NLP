@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "shared",
+  "subject": "College Medicine",
+  "question_index": 727,
+  "question_uuid": "f7ccd5cc-bdb9-4feb-ba29-a55fc9d9d229",
+  "question": "Three weeks ago a 45-year-old man was admitted to the hospital because of frostbite of both feet. He was treated by rapid rewarming and protective care of the feet. All the toes on the right foot have turned black. He has become slightly febrile and progressively more confused during the past few days. Examination discloses cellulitis in the midfoot. Which of the following is the most appropriate treatment?",
+  "options": {
+    "A": "Amputation",
+    "B": "Application of topical collagenase",
+    "C": "Debridement of necrotic skin over the toes",
+    "D": "Hyperbaric oxygen"
+  },
+  "analysis": [
+    "Step 1: Choice A (Amputation) addresses the core pathophysiology of the current clinical deterioration. The blackened toes indicate full-thickness tissue necrosis that has likely transitioned from dry to wet gangrene, evidenced by the surrounding midfoot cellulitis. The development of fever and progressive confusion signals systemic inflammatory response syndrome or early sepsis originating from the infected necrotic tissue. In this setting, immediate surgical amputation is mandatory to achieve definitive source control, remove the bacterial nidus, halt toxin absorption, and prevent fatal multiorgan failure.",
+    "Step 2: Choice B (Application of topical collagenase) involves enzymatic debridement, which is indicated for stable, chronic wounds or burn eschar where gradual, selective removal of necrotic tissue is safe and feasible. It acts too slowly to manage an acutely progressing infection with systemic toxicity. Relying on topical agents would dangerously delay definitive intervention, allowing sepsis to advance unchecked.",
+    "Step 3: Choice C (Debridement of necrotic skin over the toes) represents a conservative, superficial approach that only removes epidermal and dermal debris while leaving deeper devitalized structures (subcutaneous tissue, tendons, bone) intact. Given the presence of cellulitis extending into the midfoot and systemic signs of infection, limited debridement is inadequate to eradicate the infectious focus and carries a high risk of persistent bacteremia and further proximal tissue destruction.",
+    "Step 4: Choice D (Hyperbaric oxygen) may serve as an adjunctive therapy for certain hypoxic wounds or specific anaerobic infections, but it does not replace surgical source control. It cannot rapidly reverse established coagulative necrosis, clear heavy bacterial loads, or resolve active cellulitis with systemic compromise. Its use here would divert attention from the urgent need for mechanical removal of infected tissue.",
+    "Step 5: Joint evaluation confirms that the patient's clinical trajectory from localized frostbite to infected necrosis with systemic toxicity mandates aggressive surgical intervention. Conservative measures (topical collagenase, limited debridement) and adjunctive modalities (hyperbaric oxygen) fail to provide the rapid and complete source control required to reverse sepsis. Only amputation definitively eliminates the necrotic and infected tissue, thereby resolving the systemic illness and preserving remaining viable limb segments."
+  ],
+  "solution": "Choice_A",
+  "ground_truth": "A"
+}

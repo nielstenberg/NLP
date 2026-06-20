@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "shared",
+  "subject": "High School Biology",
+  "question_index": 63,
+  "question_uuid": "ed83dd48-d35a-46e3-87d4-82382fbbeaad",
+  "question": "Which of the following is encoded by the src oncogene and catalyzes the specific addition of phosphate groups to cellular proteins?",
+  "options": {
+    "A": "Protein phosphatase",
+    "B": "Adenylate cyclase",
+    "C": "G protein-linked receptor",
+    "D": "Tyrosine kinase"
+  },
+  "analysis": [
+    "Step 1: Analyzing Choice A (Protein phosphatase): Protein phosphatases catalyze the removal of phosphate groups from proteins through hydrolysis, which is the direct opposite of the function described in the question. Therefore, this choice is incorrect.",
+    "Step 2: Analyzing Choice B (Adenylate cyclase): Adenylate cyclase is an enzyme that converts ATP into cyclic AMP (cAMP) to act as a secondary messenger in signal transduction pathways. It does not catalyze the addition of phosphate groups to cellular proteins, so this choice is incorrect.",
+    "Step 3: Analyzing Choice C (G protein-linked receptor): G protein-coupled receptors are transmembrane signaling proteins that activate intracellular G proteins upon ligand binding. They lack intrinsic enzymatic activity for phosphorylating proteins and instead rely on downstream effectors, making this choice incorrect.",
+    "Step 4: Analyzing Choice D (Tyrosine kinase): Tyrosine kinases are enzymes that specifically catalyze the transfer of phosphate groups from ATP to the hydroxyl side chains of tyrosine residues on target proteins. The src oncogene was the first discovered oncogene and is classically defined by its ability to encode a constitutively active non-receptor tyrosine kinase, matching the question's description exactly.",
+    "Step 5: After evaluating each candidate sequentially, only Choice D satisfies both criteria stated in the question: being encoded by the src oncogene and functioning as an enzyme that adds phosphate groups to specific amino acids on cellular proteins. Therefore, Choice D is the correct answer."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

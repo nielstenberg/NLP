@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "shared",
+  "subject": "College Medicine",
+  "question_index": 68,
+  "question_uuid": "3211d90f-9e8e-47ad-85a6-98f1d155cf86",
+  "question": "Which of the following disorders is not suitable for population carrier screening?",
+  "options": {
+    "A": "Cystic fibrosis",
+    "B": "Oculocutaneous albinism",
+    "C": "Sickle cell disease",
+    "D": "Tay-Sachs disease"
+  },
+  "analysis": [
+    "Step 1: Cystic fibrosis is an autosomal recessive disorder with a well-documented carrier frequency of approximately 1 in 25 in populations of Northern European descent, causes severe progressive multisystem morbidity and reduced life expectancy, and has standardized, clinically validated mutation panels; thus, it fulfills all major epidemiological and clinical criteria for population carrier screening.",
+    "Step 2: Oculocutaneous albinism is primarily associated with cutaneous and ocular hypopigmentation but is generally non-fatal and manageable with routine photoprotection and vision aids; additionally, its genetic architecture involves multiple distinct genes with variable expressivity, and its baseline carrier frequency does not support the cost-benefit ratio or public health impact required for broad population screening, rendering it unsuitable.",
+    "Step 3: Sickle cell disease is an autosomal recessive hemoglobinopathy with a markedly elevated carrier prevalence in specific geographic and ethnic groups, leads to significant chronic health complications and premature mortality, and can be reliably detected through a simple, low-cost, and highly sensitive single-nucleotide variant assay, making it highly appropriate for targeted population carrier screening.",
+    "Step 4: Tay-Sachs disease is a devastating, early-onset neurodegenerative lysosomal storage disorder with a historically high carrier rate in founder populations such as Ashkenazi Jews, and decades of systematic carrier screening initiatives have successfully demonstrated substantial reductions in disease incidence, firmly validating its suitability for population-based screening programs.",
+    "Step 5: Evaluating all four conditions against established public health and genetic screening principles (including high carrier prevalence, severe clinical course, availability of effective reproductive interventions, test validity, and cost-effectiveness), cystic fibrosis, sickle cell disease, and Tay-Sachs disease clearly meet the necessary thresholds, while oculocutaneous albinism fails to justify population-level implementation due to its milder prognosis, genetic complexity, and limited clinical utility of carrier identification."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "B"
+}

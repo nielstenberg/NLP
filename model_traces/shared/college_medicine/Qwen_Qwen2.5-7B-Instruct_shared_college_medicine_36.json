@@ -1,0 +1,22 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "shared",
+  "subject": "College Medicine",
+  "question_index": 334,
+  "question_uuid": "f6b7f041-2978-4277-9703-2f973c4f64c1",
+  "question": "Noncompetitive inhibition differs from uncompetitive inhibition in that a noncompetitive inhibitor binds to an allosteric site on the enzyme and prevents it from catalyzing a reaction, whereas uncompetitive inhibitors bind to the enzymesubstrate complex and prevent catalysis. Increasing the substrate concentration would have which of the following effects?",
+  "options": {
+    "A": "Increasing impact of uncompetitive inhibitor and decreasing concentration of noncompetitive inhibitor",
+    "B": "Decreasing impact of uncompetitive inhibitor and increasing impact of noncompetitive inhibitor.",
+    "C": "Increasing impact of uncompetitive inhibitor",
+    "D": "No effect"
+  },
+  "analysis": [
+    "Step 1: For noncompetitive inhibition, the inhibitor binds to an allosteric site separate from the active site, causing a conformational change that reduces the enzyme's activity regardless of substrate concentration. This means that increasing substrate concentration does not affect the binding affinity of the noncompetitive inhibitor; its inhibitory effect remains constant.",
+    "Step 2: In contrast, uncompetitive inhibitors bind specifically to the ES (enzyme-substrate) complex, preventing the formation of products even when the substrate is present. As such, increasing the substrate concentration can lead to more ES complexes being formed, potentially reducing the number of free enzymes available for further reactions due to the uncompetitive inhibitor's presence.",
+    "Step 3: Considering these points, increasing the substrate concentration will decrease the impact of the uncompetitive inhibitor because there are fewer free enzymes available for the inhibitor to act upon. Simultaneously, since the noncompetitive inhibitor affects the enzyme's ability to catalyze regardless of substrate concentration, its impact remains unchanged.",
+    "Step 4: Therefore, increasing the substrate concentration decreases the impact of the uncompetitive inhibitor but has no effect on the noncompetitive inhibitor\u2019s impact."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "C"
+}

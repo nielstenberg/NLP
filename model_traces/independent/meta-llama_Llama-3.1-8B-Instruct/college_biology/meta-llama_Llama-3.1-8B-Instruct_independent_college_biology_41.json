@@ -1,0 +1,25 @@
+{
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "mode": "independent",
+  "subject": "College Biology",
+  "question_index": 315,
+  "question_uuid": "c6d9adbd-e8f6-48c7-9465-86a0612423f3",
+  "question": "A healthy man and woman are worried about having children because they are both carriers of sickle-cell disease. If the couple have a biological child, what is the chance that the child will inherit sickle-cell disease?",
+  "options": {
+    "A": "100%",
+    "B": "75%",
+    "C": "50%",
+    "D": "25%"
+  },
+  "analysis": [
+    "Step 1: To solve this problem, we need to understand the genetics behind sickle-cell disease. Sickle-cell disease is an autosomal recessive disorder, meaning it is caused by a mutation in one of the two copies of the HBB gene (which codes for hemoglobin).",
+    "Step 2: Since the couple is both carriers of sickle-cell disease, we can assume that each parent has one normal allele (HbA) and one mutated allele (HbS) for the HBB gene.",
+    "Step 3: When these parents have a biological child, there are three possible genotypes their child could inherit: - Two normal alleles (HbA/HbA)\n- One normal allele and one mutated allele (HbA/HbS)\n- Two mutated alleles (HbS/HbS)",
+    "Step 4: Now let's calculate the probability of each genotype occurring: - The probability of inheriting two normal alleles (HbA/HbA) is 25% (1/4), since each parent contributes one allele and there are four equally likely combinations: HbA/HbA, HbA/HbS, HbS/HbA, and HbS/HbS.\n- The probability of inheriting one normal allele and one mutated allele (HbA/HbS) is also 50% (2/4), as there are two out of the four equally likely combinations where the child inherits one normal and one mutated allele.\n- The probability of inheriting two mutated alleles (HbS/HbS) is 25% (1/4).",
+    "Step 5: However, the question asks for the chance that the child will \"inherit sickle-cell disease\", not just the chance of inheriting the mutated allele. Since sickle-cell disease only manifests when a person inherits two mutated alleles (HbS/HbS), we should focus on the probability of this specific genotype.",
+    "Step 6: Based on our previous calculation, the probability of inheriting two mutated alleles (HbS/HbS) is 25%.",
+    "Step 7: Therefore, the correct answer is the one that matches this probability."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

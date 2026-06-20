@@ -1,0 +1,24 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 200,
+  "question_uuid": "5e47940b-133b-4264-a5ad-ffed01ddcd2b",
+  "question": "An 18-year-old primigravid woman comes for her initial prenatal visit at 16 weeks' gestation. She is not sure about the date of her last menstrual period but says that the pregnancy probably occurred immediately after she stopped taking oral contraceptives 5 months ago. Maternal serum \u03b1-fetoprotein (MSAFP) concentration is increased to 3 multiples of the median. Which of the following is the most appropriate next step in management?",
+  "options": {
+    "A": "Repeat measurement of MSAFP concentration",
+    "B": "Triple screening for MSAFP, serum \u03b2-hCG, and serum estriol concentrations",
+    "C": "Ultrasonography",
+    "D": "Amniocentesis for measurement of \u03b1-fetoprotein concentration"
+  },
+  "analysis": [
+    "Step 1: The patient's history indicates that the exact timing of conception is uncertain due to the lack of precise information regarding the last menstrual period and the fact that the pregnancy was conceived shortly after discontinuing oral contraceptives. This uncertainty makes it challenging to rely solely on MSAFP levels alone for diagnosis. Therefore, further investigation is warranted.",
+    "Step 2: The MSAFP level being elevated suggests a possible neural tube defect, but an isolated increase does not provide enough diagnostic certainty. A repeat measurement could help confirm if the elevation persists, providing more evidence towards the possibility of a neural tube defect.",
+    "Step 3: Triple screening involves measuring MSAFP, serum \u03b2-hCG, and serum estriol concentrations together. While this can provide a more comprehensive assessment compared to just one marker, it still requires interpretation based on multiple factors and may not be necessary if the MSAFP result is already elevated.",
+    "Step 4: Ultrasonography can visualize the fetus and detect structural abnormalities such as neural tube defects directly. However, ultrasonography might not always detect all types of neural tube defects early in pregnancy and typically requires confirmation with other tests like amniocentesis.",
+    "Step 5: Amniocentesis allows direct measurement of \u03b1-fetoprotein concentration within the amniotic fluid, which can provide definitive results for neural tube defects and other chromosomal anomalies. Given the elevated MSAFP, amniocentesis would offer the most accurate diagnosis.",
+    "Step n: Considering the elevated MSAFP and the need for a definitive diagnosis, amniocentesis provides the best approach to confirm the presence of a neural tube defect or rule out other conditions."
+  ],
+  "solution": "N/A",
+  "ground_truth": "C"
+}

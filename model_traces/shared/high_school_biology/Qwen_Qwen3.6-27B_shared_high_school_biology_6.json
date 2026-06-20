@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "shared",
+  "subject": "High School Biology",
+  "question_index": 45,
+  "question_uuid": "e6a2f560-9a22-4613-90db-958234a19522",
+  "question": "In fungi, cell walls are reinforced by which of the following?",
+  "options": {
+    "A": "Chitin",
+    "B": "Silica",
+    "C": "Lignin",
+    "D": "Collagen fibers"
+  },
+  "analysis": [
+    "Step 1: Evaluate Choice A (Chitin). Chitin is a long-chain polysaccharide made of N-acetylglucosamine subunits that serves as the primary structural and reinforcing component of fungal cell walls, providing tensile strength and resistance to degradation.",
+    "Step 2: Evaluate Choice B (Silica). Silica (hydrated silicon dioxide) is deposited in the cell walls of certain aquatic protists like diatoms to form rigid shells called frustules, but it plays no structural role in fungi.",
+    "Step 3: Evaluate Choice C (Lignin). Lignin is a complex, hydrophobic polymer that reinforces the secondary cell walls of terrestrial plants, particularly in wood and vascular tissue, and is not synthesized by fungi.",
+    "Step 4: Evaluate Choice D (Collagen fibers). Collagen is the most abundant structural protein in animals, forming fibrils in connective tissues such as skin, bone, and cartilage; it is entirely absent in fungal cells.",
+    "Step 5: Synthesize the sequential evaluations. Since chitin is the definitive, kingdom-specific polysaccharide responsible for reinforcing fungal cell walls, while silica, lignin, and collagen are exclusive to diatoms, plants, and animals respectively, Choice A is the scientifically accurate selection."
+  ],
+  "solution": "Choice_A",
+  "ground_truth": "A"
+}

@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "independent",
+  "subject": "College Biology",
+  "question_index": 336,
+  "question_uuid": "3a847974-0a62-4c70-b2af-6dba5d2770a5",
+  "question": "Crossing-over occurs during which of the following phases in meiosis?",
+  "options": {
+    "A": "Prophase I",
+    "B": "Metaphase I",
+    "C": "Anaphase I",
+    "D": "Prophase II"
+  },
+  "analysis": [
+    "Step 1: During prophase I of meiosis, homologous chromosomes pair up with each other and exchange genetic material through a process called crossing over. This is where genetic recombination happens, leading to genetic diversity among offspring. Therefore, crossing-over specifically refers to the exchange of genetic material between non-sister chromatids of homologous chromosomes.",
+    "Step 2: Metaphase I involves the alignment of homologous chromosome pairs at the cell's equator before they separate towards opposite poles. Since crossing-over does not occur during metaphase I, we can eliminate Choice_B as an answer.",
+    "Step 3: Anaphase I is when the homologous chromosomes separate and move toward opposite ends of the cell. The separation of these chromosomes does not involve crossing-over; thus, Choice_C can be eliminated.",
+    "Step 4: Prophase II marks the beginning of the second division of meiosis, where the sister chromatids condense and separate from one another. However, crossing-over has already occurred during prophase I, so it does not happen again during prophase II. Hence, Choice_D can also be ruled out.",
+    "Step n: Based on the above analysis, crossing-over takes place during prophase I of meiosis."
+  ],
+  "solution": "Choice_A",
+  "ground_truth": "A"
+}

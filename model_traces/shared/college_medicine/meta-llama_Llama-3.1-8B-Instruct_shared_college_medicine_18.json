@@ -1,0 +1,25 @@
+{
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "mode": "shared",
+  "subject": "College Medicine",
+  "question_index": 68,
+  "question_uuid": "3211d90f-9e8e-47ad-85a6-98f1d155cf86",
+  "question": "Which of the following disorders is not suitable for population carrier screening?",
+  "options": {
+    "A": "Cystic fibrosis",
+    "B": "Oculocutaneous albinism",
+    "C": "Sickle cell disease",
+    "D": "Tay-Sachs disease"
+  },
+  "analysis": [
+    "Step 1: Population carrier screening aims at identifying individuals who are carriers of genetic disorders that can lead to severe health issues when inherited in an autosomal recessive pattern. This approach focuses on conditions where being a carrier does not typically cause symptoms but can pass the mutated gene to offspring.",
+    "Step 2: Cystic Fibrosis (CF) is one such condition that fits into this category. It's caused by mutations in the CFTR gene and leads to severe respiratory and digestive problems if both parents are carriers or if they pass the mutation to their children. Thus, it aligns with the purpose of population carrier screening.",
+    "Step 3: Oculocutaneous Albinism (OCA), however, presents differently. While it indeed involves genetic mutations affecting pigmentation, its impact is more pronounced in terms of vision and skin sensitivity rather than being a purely \"carrier\" state that doesn't manifest itself until inheritance from two carriers occurs.",
+    "Step 4: Sickle Cell Disease (SCD) is another classic example of a disorder that benefits from population carrier screening. It results from mutations in the HBB gene and causes significant morbidity and mortality if both copies of the gene are affected, either through inheritance from two carriers or through new mutations.",
+    "Step 5: Tay-Sachs Disease is known for its devastating effects on infants and young children due to mutations in the HEXA gene. Like SCD, it's primarily identified as a condition that manifests after inheriting two copies of the mutated gene, making it a prime target for population carrier screening efforts.",
+    "Step 6: Considering the nature of these diseases, we see that all except one\u2014Oculocutaneous Albinism\u2014are directly suited for population carrier screening due to their autosomal recessive inheritance patterns and the potential for severe outcomes in offspring.",
+    "Step 7: Given the characteristics of these conditions, the answer becomes clear based on the suitability for population carrier screening strategies."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "B"
+}

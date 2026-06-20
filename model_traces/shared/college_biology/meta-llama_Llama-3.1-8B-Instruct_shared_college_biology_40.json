@@ -1,0 +1,23 @@
+{
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "mode": "shared",
+  "subject": "College Biology",
+  "question_index": 369,
+  "question_uuid": "4c87708e-c747-4197-925d-d1d1249ff67b",
+  "question": "A certain species of land snail exists as either a cream color or a solid brown color. Intermediate individuals are relatively rare. Which of the following terms best describes this?",
+  "options": {
+    "A": "artificial selection",
+    "B": "directional selection",
+    "C": "stabilizing selection",
+    "D": "disruptive selection"
+  },
+  "analysis": [
+    "Step 1: Artificial selection is a process where humans intentionally breed organisms to exhibit desired traits, which is not the case here as the problem states that intermediate individuals are relatively rare, implying that the selection is not being done by humans.",
+    "Step 2: Directional selection refers to the process where one extreme of a trait becomes more common over time due to environmental pressures, but this does not necessarily imply that intermediate individuals are less common.",
+    "Step 3: Stabilizing selection occurs when the most common trait is the one that is intermediate, and this is the case here as the problem states that intermediate individuals are relatively rare.",
+    "Step 4: Disruptive selection is the process where both extremes of a trait become more common over time, which is not the case here as the problem states that intermediate individuals are relatively rare.",
+    "Step 5: Based on the analysis, the term that best describes this scenario is stabilizing selection, as it is the only option that aligns with the condition that intermediate individuals are relatively rare."
+  ],
+  "solution": "Choice_C",
+  "ground_truth": "D"
+}

@@ -1,0 +1,24 @@
+{
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 62,
+  "question_uuid": "492cbe61-5173-47eb-bb9b-0557a14977db",
+  "question": "A 37-year-old woman with right lower extremity edema is evaluated because of the sudden onset of shortness of breath and pleuritic chest pain. A diagnosis of pulmonary embolism is made. Which of the following signs, if present on physical examination, would be the most specific indicator of pulmonary arterial hypertension in this patient?",
+  "options": {
+    "A": "Increased jugular venous pressure",
+    "B": "P2 louder than A2",
+    "C": "Peripheral edema",
+    "D": "Presence of an S3"
+  },
+  "analysis": [
+    "Step 1: We need to identify the sign that is most specific to pulmonary arterial hypertension (PAH) in this patient. PAH is characterized by elevated pressures within the pulmonary arteries, leading to strain on the right heart.",
+    "Step 2: Increased Jugular Venous Pressure (JVP) is often seen in conditions that cause increased pressure in the systemic circulation, such as congestive heart failure or fluid overload states. However, it can also be seen in conditions that cause increased pressure in the pulmonary circulation, such as pulmonary arterial hypertension.",
+    "Step 3: P2 louder than A2 is a classic finding in pulmonary arterial hypertension due to the increased pressure in the pulmonary artery causing the pulmonic valve to close later than the aortic valve during systole. This is a more specific indicator of PAH compared to other findings.",
+    "Step 4: Peripheral Edema is a non-specific finding that can occur in many conditions including but not limited to congestive heart failure, liver cirrhosis, nephrotic syndrome, etc. It's not a specific indicator of PAH.",
+    "Step 5: Presence of an S3 heart sound is typically associated with left ventricular dysfunction and is not a specific indicator of PAH.",
+    "Step 6: Considering all options, the presence of P2 louder than A2 is the most specific indicator of pulmonary arterial hypertension in this patient."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "B"
+}

@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "shared",
+  "subject": "High School Biology",
+  "question_index": 198,
+  "question_uuid": "13f85aae-4464-44da-b195-5a2d874a0269",
+  "question": "Which of the following techniques could be used to demonstrate protein binding to specific DNA sequences?",
+  "options": {
+    "A": "Western blot hybridization",
+    "B": "Northern blot hybridization",
+    "C": "Southern blot hybridization",
+    "D": "Electrophoretic mobility shift assay"
+  },
+  "analysis": [
+    "Step 1: Analyze Choice A (Western blot hybridization). Western blotting is a technique primarily used to detect specific proteins in a sample of tissue homogenate or extract. It involves separating proteins by gel electrophoresis, transferring them to a membrane, and detecting them using antibodies that bind to specific epitopes on the target protein. It does not assess the interaction between a protein and a DNA sequence; rather, it identifies the presence of the protein itself. Therefore, this choice is incorrect.",
+    "Step 2: Analyze Choice B (Northern blot hybridization). Northern blotting is used to study gene expression by detection of RNA (or isolated mRNA) in a sample. The process involves separating RNA by gel electrophoresis, transferring it to a membrane, and probing with a complementary nucleic acid strand. This technique analyzes RNA levels, not protein-DNA interactions. Therefore, this choice is incorrect.",
+    "Step 3: Analyze Choice C (Southern blot hybridization). Southern blotting is used to detect a specific DNA sequence in DNA samples. It involves separating DNA fragments by gel electrophoresis, transferring them to a membrane, and probing with a labeled complementary DNA strand. While it deals with DNA, it is designed to identify specific DNA sequences within a complex mixture, not to demonstrate that a protein binds to those sequences. Therefore, this choice is incorrect.",
+    "Step 4: Analyze Choice D (Electrophoretic mobility shift assay). Also known as a gel shift assay or EMSA, this technique is specifically designed to detect binding between proteins and DNA (or RNA). In this assay, a labeled DNA fragment is incubated with a protein extract. If the protein binds to the DNA, the resulting protein-DNA complex has different physical properties (such as size and charge) compared to the free DNA. When subjected to non-denaturing gel electrophoresis, the bound complex migrates more slowly than the unbound DNA, resulting in a \"shift\" in the band's position. This directly demonstrates protein binding to specific DNA sequences. Therefore, this choice is correct.",
+    "Step 5: Conclude the analysis based on the evaluation of all options. Choices A, B, and C are blotting techniques used for detecting proteins, RNA, and DNA respectively, but none of them measure the physical interaction between a protein and a DNA molecule. Only the Electrophoretic Mobility Shift Assay (EMSA) is explicitly designed to show that a protein binds to a specific DNA sequence by observing changes in migration speed during electrophoresis. Thus, Choice D is the correct answer."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

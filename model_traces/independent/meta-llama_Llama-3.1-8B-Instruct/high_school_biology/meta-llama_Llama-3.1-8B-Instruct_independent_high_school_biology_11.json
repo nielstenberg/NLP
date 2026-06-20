@@ -1,0 +1,23 @@
+{
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "mode": "independent",
+  "subject": "High School Biology",
+  "question_index": 153,
+  "question_uuid": "c6ec269a-6b73-4e17-8faa-39b431ad6d75",
+  "question": "Which of the following statements about embryonic cleavage is NOT true?",
+  "options": {
+    "A": "The presence of yolk inhibits cleavage.",
+    "B": "Telolecithal eggs undergo meroblastic cleavage.",
+    "C": "The vegetal pole undergoes cleavage more readily than does the animal pole",
+    "D": "The rapid mitotic divisions of cleavage directly give rise to blastomeres."
+  },
+  "analysis": [
+    "Step 1: Analyzing Choice A: The presence of yolk inhibits cleavage.\n- This statement is true because the presence of yolk in an egg can inhibit cleavage due to its large size and density, making it difficult for the cell membrane to divide evenly.",
+    "Step 2: Analyzing Choice B: Telolecithal eggs undergo meroblastic cleavage.\n- This statement is true because telolecithal eggs are characterized by their large yolk mass at one end (vegetal pole), and they indeed undergo meroblastic cleavage where only part of the egg divides while the rest remains as a large yolk.",
+    "Step 3: Analyzing Choice C: The vegetal pole undergoes cleavage more readily than does the animal pole.\n- This statement is false because in most cases, especially in holoblastic cleavage, the animal pole (the opposite end from the yolk) undergoes division more readily than the vegetal pole.",
+    "Step 4: Analyzing Choice D: The rapid mitotic divisions of cleavage directly give rise to blastomeres.\n- This statement is true because during cleavage, the rapid mitotic divisions result in the formation of cells called blastomeres, which will eventually develop into different tissues and organs.",
+    "Step 5: Comparing all the options, we find that Choice C is the incorrect statement regarding embryonic cleavage."
+  ],
+  "solution": "Choice_C",
+  "ground_truth": "C"
+}

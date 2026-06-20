@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "shared",
+  "subject": "High School Biology",
+  "question_index": 204,
+  "question_uuid": "086ae991-522f-4808-8668-4cbdfc6015a1",
+  "question": "Which of the following is NOT a source of atmospheric carbon?",
+  "options": {
+    "A": "Respiration",
+    "B": "Photosynthesis",
+    "C": "Bacterial decomposition",
+    "D": "Combustion of fossil fuels"
+  },
+  "analysis": [
+    "Step 1: Respiration is a process where organisms break down glucose to release energy, producing carbon dioxide as a byproduct. Therefore, respiration is a source of atmospheric carbon.",
+    "Step 2: Photosynthesis is the process by which plants, algae, and some bacteria convert light energy into chemical energy stored in glucose. During this process, carbon dioxide is absorbed from the atmosphere. Thus, photosynthesis is not a source of atmospheric carbon but a sink.",
+    "Step 3: Bacterial decomposition involves bacteria breaking down organic matter, which can release carbon dioxide back into the atmosphere. Therefore, bacterial decomposition is a source of atmospheric carbon.",
+    "Step 4: Combustion of fossil fuels involves burning coal, oil, and natural gas, which releases carbon dioxide that was previously stored in these fuels. Hence, combustion of fossil fuels is a source of atmospheric carbon.",
+    "Step 5: Based on the analysis, the choice that is NOT a source of atmospheric carbon is Choice_B: Photosynthesis."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "B"
+}

@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 700,
+  "question_uuid": "e6f66db5-31d1-476b-a95f-f6c397494fd3",
+  "question": "A 70-year-old woman comes to the office because of worsening tremor of her hands. The tremor has been present for most of her life and initially was mild and would occur only when she was tired or stressed. During the past month the shaking has become more noticeable and frequent. She is now embarrassed to eat with other people because of how obvious the tremor has become. The patient has been taking fluoxetine for the past 3 weeks to help her to cope with the death of her husband 2 months ago. Medical history is also remarkable for essential hypertension controlled with lisinopril and hyperlipidemia controlled with atorvastatin. Her only other medication is occasional ibuprofen for joint pain. She used to drink one to two alcoholic beverages monthly but now drinks one glass of wine daily because, she says, it reduces her tremor. She is 168 cm (5 ft 6 in) tall and weighs 70 kg (155 lb); BMI is 25 kg/m2 . Vital signs are temperature 36.4\u00b0C (97.6\u00b0F), pulse 80/min, respirations 18/min, and blood pressure 130/85 mm Hg. Physical examination shows a moderate tremor of both hands that is not present at rest. Complete blood count, serum chemistry profile, and serum thyroid function tests are ordered and results are pending. Which of the following is the most likely cause of the patient's worsening tremor?",
+  "options": {
+    "A": "Adverse effect of fluoxetine therapy",
+    "B": "Bereavement reaction",
+    "C": "Early Parkinson disease",
+    "D": "Increase in alcohol consumption"
+  },
+  "analysis": [
+    "Step 1: The patient\u2019s tremor has worsened over time from being mild and stress-related to becoming more noticeable and frequent. This progression suggests an underlying condition rather than a transient psychological response like bereavement. Therefore, we can rule out Choice_B as the primary cause.",
+    "Step 2: The patient\u2019s tremor is not present at rest, indicating it is a postural or action tremor rather than a resting tremor seen in early Parkinson's disease. Thus, Choice_C can be ruled out as the most likely cause based on the clinical presentation alone.",
+    "Step 3: Fluoxetine, while known to have side effects including tremors, typically presents these within the first few days to weeks of use, and they often resolve after discontinuation or dose adjustment. Given that the tremor has worsened significantly since starting fluoxetine three weeks ago, it raises suspicion that the worsening may be related to increased alcohol intake, which is known to exacerbate tremors associated with certain conditions such as essential tremor.",
+    "Step 4: The patient\u2019s recent increase in alcohol consumption from occasional to daily drinking could potentially explain the worsening tremor. Alcohol is known to reduce the threshold for tremor onset and can exacerbate pre-existing tremors. Additionally, the patient\u2019s family history of essential tremor makes this diagnosis plausible.",
+    "Step 5: Considering all factors\u2014worsening tremor pattern, recent increase in alcohol consumption, and family history\u2014the most likely cause of the patient\u2019s worsening tremor is Choice_D: Increase in alcohol consumption."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "A"
+}

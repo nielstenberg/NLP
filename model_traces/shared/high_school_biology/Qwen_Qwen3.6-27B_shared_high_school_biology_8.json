@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "shared",
+  "subject": "High School Biology",
+  "question_index": 204,
+  "question_uuid": "086ae991-522f-4808-8668-4cbdfc6015a1",
+  "question": "Which of the following is NOT a source of atmospheric carbon?",
+  "options": {
+    "A": "Respiration",
+    "B": "Photosynthesis",
+    "C": "Bacterial decomposition",
+    "D": "Combustion of fossil fuels"
+  },
+  "analysis": [
+    "Step 1: Evaluate Choice A (Respiration). Cellular respiration is a fundamental biological process where living organisms break down organic compounds to produce energy, releasing carbon dioxide as a metabolic byproduct into the atmosphere. Therefore, respiration acts as a source of atmospheric carbon.",
+    "Step 2: Evaluate Choice B (Photosynthesis). Photosynthesis is the process used by autotrophs like plants and algae to capture solar energy and convert atmospheric carbon dioxide and water into glucose and oxygen. Because this process actively draws carbon dioxide out of the air to build organic molecules, it functions as a carbon sink rather than a source.",
+    "Step 3: Evaluate Choice C (Bacterial decomposition). Decomposer bacteria break down dead plant and animal material, mineralizing organic carbon and releasing it back into the environment primarily as carbon dioxide (and occasionally methane). Consequently, bacterial decomposition is a recognized source of atmospheric carbon.",
+    "Step 4: Evaluate Choice D (Combustion of fossil fuels). Burning fossil fuels involves the rapid oxidation of ancient, buried organic matter, which transfers long-sequestered carbon directly into the atmosphere as carbon dioxide. Thus, combustion of fossil fuels is a significant anthropogenic source of atmospheric carbon.",
+    "Step 5: Synthesize the findings to determine the correct answer. Choices A, C, and D all describe processes that add or release carbon dioxide into the atmosphere, qualifying them as sources. Choice B describes a process that removes carbon dioxide from the atmosphere. Since the question specifically asks which option is NOT a source, photosynthesis is the correct selection."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "B"
+}

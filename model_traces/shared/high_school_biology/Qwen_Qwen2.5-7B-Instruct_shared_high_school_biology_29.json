@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "shared",
+  "subject": "High School Biology",
+  "question_index": 63,
+  "question_uuid": "ed83dd48-d35a-46e3-87d4-82382fbbeaad",
+  "question": "Which of the following is encoded by the src oncogene and catalyzes the specific addition of phosphate groups to cellular proteins?",
+  "options": {
+    "A": "Protein phosphatase",
+    "B": "Adenylate cyclase",
+    "C": "G protein-linked receptor",
+    "D": "Tyrosine kinase"
+  },
+  "analysis": [
+    "Step 1: The src oncogene is known to encode a protein that can cause cancer when it is activated. This protein is specifically a tyrosine kinase, which means it has the ability to add phosphate groups (specifically to tyrosine residues) to other proteins. Therefore, Choice_D is the most relevant based on its function.",
+    "Step 2: Choice_A, Protein phosphatase, removes phosphate groups from proteins rather than adding them, so it does not fit the description provided by the question.",
+    "Step 3: Choice_B, Adenylate cyclase, is an enzyme that converts ATP into cyclic AMP, and is not involved in the direct addition of phosphate groups to proteins.",
+    "Step 4: Choice_C, G protein-linked receptor, is a type of receptor that activates intracellular signaling cascades upon binding to a ligand, but it does not directly add phosphate groups to proteins.",
+    "Step 5: Considering all the above points, the src oncogene encodes a tyrosine kinase, which is responsible for the specific addition of phosphate groups to cellular proteins."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

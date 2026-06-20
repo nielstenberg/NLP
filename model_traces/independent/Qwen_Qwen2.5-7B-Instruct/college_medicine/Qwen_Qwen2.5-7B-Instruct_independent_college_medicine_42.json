@@ -1,0 +1,24 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 56,
+  "question_uuid": "8917ff81-1a22-472f-a1e5-32d053f10beb",
+  "question": "Which of the following would result in Angelman syndrome?",
+  "options": {
+    "A": "Maternal UPD 15",
+    "B": "Paternal UPD 15",
+    "C": "Deletion in the paternally derived chromosome 15",
+    "D": "A mutation in the SNRPN promoter"
+  },
+  "analysis": [
+    "Step 1: Angelman syndrome (AS) results from the loss of function of the UBE3A gene, which is imprinted and expressed only from the maternal allele. This means that if the paternal copy of UBE3A is lost, it does not affect AS as there is no expression from the paternal side.",
+    "Step 2: Maternal uniparental disomy (UPD) of chromosome 15 involves both copies of chromosome 15 being inherited from the mother. If one of these two copies carries a deletion or other defect affecting the UBE3A gene, the individual will have AS because the paternal copy cannot compensate due to imprinting rules.",
+    "Step 3: Paternal UPD of chromosome 15 means both copies of chromosome 15 come from the father. Since UBE3A is imprinted and only expressed from the maternal allele, having two copies from the father ensures normal expression of UBE3A and thus prevents AS.",
+    "Step 4: A deletion in the paternally derived chromosome 15 would typically involve the loss of genes including UBE3A but since UBE3A is imprinted and should be expressed from the maternal allele, such a scenario would not directly cause AS unless it specifically disrupts the maternal allele's ability to express UBE3A.",
+    "Step 5: A mutation in the SNRPN promoter could potentially lead to AS if it affects the regulation of UBE3A expression, but this is less common compared to the direct loss of the UBE3A gene through maternal UPD or deletion.",
+    "Step n: Considering all options, the most direct and common mechanism leading to Angelman syndrome is maternal UPD 15 where the maternal UBE3A gene is affected, making Choice_A the correct answer."
+  ],
+  "solution": "Choice_A",
+  "ground_truth": "B"
+}

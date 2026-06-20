@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "shared",
+  "subject": "College Medicine",
+  "question_index": 235,
+  "question_uuid": "4540d016-686f-4ef6-91fb-e91b46dbadc7",
+  "question": "A 7-year-old male is brought to the office for evaluation of school problems. The mother says that the teacher has told her that the patient is inattentive, has difficulty following sequential instructions, and often seems to drift off to sleep during class. A polysomnogram reveals obstructive sleep apnea. The most appropriate management is",
+  "options": {
+    "A": "elevation of the head of the bed",
+    "B": "heart rate and apnea monitoring",
+    "C": "imipramine",
+    "D": "surgical evaluation"
+  },
+  "analysis": [
+    "Step 1: Obstructive Sleep Apnea (OSA) is common in children and can present with symptoms such as inattention, difficulty following instructions, and daytime sleepiness. Elevation of the head of the bed may help reduce upper airway obstruction and improve breathing patterns during sleep, making it a reasonable initial management strategy.",
+    "Step 2: Heart rate and apnea monitoring are important for assessing the severity of OSA but do not directly address the underlying issue and would be more appropriate as part of ongoing monitoring rather than primary treatment.",
+    "Step 3: Imipramine is an antidepressant that can sometimes be used off-label for treating OSA-related behavioral issues, but its use should be carefully considered due to potential side effects and limited evidence supporting its efficacy compared to other treatments.",
+    "Step 4: Surgical evaluation, particularly adenotonsillectomy, is highly effective for many cases of pediatric OSA when structural abnormalities like enlarged tonsils and adenoids are identified. However, given the information provided about the child's current presentation and lack of specific structural findings from the polysomnogram, this might be premature without further investigation.",
+    "Step 5: Considering the child\u2019s symptoms and the polysomnogram results indicating OSA, the most immediate and non-invasive approach would likely be to elevate the head of the bed to potentially alleviate some of the symptoms and improve nighttime breathing. This could also serve as a temporary measure while further diagnostic workup and discussion with specialists occur."
+  ],
+  "solution": "Choice_A",
+  "ground_truth": "D"
+}

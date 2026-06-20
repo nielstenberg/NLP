@@ -1,0 +1,24 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "shared",
+  "subject": "College Medicine",
+  "question_index": 718,
+  "question_uuid": "60abe587-152d-4eee-9885-7484deda911c",
+  "question": "A 37-year-old man comes to the emergency department because he has felt nauseated and light-headed for the past hour. Medical history is significant for esophageal varices secondary to alcohol-related cirrhosis and ascites treated with spironolactone. He drinks eight to ten alcoholic beverages daily. While you are obtaining additional history, the patient vomits a large volume of bright red blood and becomes difficult to arouse. Vital signs are temperature 36.0\u00b0C (96.8\u00b0F), pulse 110/min, respirations 12/min, and blood pressure 90/50 mm Hg. Following initiation of intravenous fluids, which of the following is the most appropriate immediate management?",
+  "options": {
+    "A": "Arrange for transjugular intrahepatic portal vein shunting",
+    "B": "Begin intravenous vasopressin therapy",
+    "C": "Do endotracheal intubation",
+    "D": "Do upper endoscopy"
+  },
+  "analysis": [
+    "Step 1: The patient presents with acute upper gastrointestinal hemorrhage from suspected ruptured esophageal varices, complicated by hemodynamic instability and a significantly depressed level of consciousness (\"difficult to arouse\"). In emergency medicine, management strictly follows the ABC (Airway, Breathing, Circulation) hierarchy, making airway protection the absolute priority when a patient cannot maintain their own airway due to altered mental status and active vomiting.",
+    "Step 2: Choice A proposes arranging for transjugular intrahepatic portosystemic shunting (TIPS), which is a second-line rescue therapy reserved for variceal bleeding that fails to respond to initial pharmacologic and endoscopic interventions; it requires specialized interventional radiology setup and is never the immediate first step.",
+    "Step 3: Choice B recommends initiating intravenous vasopressin therapy, and while splanchnic vasoconstrictors like octreotide or terlipressin are standard adjuncts for variceal hemorrhage, vasopressin carries higher risks of systemic ischemia, and more critically, medication administration does not mitigate the immediate, life-threatening risk of aspiration in an obtunded patient.",
+    "Step 4: Choice C advocates for endotracheal intubation, which directly addresses the most urgent threat by securing the airway, preventing pulmonary aspiration of blood, and facilitating safe subsequent resuscitation and procedural interventions in a patient who is difficult to arouse.",
+    "Step 5: Choice D suggests performing upper endoscopy, which is indeed the definitive diagnostic and therapeutic procedure for variceal bleeding and should be completed within 12 hours, but it cannot be safely attempted until the airway is secured via intubation to avoid catastrophic aspiration during scope insertion.",
+    "Step 6: Synthesizing the sequential evaluation confirms that airway management supersedes pharmacologic therapy, endoscopic intervention, and advanced shunting procedures in this specific clinical context; therefore, endotracheal intubation is the most appropriate immediate next step."
+  ],
+  "solution": "Choice_C",
+  "ground_truth": "C"
+}

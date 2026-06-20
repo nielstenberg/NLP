@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "shared",
+  "subject": "High School Biology",
+  "question_index": 3,
+  "question_uuid": "9d7ea6f0-b2bd-47e7-b087-1851990c1d4a",
+  "question": "The soils of which of the following biomes has the highest rate of leaching and cycling of nutrients?",
+  "options": {
+    "A": "Tropical rain forest",
+    "B": "Tundra",
+    "C": "Taiga",
+    "D": "Desert"
+  },
+  "analysis": [
+    "Step 1: Tropical rain forests have high rates of precipitation and temperature, leading to rapid decomposition of organic matter and high nutrient cycling. However, the high rainfall also leads to significant leaching of nutrients, especially in the upper layers of the soil.",
+    "Step 2: Tundra regions have very low temperatures and short growing seasons, which slow down decomposition and nutrient cycling. The low nutrient availability and slow nutrient cycling mean that leaching is minimal.",
+    "Step 3: Taiga regions, like the tundra, have cold climates that slow down decomposition and nutrient cycling. The nutrient content in the soil is generally low, and leaching is not a significant issue.",
+    "Step 4: Deserts have very low precipitation and high evaporation rates, which limit the amount of water available for leaching. The soil in desert regions is often sandy and lacks organic matter, further reducing the potential for nutrient cycling and leaching.",
+    "Step 5: Considering the high rates of leaching and nutrient cycling, the tropical rain forest has the highest rate of these processes due to its high precipitation and warm temperatures, which promote rapid decomposition and nutrient cycling, leading to significant leaching."
+  ],
+  "solution": "Choice_A",
+  "ground_truth": "A"
+}

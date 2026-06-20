@@ -1,0 +1,22 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "shared",
+  "subject": "College Biology",
+  "question_index": 294,
+  "question_uuid": "512cf04c-5d2e-41c2-b642-1a9d6b331436",
+  "question": "The average birth weight for human babies is about 3 kg. Which of the following terms best describes this?",
+  "options": {
+    "A": "artificial selection",
+    "B": "directional selection",
+    "C": "stabilizing selection",
+    "D": "disruptive selection"
+  },
+  "analysis": [
+    "Step 1: The term \"artificial selection\" refers to the process where humans intentionally breed organisms for specific traits. This does not apply to the natural phenomenon of average birth weight in human babies, making Choice_A incorrect.",
+    "Step 2: Directional selection involves a shift in the average value of a trait over time due to differential survival and reproduction based on that trait. While this could potentially describe changes in birth weights over time due to environmental factors, it does not directly address the current average birth weight being around 3 kg, making Choice_B less suitable.",
+    "Step 3: Stabilizing selection occurs when individuals at the extremes of a trait's distribution are selected against, favoring those with intermediate values. In the context of birth weight, this would mean that babies with very low or very high birth weights are less likely to survive, leading to an average birth weight close to the midpoint. This aligns well with the description of the average birth weight for human babies being about 3 kg, making Choice_C a strong candidate.",
+    "Step 4: Disruptive selection favors extreme variations of a trait, leading to increased diversity within the population. This does not fit the scenario where the average birth weight is stable around 3 kg, making Choice_D unsuitable."
+  ],
+  "solution": "Choice_C",
+  "ground_truth": "C"
+}

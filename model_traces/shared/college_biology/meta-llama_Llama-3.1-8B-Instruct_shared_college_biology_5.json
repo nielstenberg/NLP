@@ -1,0 +1,23 @@
+{
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "mode": "shared",
+  "subject": "College Biology",
+  "question_index": 360,
+  "question_uuid": "70e497c9-e9ae-48a0-a853-4f59f4243fad",
+  "question": "Which of the following are traits that are affected by more than one gene?",
+  "options": {
+    "A": "Heterozygous traits",
+    "B": "Pleiotropic traits",
+    "C": "Polygenic traits",
+    "D": "Blended alleles"
+  },
+  "analysis": [
+    "Step 1: Heterozygous traits are those that have two different alleles of a gene, one from each parent. This is a characteristic of an individual's genotype, not a trait that is affected by more than one gene. So, Choice_A is not the answer.",
+    "Step 2: Pleiotropic traits are those that are affected by more than one gene. This is a characteristic of a trait, not a type of trait. So, Choice_B is not the answer.",
+    "Step 3: Polygenic traits are those that are affected by more than one gene. This is a characteristic of a trait, not a type of trait. So, Choice_C is not the answer.",
+    "Step 4: Blended alleles is a term that is not commonly used in genetics. It seems to be a distractor in this question. So, Choice_D is not the answer.",
+    "Step 5: After analyzing each choice, we can conclude that Choice_C is the correct answer because it is the only choice that directly refers to traits that are affected by more than one gene."
+  ],
+  "solution": "Choice_C",
+  "ground_truth": "C"
+}

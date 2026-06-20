@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "shared",
+  "subject": "College Medicine",
+  "question_index": 532,
+  "question_uuid": "0ff5d58c-6a39-4b90-b2fe-949d4decce12",
+  "question": "Male breast cancer is associated with mutations in ___.",
+  "options": {
+    "A": "BRCA1",
+    "B": "BRCA2",
+    "C": "NF1",
+    "D": "RET"
+  },
+  "analysis": [
+    "Step 1: Evaluate Choice A (BRCA1): Germline mutations in BRCA1 do confer a modestly increased risk of male breast cancer, but the absolute lifetime risk remains low (approximately 1-2%) and the association is significantly weaker than that of other known susceptibility genes.",
+    "Step 2: Evaluate Choice B (BRCA2): Germline mutations in BRCA2 demonstrate the strongest and most well-documented association with male breast cancer, elevating the lifetime risk to approximately 6-10% and accounting for the majority of hereditary male breast cancer cases worldwide.",
+    "Step 3: Evaluate Choice C (NF1): Mutations in the NF1 gene cause Neurofibromatosis type 1, a disorder characterized by neurofibromas, optic pathway gliomas, and cutaneous manifestations, with no established clinical or molecular link to male breast carcinogenesis.",
+    "Step 4: Evaluate Choice D (RET): Gain-of-function mutations in the RET proto-oncogene are classically associated with Multiple Endocrine Neoplasia types 2A and 2B, leading to medullary thyroid carcinoma and pheochromocytoma, but they are not implicated in breast cancer development.",
+    "Step 5: Joint evaluation and conclusion: Comparing the genetic penetrance and epidemiological data across all options, BRCA2 carries the highest relative risk and is universally recognized in clinical oncology guidelines as the primary genetic driver of hereditary male breast cancer, making it the definitive correct answer."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "B"
+}

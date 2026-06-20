@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 367,
+  "question_uuid": "9cafc993-f98d-4bc1-a034-2b2381aaad65",
+  "question": "A source emits a sound from one medium with a certain velocity, intensity, frequency and wavelength. When the sound exits the first medium and enters a denser medium, all of the following changes EXCEPT:",
+  "options": {
+    "A": "velocity",
+    "B": "intensity",
+    "C": "frequency",
+    "D": "wavelength"
+  },
+  "analysis": [
+    "Step 1: Analyzing Choice A (velocity): The propagation speed of sound is determined by the mechanical properties of the medium, specifically its elastic modulus and density. When sound crosses a boundary into a medium with different physical characteristics, its velocity necessarily changes.",
+    "Step 2: Analyzing Choice B (intensity): Intensity represents acoustic power per unit area and depends on both wave amplitude and the medium's acoustic impedance. At an interface between two media, impedance mismatch causes partial reflection and transmission, resulting in a change in the transmitted intensity relative to the incident wave.",
+    "Step 3: Analyzing Choice C (frequency): Frequency is strictly dictated by the oscillating source that generates the sound. To maintain temporal continuity at the boundary, the rate at which wave cycles enter the new medium must equal the rate at which they exit the original medium, meaning frequency remains constant regardless of medium properties.",
+    "Step 4: Analyzing Choice D (wavelength): Wave parameters are related by the fundamental equation v = f\u03bb. Since velocity changes upon entering a different medium while frequency remains invariant, the wavelength must adjust proportionally to satisfy this relationship, confirming that wavelength changes.",
+    "Step 5: Concluding the analysis: The question asks which parameter does not change when sound transitions into a denser medium. Sequential evaluation demonstrates that velocity, intensity, and wavelength all undergo alterations due to medium-dependent properties and boundary interactions, whereas frequency remains unchanged as it is solely source-dependent. Therefore, frequency is the correct exception."
+  ],
+  "solution": "Choice_C",
+  "ground_truth": "C"
+}

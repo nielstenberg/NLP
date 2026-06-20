@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "College Biology",
+  "question_index": 420,
+  "question_uuid": "2f82b4ed-09c3-4c90-b2e5-ff0dd99b9099",
+  "question": "The frequency of a particular allele in a population of 1,000 birds in Hardy-Weinberg equilibrium is 0.3. If the population remains in equilibrium, what would be the expected frequency of that allele after 500 years?",
+  "options": {
+    "A": "It will increase if the allele is favorable or will decrease if it is unfavorable for individuals in that population.",
+    "B": "Not enough information is provided to determine if the frequency of the allele will remain the same or change.",
+    "C": "The frequency of the allele will remain at 0.3 because the population is at Hardy-Weinberg equilibrium.",
+    "D": "The frequency of the allele will remain the same; this is an example of the bottleneck effect."
+  },
+  "analysis": [
+    "Step 1: Evaluate Choice A, which suggests that allele frequency will increase or decrease depending on whether the allele is favorable or unfavorable. This implies natural selection is actively shaping the population, which directly violates the Hardy-Weinberg assumption of no selection; therefore, this choice is incorrect.",
+    "Step 2: Evaluate Choice B, which claims insufficient information is provided to determine if the frequency will change. The Hardy-Weinberg principle mathematically guarantees that allele frequencies remain constant across generations when all equilibrium conditions are maintained, meaning the given premise provides complete predictive power; thus, this choice is incorrect.",
+    "Step 3: Evaluate Choice C, which states that the allele frequency will remain at 0.3 because the population is in Hardy-Weinberg equilibrium. This directly aligns with the core definition of the principle, which dictates that allele frequencies do not change over time in the absence of evolutionary forces like mutation, migration, genetic drift, or selection, making this choice correct.",
+    "Step 4: Evaluate Choice D, which asserts the frequency remains the same but incorrectly attributes this stability to the bottleneck effect. The bottleneck effect involves a severe reduction in population size that triggers genetic drift and typically causes significant fluctuations in allele frequencies, directly violating Hardy-Weinberg assumptions; consequently, this choice is incorrect.",
+    "Step 5: Synthesize the sequential evaluations to conclude that only Choice C accurately reflects the fundamental law of Hardy-Weinberg equilibrium, which mandates constant allele frequencies over time when equilibrium is maintained, thereby identifying it as the correct answer."
+  ],
+  "solution": "Choice_C",
+  "ground_truth": "C"
+}

@@ -1,0 +1,26 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "shared",
+  "subject": "College Medicine",
+  "question_index": 610,
+  "question_uuid": "117add29-8e06-4106-a924-a7be000d1174",
+  "question": "A 24-year-old man is brought to the emergency department 40 minutes after he was involved in a motor vehicle collision. He was the unrestrained driver. He is conscious. Physical examination shows numerous lacerations and ecchymoses over the face. His vision is normal. Ocular, facial, and lingual movements are intact. The gag reflex is present. Sensation to pinprick is absent over the right side of the face anterior to the right ear, extending down along the full extent of the mandible to the chin. Sensation also is absent over the right side of the tongue. X-rays of the skull show fractures of the orbit, zygomatic arch, and infratemporal fossa. The most likely cause of these findings is a fracture affecting which of the following locations?",
+  "options": {
+    "A": "Foramen lacerum",
+    "B": "Foramen ovale",
+    "C": "Foramen rotundum",
+    "D": "Foramen spinosum"
+  },
+  "analysis": [
+    "Step 1: The patient's presentation includes multiple facial fractures involving the orbit, zygomatic arch, and infratemporal fossa. These fractures can lead to damage to the structures passing through these areas. The sensory deficits noted (absent sensation to pinprick over the right side of the face anterior to the right ear, extending down along the full extent of the mandible to the chin, and absence over the right side of the tongue) suggest involvement of the trigeminal nerve, specifically its branches.",
+    "Step 2: The trigeminal nerve (CN V) has three major branches: ophthalmic (V1), maxillary (V2), and mandibular (V3). CN V3, the mandibular branch, provides sensation to the lower part of the face including the chin and the anterior two-thirds of the opposite side of the face via the infraorbital nerve (which passes through the infraorbital foramen).",
+    "Step 3: The infraorbital foramen is located near the orbital floor and is associated with the infraorbital nerve, which is a branch of the mandibular division of the trigeminal nerve. Fractures in the area of the infraorbital foramen could result in loss of sensation in the distribution of the infraorbital nerve.",
+    "Step 4: The foramen lacerum is an opening in the middle cranial fossa that allows passage of the internal carotid artery and sympathetic fibers from the pterygoid plexus. It does not directly relate to the sensory distribution described.",
+    "Step 5: The foramen ovale is a small hole in the middle cranial fossa through which the greater petrosal nerve and the deep petrosal nerve pass. It is not related to the sensory deficit described.",
+    "Step 6: The foramen rotundum transmits the maxillary division of the trigeminal nerve (V2), which supplies sensation to the upper part of the face but not the lower part where the sensory deficit is observed.",
+    "Step 7: The foramen spinosum transmits the middle meningeal artery and the lesser petrosal nerve. It is unrelated to the sensory deficit described.",
+    "Step n: Considering all the above points, the most likely location causing the sensory deficits due to facial fractures would be the foramen lacerum because it is close to the infraorbital foramen and its associated nerve pathway."
+  ],
+  "solution": "Choice_A",
+  "ground_truth": "B"
+}

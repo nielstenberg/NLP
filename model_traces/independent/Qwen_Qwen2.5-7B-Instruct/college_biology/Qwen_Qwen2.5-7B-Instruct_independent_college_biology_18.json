@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "independent",
+  "subject": "College Biology",
+  "question_index": 426,
+  "question_uuid": "7956508d-0f48-4bd2-8406-4dad47c55fca",
+  "question": "An animal cell that is permeable to water but not salts has an internal NaCl concentration of 10%. If placed in freshwater the cell will",
+  "options": {
+    "A": "plasmolyze",
+    "B": "swell and eventually lyse",
+    "C": "endocytose water into a large central vacuole",
+    "D": "shrivel"
+  },
+  "analysis": [
+    "Step 1: The cell is permeable to water but not to salts, meaning it can adjust its osmotic balance primarily through water movement rather than salt ions. When placed in freshwater, the external environment will have a lower solute concentration compared to the cell's internal NaCl concentration (10%). This difference creates a hypertonic environment outside the cell relative to inside.",
+    "Step 2: In response to being placed in freshwater, water will move from areas of higher concentration to areas of lower concentration across the semi-permeable membrane due to osmosis. Since the cell's interior contains more dissolved particles (NaCl), there will be a net influx of water into the cell, causing it to swell.",
+    "Step 3: As the cell continues to take up water, it may reach a point where the pressure within the cell exceeds the structural integrity of the cell membrane and cytoskeleton, leading to lysis if the swelling continues unchecked.",
+    "Step 4: Endocytosis involves the cell engulfing material from the extracellular space, typically solid particles or liquids, and is not relevant to simple osmotic pressure differences caused by differing concentrations of dissolved substances between the cell and its surroundings.",
+    "Step 5: Cells do not actively shrink when placed in a hypotonic environment like freshwater; instead, they absorb excess water until their volume increases.\n\nFinal Step: Considering these points, the most accurate description of what happens to the cell is that it will initially swell as water moves into the cell due to the higher internal solute concentration, potentially leading to lysis if the swelling cannot be managed."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "B"
+}

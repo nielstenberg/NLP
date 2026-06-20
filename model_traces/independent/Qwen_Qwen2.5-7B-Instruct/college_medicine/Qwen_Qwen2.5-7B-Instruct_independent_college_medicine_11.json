@@ -1,0 +1,26 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 337,
+  "question_uuid": "d3eaa030-cb8e-4540-ae0a-069768a4feef",
+  "question": "A 65-year-old female is admitted to the hospital after experiencing aphasia and right-sided hemiparesis. She subsequently develops urinary incontinence. There is no evidence of urinary tract infection and no prior history of urinary pathology. The most likely diagnosis is",
+  "options": {
+    "A": "autonomic neurogenic bladderv",
+    "B": "motor paralytic bladder",
+    "C": "reflex neurogenic bladder",
+    "D": "uninhibited neurogenic bladder"
+  },
+  "analysis": [
+    "Step 1: The patient presents with symptoms that suggest a neurological disorder affecting both motor and sensory functions, including aphasia (a language disorder), right-sided hemiparesis (weakness on one side of the body), and urinary incontinence. These symptoms point towards a lesion in the brain or spinal cord.",
+    "Step 2: Aphasia and hemiparesis are often associated with lesions in the left hemisphere of the brain due to its role in language processing and motor control. This narrows down potential causes such as stroke, tumor, or demyelinating disease like multiple sclerosis.",
+    "Step 3: Urinary incontinence can be caused by various conditions depending on whether it affects storage or voiding function. In this case, since there is no evidence of a urinary tract infection and no prior history of urinary pathology, we focus on neurological causes.",
+    "Step 4: Autonomic neurogenic bladder (Choice_A) involves dysfunction of the autonomic nervous system controlling bladder function, leading to problems with either storage or voiding. Symptoms include urinary incontinence and may coexist with other neurological deficits like those seen here.",
+    "Step 5: Motor paralytic bladder (Choice_B) results from damage to the lower motor neurons responsible for bladder emptying, leading to detrusor underactivity and resulting in urinary retention and possibly incontinence if the detrusor cannot contract effectively.",
+    "Step 6: Reflex neurogenic bladder (Choice_C) occurs when there is an intact detrusor but loss of normal inhibitory pathways from the central nervous system, leading to uncontrolled bladder contractions and overflow incontinence.",
+    "Step 7: Uninhibited neurogenic bladder (Choice_D) refers to a condition where the detrusor muscle contracts involuntarily due to loss of neural inhibition, causing frequent urge incontinence.",
+    "Step 8: Considering the combination of aphasia, hemiparesis, and incontinence, the most likely scenario is a lesion affecting the autonomic nervous system controlling bladder function, which aligns best with the description of an autonomic neurogenic bladder."
+  ],
+  "solution": "Choice_A",
+  "ground_truth": "D"
+}

@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "shared",
+  "subject": "College Medicine",
+  "question_index": 77,
+  "question_uuid": "751e51ef-753a-48f9-a0f0-82bd19dc9fed",
+  "question": "Hydrogen ions are formed when:",
+  "options": {
+    "A": "glycogen becomes depleted.",
+    "B": "phosphocreatine breakdown occurs.",
+    "C": "pyruvate is converted to lactate.",
+    "D": "glycolysis is being used as a major means of resynthesising ATP."
+  },
+  "analysis": [
+    "Step 1: Evaluate Choice A (glycogen becomes depleted). Glycogen depletion signifies the exhaustion of stored carbohydrate reserves following prolonged activity, but the mere absence of glycogen is a physiological state rather than a specific enzymatic reaction that generates hydrogen ions; therefore, this choice is incorrect.",
+    "Step 2: Evaluate Choice B (phosphocreatine breakdown occurs). The breakdown of phosphocreatine to creatine and ATP actually consumes a hydrogen ion (PCr\u00b2\u207b + ADP\u00b3\u207b + H\u207a \u2192 Cr + ATP\u2074\u207b), serving as an immediate intracellular buffer against acidification rather than a source of H+ production; thus, this choice is incorrect.",
+    "Step 3: Evaluate Choice C (pyruvate is converted to lactate). The lactate dehydrogenase-catalyzed reduction of pyruvate to lactate requires NADH and a hydrogen ion to yield lactate and oxidized NAD\u207a, meaning this specific reaction step consumes protons rather than producing them; consequently, this choice is incorrect despite widespread misconceptions equating lactate accumulation directly with acidosis.",
+    "Step 4: Evaluate Choice D (glycolysis is being used as a major means of resynthesising ATP). When glycolysis operates at high rates to rapidly resynthesize ATP, the subsequent hydrolysis of ATP by myosin ATPase and other cellular processes releases hydrogen ions, and the net stoichiometry of anaerobic glycolysis yields free H+ that overwhelms intracellular buffering systems, making this the primary mechanism for significant H+ accumulation; therefore, this choice is correct.",
+    "Step 5: Conclude the analysis. Systematic evaluation demonstrates that Choices A, B, and C either describe non-productive states or reactions that actively consume protons, while Choice D precisely identifies the metabolic condition under which substantial hydrogen ion formation occurs due to accelerated glycolytic flux and ATP turnover. Accordingly, Choice D is the correct answer."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

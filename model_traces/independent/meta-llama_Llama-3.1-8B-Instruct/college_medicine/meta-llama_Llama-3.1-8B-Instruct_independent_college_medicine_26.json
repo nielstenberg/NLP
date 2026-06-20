@@ -1,0 +1,23 @@
+{
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 59,
+  "question_uuid": "61c25815-d1cd-46c6-9990-831ffdf7f750",
+  "question": "Which of the following causes female pseudohermaphroditism?",
+  "options": {
+    "A": "Androgen insensitivity",
+    "B": "Campomelic dysplasia",
+    "C": "Congenital adrenal hyperplasia",
+    "D": "Klinefelter syndrome"
+  },
+  "analysis": [
+    "Step 1: First, let's analyze each choice individually.\n\n- **Androgen Insensitivity (A)**: This condition occurs when an individual has a genetic mutation that makes their body unable to respond to androgens (male hormones). As a result, individuals with complete androgen insensitivity are typically born with female external genitalia but have XY chromosomes. They develop as females due to the lack of response to androgens during fetal development.",
+    "Step 2: Now, let's consider **Campomelic Dysplasia (B)**. This rare genetic disorder affects bone growth and leads to skeletal abnormalities. It does not directly affect sex determination or hormone production.",
+    "Step 3: Next, we'll examine **Congenital Adrenal Hyperplasia (C)**. This group of inherited disorders results from mutations affecting enzymes involved in cortisol production from cholesterol in the adrenal glands. The most common form, 21-hydroxylase deficiency, can lead to overproduction of male hormones (androgens) in females, causing virilization.",
+    "Step 4: Lastly, let's look at **Klinefelter Syndrome (D)**. This condition occurs when males are born with an extra X chromosome, resulting in XXY instead of the typical XY pattern. Individuals with Klinefelter syndrome often exhibit underdeveloped testes and may experience infertility.",
+    "Step 5: Considering all options, we see that only one choice directly relates to female pseudohermaphroditism, which involves having female external genitalia but being genetically male (XY)."
+  ],
+  "solution": "Choice_A",
+  "ground_truth": "C"
+}

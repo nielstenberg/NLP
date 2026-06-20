@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "shared",
+  "subject": "College Medicine",
+  "question_index": 421,
+  "question_uuid": "bc766727-f676-4ee8-99c5-de5d089a0257",
+  "question": "Women's world record performances have improved rapidly in recent years mainly because:",
+  "options": {
+    "A": "women have evolved a greater muscle mass.",
+    "B": "women can now run faster than men.",
+    "C": "women have started training at an earlier age.",
+    "D": "more women are now engaged in sport."
+  },
+  "analysis": [
+    "Step 1: Evaluate Choice A regarding evolutionary changes in muscle mass; biological evolution requires thousands to millions of years to manifest significant morphological changes, so it cannot explain performance improvements occurring over mere decades.",
+    "Step 2: Evaluate Choice B claiming women now outrun men; this contradicts well-established exercise physiology and anthropometric data showing men retain superior absolute speed and power outputs due to higher testosterone, greater lean muscle mass, and higher hemoglobin concentrations.",
+    "Step 3: Evaluate Choice C suggesting earlier training initiation; while youth development programs exist, starting training younger is neither universally applicable nor the primary catalyst for the dramatic, widespread breaking of women's world records across diverse sporting disciplines.",
+    "Step 4: Evaluate Choice D stating increased female engagement in sport; the substantial expansion of the female athlete population dramatically widens the available talent pool, increasing the statistical probability of identifying elite performers, while simultaneously enabling better access to specialized coaching, sports medicine, nutrition, and competitive infrastructure.",
+    "Step 5: Conclude the analysis by synthesizing the evaluations; Choices A and B are scientifically and factually invalid, Choice C represents only a secondary developmental factor, and Choice D accurately identifies the foundational demographic expansion and systemic professionalization as the primary reason for the rapid enhancement of women's athletic records."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

@@ -1,0 +1,23 @@
+{
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "mode": "shared",
+  "subject": "High School Biology",
+  "question_index": 240,
+  "question_uuid": "8990f438-e01f-4e5e-b4ce-1a040113683c",
+  "question": "Hardy-Weinberg equilibrium generally assumes all of the following EXCEPT",
+  "options": {
+    "A": "a large population",
+    "B": "genetic drift",
+    "C": "random mating",
+    "D": "absence of selection"
+  },
+  "analysis": [
+    "Step 1: Choice_A: a large population - The Hardy-Weinberg equilibrium model assumes a large population size, which is necessary for the principles of the model to hold true. A large population size helps to minimize the effects of genetic drift and ensures that the allele frequencies remain relatively stable from one generation to the next. Therefore, a large population is a requirement for the Hardy-Weinberg equilibrium.",
+    "Step 2: Choice_B: genetic drift - Genetic drift is actually a factor that can disrupt the Hardy-Weinberg equilibrium. It refers to the random change in allele frequencies in a population over time, which can occur due to chance events such as natural disasters or random sampling errors. The Hardy-Weinberg equilibrium assumes that genetic drift is negligible, but it is not a requirement for the model to hold true.",
+    "Step 3: Choice_C: random mating - Random mating is a key assumption of the Hardy-Weinberg equilibrium model. It assumes that individuals in the population mate randomly, which helps to ensure that the allele frequencies remain stable from one generation to the next. Random mating also helps to minimize the effects of selection and genetic drift.",
+    "Step 4: Choice_D: absence of selection - The Hardy-Weinberg equilibrium model assumes the absence of natural selection, which means that there is no selective pressure acting on the population to change the allele frequencies. This assumption is necessary to ensure that the allele frequencies remain stable from one generation to the next.",
+    "Step 5: Based on the analysis of each choice, it is clear that genetic drift (Choice_B) is the factor that the Hardy-Weinberg equilibrium model does not assume, but rather a factor that can disrupt the equilibrium. The other choices (A, C, and D) are all assumptions of the Hardy-Weinberg equilibrium model."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "B"
+}

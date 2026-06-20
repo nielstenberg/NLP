@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "shared",
+  "subject": "College Medicine",
+  "question_index": 631,
+  "question_uuid": "82756a1d-4ee9-4b76-b69d-9246d9d41ca8",
+  "question": "With which of the following relatives is an individual most likely to share a common HLA haplotype?",
+  "options": {
+    "A": "Father",
+    "B": "Mother",
+    "C": "Sister",
+    "D": "Son"
+  },
+  "analysis": [
+    "Step 1: Analyze Choice A (Father). An individual inherits one HLA haplotype from the father and one from the mother. Due to tight linkage in the MHC region, these haplotypes are typically inherited intact. Therefore, an individual always shares exactly one complete HLA haplotype with their father. The probability of sharing at least one common haplotype is 100%, but in terms of proportional genetic match, it represents a 50% match.",
+    "Step 2: Analyze Choice B (Mother). Similar to the father, an individual inherits one HLA haplotype from the mother. Thus, the individual always shares exactly one complete HLA haplotype with their mother, representing a 50% proportional match.",
+    "Step 3: Analyze Choice C (Sister). Full siblings independently inherit one HLA haplotype from each parent. Using Mendelian inheritance principles, there is a 25% chance they inherit the same maternal and paternal haplotypes (sharing both), a 50% chance they inherit one matching haplotype (either maternal or paternal), and a 25% chance they inherit different haplotypes from both parents (sharing none). Consequently, the cumulative probability of sharing at least one common HLA haplotype with a full sister is 75% (25% + 50%).",
+    "Step 4: Analyze Choice D (Son). An individual passes one of their two HLA haplotypes to their offspring. Therefore, a son will always inherit exactly one HLA haplotype from the individual, resulting in a guaranteed 100% probability of sharing at least one haplotype, but again representing a 50% proportional match.",
+    "Step 5: Jointly compare the choices. While parents and offspring guarantee sharing exactly one haplotype (100% probability of sharing \u22651), standard medical genetics and transplant literature emphasize that full siblings have the highest statistical likelihood of being HLA-compatible donors because they carry a 75% probability of sharing at least one haplotype and a unique 25% chance of sharing both (complete match). In the context of this classic examination question, \"most likely to share a common HLA haplotype\" refers to the combined probability of sharing one or both haplotypes, where the sibling relationship yields the highest practical matching potential and is conventionally cited as having a 75% chance versus the fixed 50% haplotype-sharing proportion of parent-offspring pairs. Therefore, the sister is the correct answer."
+  ],
+  "solution": "Choice_C",
+  "ground_truth": "C"
+}

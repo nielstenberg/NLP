@@ -1,0 +1,22 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "shared",
+  "subject": "College Medicine",
+  "question_index": 457,
+  "question_uuid": "7917d93d-3a27-43b6-b9fe-98e8435083b5",
+  "question": "A 2-year-old boy is brought to the office by his mother for follow-up of a chromosome analysis done 1 month ago. The child has minor dysmorphic features, and growth and developmental delay. Chromosome analysis showed a small unbalanced chromosome translocation, with extra chromosomal material at the tip of chromosome 3. The cytogenetics laboratory requested blood samples from both parents for follow-up studies. The parents are divorced, and the mother has custody of the child. The relationship between the parents is hostile. The mother has been tested and has normal chromosomes without evidence of translocation. At today's visit, she reacts angrily when the issue of contacting the child's father for testing is raised. She states that he abandoned them and that he has no interest in his child. She refuses to cooperate in contacting the father, who could be a translocation carrier. You do not know the father, but an office worker told you that he lives in a nearby town. The mother says that he is living with a new girlfriend. Which of the following is the most appropriate next step?",
+  "options": {
+    "A": "Attempt to identify the father's physician and work with that physician to obtain chromosome studies on the father",
+    "B": "Contact the father by telephone and arrange for him to give a blood sample at a local hospital",
+    "C": "Document your attempts to work with the mother but proceed no further, since you have no physician-patient relationship with the father",
+    "D": "Help the mother deal with her anger and educate her regarding the potential benefit to her son and others if the father's chromosome studies are done"
+  },
+  "analysis": [
+    "Step 1: Attempting to contact the father directly may lead to a confrontation given the hostile relationship between the parents. Additionally, there is no guarantee that the father will comply with providing a blood sample even if contacted. This approach might exacerbate the situation rather than resolve it.",
+    "Step 2: Identifying the father\u2019s physician and working through their medical records might provide indirect access to the father\u2019s genetic information, but this method would likely take time and may still face resistance from the father himself. It also does not address the immediate need for a blood sample.",
+    "Step 3: Documenting the mother\u2019s refusal and attempting no further action would be unethical as it disregards the potential benefits of obtaining the father\u2019s chromosome studies for the child\u2019s diagnosis and future family planning. This approach fails to consider the best interests of the child and other potential carriers.",
+    "Step 4: Helping the mother deal with her anger and educating her about the importance of the father\u2019s chromosome studies can potentially change her perspective and willingness to cooperate. However, this requires significant time and resources, and there is no assurance that this educational intervention will succeed immediately."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

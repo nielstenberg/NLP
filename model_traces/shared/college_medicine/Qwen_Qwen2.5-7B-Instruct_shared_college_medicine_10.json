@@ -1,0 +1,21 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "shared",
+  "subject": "College Medicine",
+  "question_index": 556,
+  "question_uuid": "5fb0b0b5-814c-426e-b1c7-c2388fb4064e",
+  "question": "If both parents are affected with the same autosomal recessive disorder then the probability that each of their children will be affected equals ___.",
+  "options": {
+    "A": "1 in 4",
+    "B": "1 in 2",
+    "C": "2 in 3",
+    "D": "1"
+  },
+  "analysis": [
+    "Step 1: In an autosomal recessive disorder, two copies of the defective gene (one from each parent) must be present for the child to exhibit symptoms. Each parent being affected means they both have two copies of the defective gene. The probability of passing on one copy of the defective gene to a child from either parent is 50%. Therefore, the probability of a child receiving both defective genes from both parents would be the product of these probabilities, i.e., \\( \\frac{1}{2} \\times \\frac{1}{2} = \\frac{1}{4} \\).",
+    "Step 2: Let's analyze the given choices: - Choice_A: 1 in 4 corresponds to the calculated probability of \\( \\frac{1}{4} \\), indicating that there is a 25% chance each child will inherit the disorder if both parents are affected.\n- Choice_B: 1 in 2 suggests a 50% chance, which does not match the genetic inheritance pattern for an autosomal recessive disorder where both parents are affected.\n- Choice_C: 2 in 3 implies a higher likelihood than what is possible under autosomal recessive inheritance when both parents are affected.\n- Choice_D: 1 indicates a certainty, which contradicts the principles of genetic inheritance for an autosomal recessive disorder.",
+    "Step n: Based on the analysis above, only Choice_A accurately reflects the probability that each of their children will be affected by the same autosomal recessive disorder when both parents are affected."
+  ],
+  "solution": "Choice_A",
+  "ground_truth": "D"
+}

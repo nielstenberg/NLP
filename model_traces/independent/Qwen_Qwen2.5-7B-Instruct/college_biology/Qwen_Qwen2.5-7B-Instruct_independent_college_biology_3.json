@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "independent",
+  "subject": "College Biology",
+  "question_index": 147,
+  "question_uuid": "ebfd777f-e1c3-4f06-9c0e-dc53d5d8638b",
+  "question": "Which of these makes determining the evolutionary relatedness of different species based on the amino acid sequence of homologous proteins generally less accurate than determinations of relatedness based on the nucleotide sequences of homologous genes?",
+  "options": {
+    "A": "Silent mutations",
+    "B": "Gene duplications",
+    "C": "Translocation events that change gene sequences",
+    "D": "Crossing-over"
+  },
+  "analysis": [
+    "Step 1: Silent mutations refer to changes in DNA sequences that do not result in changes to the amino acid sequence due to the redundancy of the genetic code. While silent mutations can accumulate over time, they do not provide direct information about the evolutionary relationship between species because they do not alter the protein sequence directly used in phylogenetic analyses.",
+    "Step 2: Gene duplications involve the duplication of entire genes within an organism's genome. This process can lead to new functions evolving from the duplicated genes but does not inherently affect the accuracy of determining evolutionary relatedness through amino acid sequences unless it leads to significant changes in the protein function or structure.",
+    "Step 3: Translocation events that change gene sequences involve the movement of genetic material from one location to another within the genome. Such translocations can significantly impact the expression patterns and functions of genes involved in protein synthesis, potentially leading to differences in the amino acid sequences even if the overall evolutionary relationships remain similar.",
+    "Step 4: Crossing-over during meiosis involves the exchange of genetic material between homologous chromosomes, resulting in recombination of alleles. This process can introduce variations in the amino acid sequences of homologous proteins among closely related species, making it more challenging to determine their exact evolutionary relatedness accurately compared to using nucleotide sequences where such exchanges do not occur.",
+    "Step n: Considering all factors, crossing-over (Choice_D) most directly impacts the amino acid sequences of homologous proteins by introducing variability at the level of the protein itself, whereas other options like silent mutations (Choice_A), gene duplications (Choice_B), and translocation events (Choice_C) may influence the genetic makeup but not necessarily the direct amino acid sequences as frequently as crossing-over does."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "A"
+}

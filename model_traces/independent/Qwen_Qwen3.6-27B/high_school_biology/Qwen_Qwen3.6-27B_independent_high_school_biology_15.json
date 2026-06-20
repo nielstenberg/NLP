@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "High School Biology",
+  "question_index": 93,
+  "question_uuid": "9d579fe9-e8f3-4d0a-91c3-7f124330c03e",
+  "question": "The members of a bird species capable of nesting in treetops or on the ledges of nearby cliffs make their homes only in the treetops due to the established presence of a more aggressive bird species on the cliff ledges. With respect to habitat, the treetop-nesting birds are utilizing",
+  "options": {
+    "A": "their fundamental niche only",
+    "B": "their realistic niche only",
+    "C": "their ecological niche only",
+    "D": "neither their fundamental niche nor their realistic niche"
+  },
+  "analysis": [
+    "Step 1: Evaluating Choice A, the fundamental niche refers to the complete range of environmental conditions and resources a species could theoretically occupy in the absence of limiting biotic factors. Since the birds are physiologically capable of nesting in both treetops and cliff ledges, their fundamental niche encompasses both habitats. Because they are currently restricted to only treetops, they are not utilizing their full fundamental niche, making this choice incorrect.",
+    "Step 2: Evaluating Choice B, the term \"realistic niche\" functions as a direct synonym or common typographical variant for the \"realized niche\" in ecological contexts. The realized niche defines the actual portion of the fundamental niche that a species occupies when constrained by biotic interactions such as interspecific competition. The prompt explicitly states that competition from a more aggressive bird species prevents them from using cliff ledges, forcing them to nest exclusively in treetops. This competitive restriction precisely matches the definition of a realized niche, making this choice correct.",
+    "Step 3: Evaluating Choice C, the ecological niche is a broad, umbrella term that encompasses both the fundamental and realized niches, along with the species' functional role and resource usage within an ecosystem. Because the question specifically highlights the narrowing effect of competition on habitat selection, using the general term \"ecological niche\" fails to pinpoint the specific biological principle being tested. Therefore, this choice is incorrect.",
+    "Step 4: Evaluating Choice D, claiming the birds utilize neither niche contradicts basic ecological principles, as the birds are actively occupying, breeding, and surviving in treetops. Any occupied habitat space constitutes a defined niche, and since their distribution is clearly shaped by competitive exclusion, they are definitively operating within a recognized niche category. Thus, this choice is incorrect.",
+    "Step 5: Concluding the analysis, the scenario presents a textbook example of competitive exclusion compressing a species' potential habitat range into a smaller actual range. This shift from theoretical capability to actual occupancy due to biotic pressure defines the realized niche. Given that Choice B correctly identifies this concept (using \"realistic\" as a variant for \"realized\"), it is the accurate answer."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "B"
+}

@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 107,
+  "question_uuid": "01ba1f6c-2411-4a2b-9301-6aa0845d97ac",
+  "question": "Living cells require constant interaction with the outside environment in order to attain the materials they need for survival, as well as to rid themselves of waste. Of the following processes, which uses only the gradient of material to control the direction in which the material moves across the cell membrane?",
+  "options": {
+    "A": "Osmosis",
+    "B": "Passive Transport",
+    "C": "Active Transport",
+    "D": "Endocytosis"
+  },
+  "analysis": [
+    "Step 1: Osmosis involves the movement of water molecules across a semipermeable membrane from an area of high concentration to an area of low concentration through diffusion. This process does not involve the transport of other solutes and relies solely on the concentration gradient of water. However, osmosis specifically refers to the movement of water, so it cannot be considered a general term for the movement of all materials based on their concentration gradients.",
+    "Step 2: Passive transport encompasses several mechanisms that allow substances to move across the cell membrane along their concentration gradient without the use of energy. These include simple diffusion, facilitated diffusion, and osmosis (as mentioned above). While passive transport can indeed use the concentration gradient to control the direction of material movement, it is broader than just one specific mechanism like osmosis.",
+    "Step 3: Active transport requires energy input usually in the form of ATP to move substances against their concentration gradient. It does not rely solely on the concentration gradient but rather works alongside it.",
+    "Step 4: Endocytosis is the process where the cell takes in external substances by engulfing them within its membrane, forming a vesicle inside the cell. This process does not rely on concentration gradients but instead uses the cell's machinery to bring in materials regardless of their concentration difference.",
+    "Step 5: Considering the definitions provided, both osmosis and passive transport use the concentration gradient to control the direction of material movement across the cell membrane. However, since osmosis specifically refers to the movement of water molecules, passive transport is more broadly applicable to the movement of various materials including ions, sugars, and amino acids.\n\nConclusion: The correct answer is Choice_B: Passive Transport, as it includes osmosis and covers the movement of different types of materials using their concentration gradient."
+  ],
+  "solution": "Choice_a",
+  "ground_truth": "A"
+}

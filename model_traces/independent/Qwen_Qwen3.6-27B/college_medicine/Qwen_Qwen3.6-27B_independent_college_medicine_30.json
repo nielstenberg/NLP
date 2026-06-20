@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 529,
+  "question_uuid": "fa8d1876-f634-4ff3-a934-9cc1ea9f81e8",
+  "question": "The World Systems Theory divides the world as a unit into three subcategories: core countries, periphery countries, and semi-periphery countries. Which of the following answers correlates best with semi-periphery countries?",
+  "options": {
+    "A": "Strong central government.",
+    "B": "An economy centralized around one natural resource.",
+    "C": "A diversified and developed economy.",
+    "D": "Small percentage of very high class individuals."
+  },
+  "analysis": [
+    "Step 1: Evaluate Choice A (Strong central government). In World Systems Theory, highly consolidated and institutionally robust central governments are primarily characteristic of core countries, which require strong state apparatuses to manage complex economies, protect capital, and enforce international agreements. Semi-periphery nations typically exhibit moderate or developing administrative capacity, making this trait more indicative of core states.",
+    "Step 2: Evaluate Choice B (An economy centralized around one natural resource). This economic model is a definitive marker of periphery countries, which remain structurally dependent on exporting raw materials or agricultural commodities to core nations. Such monocultural economies lack industrial diversification and perpetuate external exploitation, directly contradicting the transitional nature of semi-periphery.",
+    "Step 3: Evaluate Choice C (A diversified and developed economy). While full economic maturity belongs to core countries, semi-periphery nations are fundamentally defined by their intermediate status, featuring a growing mix of manufacturing, light industry, and services alongside residual resource extraction. This partial diversification and ongoing developmental trajectory distinguish them from the periphery, making this option the strongest conceptual match among the choices provided.",
+    "Step 4: Evaluate Choice D (Small percentage of very high class individuals). Extreme wealth concentration with a tiny elite dominating a vast impoverished majority is a classic structural feature of periphery countries. Semi-periphery nations typically experience the expansion of a working and middle class due to industrialization and urbanization, resulting in a less polarized class distribution than described here.",
+    "Step 5: Synthesize the sequential evaluations to reach a conclusion. Choices B and D accurately describe periphery countries, while Choice A best aligns with core countries. Choice C, despite using terminology that leans toward full development, correctly identifies the key differentiating factor of semi-periphery: economic diversification and transitional advancement. Therefore, Choice C correlates best with semi-periphery countries within the given framework."
+  ],
+  "solution": "Choice_C",
+  "ground_truth": "C"
+}

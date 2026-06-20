@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "College Biology",
+  "question_index": 561,
+  "question_uuid": "92ccbc0e-fc97-47dd-be87-86c31b993046",
+  "question": "The resting membrane potential depends on which of the following? I. Active transport II. Selective permeability III. Differential distribution of ions across the axonal membrane",
+  "options": {
+    "A": "III only",
+    "B": "I and II only",
+    "C": "II and III only",
+    "D": "I, II, and III"
+  },
+  "analysis": [
+    "Step 1: Evaluate Choice A (III only), which claims that only the differential distribution of ions determines the resting membrane potential. While concentration gradients are foundational, they cannot generate or maintain a stable voltage without membrane permeability properties and energy-dependent pumps; thus, this choice is insufficient.",
+    "Step 2: Evaluate Choice B (I and II only), which includes active transport and selective permeability but excludes differential distribution. Active transport explicitly functions to create and maintain unequal ion concentrations across the membrane, and selective permeability relies on these pre-existing gradients to drive passive ion flux; therefore, excluding differential distribution makes this choice biologically inaccurate.",
+    "Step 3: Evaluate Choice C (II and III only), which combines selective permeability and differential distribution but omits active transport. Although leak channel permeability and concentration gradients primarily set the voltage near the potassium equilibrium potential, active transport via the Na+/K+ ATPase is strictly required to counteract passive leakage, maintain steady-state gradients, and provide a direct electrogenic contribution; hence, this choice is incomplete.",
+    "Step 4: Evaluate Choice D (I, II, and III), which asserts that all three factors are necessary. Active transport establishes and sustains the ion concentration gradients, selective permeability dictates which ions can cross the membrane passively, and the resulting differential distribution of charged particles creates the transmembrane voltage; together, these mechanisms fully account for the generation and maintenance of the resting membrane potential.",
+    "Step 5: Synthesize the evaluations from the previous steps to determine the correct option. Since Choices A, B, and C each fail to include all essential physiological components, while Choice D comprehensively captures the interdependent roles of active transport, selective permeability, and differential ion distribution, Choice D is the scientifically accurate selection."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

@@ -1,0 +1,23 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 544,
+  "question_uuid": "1dfa0b47-61b5-4c8c-adf7-388de158aefd",
+  "question": "A 36-year-old female advertising executive is referred to the office for evaluation of a fasting serum total cholesterol concentration of 249 mg/dL. She has a family history of early coronary artery disease (CAD) and her father died suddenly at age 46 years of myocardial infarction. She tells you that she has never had chest pain. She is not currently sexually active and has no children. She claims that her high-stress lifestyle makes it impossible for her to eat regular meals or to follow a special diet, and she usually eats fast food. She exercises two or three times a week for about 20 minutes on a treadmill. She has smoked one pack of cigarettes daily for the past 20 years. Her only medication is acetaminophen for tension headaches. She is 165 cm (5 ft 5 in) tall and weighs 76 kg (167 lb); BMI is 28 kg/m2 . Vital signs today are normal. Physical examination discloses no abnormalities except for mild obesity. Institution of which of the following is the most essential step in the prevention of CAD in this patient?",
+  "options": {
+    "A": "Biofeedback-based stress reduction program",
+    "B": "More rigorous and consistent exercise program",
+    "C": "Smoking cessation program",
+    "D": "Strict low-calorie diet"
+  },
+  "analysis": [
+    "Step 1: Evaluate Choice A (Biofeedback-based stress reduction program). While chronic psychological stress may theoretically contribute to cardiovascular risk via sympathetic overactivity and inflammatory pathways, high-quality clinical trials do not support biofeedback as a primary or essential intervention for CAD prevention. Stress management serves only as an adjunctive strategy and lacks the robust outcome data required to prioritize it over established risk modifiers.",
+    "Step 2: Evaluate Choice B (More rigorous and consistent exercise program). Increasing aerobic physical activity improves endothelial function, enhances lipid clearance, aids weight control, and reduces blood pressure. Although optimizing her current modest exercise routine is clinically beneficial, the magnitude of relative risk reduction derived from exercise alone does not surpass that of eliminating tobacco exposure, rendering it a secondary priority in comprehensive risk stratification.",
+    "Step 3: Evaluate Choice C (Smoking cessation program). Cigarette smoking is a potent, independent, and dose-dependent catalyst for endothelial damage, accelerated atherogenesis, platelet hyperreactivity, and acute coronary events. Extensive epidemiological data and randomized trials consistently demonstrate that smoking cessation yields the greatest absolute and relative reduction in cardiovascular morbidity and mortality among all modifiable lifestyle factors, firmly establishing it as the cornerstone of primary CAD prevention.",
+    "Step 4: Evaluate Choice D (Strict low-calorie diet). Nutritional modification targeting saturated and trans fats, refined carbohydrates, and excessive sodium is vital for managing her hyperlipidemia and overweight status. However, focusing narrowly on caloric restriction without emphasizing heart-healthy dietary patterns limits efficacy, and even optimal dietary changes produce a more gradual decline in cardiovascular risk compared to the immediate and profound benefits observed after quitting smoking.",
+    "Step 5: Synthesize all evaluations to determine the most essential intervention. The patient presents with multiple concurrent modifiable risk factors, including elevated cholesterol, overweight status, inadequate physical activity, poor dietary habits, self-reported stress, and a substantial 20-pack-year smoking history. Guideline-directed preventive cardiology mandates that when multiple risk factors coexist, smoking cessation must be addressed first due to its unparalleled capacity to halt atherosclerotic progression and rapidly lower event rates. Therefore, instituting a structured smoking cessation program is the most critical and evidence-based next step."
+  ],
+  "solution": "Choice_C",
+  "ground_truth": "C"
+}

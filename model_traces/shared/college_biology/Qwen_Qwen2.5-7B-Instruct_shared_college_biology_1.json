@@ -1,0 +1,24 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "shared",
+  "subject": "College Biology",
+  "question_index": 51,
+  "question_uuid": "919632b4-dcf9-4fb4-8c1c-fc21a08447e0",
+  "question": "A certain autosomal recessive trait is expressed in 1% of a population. Assuming that the population is in Hardy-Weinberg equilibrium, what percent of the population are carriers but do not express the trait?",
+  "options": {
+    "A": "10%",
+    "B": "18%",
+    "C": "27%",
+    "D": "50%"
+  },
+  "analysis": [
+    "Step 1: The question involves an autosomal recessive trait with a frequency of expression of 1%, implying that the frequency of individuals expressing the trait (q^2) is 0.01. To find q, we take the square root of 0.01, giving us q = 0.1. Since p + q = 1, p must be 0.9. The frequency of heterozygous carriers (2pq) can be calculated as 2 * 0.9 * 0.1 = 0.18 or 18%. This means 18% of the population are carriers but do not express the trait.",
+    "Step 2: Choice_A suggests 10%, which does not match our calculation of 18%.",
+    "Step 3: Choice_B suggests 18%, which matches our calculation exactly.",
+    "Step 4: Choice_C suggests 27%, which is higher than the calculated value and thus incorrect.",
+    "Step 5: Choice_D suggests 50%, which is significantly higher than the calculated value and also incorrect.",
+    "Step n: Based on the calculations and the analysis of each choice, Choice_B is the correct answer as it aligns with the calculated percentage of heterozygous carriers."
+  ],
+  "solution": "Choice_B",
+  "ground_truth": "B"
+}

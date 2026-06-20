@@ -1,0 +1,22 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "shared",
+  "subject": "College Biology",
+  "question_index": 186,
+  "question_uuid": "4e5a279a-078c-4f32-91aa-78c457834c58",
+  "question": "Which of the following is correct about vaccination?",
+  "options": {
+    "A": "It increases the number of different receptors that recognize a particular pathogen.",
+    "B": "It increases the number of different macrophages specific to the antigen.",
+    "C": "It increases the number of epitopes that the immune system can recognize.",
+    "D": "It increases the number of lymphocytes with receptors that can recognize and bind to the antigen."
+  },
+  "analysis": [
+    "Step 1: Vaccination works by introducing an antigen into the body, which stimulates the immune system to produce antibodies and memory cells specific to that antigen. This process does not increase the number of different receptors that recognize a particular pathogen, making Choice_A incorrect.",
+    "Step 2: Macrophages are a type of white blood cell that engulfs and digests pathogens and other foreign substances. They do not increase in number due to vaccination, so Choice_B is also incorrect.",
+    "Step 3: Epitopes are specific sites on antigens that are recognized by the immune system. While vaccination can lead to the recognition of more epitopes through the activation of T and B cells, it does not directly increase the number of epitopes themselves, making Choice_C incorrect.",
+    "Step 4: Vaccination increases the number of lymphocytes with receptors that can recognize and bind to the specific antigen introduced during the vaccination process. This is a key mechanism by which vaccines provide immunity, making Choice_D correct."
+  ],
+  "solution": "Choice_D",
+  "ground_truth": "D"
+}

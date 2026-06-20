@@ -1,0 +1,27 @@
+{
+  "model_name": "Qwen/Qwen3.6-27B",
+  "mode": "independent",
+  "subject": "College Medicine",
+  "question_index": 478,
+  "question_uuid": "6b53ef82-ed71-4570-b2ac-de6dce031f2a",
+  "question": "If an X-linked recessive disorder is in Hardy-Weinberg equilibrium and the incidence in males equals 1 in 100, then the expected incidence of affected homozygous females would be _______.",
+  "options": {
+    "A": "1 in 1000",
+    "B": "1 in 4000",
+    "C": "1 in 10 000",
+    "D": "1 in 40 000"
+  },
+  "analysis": [
+    "Step 1: Recognize that for an X-linked recessive disorder in Hardy-Weinberg equilibrium, males possess only one X chromosome and are therefore hemizygous, meaning the incidence of the disorder in males directly equals the frequency of the disease-causing allele (q).",
+    "Step 2: Translate the given male incidence of 1 in 100 into a numerical allele frequency, yielding q = 1/100 = 0.01.",
+    "Step 3: Apply the Hardy-Weinberg principle to females, who have two X chromosomes, establishing that the expected incidence of affected homozygous females is equal to the square of the mutant allele frequency (q\u00b2).",
+    "Step 4: Calculate the expected female incidence by computing q\u00b2 = (0.01)\u00b2 = 0.0001, which converts back to a ratio of 1 in 10,000.",
+    "Step 5: Analyze Choice A (1 in 1000), representing a frequency of 0.001; this incorrectly treats the female incidence as identical to the male incidence and fails to account for the required squaring operation.",
+    "Step 6: Analyze Choice B (1 in 4000), representing a frequency of 0.00025; this value has no theoretical basis in standard population genetics formulas for X-linked traits and mismatches the calculated result.",
+    "Step 7: Analyze Choice C (1 in 10 000), representing a frequency of 0.0001; this exactly matches the mathematically derived q\u00b2 value and correctly reflects the probability of inheriting two mutant alleles.",
+    "Step 8: Analyze Choice D (1 in 40 000), representing a frequency of 0.000025; this erroneously suggests a fourth-power relationship or miscalculation and contradicts the established Hardy-Weinberg expectation.",
+    "Step 9: Jointly review all evaluated options to confirm that only Choice C aligns with both the genetic mechanism of X-linked inheritance and the precise Hardy-Weinberg calculation, definitively identifying it as the correct answer."
+  ],
+  "solution": "Choice_C",
+  "ground_truth": "C"
+}

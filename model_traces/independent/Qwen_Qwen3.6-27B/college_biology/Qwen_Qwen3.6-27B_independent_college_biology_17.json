@@ -12,8 +12,12 @@
     "D": "have red blood cells that clump"
   },
   "analysis": [
-    "Step 1: Choice A suggests having an extra X chromosome, which"
+    "Step 1: Evaluate Choice A. Possessing an extra X chromosome describes Triple X syndrome (47,XXX), not Turner's syndrome. Furthermore, having multiple X chromosomes increases the statistical likelihood of retaining at least one functional dominant allele, which would mask a recessive X-linked mutation and thereby decrease, not increase, the incidence of hemophilia. Thus, Choice A is incorrect.",
+    "Step 2: Evaluate Choice B. An extra Y chromosome characterizes XYY syndrome, a condition that occurs in phenotypic males, whereas Turner's syndrome specifically affects phenotypic females. Additionally, the Y chromosome contains very few genes and does not carry alleles for X-linked traits like hemophilia, so it cannot explain the increased expression of this disorder. Thus, Choice B is incorrect.",
+    "Step 3: Evaluate Choice C. Turner's syndrome is cytogenetically defined as monosomy X (45,X), meaning affected individuals possess only one X chromosome and lack a second X chromosome. Because hemophilia is a recessive X-linked trait, individuals with a single X chromosome will express the disorder if that lone X carries the mutant allele, as there is no homologous X chromosome to provide a masking dominant allele. This hemizygous state directly explains the high incidence noted in the prompt. Thus, Choice C is correct.",
+    "Step 4: Evaluate Choice D. Red blood cell clumping refers to agglutination, an immunological phenomenon involving antigen-antibody binding relevant to blood typing or transfusion reactions, not to chromosomal abnormalities or Mendelian inheritance. It has no causal or explanatory relationship to the genetic mechanism of Turner's syndrome or X-linked recessive expression. Thus, Choice D is incorrect.",
+    "Step 5: Conclude the analysis. Sequential evaluation rules out Choices A, B, and D based on established cytogenetic definitions and genetic principles. Only Choice C correctly identifies the chromosomal deficit characteristic of Turner's syndrome (45,X) and logically demonstrates how the absence of a second X chromosome removes the protective effect of dominance, allowing a recessive X-linked trait like hemophilia to manifest. Therefore, Choice C is the correct inference."
   ],
-  "solution": "N/A",
+  "solution": "Choice_C",
   "ground_truth": "C"
 }

@@ -75,8 +75,8 @@ Each trace is a JSON file containing the model name, subject, question, options,
 
 This code was made with the help of the following people/resources:
 - Group 11 from the NLP course
-- Oscar Ferrer Domingo 
-- Martijn Schippers
+- Oscar Ferrer Domingo (Group 12 from the NLP course)
+- Martijn Schippers (Group 12 from the NLP course)
 - [OpenCode](https://opencode.ai)
 - [Hábrók HPC cluster](https://wiki.hpc.rug.nl/habrok/introduction) (University of Groningen) 
   (with a total runtime of +/- 16 hours)
